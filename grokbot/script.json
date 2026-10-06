@@ -1,0 +1,71 @@
+[
+ {
+  "en": "Grok Bot lets you build a team of AI coworkers. Each one gets a name and a job.",
+  "zh": "Grok Bot 让你组建一支 AI 同事团队，每个都有名字和分工。",
+  "gap": 0.45
+ },
+ {
+  "en": "A researcher. A writer. One that handles your money.",
+  "zh": "一个做研究，一个写东西，一个管钱。",
+  "gap": 0.55
+ },
+ {
+  "en": "They work on a cloud computer, even while your laptop is closed.",
+  "zh": "它们在云端电脑上干活，你的电脑合上了也照样干。",
+  "gap": 0.7
+ },
+ {
+  "en": "Here's the part most people miss.",
+  "zh": "大多数人没注意到的是这一点。",
+  "gap": 0.75
+ },
+ {
+  "en": "They all share that one computer. Same files. Same browser logins.",
+  "zh": "它们共用那一台电脑。同样的文件，同样的浏览器登录。",
+  "gap": 0.6
+ },
+ {
+  "en": "xAI's own docs say the screens are \"separate work surfaces, not separate security boundaries.\"",
+  "tts": "ex A I's own docs say the screens are, separate work surfaces, not separate security boundaries.",
+  "zh": "xAI 自己的文档写着：分开的屏幕是“分开的工作台，不是分开的安全边界”。",
+  "gap": 0.6,
+  "sub_en": "xAI's own docs say the screens are\\N{\\fs58}\"separate work surfaces, not separate security boundaries.\"",
+  "sub_zh": "xAI 自己的文档写着：\\N分开的屏幕是“分开的工作台，不是分开的安全边界”。"
+ },
+ {
+  "en": "So if you sign in to your bank for the finance bot, every other bot can use that login too.",
+  "zh": "所以你给管钱的 bot 登了银行，其他 bot 也都能用这个登录。",
+  "gap": 0.55
+ },
+ {
+  "en": "Telling a bot \"don't open finance\" guides it. It doesn't stop it.",
+  "tts": "Telling a bot, don't open finance, guides it. It doesn't stop it.",
+  "zh": "告诉 bot“别打开财务”，只是引导它，拦不住它。",
+  "gap": 0.8
+ },
+ {
+  "en": "So three rules.",
+  "zh": "所以记住三条。",
+  "gap": 0.45
+ },
+ {
+  "en": "Only put things on that computer that every bot may use.",
+  "zh": "那台电脑上只放所有 bot 都可以用的东西。",
+  "gap": 0.55
+ },
+ {
+  "en": "If a bot needs a different level of trust, give it a separate account.",
+  "zh": "哪个 bot 需要不同的信任级别，就给它单独开一个账号。",
+  "gap": 0.55
+ },
+ {
+  "en": "And never paste a password into chat. Take control and sign in yourself.",
+  "zh": "永远别把密码贴进聊天。自己接管电脑去登录。",
+  "gap": 0.8
+ },
+ {
+  "en": "A name on the door is not a lock.",
+  "zh": "门上的名字，不是锁。",
+  "gap": 0
+ }
+]

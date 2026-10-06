@@ -1,0 +1,40 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EN,Inter SemiBold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H7A000000,0,0,0,0,100,100,0,0,1,2.6,2,2,100,100,58,1
+Style: HALO,Inter SemiBold,64,&HFF000000,&HFF000000,&H9A000000,&HFF000000,0,0,0,0,100,100,0,0,1,9,0,2,100,100,58,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.52,0:00:06.17,HALO,,0,0,0,,{\blur12}Grok Bot lets you build a team of AI coworkers.\NEach one gets a name and a job.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}Grok Bot 让你组建一支 AI 同事团队，每个都有名字和分工。
+Dialogue: 1,0:00:00.52,0:00:06.17,EN,,0,0,0,,Grok Bot lets you build a team of AI coworkers.\NEach one gets a name and a job.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}Grok Bot 让你组建一支 AI 同事团队，每个都有名字和分工。
+Dialogue: 0,0:00:06.19,0:00:09.76,HALO,,0,0,0,,{\blur12}A researcher. A writer. One that handles your money.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}一个做研究，一个写东西，一个管钱。
+Dialogue: 1,0:00:06.19,0:00:09.76,EN,,0,0,0,,A researcher. A writer. One that handles your money.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}一个做研究，一个写东西，一个管钱。
+Dialogue: 0,0:00:09.78,0:00:13.91,HALO,,0,0,0,,{\blur12}They work on a cloud computer,\Neven while your laptop is closed.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}它们在云端电脑上干活，你的电脑合上了也照样干。
+Dialogue: 1,0:00:09.78,0:00:13.91,EN,,0,0,0,,They work on a cloud computer,\Neven while your laptop is closed.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}它们在云端电脑上干活，你的电脑合上了也照样干。
+Dialogue: 0,0:00:13.93,0:00:16.40,HALO,,0,0,0,,{\blur12}Here's the part most people miss.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}大多数人没注意到的是这一点。
+Dialogue: 1,0:00:13.93,0:00:16.40,EN,,0,0,0,,Here's the part most people miss.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}大多数人没注意到的是这一点。
+Dialogue: 0,0:00:16.42,0:00:21.19,HALO,,0,0,0,,{\blur12}They all share that one computer.\NSame files. Same browser logins.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}它们共用那一台电脑。同样的文件，同样的浏览器登录。
+Dialogue: 1,0:00:16.42,0:00:21.19,EN,,0,0,0,,They all share that one computer.\NSame files. Same browser logins.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}它们共用那一台电脑。同样的文件，同样的浏览器登录。
+Dialogue: 0,0:00:21.21,0:00:27.56,HALO,,0,0,0,,{\blur12}xAI's own docs say the screens are\N{\fs58}"separate work surfaces, not separate security boundaries."\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}xAI 自己的文档写着：\N分开的屏幕是“分开的工作台，不是分开的安全边界”。
+Dialogue: 1,0:00:21.21,0:00:27.56,EN,,0,0,0,,xAI's own docs say the screens are\N{\fs58}"separate work surfaces, not separate security boundaries."\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}xAI 自己的文档写着：\N分开的屏幕是“分开的工作台，不是分开的安全边界”。
+Dialogue: 0,0:00:27.58,0:00:33.10,HALO,,0,0,0,,{\blur12}So if you sign in to your bank for the finance bot,\Nevery other bot can use that login too.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}所以你给管钱的 bot 登了银行，其他 bot 也都能用这个登录。
+Dialogue: 1,0:00:27.58,0:00:33.10,EN,,0,0,0,,So if you sign in to your bank for the finance bot,\Nevery other bot can use that login too.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}所以你给管钱的 bot 登了银行，其他 bot 也都能用这个登录。
+Dialogue: 0,0:00:33.12,0:00:37.77,HALO,,0,0,0,,{\blur12}Telling a bot "don't open finance" guides it.\NIt doesn't stop it.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}告诉 bot“别打开财务”，只是引导它，拦不住它。
+Dialogue: 1,0:00:33.12,0:00:37.77,EN,,0,0,0,,Telling a bot "don't open finance" guides it.\NIt doesn't stop it.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}告诉 bot“别打开财务”，只是引导它，拦不住它。
+Dialogue: 0,0:00:37.79,0:00:39.24,HALO,,0,0,0,,{\blur12}So three rules.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}所以记住三条。
+Dialogue: 1,0:00:37.79,0:00:39.24,EN,,0,0,0,,So three rules.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}所以记住三条。
+Dialogue: 0,0:00:39.26,0:00:42.93,HALO,,0,0,0,,{\blur12}Only put things on that computer\Nthat every bot may use.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}那台电脑上只放所有 bot 都可以用的东西。
+Dialogue: 1,0:00:39.26,0:00:42.93,EN,,0,0,0,,Only put things on that computer\Nthat every bot may use.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}那台电脑上只放所有 bot 都可以用的东西。
+Dialogue: 0,0:00:42.95,0:00:46.89,HALO,,0,0,0,,{\blur12}If a bot needs a different level of trust,\Ngive it a separate account.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}哪个 bot 需要不同的信任级别，就给它单独开一个账号。
+Dialogue: 1,0:00:42.95,0:00:46.89,EN,,0,0,0,,If a bot needs a different level of trust,\Ngive it a separate account.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}哪个 bot 需要不同的信任级别，就给它单独开一个账号。
+Dialogue: 0,0:00:46.91,0:00:51.81,HALO,,0,0,0,,{\blur12}And never paste a password into chat.\NTake control and sign in yourself.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}永远别把密码贴进聊天。自己接管电脑去登录。
+Dialogue: 1,0:00:46.91,0:00:51.81,EN,,0,0,0,,And never paste a password into chat.\NTake control and sign in yourself.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}永远别把密码贴进聊天。自己接管电脑去登录。
+Dialogue: 0,0:00:51.83,0:00:55.68,HALO,,0,0,0,,{\blur12}A name on the door is not a lock.\N{\rHALO\blur12\fnNoto Sans CJK SC\b1\fs58\fsp1}门上的名字，不是锁。
+Dialogue: 1,0:00:51.83,0:00:55.68,EN,,0,0,0,,A name on the door is not a lock.\N{\r\fnNoto Sans CJK SC\b1\fs58\fsp1}门上的名字，不是锁。

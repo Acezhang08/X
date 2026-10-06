@@ -1,0 +1,28 @@
+Voice settings (use these for every video)
+==========================================
+
+Tool:     Kokoro-82M TTS (Apache-2.0, open weights), running locally on CPU
+Runtime:  kokoro-onnx 0.6.1 (pip install kokoro-onnx soundfile)
+Model:    kokoro-v1.0.onnx + voices-v1.0.bin
+          https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+Voice:    af_heart   (American English, female; picked from sample "A")
+Speed:    1.0
+Lang:     en-us
+Sample rate: 24000 Hz (output is mixed and encoded to AAC 48 kHz in the final MP4)
+
+How lines are generated
+-----------------------
+- One TTS call per sentence; leading/trailing silence trimmed (threshold 0.004).
+- Pauses between sentences are set by hand per line (0.45-0.8 s), 0.6 s lead-in,
+  ~1.9 s tail so the last subtitle holds at least 1.5 s.
+- Pronunciation fixes go in a separate "tts" field and never touch the subtitle text,
+  e.g. "xAI's" -> "ex A I's"; quotes become short pauses (commas).
+- Whole narration peak-normalised to -1 dBFS (0.89).
+
+Python
+------
+    from kokoro_onnx import Kokoro
+    k = Kokoro("kokoro-v1.0.onnx", "voices-v1.0.bin")
+    samples, sr = k.create(text, voice="af_heart", speed=1.0, lang="en-us")
+
+See grokbot/tts.py for the full script.

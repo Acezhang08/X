@@ -1,1 +1,5 @@
 node_modules/
+grokbot/build/*
+!grokbot/build/timings.json
+!grokbot/build/subs-en.ass
+!grokbot/build/subs-bi.ass
