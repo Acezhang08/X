@@ -1,0 +1,19 @@
+[
+ {"g":1,"en":"In the 1930s, a new mathematician appeared in France: Nicolas Bourbaki.","zh":"1930 年代，法国出现了一位新数学家：尼古拉·布尔巴基。","gap":0.35},
+ {"g":2,"en":"His books helped change how math was written, for decades.","zh":"他的书在几十年里，帮助改变了数学的写法。","gap":0.6},
+ {"g":3,"en":"There was one problem.","zh":"只有一个问题：","gap":0.3},
+ {"g":3,"en":"He did not exist.","zh":"他根本不存在。","gap":0.4},
+ {"g":4,"en":"Bourbaki was a group of young French mathematicians.","zh":"布尔巴基是一群年轻的法国数学家。","gap":0.25},
+ {"g":4,"en":"They wrote together and signed one name.","zh":"他们一起写作，署同一个名字。","gap":0.4},
+ {"g":5,"en":"Members were expected to leave at 50.","zh":"成员到 50 岁就要退出。","gap":0.25},
+ {"g":5,"en":"So the author never grew old.","zh":"所以这位作者永远不会变老。","gap":0.4},
+ {"g":6,"en":"Ralph Boas wrote that Bourbaki was a pseudonym.","zh":"拉尔夫·博厄斯写道，布尔巴基只是个化名。","gap":0.25},
+ {"g":6,"en":"Bourbaki replied that Boas was the fake: just an acronym.","zh":"布尔巴基回信说，假的是博厄斯：那只是个缩写。","gap":0.4},
+ {"g":7,"en":"Their work is still everywhere.","zh":"他们的成果至今随处可见。","gap":0.25},
+ {"g":7,"en":"Even the empty set symbol comes from them.","zh":"连空集符号都来自他们。","gap":0.6},
+ {"g":8,"en":"This week, OpenAI released 722 math papers.","tts":"This week, Open A I released 722 math papers.","zh":"这周，OpenAI 发布了 722 篇数学论文。","gap":0.25},
+ {"g":8,"en":"Their author has no name either: an unreleased internal model.","zh":"它们的作者同样没有名字：一个未公开的内部模型。","gap":0.4},
+ {"g":9,"en":"Bourbaki was many people behind one name.","zh":"布尔巴基是很多人藏在一个名字后面。","gap":0.25},
+ {"g":9,"en":"This time it is one model behind hundreds of papers.","zh":"这一次，是一个模型站在几百篇论文后面。","gap":0.5},
+ {"g":10,"en":"So who gets the credit?","zh":"那功劳该算谁的？","gap":0}
+]
