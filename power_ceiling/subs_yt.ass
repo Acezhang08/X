@@ -1,0 +1,126 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Liberation Sans,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2.4,1.8,2,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.20,0:00:03.18,Default,,0,0,0,,Late last year, Microsoft's
+Dialogue: 0,0:00:03.18,0:00:05.36,Default,,0,0,0,,CEO said something strange.
+Dialogue: 0,0:00:05.61,0:00:08.21,Default,,0,0,0,,His company may have a bunch of AI chips
+Dialogue: 0,0:00:08.21,0:00:11.33,Default,,0,0,0,,sitting in inventory – that it can't plug in.
+Dialogue: 0,0:00:11.58,0:00:13.30,Default,,0,0,0,,The chips weren't the problem.
+Dialogue: 0,0:00:13.30,0:00:15.62,Default,,0,0,0,,The problem, in his words, was power.
+Dialogue: 0,0:00:15.87,0:00:17.26,Default,,0,0,0,,So today's question:
+Dialogue: 0,0:00:17.26,0:00:20.36,Default,,0,0,0,,will electricity become the ceiling on AI?
+Dialogue: 0,0:00:20.66,0:00:23.82,Default,,0,0,0,,My answer is yes. But not in the way you think.
+Dialogue: 0,0:00:24.62,0:00:26.20,Default,,0,0,0,,Start with the size of it.
+Dialogue: 0,0:00:26.45,0:00:29.63,Default,,0,0,0,,In 2024, data centers used about
+Dialogue: 0,0:00:29.63,0:00:33.22,Default,,0,0,0,,415 terawatt-hours of electricity.
+Dialogue: 0,0:00:33.47,0:00:35.62,Default,,0,0,0,,That's around one and a half percent
+Dialogue: 0,0:00:35.62,0:00:38.09,Default,,0,0,0,,of all the electricity the world uses.
+Dialogue: 0,0:00:38.69,0:00:41.67,Default,,0,0,0,,One and a half percent doesn't sound like a crisis.
+Dialogue: 0,0:00:41.92,0:00:46.67,Default,,0,0,0,,But the International Energy Agency expects it to more
+Dialogue: 0,0:00:46.67,0:00:51.27,Default,,0,0,0,,than double by 2030, to around 945 terawatt-hours.
+Dialogue: 0,0:00:51.52,0:00:54.70,Default,,0,0,0,,That's slightly more than all of Japan uses today.
+Dialogue: 0,0:00:54.95,0:00:59.07,Default,,0,0,0,,And it's concentrated. The United States alone accounts
+Dialogue: 0,0:00:59.07,0:01:02.88,Default,,0,0,0,,for about 45 percent of data center electricity.
+Dialogue: 0,0:01:03.12,0:01:06.51,Default,,0,0,0,,Through 2030, data centers are expected to drive
+Dialogue: 0,0:01:06.51,0:01:10.52,Default,,0,0,0,,nearly half of America's growth in electricity demand.
+Dialogue: 0,0:01:11.32,0:01:13.06,Default,,0,0,0,,Here's what most people miss.
+Dialogue: 0,0:01:13.66,0:01:16.18,Default,,0,0,0,,The world isn't running out of electricity.
+Dialogue: 0,0:01:16.18,0:01:18.67,Default,,0,0,0,,It's running out of time to connect it.
+Dialogue: 0,0:01:18.92,0:01:21.16,Default,,0,0,0,,A data center is just a building.
+Dialogue: 0,0:01:21.16,0:01:24.21,Default,,0,0,0,,Feeding it takes a whole chain: power plants,
+Dialogue: 0,0:01:24.21,0:01:26.64,Default,,0,0,0,,transmission lines, transformers.
+Dialogue: 0,0:01:26.89,0:01:29.85,Default,,0,0,0,,And every link in that chain has a waiting line.
+Dialogue: 0,0:01:30.10,0:01:32.33,Default,,0,0,0,,New transmission lines in advanced
+Dialogue: 0,0:01:32.33,0:01:35.42,Default,,0,0,0,,economies take four to eight years to build.
+Dialogue: 0,0:01:35.67,0:01:38.38,Default,,0,0,0,,Large power transformers now have lead
+Dialogue: 0,0:01:38.38,0:01:41.37,Default,,0,0,0,,times of up to four years, and prices have
+Dialogue: 0,0:01:41.37,0:01:44.42,Default,,0,0,0,,jumped roughly 80 percent in five years.
+Dialogue: 0,0:01:44.67,0:01:48.67,Default,,0,0,0,,Gas turbines? GE Vernova, one of the biggest makers,
+Dialogue: 0,0:01:48.67,0:01:53.02,Default,,0,0,0,,said late last year that it was sold out through 2028.
+Dialogue: 0,0:01:53.27,0:01:55.72,Default,,0,0,0,,The IEA estimates that, unless these
+Dialogue: 0,0:01:55.72,0:01:58.63,Default,,0,0,0,,bottlenecks are fixed, around 20 percent of
+Dialogue: 0,0:01:58.63,0:02:01.96,Default,,0,0,0,,planned data center projects could be delayed.
+Dialogue: 0,0:02:02.21,0:02:06.43,Default,,0,0,0,,Morgan Stanley put a number on the gap: a shortfall of
+Dialogue: 0,0:02:06.43,0:02:10.70,Default,,0,0,0,,about 32 gigawatts for US data centers through 2028.
+Dialogue: 0,0:02:10.95,0:02:13.27,Default,,0,0,0,,That's roughly a third of what they need.
+Dialogue: 0,0:02:14.07,0:02:16.86,Default,,0,0,0,,When something is scarce, its price tells you.
+Dialogue: 0,0:02:17.11,0:02:20.30,Default,,0,0,0,,PJM runs the power grid across all or
+Dialogue: 0,0:02:20.30,0:02:24.11,Default,,0,0,0,,parts of 13 US states and Washington, D.C.
+Dialogue: 0,0:02:24.36,0:02:26.30,Default,,0,0,0,,Every year, it holds an auction
+Dialogue: 0,0:02:26.30,0:02:28.00,Default,,0,0,0,,for future power supply.
+Dialogue: 0,0:02:28.25,0:02:31.33,Default,,0,0,0,,For 2024 to 2025, the price was
+Dialogue: 0,0:02:31.33,0:02:34.90,Default,,0,0,0,,about 29 dollars per megawatt-day.
+Dialogue: 0,0:02:35.15,0:02:38.94,Default,,0,0,0,,For 2027 to 2028, it hit 333 dollars,
+Dialogue: 0,0:02:38.94,0:02:42.22,Default,,0,0,0,,the maximum the rules allowed.
+Dialogue: 0,0:02:42.47,0:02:45.00,Default,,0,0,0,,Analysts estimate that without the cap,
+Dialogue: 0,0:02:45.00,0:02:47.28,Default,,0,0,0,,it would have been close to 530.
+Dialogue: 0,0:02:47.53,0:02:50.05,Default,,0,0,0,,And even at that price, the auction still
+Dialogue: 0,0:02:50.05,0:02:52.52,Default,,0,0,0,,fell short of its reliability target.
+Dialogue: 0,0:02:52.77,0:02:58.66,Default,,0,0,0,,The reason? PJM's demand forecast jumped by 5,250 megawatts,
+Dialogue: 0,0:02:58.66,0:03:02.79,Default,,0,0,0,,almost entirely because of data centers.
+Dialogue: 0,0:03:03.04,0:03:05.69,Default,,0,0,0,,And that cost doesn't stay with tech companies.
+Dialogue: 0,0:03:05.94,0:03:08.78,Default,,0,0,0,,In Washington, D.C., one utility's
+Dialogue: 0,0:03:08.78,0:03:12.30,Default,,0,0,0,,residential customers saw bills rise about
+Dialogue: 0,0:03:12.30,0:03:15.73,Default,,0,0,0,,21 dollars a month starting in June 2025,
+Dialogue: 0,0:03:15.73,0:03:19.53,Default,,0,0,0,,around 10 of it from these capacity prices.
+Dialogue: 0,0:03:20.33,0:03:22.29,Default,,0,0,0,,So the tech giants stopped waiting.
+Dialogue: 0,0:03:22.54,0:03:26.44,Default,,0,0,0,,Microsoft signed a deal to bring back a reactor
+Dialogue: 0,0:03:26.44,0:03:30.25,Default,,0,0,0,,at Three Mile Island, which shut down in 2019.
+Dialogue: 0,0:03:30.25,0:03:33.60,Default,,0,0,0,,It's now expected back online in 2027.
+Dialogue: 0,0:03:33.85,0:03:36.11,Default,,0,0,0,,Others are skipping the grid entirely.
+Dialogue: 0,0:03:36.36,0:03:40.06,Default,,0,0,0,,One analysis counted 59 US data center projects
+Dialogue: 0,0:03:40.06,0:03:44.59,Default,,0,0,0,,planning about 90 gigawatts of their own on-site power.
+Dialogue: 0,0:03:44.84,0:03:47.21,Default,,0,0,0,,That's more than a quarter of all planned
+Dialogue: 0,0:03:47.21,0:03:49.48,Default,,0,0,0,,data center capacity in the country.
+Dialogue: 0,0:03:49.73,0:03:52.46,Default,,0,0,0,,And 92 percent of those projects were
+Dialogue: 0,0:03:52.46,0:03:55.16,Default,,0,0,0,,announced since the start of 2025.
+Dialogue: 0,0:03:55.41,0:04:00.53,Default,,0,0,0,,It got strange. Crusoe, a company that builds AI data centers,
+Dialogue: 0,0:04:00.53,0:04:04.25,Default,,0,0,0,,ordered 29 gas turbines from Boom Supersonic,
+Dialogue: 0,0:04:04.25,0:04:08.66,Default,,0,0,0,,a startup best known for designing supersonic jets.
+Dialogue: 0,0:04:08.91,0:04:11.38,Default,,0,0,0,,Then, just last month, Crusoe walked
+Dialogue: 0,0:04:11.38,0:04:13.65,Default,,0,0,0,,away from that deal and turned to
+Dialogue: 0,0:04:13.65,0:04:16.46,Default,,0,0,0,,established suppliers like GE Vernova.
+Dialogue: 0,0:04:16.71,0:04:18.67,Default,,0,0,0,,When time is the bottleneck,
+Dialogue: 0,0:04:18.67,0:04:22.02,Default,,0,0,0,,an untested machine is a risk few can afford.
+Dialogue: 0,0:04:22.82,0:04:24.12,Default,,0,0,0,,Now flip the map.
+Dialogue: 0,0:04:24.37,0:04:26.76,Default,,0,0,0,,China generates more than twice as
+Dialogue: 0,0:04:26.76,0:04:29.63,Default,,0,0,0,,much electricity as the United States.
+Dialogue: 0,0:04:29.88,0:04:33.28,Default,,0,0,0,,In 2025 alone, it added more than 430
+Dialogue: 0,0:04:33.28,0:04:36.88,Default,,0,0,0,,gigawatts of wind and solar capacity.
+Dialogue: 0,0:04:37.13,0:04:40.16,Default,,0,0,0,,BloombergNEF expects China to add more
+Dialogue: 0,0:04:40.16,0:04:43.50,Default,,0,0,0,,than six times as much generation capacity
+Dialogue: 0,0:04:43.50,0:04:46.49,Default,,0,0,0,,as the US over the next five years.
+Dialogue: 0,0:04:46.74,0:04:49.90,Default,,0,0,0,,One business school researcher put it simply:
+Dialogue: 0,0:04:49.90,0:04:52.92,Default,,0,0,0,,the US has the chips and is short on power.
+Dialogue: 0,0:04:52.92,0:04:56.06,Default,,0,0,0,,China has the power and is short on chips.
+Dialogue: 0,0:04:56.31,0:04:58.38,Default,,0,0,0,,So electricity isn't one ceiling.
+Dialogue: 0,0:04:58.38,0:05:02.02,Default,,0,0,0,,It's a different ceiling, depending on where you stand.
+Dialogue: 0,0:05:02.82,0:05:04.27,Default,,0,0,0,,So here's my call.
+Dialogue: 0,0:05:04.52,0:05:06.30,Default,,0,0,0,,Electricity won't stop AI.
+Dialogue: 0,0:05:06.30,0:05:09.78,Default,,0,0,0,,Too much money is chasing this problem for that.
+Dialogue: 0,0:05:10.03,0:05:12.62,Default,,0,0,0,,But for the next few years, power will
+Dialogue: 0,0:05:12.62,0:05:15.27,Default,,0,0,0,,decide three things: how fast AI grows,
+Dialogue: 0,0:05:15.27,0:05:17.79,Default,,0,0,0,,where it gets built, and who wins.
+Dialogue: 0,0:05:18.04,0:05:21.19,Default,,0,0,0,,The winners won't just be the ones with the best models.
+Dialogue: 0,0:05:21.19,0:05:23.98,Default,,0,0,0,,They'll be the ones who locked in power early.
+Dialogue: 0,0:05:24.23,0:05:26.74,Default,,0,0,0,,I'd go further: by the end of this decade,
+Dialogue: 0,0:05:26.74,0:05:29.19,Default,,0,0,0,,a guaranteed grid connection may be worth
+Dialogue: 0,0:05:29.19,0:05:31.60,Default,,0,0,0,,more than the chips you plug into it.
+Dialogue: 0,0:05:32.39,0:05:33.99,Default,,0,0,0,,What does this mean for you?
+Dialogue: 0,0:05:34.24,0:05:37.00,Default,,0,0,0,,If you live where data centers are booming,
+Dialogue: 0,0:05:37.00,0:05:40.93,Default,,0,0,0,,part of AI's bill may already be on your electricity bill.
+Dialogue: 0,0:05:41.18,0:05:44.69,Default,,0,0,0,,And next time someone says AI is limited by chips,
+Dialogue: 0,0:05:44.69,0:05:46.74,Default,,0,0,0,,remember Microsoft's problem.
+Dialogue: 0,0:05:46.74,0:05:49.68,Default,,0,0,0,,The chips were there. The power wasn't.
+Dialogue: 0,0:05:49.93,0:05:52.65,Default,,0,0,0,,So which do you think runs out first: chips,
+Dialogue: 0,0:05:52.65,0:05:55.32,Default,,0,0,0,,or electricity? Tell me in the comments.
