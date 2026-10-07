@@ -1,0 +1,10 @@
+# command: claude -p "Who was Elizabeth Magie and what did she invent? Give me 5 key facts with dates and numbers, as short bullet points."
+# started: 2026-10-07T06:29:27Z
+# ---- raw output below ----
+**Elizabeth Magie (1866–1948)** was an American game designer, writer, and Georgist activist. She invented the game that became Monopoly.
+
+- **Born 1866** in Macomb, Illinois. She worked as a stenographer and typist, and also wrote poetry and short stories.
+- **1904:** She received US Patent 748,626 for "The Landlord's Game." It was designed to show how land monopolies enrich landlords and impoverish tenants, based on Henry George's single-tax ideas.
+- **Two rule sets:** The game had an anti-monopolist rule set, where wealth was shared, and a monopolist one, where players tried to bankrupt each other. She wanted players to see why the first was fairer.
+- **1923:** She won a second patent for an updated version. The game spread by hand-copied boards, notably among Quaker communities and college students in the 1910s–30s, picking up names like Atlantic City street names along the way.
+- **1935:** Charles Darrow sold his version, "Monopoly," to Parker Brothers and was credited as its inventor. Parker Brothers bought Magie's 1924 patent for just **$500**, with no royalties. She died in 1948, largely unrecognized, and her role was only widely documented from the 1970s onward.

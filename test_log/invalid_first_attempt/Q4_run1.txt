@@ -1,0 +1,40 @@
+# command: claude -p "Who was Elizabeth Magie and what did she invent? Give me 5 key facts with dates and numbers, as short bullet points."
+# started: 2026-10-07T06:28:41Z
+# ---- raw output below ----
+## Q4 (same as the first question): Elizabeth Magie
+
+- **Born** May 9, 1866, in Macomb, Illinois. She died January 2, 1948. She worked as a stenographer and was also a writer and an anti-monopoly activist who followed the land-tax ideas of Henry George.
+- **Invented The Landlord's Game**, which she patented on January 5, 1904 (US Patent 748,626, filed in 1903). It is the direct ancestor of Monopoly.
+- **Designed it as a protest.** It had two rule sets: a "prosperity" version where wealth was shared, and a "monopolist" version where players crushed their rivals. She wanted to show how land monopolies harm tenants.
+- **Sold her patent for $500 in 1935.** Parker Brothers bought it, with no royalties, after Charles Darrow's Monopoly was already selling. She had patented a revised version in 1924.
+- **Her role was largely forgotten.** Parker Brothers credited Darrow as the inventor for decades. Her story came back through the 1970s Anti-Monopoly lawsuit and Mary Pilon's 2015 book *The Monopolists*.
+
+## Q1: Jan Ernst Matzeliger
+
+- **Born** September 15, 1852, in Paramaribo, Dutch Guiana (now Suriname). His father was a Dutch engineer and his mother was Surinamese. He died August 24, 1889, in Lynn, Massachusetts, aged 36, of tuberculosis.
+- **Began work at about age 10** in a machine shop in Suriname. He later worked as a sailor and arrived in Lynn, Massachusetts, around 1877.
+- **Worked as a shoemaker's apprentice in Lynn**, a major US shoe-making center. He taught himself English and spent years building a mechanical "lasting" machine, which attaches the upper part of a shoe to the sole.
+- **Patented his lasting machine on March 20, 1883** (US Patent 274,207).
+- **Output jumped.** His machine could last 150–700 pairs a day, against about 50 by hand. It cut shoe costs sharply, and the patent was bought by the Consolidated Lasting Machine Company. The US Postal Service issued a stamp in his honor in 1991.
+
+## Q2: Palm Foleo
+
+- **Announced** May 30, 2007, as a "mobile companion" to a smartphone, not a standalone laptop.
+- **Price:** $599 list, or $499 after a $100 mail-in rebate.
+- **Cancelled** September 4, 2007, when Palm CEO Ed Colligan said the company would focus on its smartphone platform. It had never shipped.
+- **Key specs:**
+  - 10.2-inch, 1024×600 display
+  - Linux OS
+  - ~312 MHz ARM processor
+  - 256 MB RAM and 256 MB flash storage
+  - Wi-Fi and Bluetooth
+  - About 2.5 lb (1.1 kg)
+- **Software:** an instant-on design with a web browser, email that synced with a Palm smartphone, and Documents To Go for viewing and editing Office files. I'm giving the processor and weight from memory, so check them against a spec sheet if they matter.
+
+## Q3: The 1904 Olympic marathon
+
+- **Held** August 30, 1904, in St. Louis, in heat of about 90°F (32°C) and on dusty roads. Only about 32 runners started, and about 14 finished. There was just one water station, at roughly 12 miles.
+- **Winner:** American Thomas Hicks, in 3:28:53. His handlers gave him strychnine mixed with egg white and brandy during the race, and he nearly collapsed.
+- **Fred Lorz** (USA) was first across the line, in about 3:13. He had ridden in a car for about 11 miles after cramping. He was disqualified once the deception came out, and he won the Boston Marathon in 1905.
+- **Other finishers:** Albert Corey (France) was second in 3:34:52, and Arthur Newton (USA) was third in 3:47:33.
+- **Colorful field:** Cuban Félix Carvajal ran in street clothes and stopped to eat apples. Tswana runners Len Taunyane and Jan Mashiani, among the first Africans at the Olympics, also competed, and Taunyane finished 9th.

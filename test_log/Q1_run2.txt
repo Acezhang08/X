@@ -1,0 +1,8 @@
+# command: claude -p "Who was Jan Ernst Matzeliger? Give me 5 key facts with dates and numbers, as short bullet points."
+# started: 2026-10-07T06:29:27Z
+# ---- raw output below ----
+- **Born:** September 15, 1852, in Paramaribo, Dutch Guiana (now Suriname), to a Dutch engineer father and an enslaved Surinamese mother.
+- **Emigrated:** Arrived in Philadelphia in 1876 at about age 24, after working as a sailor, and later settled in Lynn, Massachusetts, a shoemaking hub.
+- **Invention:** Patented his shoe-lasting machine on March 20, 1883 (U.S. Patent No. 274,207), after about 6 years of work. It attached the upper part of a shoe to the sole mechanically.
+- **Impact:** The machine could produce 150 to 700 pairs of shoes a day. A hand laster managed about 50, and the machine cut shoe prices roughly in half.
+- **Death:** Died of tuberculosis on August 24, 1889, at age 36. His patents were largely sold to the United Shoe Machinery Company, and he was honored with a U.S. postage stamp in 1991.

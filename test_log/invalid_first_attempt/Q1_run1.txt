@@ -1,0 +1,36 @@
+# command: claude -p "Who was Jan Ernst Matzeliger? Give me 5 key facts with dates and numbers, as short bullet points."
+# started: 2026-10-07T06:28:41Z
+# ---- raw output below ----
+## Q1: Jan Ernst Matzeliger
+- Born 15 Sept 1852 in Paramaribo, Dutch Guiana (now Suriname). His father was Dutch and his mother was a Surinamese woman.
+- He moved to Lynn, Massachusetts, in 1877. He worked in shoe factories and taught himself English.
+- He patented his shoe "lasting machine" on 20 Mar 1883 (US Patent 274,207).
+- The machine could last about 150–700 pairs of shoes a day. A skilled hand laster managed about 50.
+- He died of tuberculosis on 24 Aug 1889, aged 36. The US issued a stamp honoring him in 1991.
+
+## Q2: Palm Foleo
+- It was announced on 30 May 2007 as a "mobile companion" to smartphones such as the Treo.
+- The price was $599, or $499 after a $100 mail-in rebate.
+- Palm cancelled it on 4 Sept 2007, before it shipped. CEO Ed Colligan announced the decision.
+- Specs:
+  - 10.2-inch, 1024×600 display
+  - About 2.5 lb (1.1 kg)
+  - Linux-based OS with 256 MB flash storage
+  - Wi-Fi and Bluetooth
+  - SD card slot
+  - Roughly 5 hours of battery life
+- Software: Opera browser, plus an email client that synced with the phone.
+
+## Q3: 1904 Olympic marathon
+- It was held on 30 Aug 1904 in St. Louis, over about 24.85 miles (40 km). Temperatures were around 90°F (32°C) and there was only one water stop, at about mile 12. About 32 men started and 14 finished.
+- Thomas Hicks (USA) won in 3:28:53. His handlers gave him strychnine and brandy during the race, and he nearly collapsed at the finish.
+- Fred Lorz (USA) crossed the line first, but he had ridden in a car for about 11 miles. He was disqualified, though he later won the 1905 Boston Marathon.
+- Felix Carvajal, a Cuban postman, finished 4th. He stopped to eat apples along the way and chat with spectators.
+- Len Taunyane and Jan Mashiani, two Tswana runners, were the first Africans to compete in the Olympics. They finished 9th and 12th.
+
+## Q4: Elizabeth Magie
+- Born 9 May 1866 in Macomb, Illinois. She died on 2 Jan 1948.
+- She invented The Landlord's Game and patented it on 5 Jan 1904 (US Patent 748,626).
+- She was a Georgist, and the game was meant to show how land monopoly harms tenants and to promote a single land tax. It had two rule sets: one monopolistic and one cooperative.
+- It spread through word of mouth and was the basis for Monopoly. Charles Darrow patented his version in 1935.
+- Parker Brothers bought her patent in 1935 for $500, with no royalties. Her role was largely forgotten for decades.
