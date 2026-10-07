@@ -1,0 +1,8 @@
+# command: claude -p "What happened in the 1904 Olympic marathon? Give me 5 key facts with names, times and numbers, as short bullet points."
+# started: 2026-10-07T06:29:27Z
+# ---- raw output below ----
+- **Winner:** Thomas Hicks (USA) won in 3:28:53 on August 30, 1904, in St. Louis, but only after being propped up by his trainers.
+- **Drugs:** Hicks was given strychnine mixed with egg whites and brandy during the race. He collapsed shortly after finishing and nearly died.
+- **Disqualification:** Fred Lorz (USA) crossed the line first, having ridden about 11 miles in a car after cramping up. He was disqualified and later banned, though the ban was lifted and he won the 1905 Boston Marathon.
+- **Small, odd field:** Only 14 of the 32 starters finished, and the field was largely American. Cuban Félix Carvajal, who had run to the race and arrived in street clothes, finished fourth after stopping to eat apples (which turned out to be rotten).
+- **Africans' debut:** Tswana runners Len Tau and Jan Mashiani, there as part of the World's Fair exhibits, were the first black Africans in the Olympics. Tau finished ninth after being chased off course by dogs.

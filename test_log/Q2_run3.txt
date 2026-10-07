@@ -1,0 +1,20 @@
+# command: claude -p "Tell me about the Palm Foleo: when was it announced, what was the price, when was it cancelled, and what were its key specs? Short bullet points."
+# started: 2026-10-07T06:29:27Z
+# ---- raw output below ----
+**Palm Foleo** (from memory)
+
+- **Announced:** May 30, 2007, by Palm co-founder Jeff Hawkins and Palm's CEO Ed Colligan. It was billed as a "mobile companion" for smartphones, not a standalone laptop.
+- **Price:** $499 list, with a $100 mail-in rebate that brought it to $399.
+- **Cancelled:** September 4, 2007, before it shipped. Colligan said Palm would refocus on a new smartphone platform. That platform later became webOS.
+- **Key specs:**
+  - 10.2" screen at 1024×600
+  - 1.0 lb (about 2.5 lb with the battery), very thin
+  - Linux-based OS
+  - 256 MB RAM and 512 MB flash storage, with an SD card slot
+  - Wi-Fi and Bluetooth, with no built-in cellular radio. It was meant to use a paired phone's connection.
+  - Full-size keyboard
+  - Instant-on, with a battery rated at roughly 5 hours
+  - Included Opera-based browser, email client that synced with Treo/Palm smartphones, and viewers/editors for Office documents
+  - Planned as a smartphone companion before the "netbook" category existed
+
+I'm giving this from memory and didn't verify it with a search. The exact spec figures, such as RAM, flash and battery life, are the ones most worth double-checking.

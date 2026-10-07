@@ -1,0 +1,8 @@
+# command: claude -p "What happened in the 1904 Olympic marathon? Give me 5 key facts with names, times and numbers, as short bullet points."
+# started: 2026-10-07T06:29:27Z
+# ---- raw output below ----
+- **Date and place:** Held August 30, 1904, at the St. Louis Games, in sweltering heat (about 90°F/32°C) on dusty roads. Only 32 of the 69 starters finished, and the course had just one water station, at about the 12-mile mark.
+- **Winner:** Thomas Hicks, an English-born American, won in 3:28:53. He was helped by his trainers, who gave him strychnine mixed with egg white and brandy during the race. He was close to collapse at the finish.
+- **First across the line:** Fred Lorz, an American, crossed first in 3:13. He had dropped out around mile 9 with cramps and ridden about 11 miles in a car before the car broke down. He then ran the rest of the way. He admitted the ruse soon after and was banned, though the ban was lifted later.
+- **Africans in the race:** Len Taunyane and Jan Mashiani, two Tswana runners from South Africa, finished 9th and 12th. They were in St. Louis for the Boer War exhibit at the World's Fair. Taunyane lost time when a dog chased him off course.
+- **Other mishaps:** Cuban runner Félix Carvajal, who had arrived at the Games with little money, ran in street clothes with his trousers cut into shorts, and he finished 4th. He stopped to eat apples from an orchard, which gave him stomach cramps, and then lay down for a nap. Another runner, William Garcia, collapsed with internal bleeding from breathing in dust.

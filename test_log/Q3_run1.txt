@@ -1,0 +1,8 @@
+# command: claude -p "What happened in the 1904 Olympic marathon? Give me 5 key facts with names, times and numbers, as short bullet points."
+# started: 2026-10-07T06:29:27Z
+# ---- raw output below ----
+- **Date and place:** Held August 30, 1904, in St. Louis, Missouri, as part of the World's Fair games, in about 90°F (32°C) heat. Only 14 of the 32 starters finished.
+- **Winner:** Thomas Hicks, a British-born American, won in 3:28:53. He was given strychnine mixed with brandy and egg whites during the race, and he nearly collapsed at the finish.
+- **Fred Lorz:** The American crossed the line first, after riding about 11 miles in a car when he cramped. He was exposed as a fraud before receiving the medal and was banned, though later allowed back, and he won the 1905 Boston Marathon.
+- **Andarín Carvajal:** The Cuban postman raised money for the trip by running in the streets of Havana. He stopped to eat apples along the way, which turned out to be rotten, and still finished 4th.
+- **Tswana runners:** Len Tau and Jan Mashiani, the first Black Africans to compete at the Olympics, ran in the race. Tau finished 9th, and he was reportedly chased off the course by dogs.

@@ -1,0 +1,36 @@
+# command: claude -p "Tell me about the Palm Foleo: when was it announced, what was the price, when was it cancelled, and what were its key specs? Short bullet points."
+# started: 2026-10-07T06:28:41Z
+# ---- raw output below ----
+## Q1: Jan Ernst Matzeliger
+- Born Sept 15, 1852, in Paramaribo, Dutch Guiana (now Suriname). He died Aug 24, 1889, aged 36, of tuberculosis.
+- Moved to the US around 1876 and settled in Lynn, Massachusetts, in 1877. He worked in a shoe factory.
+- Patented his shoe lasting machine (US Patent 274,207) on March 20, 1883.
+- The machine made 150–700 pairs of shoes a day, against about 50 by hand lasting.
+- The Consolidated Lasting Machine Company bought the patent. The machine cut shoe production costs sharply and helped make New England's shoe industry dominant.
+
+## Q2: Palm Foleo
+- **Announced:** May 30, 2007. It was pitched as a "mobile companion" to smartphones such as the Treo.
+- **Price:** $599 list, or $499 after a $100 mail-in rebate.
+- **Cancelled:** Sept 4, 2007, announced by Palm CEO Ed Colligan. It never shipped, with launch only weeks away.
+- **Specs (from memory, so treat these as approximate):**
+  - 10.2" display at 1024×600.
+  - Linux-based OS with instant-on.
+  - 256 MB flash storage.
+  - Wi-Fi and Bluetooth.
+  - Weighed about 2.5 lb (1.1 kg) and was under 1" thick.
+  - Included Opera, an email client and Documents To Go.
+- **Why it failed:** Critics saw it as an awkward in-between device that overlapped with laptops and smartphones. Palm said it was refocusing on a new smartphone platform, which became webOS.
+
+## Q3: 1904 Olympic marathon
+- Held Aug 30, 1904, in St. Louis, in heat of about 32°C (90°F) and thick road dust. It was run over about 40 km.
+- 32 runners started and only 14 finished. The course had just one water station, at about 12 miles.
+- Fred Lorz crossed the line first in about 3:13 but had ridden in a car for roughly 11 miles. He was disqualified.
+- Thomas Hicks won in 3:28:53. His handlers gave him strychnine mixed with brandy, and egg whites, during the race.
+- Cuban postman Felix Carvajal finished 4th. Two Tswana runners, Len Tau and Jan Mashiani, finished 9th and 12th, among the first Africans in the Olympics.
+
+## Q4: Elizabeth Magie
+- Born May 9, 1866, in Macomb, Illinois. She died Jan 2, 1948.
+- She invented The Landlord's Game and received US Patent 748,626 for it on Jan 5, 1904.
+- She designed it to show how land monopolies enrich landlords at tenants' expense, drawing on Henry George's single-tax ideas. Her game had two rule sets, one anti-monopolist and one monopolist.
+- The game spread informally through the 1900s–1930s and evolved into versions that led to Monopoly.
+- In 1935 Parker Brothers bought her patent for $500 with no royalties, after Charles Darrow's Monopoly became a hit. Darrow was long credited as the sole inventor.

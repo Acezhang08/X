@@ -1,0 +1,33 @@
+# command: claude -p "Tell me about the Palm Foleo: when was it announced, what was the price, when was it cancelled, and what were its key specs? Short bullet points."
+# started: 2026-10-07T06:28:41Z
+# ---- raw output below ----
+## Q1: Jan Ernst Matzeliger
+- Born 15 Sept 1852 in Paramaribo, Dutch Guiana (now Suriname). He emigrated and settled in Lynn, Massachusetts, in 1877.
+- He worked in the shoe factories of Lynn, then the center of US shoemaking. He spent about 6 years developing a machine for "lasting", which attaches the upper part of a shoe to the sole.
+- He patented the lasting machine on 20 March 1883 (US Patent 274,207).
+- The machine made 150–700 pairs of shoes a day, against about 50 by hand. This is often credited with cutting shoe costs by roughly half.
+- He sold the rights to the Consolidated Lasting Machine Company. He died of tuberculosis on 24 Aug 1889, aged 36.
+
+## Q2: Palm Foleo
+- **Announced:** 30 May 2007, as a "mobile companion" to smartphones such as the Treo.
+- **Price:** $499 after a $100 mail-in rebate, so $599 list.
+- **Cancelled:** 4 Sept 2007, about 3 months after the announcement and before it had shipped. Palm CEO Ed Colligan said the company would refocus on a new smartphone platform, which became webOS.
+- **Display and size:** 10.2-inch screen at 1024×600, about 2.5 lb (1.1 kg) and about 1 inch thick.
+- **Hardware:** Linux-based, with a Marvell ARM processor (about 312 MHz), 256 MB flash storage, Wi-Fi and Bluetooth, USB and SD card slots, and about 5 hours of battery life.
+- **Software:** an email client that synced with the phone, a web browser (Opera-based), and document viewing and editing.
+
+I'm giving the specs from memory. The 312 MHz processor speed and the 5-hour battery figure are the ones I'd check first.
+
+## Q3: 1904 Olympic marathon
+- It was held on 30 Aug 1904 in St. Louis, Missouri, in about 90°F (32°C) heat. The 24.85-mile course was hilly and dusty, with only one water stop, at about 12 miles. Only 14 of 32 starters finished.
+- **Winner:** American Thomas Hicks, in 3:28:53. His handlers gave him strychnine and brandy during the race, and he nearly collapsed at the finish.
+- **Fred Lorz** crossed the line first, but he had ridden about 11 miles in a car after cramping. He was disqualified once he was found out, though he had claimed it was a joke. He later won the 1905 Boston Marathon.
+- **Felix Carvajal**, a Cuban postman, finished 4th. He raced in street clothes and stopped to chat with spectators and eat apples, some of which were reportedly rotten.
+- **Len Taunyane and Jan Mashiani**, two Tswana men from South Africa, finished 9th and 12th. They were the first Africans to compete in an Olympic marathon. Albert Corey (USA) took second.
+
+## Q4: Elizabeth (Lizzie) Magie
+- Born 9 May 1866 in Macomb, Illinois. She was a stenographer, writer, actress and political activist, and she died in 1948.
+- She invented **The Landlord's Game** and patented it on 5 Jan 1904 (US Patent 748,626).
+- She designed it to show how land monopolies harm tenants, based on the single-tax ideas of economist Henry George. It had a looping board with properties, rents and a "Go to Jail" square, and it had two rule sets: one monopolistic and one prosperity-sharing.
+- The game spread informally for about 30 years, including to college campuses. Charles Darrow then sold a version of it to Parker Brothers as **Monopoly** in 1935.
+- Parker Brothers bought Magie's patent for $500 in 1935, with no royalties. Darrow was long credited as sole inventor and became a millionaire, while Magie's role was largely forgotten until recent decades.
