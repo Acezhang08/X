@@ -2,7 +2,7 @@
 
 build/subs-en.ass : English only (X / YouTube)
 build/subs-bi.ass : English on top, Chinese below (Douyin)
-White text, thin black outline, light shadow + soft blurred halo underneath, no box.
+White text, thin black outline, light shadow, no box.
 """
 import json
 from PIL import ImageFont
@@ -44,8 +44,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: EN,Inter SemiBold,{EN_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,&H7A000000,0,0,0,0,100,100,0,0,1,2.6,2,2,100,100,58,1
-Style: HALO,Inter SemiBold,{EN_SIZE},&HFF000000,&HFF000000,&H9A000000,&HFF000000,0,0,0,0,100,100,0,0,1,9,0,2,100,100,58,1
+Style: EN,Inter SemiBold,{EN_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,&H8C000000,0,0,0,0,100,100,0,0,1,3.0,2.5,2,100,100,58,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -63,9 +62,6 @@ for name, bi in [("subs-en.ass", False), ("subs-bi.ass", True)]:
         if bi:
             zh = sc.get("sub_zh") or r"\N".join(wrap(l["zh"], fzh, cjk=True))
             txt = en + r"\N{\r\fnNoto Sans CJK SC\b1\fs" + str(ZH_SIZE) + r"\fsp1}" + zh
-        # 底层：模糊的半透明黑色光晕（白色画面上也看得清），不是底色块
-        halo = r"{\blur12}" + txt.replace("{\\r", "{\\rHALO\\blur12")
-        ev.append(f"Dialogue: 0,{ts(start)},{ts(end)},HALO,,0,0,0,,{halo}")
         ev.append(f"Dialogue: 1,{ts(start)},{ts(end)},EN,,0,0,0,,{txt}")
     open("build/" + name, "w").write(HEAD + "\n".join(ev) + "\n")
     print(name, len(ev), "events")

@@ -284,7 +284,7 @@ function emptySet(t0, t, cx, cy, scale) {
 
 // ---------- modern world ----------
 let tileSlots = [], flightFrom = [520, 340];
-const N_PAGES = 722, COLS = 12, TW = 30, TH = 10, PX = 33, PY = 11.9, TOWER_X = 1250, TOWER_BASE = 806;
+const N_PAGES = 722, COLS = 12, TW = 30, TH = 10, PX = 33, PY = 11.9, TOWER_X = 1420, TOWER_BASE = 806;
 function slot(i) { const c = i % COLS, r = Math.floor(i / COLS); return [TOWER_X + c * PX, TOWER_BASE - (r + 1) * PY]; }
 function emitTime(i, t0, dur) { return t0 + dur * Math.sqrt(i / N_PAGES); }
 function pageRect(x, y, a = 1, i = 0) { // a page seen edge-on in the tower
@@ -312,7 +312,7 @@ function uiChip(x, y, label, value, k) {
   ctx.fillStyle = '#1b1b19'; ctx.font = '700 42px "Inter", sans-serif'; const vis = value.slice(0, Math.floor(value.length * clamp(k * 1.4))); ctx.fillText(vis, -w / 2 + 170, 0); ctx.restore();
 }
 function modern(t, tw, bg = true) {
-  const e0 = S(13).start + .12, dur = 3.0, flight = .5;
+  const e0 = S(13).start + .05, dur = 1.9, flight = .5;
   if (bg) screenBg();
   const landed = Math.floor(N_PAGES * Math.pow(clamp((tw - flight - e0) / dur), 2));
   // landed tiles
@@ -448,7 +448,7 @@ function frame(t) {
     // modern, then shrink to the right while "many people -> one name" appears on the left
     const k = eIO(A(t, S(15).start - .25, S(15).start + .5));
     screenBg();
-    ctx.save(); const sc = lerp(1, .6, k); ctx.translate(lerp(0, 880, k), lerp(0, 110, k)); ctx.scale(sc, sc); modern(t, t, false); ctx.restore();
+    ctx.save(); const sc = lerp(1, .6, k); ctx.translate(lerp(0, 800, k), lerp(0, 110, k)); ctx.scale(sc, sc); modern(t, t, false); ctx.restore();
     peoplePanel(t, k);
   } else finale(t);
   if (t >= S(17).start - .6 && t < S(17).start + .1) { /* crossfade handled in finale via panel slide */ }

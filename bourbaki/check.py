@@ -1,6 +1,6 @@
 """Self-check for the two final MP4s.
 
-- ffprobe: codec / size / fps / duration (must be 50-60 s)
+- ffprobe: codec / size / fps / duration (must be 40-55 s)
 - full decode of each file (catches broken streams)
 - one frame every 5 s -> contact sheet at full size and at phone size (844 px wide)
 - voice onsets detected from the MP4's own audio vs subtitle start times
@@ -22,26 +22,26 @@ def ass_starts(path):
         if m: st.append(int(m[1]) * 3600 + int(m[2]) * 60 + float(m[3]))
     return st
 
-for name, subs in [("grokbot-x", "subs-en.ass"), ("grokbot-douyin", "subs-bi.ass")]:
-    f = f"../out/{name}.mp4"
+for name, subs in [("bourbaki_x", "subs-en.ass"), ("bourbaki_douyin", "subs-bi.ass")]:
+    f = f"../{name}.mp4"
     info = json.loads(sh(["ffprobe", "-v", "error", "-show_streams", "-show_format", "-of", "json", f]).stdout)
     v = next(s for s in info["streams"] if s["codec_type"] == "video")
     a = next(s for s in info["streams"] if s["codec_type"] == "audio")
     dur = float(info["format"]["duration"])
     print(f"\n== {name}.mp4  {v['codec_name']} {v['width']}x{v['height']} {v['r_frame_rate']} | {a['codec_name']} {a['sample_rate']}Hz | {dur:.2f}s | {int(info['format']['size'])/1e6:.1f} MB")
     assert v["codec_name"] == "h264" and a["codec_name"] == "aac" and (v["width"], v["height"]) == (1920, 1080)
-    assert 50 <= dur <= 60, dur
+    assert 40 <= dur <= 55, dur
     dec = sh(["ffmpeg", "-v", "error", "-i", f, "-f", "null", "-"])
     print("full decode:", "OK" if not dec.stderr.strip() else dec.stderr[:500])
     # 每 5 秒一帧
-    times = list(np.arange(0, dur, 5.0)) + [dur - 0.1]
+    times = list(np.arange(0, dur, 1.0)) + [dur - 0.1]
     frames = []
     for t in times:
         p = f"{OUT}/{name}-{t:05.1f}.png"
         sh(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", f, "-frames:v", "1", p])
         frames.append(p)
-    for w, tag in [(640, "sheet"), (844, "phone")]:
-        h = w * 9 // 16; cols = 3 if tag == "sheet" else 2
+    for w, tag in [(480, "sheet"), (844, "phone")]:
+        h = w * 9 // 16; cols = 4 if tag == "sheet" else 2
         rows = (len(frames) + cols - 1) // cols
         S = Image.new("RGB", (cols * w, rows * h))
         for i, p in enumerate(frames):
