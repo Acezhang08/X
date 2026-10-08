@@ -1,0 +1,27 @@
+## The Voynich manuscript
+
+An undeciphered illustrated codex, now Beinecke MS 408 at Yale. It has about 240 vellum pages, with unknown script, botanical, astronomical, and "balneological" sections. [sourced]
+
+### Ownership chain
+
+1. **Origin unknown.** Where it was made is not established. Central Europe and northern Italy are the usual suggestions. [guess]
+2. **Emperor Rudolf II of Bohemia (r. 1576–1612)** is said to have bought it for 600 gold ducats. [sourced] This claim comes from a 1665 letter by Johannes Marcus Marci. Marci said he was passing on what he had been told, so the price is hearsay. [sourced]
+3. **Jacobus Horcicky de Tepenec**, Rudolf's pharmacist and a curator of his gardens, signed the manuscript. His signature was found faded on the first page with chemical reagents. [sourced]
+4. **Georg Baresch**, an alchemist in Prague, owned it next. He wrote to Athanasius Kircher about it in the 1630s. [sourced]
+5. **Johannes Marcus Marci** inherited it from Baresch and sent it to Kircher in Rome in 1665 or 1666, with the cover letter. [sourced]
+6. **Athanasius Kircher** received it. Kircher's ownership is documented by the letter. [sourced] The manuscript then vanishes from the record for about 200 years, probably in the Jesuit collection at the Collegio Romano. [guess]
+7. **Jesuit library at Villa Mondragone** (Frascati). The Jesuits kept it there until the Italian state seized Church property around 1870. [sourced]
+8. **Wilfrid Voynich**, a Polish-born antiquarian, bought it in 1912. [sourced] He was one of the Jesuits' buyers, and the sale is thought to have been secret and to have involved financial trouble at the college. [guess]
+9. **Ethel Voynich** (his widow) inherited it in 1930. Her friend **Anne Nill** then held it. [sourced]
+10. **Hans P. Kraus**, a rare-book dealer, bought it in 1961 and could not sell it. [sourced]
+11. **Yale's Beinecke Library** received it as a donation from Kraus in 1969. [sourced]
+
+### Dating
+
+- **Radiocarbon dating (2009).** The University of Arizona tested four samples of the vellum. The result was a calibrated range of about 1404–1438. [sourced] This dates the animal skin, not the ink.
+- **Ink.** In the 2010s, analysis found the ink was mostly iron-gall and consistent with the 15th century. [sourced]
+- **Illustration style, costume, and script.** Art historians placed these in the 15th century and often compared them to Northern Italian work. [sourced]
+- **Earlier hypotheses.** Roger Bacon (13th century) was the original author theory of Voynich. Radiocarbon dating ruled it out. [sourced]
+- **Hoax theories.** Dating to the 15th century does not settle forgery, because blank old vellum could be reused. [sourced]
+
+**Caveat:** I wrote this from memory with no searching, so verify specific dates and names before citing them. The tags show my confidence level, not a check against sources.

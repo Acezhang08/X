@@ -1,0 +1,34 @@
+# Eddystone Lighthouse: the four towers
+
+The Eddystone Rocks lie about 14 miles (22 km) south-southwest of Plymouth, England. Four lighthouses have stood there.
+
+## 1. Winstanley's Tower (1698–1703)
+- Built by **Henry Winstanley**, an engineer and showman, on the rocks from 1696 [sourced].
+- The light was first lit in **November 1698** [sourced].
+- The tower was a polygonal, timber-and-iron structure, decorated and fanciful. Winstanley later enlarged it [sourced].
+- It was destroyed in the **Great Storm of November 1703**. Winstanley, who was at the lighthouse for repairs, died with it [sourced].
+- It was the first open-sea lighthouse in the world [sourced]. Some accounts hedge on that "first" claim, though.
+
+## 2. Rudyerd's Tower (1709–1755)
+- Built by **John Rudyerd**, a silk mercer, from 1706. It was lit in **July 1709** [sourced].
+- Rudyerd was a London silk merchant and had no engineering background [sourced].
+- The design was a tapering timber structure with a stone-and-timber base, and was ballasted to resemble a ship's hull [sourced]. It was said to be modelled on an East Indiaman's form [guess].
+- It was destroyed by **fire in December 1755**. Reports say the keeper, Henry Hall, was an old man, and he later died after swallowing molten lead [sourced]. The details of his age are less certain [guess].
+
+## 3. Smeaton's Tower (1759)
+- Built by **John Smeaton**, with the light first shown on **16 October 1759** [sourced].
+- It was built of interlocking granite and Portland stone blocks. Smeaton took the shape of an oak tree as his model [sourced].
+- Smeaton developed a quick-setting hydraulic lime mortar for it, a key advance toward modern cement [sourced].
+- It stood for about **120 years**. The rock under it began to erode, so the tower was replaced in the 1870s [sourced].
+- The upper part was dismantled and re-erected on Plymouth Hoe in 1882, where it stands as a memorial [sourced].
+- The stump of the tower remains on the Eddystone Rocks [sourced].
+
+## 4. Douglass's Tower (1882–present)
+- Designed and built by **James Nicholas Douglass**, Engineer-in-Chief to Trinity House [sourced].
+- It was built on a nearby rock, the "South Rock", and lit in **18 May 1882** [sourced]. The exact day I'm less sure of [guess].
+- The tower is of dovetailed granite blocks and is about 49 m (161 ft) tall [sourced]. Smeaton's is about 22 m [guess].
+- It was automated in **1982** [sourced]. A helipad was added above the lantern, and the light still operates as a navigational aid [sourced].
+- The light's range is around 17 nautical miles [guess].
+
+## Notes
+- I wrote this from memory without searching, so the tags reflect my own confidence, not verification against sources. If you need it for something citable, I can check the dates and figures against sources.

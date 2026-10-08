@@ -1,0 +1,41 @@
+# Eddystone Lighthouse: the four towers
+
+The Eddystone Rocks lie about 14 miles (22 km) south-southwest of Plymouth, England. Four lighthouses have stood on them. I wrote this from memory without searching, and I've tagged each claim as you asked.
+
+## 1. Winstanley's Tower (1698–1703)
+- Henry Winstanley, an engineer and showman, built it. [sourced]
+- Construction started in 1696 and the light was first lit on 14 November 1698. [sourced]
+- It was a polygonal timber-and-iron structure on a stone base, and Winstanley enlarged and strengthened it in 1699. [sourced]
+- It was the first lighthouse built on an open-sea rock. [sourced]
+- The Great Storm of November 1703 destroyed it. Winstanley, who was there for repairs, died along with the keepers. The date is often given as 26–27 November. [sourced]
+- Winstanley reportedly said he wished to be in the lighthouse during "the greatest storm there ever was". [guess]
+
+## 2. Rudyerd's Tower (1709–1755)
+- John Rudyerd built it. He was a silk mercer and had no formal engineering training. [sourced]
+- It was lit in 1709. [sourced]
+- John Lovett held the lease, and Captain John Lovett's commission was to rebuild the lighthouse. [guess]
+- Rudyerd's design was a conical timber structure with a ballast of stone and timber, built around a stone-filled core. [sourced]
+- It burned down in December 1755 after a fire started at the lantern. [sourced]
+- One keeper, Henry Hall, swallowed molten lead from the roof and later died. Reports say he was about 94 and that he died around 12 days later. [sourced for the lead story and the death; guess for the age and the 12 days]
+
+## 3. Smeaton's Tower (1759–1877)
+- John Smeaton, a civil engineer, designed and built it. [sourced]
+- Work began in 1756 and the light was first lit on 16 October 1759. [sourced]
+- It was built of interlocking granite blocks, with dovetail joints, and used a new hydraulic lime mortar. Smeaton drew on the shape of an oak tree for the profile. [sourced]
+- The rock beneath it began to be undermined by the sea, and the tower was replaced in 1882. [sourced]
+- Smeaton's work was a major influence on lighthouse design, and he is credited with early work on hydraulic cement. [sourced]
+- The upper part was taken down and rebuilt on Plymouth Hoe as a memorial, where it still stands. The stub of the base remains on the rocks. [sourced]
+
+## 4. Douglass's Tower (1882–present)
+- James Nicholas Douglass designed and built it. He was Engineer-in-Chief to Trinity House. [sourced]
+- Construction began in 1878 and the light was first lit on 18 May 1882. [sourced]
+- It was built of interlocking dovetailed granite blocks and stands next to the stump of Smeaton's tower. [sourced]
+- Its height is about 49 metres (161 ft) to the lantern. [guess]
+- It was automated in 1982. [sourced]
+- A helipad was added to the top in 1980. [guess]
+
+## Caveats
+- I'm confident about the builders and the broad dates. The exact figures (heights, ages, the number of days Hall survived) are less certain, and I've tagged those accordingly.
+- Some claims above carry both a [sourced] and a [guess] part because the story is well documented but the specific number is not.
+- The Lovett detail is the one I'd verify first. I'm not sure of it.
+- I can search to check any of these. The guesses above are the ones to confirm first.

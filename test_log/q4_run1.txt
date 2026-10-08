@@ -1,0 +1,41 @@
+# The Voynich Manuscript
+
+A roughly 240-page illustrated codex in an undeciphered script. It is now Beinecke MS 408 at Yale. [sourced]
+
+## Ownership chain
+
+**Early / uncertain period**
+- Some accounts say Emperor Rudolf II of Bohemia bought it for 600 gold ducats. [sourced] The claim rests on a 1665 letter from Marci, so it is secondhand. [sourced]
+- Rudolf II is said to have thought it was by Roger Bacon. [sourced as part of the Marci letter's claim, though the attribution itself is doubtful]
+- Jacobus Horcicky de Tepenec (Rudolf's court pharmacist and botanist) owned it by the early 1600s. His signature was found on the first page using ultraviolet light. [sourced]
+- Georg Baresch, an alchemist in Prague, owned it later. He wrote to Athanasius Kircher in the 1630s asking for help decoding it. [sourced]
+- Johannes Marcus Marci inherited it from Baresch and sent it to Kircher around 1665. [sourced]
+- Kircher then held it at the Collegio Romano, apparently with no recorded result. [sourced]
+
+**Jesuit holdings**
+- It probably stayed with the Jesuits at the Collegio Romano for about two centuries. [sourced]
+- In 1870 the Italian government seized Papal property. The manuscript is thought to have passed to the Villa Mondragone library. [sourced]
+- Around that time the Jesuits moved some books to private ownership to protect them. [sourced]
+
+**Modern era**
+- Wilfrid Voynich, a Polish-born antiquarian book dealer, bought it in 1912 from the Jesuits at Villa Mondragone. [sourced]
+- After his death in 1930, his widow Ethel Voynich inherited it. [sourced]
+- Ethel left it to her friend Anne Nill. [sourced]
+- Nill sold it to the dealer Hans P. Kraus in 1961. [sourced]
+- Kraus failed to find a buyer and donated it to Yale's Beinecke Library in 1969. [sourced]
+
+## How it was dated
+
+1. **Radiocarbon dating (2009).** The University of Arizona dated four samples of the vellum. The result was approximately 1404–1438. [sourced] Rudolf II and the earlier theories about Roger Bacon (13th century) are therefore ruled out as authors. [sourced]
+2. **Ink analysis.** McCrone Associates found the ink to be consistent with the period, and no anachronistic modern pigments were identified. [sourced] (The earlier tests were from 2009–2010.) [guess on exact dates]
+3. **Style of the illustrations.** Art historians point to clothing, architecture (swallowtail crenellations), and similar features, and suggest northern Italy in the 15th century. [sourced for the general claim, guess for the exact region]
+4. **Handwriting and binding.** Details of the text style and the original binding position have been used in debate. [guess]
+5. **Statistical and linguistic analysis.** This aims to characterize the text but doesn't give a date. [sourced]
+
+## Caveats
+
+- Radiocarbon dates the animal skin, not the writing. In principle old vellum could have been reused, but most scholars consider it unlikely here. [sourced]
+- Authorship, place of origin, and meaning are still unresolved. [sourced]
+- Marci's letter is itself the main link back to Rudolf II, and its reliability is a long-running question. [sourced]
+
+I answered from memory and didn't search, so I'd double-check any of the dated details above against the Beinecke's own catalogue record.
