@@ -1,451 +1,695 @@
 1
-00:00:01,200 --> 00:00:03,181
-Late last year, Microsoft's
+00:00:01,200 --> 00:00:02,693
+In November 2025,
 
 2
-00:00:03,181 --> 00:00:05,363
-CEO said something strange.
+00:00:02,693 --> 00:00:06,318
+Microsoft's CEO said something strange.
 
 3
-00:00:05,613 --> 00:00:08,211
+00:00:06,568 --> 00:00:09,166
 His company may have a bunch of AI chips
 
 4
-00:00:08,211 --> 00:00:11,334
+00:00:09,166 --> 00:00:12,289
 sitting in inventory — that it can't plug in.
 
 5
-00:00:11,584 --> 00:00:13,303
+00:00:12,539 --> 00:00:14,258
 The chips weren't the problem.
 
 6
-00:00:13,303 --> 00:00:15,622
+00:00:14,258 --> 00:00:16,577
 The problem, in his words, was power.
 
 7
-00:00:15,872 --> 00:00:17,257
-So today's question:
+00:00:16,827 --> 00:00:18,401
+So here's the question:
 
 8
-00:00:17,257 --> 00:00:20,364
+00:00:18,401 --> 00:00:21,475
 will electricity become the ceiling on AI?
 
 9
-00:00:20,664 --> 00:00:23,822
+00:00:21,775 --> 00:00:24,934
 My answer is yes. But not in the way you think.
 
 10
-00:00:24,622 --> 00:00:26,199
-Start with the size of it.
+00:00:25,334 --> 00:00:27,561
+Because the thing that's really running
 
 11
-00:00:26,449 --> 00:00:29,633
-In 2024, data centers used about
+00:00:27,561 --> 00:00:29,816
+out might not be electricity at all.
 
 12
-00:00:29,633 --> 00:00:33,216
-415 terawatt-hours of electricity.
+00:00:30,616 --> 00:00:32,604
+First, why does AI need so much
 
 13
-00:00:33,466 --> 00:00:35,618
-That's around one and a half percent
+00:00:32,604 --> 00:00:34,792
+electricity in the first place?
 
 14
-00:00:35,618 --> 00:00:38,090
-of all the electricity the world uses.
+00:00:35,042 --> 00:00:37,241
+Data centers are built from racks,
 
 15
-00:00:38,690 --> 00:00:41,667
-One and a half percent doesn't sound like a crisis.
+00:00:37,241 --> 00:00:39,770
+tall cabinets packed with computers.
 
 16
-00:00:41,917 --> 00:00:46,668
-But the International Energy Agency expects it to more
+00:00:40,020 --> 00:00:44,304
+In 2024, the average rack drew under 8 kilowatts.
 
 17
-00:00:46,668 --> 00:00:51,268
-than double by 2030, to around 945 terawatt-hours.
+00:00:44,554 --> 00:00:48,123
+A single rack of Nvidia's GB200 AI
 
 18
-00:00:51,518 --> 00:00:54,695
-That's slightly more than all of Japan uses today.
+00:00:48,123 --> 00:00:52,417
+system is estimated to draw around 120.
 
 19
-00:00:54,945 --> 00:00:59,073
-And it's concentrated. The United States alone accounts
+00:00:52,667 --> 00:00:56,196
+That's roughly fifteen times as much, in one cabinet.
 
 20
-00:00:59,073 --> 00:01:02,875
-for about 45 percent of data center electricity.
+00:00:56,446 --> 00:00:59,983
+Now fill a whole campus with them. Elon Musk's xAI
 
 21
-00:01:03,125 --> 00:01:06,510
-Through 2030, data centers are expected to drive
+00:00:59,983 --> 00:01:03,520
+already runs about one and a half gigawatts of its
 
 22
-00:01:06,510 --> 00:01:10,519
-nearly half of America's growth in electricity demand.
+00:01:03,520 --> 00:01:07,186
+own power plants for its data centers in Memphis.
 
 23
-00:01:11,319 --> 00:01:13,057
-Here's what most people miss.
+00:01:07,436 --> 00:01:10,481
+One gigawatt, running around the clock,
 
 24
-00:01:13,657 --> 00:01:16,183
-The world isn't running out of electricity.
+00:01:10,481 --> 00:01:14,507
+is about what 800,000 average American homes use.
 
 25
-00:01:16,183 --> 00:01:18,674
-It's running out of time to connect it.
+00:01:14,757 --> 00:01:19,209
+Add it all up, and in 2024, data centers worldwide
 
 26
-00:01:18,924 --> 00:01:21,160
-A data center is just a building.
+00:01:19,209 --> 00:01:23,416
+used about 415 terawatt-hours of electricity.
 
 27
-00:01:21,160 --> 00:01:24,208
-Feeding it takes a whole chain: power plants,
+00:01:23,666 --> 00:01:25,818
+That's around one and a half percent
 
 28
-00:01:24,208 --> 00:01:26,644
-transmission lines, transformers.
+00:01:25,818 --> 00:01:28,290
+of all the electricity the world uses.
 
 29
-00:01:26,894 --> 00:01:29,849
-And every link in that chain has a waiting line.
+00:01:28,890 --> 00:01:31,867
+One and a half percent doesn't sound like a crisis.
 
 30
-00:01:30,099 --> 00:01:32,331
-New transmission lines in advanced
+00:01:32,117 --> 00:01:36,868
+But the International Energy Agency expects it to more
 
 31
-00:01:32,331 --> 00:01:35,419
-economies take four to eight years to build.
+00:01:36,868 --> 00:01:41,468
+than double by 2030, to around 945 terawatt-hours.
 
 32
-00:01:35,669 --> 00:01:38,376
-Large power transformers now have lead
+00:01:41,718 --> 00:01:44,895
+That's slightly more than all of Japan uses today.
 
 33
-00:01:38,376 --> 00:01:41,368
-times of up to four years, and prices have
+00:01:45,145 --> 00:01:49,272
+And it's concentrated. The United States alone accounts
 
 34
-00:01:41,368 --> 00:01:44,417
-jumped roughly 80 percent in five years.
+00:01:49,272 --> 00:01:53,074
+for about 45 percent of data center electricity.
 
 35
-00:01:44,667 --> 00:01:48,667
-Gas turbines? GE Vernova, one of the biggest makers,
+00:01:53,324 --> 00:01:56,710
+Through 2030, data centers are expected to drive
 
 36
-00:01:48,667 --> 00:01:53,020
-said late last year that it was sold out through 2028.
+00:01:56,710 --> 00:02:00,719
+nearly half of America's growth in electricity demand.
 
 37
-00:01:53,270 --> 00:01:55,715
-The IEA estimates that, unless these
+00:02:01,519 --> 00:02:03,346
+You might think: chips keep getting
 
 38
-00:01:55,715 --> 00:01:58,634
-bottlenecks are fixed, around 20 percent of
+00:02:03,346 --> 00:02:05,426
+more efficient. Won't that solve it?
 
 39
-00:01:58,634 --> 00:02:01,958
-planned data center projects could be delayed.
+00:02:05,676 --> 00:02:08,013
+They are getting more efficient.
 
 40
-00:02:02,208 --> 00:02:06,433
-Morgan Stanley put a number on the gap: a shortfall of
+00:02:08,013 --> 00:02:11,445
+Nvidia says its newest system delivers up to 25
 
 41
-00:02:06,433 --> 00:02:10,702
-about 32 gigawatts for US data centers through 2028.
+00:02:11,445 --> 00:02:14,732
+times more performance at the same power than
 
 42
-00:02:10,952 --> 00:02:13,268
-That's roughly a third of what they need.
+00:02:14,732 --> 00:02:18,218
+the previous generation, on certain AI tasks.
 
 43
-00:02:14,068 --> 00:02:16,861
-When something is scarce, its price tells you.
+00:02:18,468 --> 00:02:21,566
+And yet, data center electricity use has
 
 44
-00:02:17,111 --> 00:02:20,296
-PJM runs the power grid across all or
+00:02:21,566 --> 00:02:24,741
+grown about 12 percent a year since 2017,
 
 45
-00:02:20,296 --> 00:02:24,112
-parts of 13 US states and Washington, D.C.
+00:02:24,741 --> 00:02:29,356
+more than four times faster than electricity use overall.
 
 46
-00:02:24,362 --> 00:02:26,301
-Every year, it holds an auction
+00:02:29,606 --> 00:02:33,555
+This is an old story. In 1865, the economist William
 
 47
-00:02:26,301 --> 00:02:28,002
-for future power supply.
+00:02:33,555 --> 00:02:37,808
+Stanley Jevons noticed that more efficient steam engines
 
 48
-00:02:28,252 --> 00:02:31,328
-For 2024 to 2025, the price was
+00:02:37,808 --> 00:02:41,730
+didn't cut Britain's coal use. They increased it.
 
 49
-00:02:31,328 --> 00:02:34,901
-about 29 dollars per megawatt-day.
+00:02:41,980 --> 00:02:44,149
+When something gets cheaper to use,
 
 50
-00:02:35,151 --> 00:02:38,945
-For 2027 to 2028, it hit 333 dollars,
+00:02:44,149 --> 00:02:46,332
+we find far more ways to use it.
 
 51
-00:02:38,945 --> 00:02:42,221
-the maximum the rules allowed.
+00:02:46,582 --> 00:02:49,802
+Cheaper AI means more AI. Efficiency doesn't
 
 52
-00:02:42,471 --> 00:02:45,004
-Analysts estimate that without the cap,
+00:02:49,802 --> 00:02:52,857
+shrink the bill. It grows the appetite.
 
 53
-00:02:45,004 --> 00:02:47,283
-it would have been close to 530.
+00:02:53,657 --> 00:02:55,396
+Here's what most people miss.
 
 54
-00:02:47,533 --> 00:02:50,048
-And even at that price, the auction still
+00:02:55,996 --> 00:02:58,521
+The world isn't running out of electricity.
 
 55
-00:02:50,048 --> 00:02:52,518
-fell short of its reliability target.
+00:02:58,521 --> 00:03:01,012
+It's running out of time to connect it.
 
 56
-00:02:52,768 --> 00:02:58,659
-The reason? PJM's demand forecast jumped by 5,250 megawatts,
+00:03:01,262 --> 00:03:03,498
+A data center is just a building.
 
 57
-00:02:58,659 --> 00:03:02,787
-almost entirely because of data centers.
+00:03:03,498 --> 00:03:06,546
+Feeding it takes a whole chain: power plants,
 
 58
-00:03:03,037 --> 00:03:05,686
-And that cost doesn't stay with tech companies.
+00:03:06,546 --> 00:03:08,982
+transmission lines, transformers.
 
 59
-00:03:05,936 --> 00:03:08,781
-In Washington, D.C., one utility's
+00:03:09,232 --> 00:03:12,187
+And every link in that chain has a waiting line.
 
 60
-00:03:08,781 --> 00:03:12,296
-residential customers saw bills rise about
+00:03:12,437 --> 00:03:14,948
+Start with power plants. In the US,
 
 61
-00:03:12,296 --> 00:03:15,727
-21 dollars a month starting in June 2025,
+00:03:14,948 --> 00:03:17,459
+a new power project has to apply to
 
 62
-00:03:15,727 --> 00:03:19,526
-around 10 of it from these capacity prices.
+00:03:17,459 --> 00:03:20,529
+connect to the grid, then wait its turn.
 
 63
-00:03:20,326 --> 00:03:22,289
-So the tech giants stopped waiting.
+00:03:20,779 --> 00:03:24,455
+At the end of 2025, more than 2,000 gigawatts of
 
 64
-00:03:22,539 --> 00:03:26,435
-Microsoft signed a deal to bring back a reactor
+00:03:24,455 --> 00:03:28,560
+generation and storage were sitting in those lines.
 
 65
-00:03:26,435 --> 00:03:30,248
-at Three Mile Island, which shut down in 2019.
+00:03:28,810 --> 00:03:32,227
+For projects that finally came online in 2025,
 
 66
-00:03:30,248 --> 00:03:33,598
-It's now expected back online in 2027.
+00:03:32,227 --> 00:03:34,901
+the typical wait from application to
 
 67
-00:03:33,848 --> 00:03:36,113
-Others are skipping the grid entirely.
+00:03:34,901 --> 00:03:37,924
+switching on was more than five years.
 
 68
-00:03:36,363 --> 00:03:40,062
-One analysis counted 59 US data center projects
+00:03:38,174 --> 00:03:40,489
+And most never make it at all.
 
 69
-00:03:40,062 --> 00:03:44,591
-planning about 90 gigawatts of their own on-site power.
+00:03:40,489 --> 00:03:44,271
+Of everything that applied between 2000 and 2020,
 
 70
-00:03:44,841 --> 00:03:47,206
-That's more than a quarter of all planned
+00:03:44,271 --> 00:03:46,863
+only 13 percent was ever built.
 
 71
-00:03:47,206 --> 00:03:49,482
-data center capacity in the country.
+00:03:47,113 --> 00:03:49,345
+New transmission lines in advanced
 
 72
-00:03:49,732 --> 00:03:52,458
-And 92 percent of those projects were
+00:03:49,345 --> 00:03:52,433
+economies take four to eight years to build.
 
 73
-00:03:52,458 --> 00:03:55,163
-announced since the start of 2025.
+00:03:52,683 --> 00:03:55,390
+Large power transformers now have lead
 
 74
-00:03:55,413 --> 00:04:00,531
-It got strange. Crusoe, a company that builds AI data centers,
+00:03:55,390 --> 00:03:58,382
+times of up to four years, and prices have
 
 75
-00:04:00,531 --> 00:04:04,245
-ordered 29 gas turbines from Boom Supersonic,
+00:03:58,382 --> 00:04:01,432
+jumped roughly 80 percent in five years.
 
 76
-00:04:04,245 --> 00:04:08,655
-a startup best known for designing supersonic jets.
+00:04:01,682 --> 00:04:03,880
+Gas turbines? GE Vernova,
 
 77
-00:04:08,905 --> 00:04:11,379
-Then, just last month, Crusoe walked
+00:04:03,880 --> 00:04:07,660
+one of the biggest makers, said in December
 
 78
-00:04:11,379 --> 00:04:13,647
-away from that deal and turned to
+00:04:07,660 --> 00:04:11,289
+2025 that it was sold out through 2028.
 
 79
-00:04:13,647 --> 00:04:16,459
-established suppliers like GE Vernova.
+00:04:11,539 --> 00:04:13,983
+The IEA estimates that, unless these
 
 80
-00:04:16,709 --> 00:04:18,670
-When time is the bottleneck,
+00:04:13,983 --> 00:04:16,903
+bottlenecks are fixed, around 20 percent of
 
 81
-00:04:18,670 --> 00:04:22,022
-an untested machine is a risk few can afford.
+00:04:16,903 --> 00:04:20,226
+planned data center projects could be delayed.
 
 82
-00:04:22,822 --> 00:04:24,115
-Now flip the map.
+00:04:20,476 --> 00:04:23,875
+In September 2026, Morgan Stanley put a
 
 83
-00:04:24,365 --> 00:04:26,758
-China generates more than twice as
+00:04:23,875 --> 00:04:27,535
+number on the gap: a shortfall of about 32
 
 84
-00:04:26,758 --> 00:04:29,633
-much electricity as the United States.
+00:04:27,535 --> 00:04:31,483
+gigawatts for US data centers through 2028.
 
 85
-00:04:29,883 --> 00:04:33,284
-In 2025 alone, it added more than 430
+00:04:31,733 --> 00:04:34,049
+That's roughly a third of what they need.
 
 86
-00:04:33,284 --> 00:04:36,885
-gigawatts of wind and solar capacity.
+00:04:34,299 --> 00:04:36,351
+Chips move on product cycles.
 
 87
-00:04:37,135 --> 00:04:40,160
-BloombergNEF expects China to add more
+00:04:36,351 --> 00:04:39,607
+Power moves on permit and construction cycles,
 
 88
-00:04:40,160 --> 00:04:43,504
-than six times as much generation capacity
+00:04:39,607 --> 00:04:42,213
+and those run five years and more.
 
 89
-00:04:43,504 --> 00:04:46,490
-as the US over the next five years.
+00:04:43,013 --> 00:04:45,805
+When something is scarce, its price tells you.
 
 90
-00:04:46,740 --> 00:04:49,898
-One business school researcher put it simply:
+00:04:46,055 --> 00:04:49,241
+PJM runs the power grid across all or
 
 91
-00:04:49,898 --> 00:04:52,916
-the US has the chips and is short on power.
+00:04:49,241 --> 00:04:53,057
+parts of 13 US states and Washington, D.C.
 
 92
-00:04:52,916 --> 00:04:56,064
-China has the power and is short on chips.
+00:04:53,307 --> 00:04:55,246
+Every year, it holds an auction
 
 93
-00:04:56,314 --> 00:04:58,379
-So electricity isn't one ceiling.
+00:04:55,246 --> 00:04:56,947
+for future power supply.
 
 94
-00:04:58,379 --> 00:05:02,020
-It's a different ceiling, depending on where you stand.
+00:04:57,197 --> 00:05:00,273
+For 2024 to 2025, the price was
 
 95
-00:05:02,820 --> 00:05:04,271
-So here's my call.
+00:05:00,273 --> 00:05:03,846
+about 29 dollars per megawatt-day.
 
 96
-00:05:04,521 --> 00:05:06,298
-Electricity won't stop AI.
+00:05:04,096 --> 00:05:08,111
+For 2027 to 2028, it hit 333 dollars,
 
 97
-00:05:06,298 --> 00:05:09,778
-Too much money is chasing this problem for that.
+00:05:08,111 --> 00:05:11,566
+the maximum the rules allowed.
 
 98
-00:05:10,028 --> 00:05:12,615
-But for the next few years, power will
+00:05:11,816 --> 00:05:14,582
+Analysts estimate that without the cap,
 
 99
-00:05:12,615 --> 00:05:15,271
-decide three things: how fast AI grows,
+00:05:14,582 --> 00:05:17,051
+it would have been close to 530.
 
 100
-00:05:15,271 --> 00:05:17,786
-where it gets built, and who wins.
+00:05:17,301 --> 00:05:19,816
+And even at that price, the auction still
 
 101
-00:05:18,036 --> 00:05:21,190
-The winners won't just be the ones with the best models.
+00:05:19,816 --> 00:05:22,286
+fell short of its reliability target.
 
 102
-00:05:21,190 --> 00:05:23,981
-They'll be the ones who locked in power early.
+00:05:22,536 --> 00:05:28,428
+The reason? PJM's demand forecast jumped by 5,250 megawatts,
 
 103
-00:05:24,231 --> 00:05:26,738
-I'd go further: by the end of this decade,
+00:05:28,428 --> 00:05:32,556
+almost entirely because of data centers.
 
 104
-00:05:26,738 --> 00:05:29,186
-a guaranteed grid connection may be worth
+00:05:32,806 --> 00:05:35,455
+And that cost doesn't stay with tech companies.
 
 105
-00:05:29,186 --> 00:05:31,595
-more than the chips you plug into it.
+00:05:35,705 --> 00:05:38,550
+In Washington, D.C., one utility's
 
 106
-00:05:32,395 --> 00:05:33,987
-What does this mean for you?
+00:05:38,550 --> 00:05:42,065
+residential customers saw bills rise about
 
 107
-00:05:34,237 --> 00:05:36,999
-If you live where data centers are booming,
+00:05:42,065 --> 00:05:45,496
+21 dollars a month starting in June 2025,
 
 108
-00:05:36,999 --> 00:05:40,925
-part of AI's bill may already be on your electricity bill.
+00:05:45,496 --> 00:05:49,294
+around 10 of it from these capacity prices.
 
 109
-00:05:41,175 --> 00:05:44,694
-And next time someone says AI is limited by chips,
+00:05:50,094 --> 00:05:52,058
+So the tech giants stopped waiting.
 
 110
-00:05:44,694 --> 00:05:46,736
-remember Microsoft's problem.
+00:05:52,308 --> 00:05:56,204
+Microsoft signed a deal to bring back a reactor
 
 111
-00:05:46,736 --> 00:05:49,681
-The chips were there. The power wasn't.
+00:05:56,204 --> 00:06:00,016
+at Three Mile Island, which shut down in 2019.
 
 112
-00:05:49,931 --> 00:05:52,650
-So which do you think runs out first: chips,
+00:06:00,016 --> 00:06:03,366
+It's now expected back online in 2027.
 
 113
-00:05:52,650 --> 00:05:55,321
+00:06:03,616 --> 00:06:07,694
+Google signed up for small nuclear reactors from a
+
+114
+00:06:07,694 --> 00:06:11,691
+company called Kairos Power: up to 500 megawatts,
+
+115
+00:06:11,691 --> 00:06:16,295
+with the first targeted for 2030 and the rest by 2035.
+
+116
+00:06:16,545 --> 00:06:18,791
+Notice the dates. Even the fixes run
+
+117
+00:06:18,791 --> 00:06:21,236
+on the grid's clock, not the chip's.
+
+118
+00:06:21,486 --> 00:06:23,751
+Others are skipping the grid entirely.
+
+119
+00:06:24,001 --> 00:06:27,700
+One analysis counted 59 US data center projects
+
+120
+00:06:27,700 --> 00:06:32,229
+planning about 90 gigawatts of their own on-site power.
+
+121
+00:06:32,479 --> 00:06:34,844
+That's more than a quarter of all planned
+
+122
+00:06:34,844 --> 00:06:37,120
+data center capacity in the country.
+
+123
+00:06:37,370 --> 00:06:40,096
+And 92 percent of those projects were
+
+124
+00:06:40,096 --> 00:06:42,801
+announced since the start of 2025.
+
+125
+00:06:43,201 --> 00:06:46,077
+But here's the catch. As of mid-2026,
+
+126
+00:06:46,077 --> 00:06:48,719
+only about 2 gigawatts of that was
+
+127
+00:06:48,719 --> 00:06:51,717
+actually running. Roughly 2 percent.
+
+128
+00:06:51,967 --> 00:06:54,065
+Announcing a power plant is easy.
+
+129
+00:06:54,065 --> 00:06:56,235
+Building one is the bottleneck.
+
+130
+00:06:56,485 --> 00:07:00,044
+It got strange. In December 2025, Crusoe,
+
+131
+00:07:00,044 --> 00:07:03,343
+a company that builds AI data centers,
+
+132
+00:07:03,343 --> 00:07:07,250
+ordered 29 gas turbines from Boom Supersonic,
+
+133
+00:07:07,250 --> 00:07:11,877
+a startup best known for designing supersonic jets.
+
+134
+00:07:12,127 --> 00:07:13,994
+Then, in September 2026,
+
+135
+00:07:13,994 --> 00:07:17,416
+Crusoe walked away from that deal and turned
+
+136
+00:07:17,416 --> 00:07:20,805
+to established suppliers like GE Vernova.
+
+137
+00:07:21,055 --> 00:07:23,016
+When time is the bottleneck,
+
+138
+00:07:23,016 --> 00:07:26,368
+an untested machine is a risk few can afford.
+
+139
+00:07:27,168 --> 00:07:28,461
+Now flip the map.
+
+140
+00:07:28,711 --> 00:07:31,105
+China generates more than twice as
+
+141
+00:07:31,105 --> 00:07:33,980
+much electricity as the United States.
+
+142
+00:07:34,230 --> 00:07:37,630
+In 2025 alone, it added more than 430
+
+143
+00:07:37,630 --> 00:07:41,231
+gigawatts of wind and solar capacity.
+
+144
+00:07:41,481 --> 00:07:44,506
+BloombergNEF expects China to add more
+
+145
+00:07:44,506 --> 00:07:47,850
+than six times as much generation capacity
+
+146
+00:07:47,850 --> 00:07:50,836
+as the US over the next five years.
+
+147
+00:07:51,086 --> 00:07:54,244
+One business school researcher put it simply:
+
+148
+00:07:54,244 --> 00:07:57,262
+the US has the chips and is short on power.
+
+149
+00:07:57,262 --> 00:08:00,410
+China has the power and is short on chips.
+
+150
+00:08:00,660 --> 00:08:02,725
+So electricity isn't one ceiling.
+
+151
+00:08:02,725 --> 00:08:06,367
+It's a different ceiling, depending on where you stand.
+
+152
+00:08:07,167 --> 00:08:08,618
+So here's my call.
+
+153
+00:08:08,868 --> 00:08:10,644
+Electricity won't stop AI.
+
+154
+00:08:10,644 --> 00:08:14,124
+Too much money is chasing this problem for that.
+
+155
+00:08:14,374 --> 00:08:16,961
+But for the next few years, power will
+
+156
+00:08:16,961 --> 00:08:19,617
+decide three things: how fast AI grows,
+
+157
+00:08:19,617 --> 00:08:22,132
+where it gets built, and who wins.
+
+158
+00:08:22,382 --> 00:08:25,536
+The winners won't just be the ones with the best models.
+
+159
+00:08:25,536 --> 00:08:28,327
+They'll be the ones who locked in power early.
+
+160
+00:08:28,577 --> 00:08:31,084
+I'd go further: by the end of this decade,
+
+161
+00:08:31,084 --> 00:08:33,532
+a guaranteed grid connection may be worth
+
+162
+00:08:33,532 --> 00:08:35,941
+more than the chips you plug into it.
+
+163
+00:08:36,341 --> 00:08:39,283
+And if I'm wrong, it'll be because the grid
+
+164
+00:08:39,283 --> 00:08:42,635
+suddenly started moving at chip speed: new lines,
+
+165
+00:08:42,635 --> 00:08:46,329
+plants and transformers arriving in two or three years
+
+166
+00:08:46,329 --> 00:08:50,087
+instead of five or more. That's the signal to watch.
+
+167
+00:08:50,887 --> 00:08:52,478
+What does this mean for you?
+
+168
+00:08:52,728 --> 00:08:55,490
+If you live where data centers are booming,
+
+169
+00:08:55,490 --> 00:08:59,416
+part of AI's bill may already be on your electricity bill.
+
+170
+00:08:59,666 --> 00:09:03,185
+And next time someone says AI is limited by chips,
+
+171
+00:09:03,185 --> 00:09:05,227
+remember Microsoft's problem.
+
+172
+00:09:05,227 --> 00:09:08,172
+The chips were there. The power wasn't.
+
+173
+00:09:08,422 --> 00:09:11,141
+So which do you think runs out first: chips,
+
+174
+00:09:11,141 --> 00:09:13,812
 or electricity? Tell me in the comments.

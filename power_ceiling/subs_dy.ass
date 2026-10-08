@@ -11,116 +11,177 @@ Style: Default,Liberation Sans,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.20,0:00:03.18,Default,,0,0,0,,Late last year, Microsoft's\N{\fnWenQuanYi Zen Hei\fs52\b0}去年年底，
-Dialogue: 0,0:00:03.18,0:00:05.36,Default,,0,0,0,,CEO said something strange.\N{\fnWenQuanYi Zen Hei\fs52\b0}微软的 CEO 说了一句奇怪的话。
-Dialogue: 0,0:00:05.61,0:00:08.21,Default,,0,0,0,,His company may have a bunch of AI chips\N{\fnWenQuanYi Zen Hei\fs52\b0}他们可能有一大批 AI 芯片躺在库存里，
-Dialogue: 0,0:00:08.21,0:00:11.33,Default,,0,0,0,,sitting in inventory – that it can't plug in.\N{\fnWenQuanYi Zen Hei\fs52\b0}插不上电。
-Dialogue: 0,0:00:11.58,0:00:13.30,Default,,0,0,0,,The chips weren't the problem.\N{\fnWenQuanYi Zen Hei\fs52\b0}问题不在芯片。
-Dialogue: 0,0:00:13.30,0:00:15.62,Default,,0,0,0,,The problem, in his words, was power.\N{\fnWenQuanYi Zen Hei\fs52\b0}用他的话说，问题在电。
-Dialogue: 0,0:00:15.87,0:00:17.26,Default,,0,0,0,,So today's question:\N{\fnWenQuanYi Zen Hei\fs52\b0}所以今天的问题是：电，
-Dialogue: 0,0:00:17.26,0:00:20.36,Default,,0,0,0,,will electricity become the ceiling on AI?\N{\fnWenQuanYi Zen Hei\fs52\b0}会不会成为 AI 的天花板？
-Dialogue: 0,0:00:20.66,0:00:23.82,Default,,0,0,0,,My answer is yes. But not in the way you think.\N{\fnWenQuanYi Zen Hei\fs52\b0}我的答案是：会。但不是你想的那种方式。
-Dialogue: 0,0:00:24.62,0:00:26.20,Default,,0,0,0,,Start with the size of it.\N{\fnWenQuanYi Zen Hei\fs52\b0}先看规模。
-Dialogue: 0,0:00:26.45,0:00:29.63,Default,,0,0,0,,In 2024, data centers used about\N{\fnWenQuanYi Zen Hei\fs52\b0}2024 年，
-Dialogue: 0,0:00:29.63,0:00:33.22,Default,,0,0,0,,415 terawatt-hours of electricity.\N{\fnWenQuanYi Zen Hei\fs52\b0}全球数据中心用了大约 415 太瓦时的电。
-Dialogue: 0,0:00:33.47,0:00:35.62,Default,,0,0,0,,That's around one and a half percent\N{\fnWenQuanYi Zen Hei\fs52\b0}大约占全世界用电
-Dialogue: 0,0:00:35.62,0:00:38.09,Default,,0,0,0,,of all the electricity the world uses.\N{\fnWenQuanYi Zen Hei\fs52\b0}量的 1.5%。
-Dialogue: 0,0:00:38.69,0:00:41.67,Default,,0,0,0,,One and a half percent doesn't sound like a crisis.\N{\fnWenQuanYi Zen Hei\fs52\b0}1.5%，听起来不像什么危机。
-Dialogue: 0,0:00:41.92,0:00:46.67,Default,,0,0,0,,But the International Energy Agency expects it to more\N{\fnWenQuanYi Zen Hei\fs52\b0}但国际能源署预计，到 2030 年这个数字会翻一倍多，
-Dialogue: 0,0:00:46.67,0:00:51.27,Default,,0,0,0,,than double by 2030, to around 945 terawatt-hours.\N{\fnWenQuanYi Zen Hei\fs52\b0}达到约 945 太瓦时。
-Dialogue: 0,0:00:51.52,0:00:54.70,Default,,0,0,0,,That's slightly more than all of Japan uses today.\N{\fnWenQuanYi Zen Hei\fs52\b0}比整个日本今天的用电量还略多一点。
-Dialogue: 0,0:00:54.95,0:00:59.07,Default,,0,0,0,,And it's concentrated. The United States alone accounts\N{\fnWenQuanYi Zen Hei\fs52\b0}而且非常集中。光美国一家，
-Dialogue: 0,0:00:59.07,0:01:02.88,Default,,0,0,0,,for about 45 percent of data center electricity.\N{\fnWenQuanYi Zen Hei\fs52\b0}就占了全球数据中心用电的约 45%。
-Dialogue: 0,0:01:03.12,0:01:06.51,Default,,0,0,0,,Through 2030, data centers are expected to drive\N{\fnWenQuanYi Zen Hei\fs52\b0}到 2030 年，美国新增的用电需求里，
-Dialogue: 0,0:01:06.51,0:01:10.52,Default,,0,0,0,,nearly half of America's growth in electricity demand.\N{\fnWenQuanYi Zen Hei\fs52\b0}预计将近一半来自数据中心。
-Dialogue: 0,0:01:11.32,0:01:13.06,Default,,0,0,0,,Here's what most people miss.\N{\fnWenQuanYi Zen Hei\fs52\b0}但大多数人没注意到这一点。
-Dialogue: 0,0:01:13.66,0:01:16.18,Default,,0,0,0,,The world isn't running out of electricity.\N{\fnWenQuanYi Zen Hei\fs52\b0}世界不是电不够了，
-Dialogue: 0,0:01:16.18,0:01:18.67,Default,,0,0,0,,It's running out of time to connect it.\N{\fnWenQuanYi Zen Hei\fs52\b0}而是来不及把电接过来。
-Dialogue: 0,0:01:18.92,0:01:21.16,Default,,0,0,0,,A data center is just a building.\N{\fnWenQuanYi Zen Hei\fs52\b0}数据中心只是一栋楼。
-Dialogue: 0,0:01:21.16,0:01:24.21,Default,,0,0,0,,Feeding it takes a whole chain: power plants,\N{\fnWenQuanYi Zen Hei\fs52\b0}给它供电，需要一整条链：
-Dialogue: 0,0:01:24.21,0:01:26.64,Default,,0,0,0,,transmission lines, transformers.\N{\fnWenQuanYi Zen Hei\fs52\b0}发电厂、输电线、变压器。
-Dialogue: 0,0:01:26.89,0:01:29.85,Default,,0,0,0,,And every link in that chain has a waiting line.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这条链上的每一环，都在排队。
-Dialogue: 0,0:01:30.10,0:01:32.33,Default,,0,0,0,,New transmission lines in advanced\N{\fnWenQuanYi Zen Hei\fs52\b0}在发达经济体，
-Dialogue: 0,0:01:32.33,0:01:35.42,Default,,0,0,0,,economies take four to eight years to build.\N{\fnWenQuanYi Zen Hei\fs52\b0}建一条新的输电线要 4 到 8 年。
-Dialogue: 0,0:01:35.67,0:01:38.38,Default,,0,0,0,,Large power transformers now have lead\N{\fnWenQuanYi Zen Hei\fs52\b0}大型变压器的交货期已
-Dialogue: 0,0:01:38.38,0:01:41.37,Default,,0,0,0,,times of up to four years, and prices have\N{\fnWenQuanYi Zen Hei\fs52\b0}经拉长到最多 4 年，
-Dialogue: 0,0:01:41.37,0:01:44.42,Default,,0,0,0,,jumped roughly 80 percent in five years.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格五年里涨了大约 80%。
-Dialogue: 0,0:01:44.67,0:01:48.67,Default,,0,0,0,,Gas turbines? GE Vernova, one of the biggest makers,\N{\fnWenQuanYi Zen Hei\fs52\b0}燃气轮机呢？最大的制造商之一 GE Vernova 去年年底说，
-Dialogue: 0,0:01:48.67,0:01:53.02,Default,,0,0,0,,said late last year that it was sold out through 2028.\N{\fnWenQuanYi Zen Hei\fs52\b0}2028 年以前的产能已经卖光了。
-Dialogue: 0,0:01:53.27,0:01:55.72,Default,,0,0,0,,The IEA estimates that, unless these\N{\fnWenQuanYi Zen Hei\fs52\b0}国际能源署估计，
-Dialogue: 0,0:01:55.72,0:01:58.63,Default,,0,0,0,,bottlenecks are fixed, around 20 percent of\N{\fnWenQuanYi Zen Hei\fs52\b0}如果这些瓶颈解决不了，
-Dialogue: 0,0:01:58.63,0:02:01.96,Default,,0,0,0,,planned data center projects could be delayed.\N{\fnWenQuanYi Zen Hei\fs52\b0}大约 20% 的在建数据中心项目可能延期。
-Dialogue: 0,0:02:02.21,0:02:06.43,Default,,0,0,0,,Morgan Stanley put a number on the gap: a shortfall of\N{\fnWenQuanYi Zen Hei\fs52\b0}摩根士丹利算了一下缺口：到 2028 年，
-Dialogue: 0,0:02:06.43,0:02:10.70,Default,,0,0,0,,about 32 gigawatts for US data centers through 2028.\N{\fnWenQuanYi Zen Hei\fs52\b0}美国数据中心大约缺 32 吉瓦的电。
-Dialogue: 0,0:02:10.95,0:02:13.27,Default,,0,0,0,,That's roughly a third of what they need.\N{\fnWenQuanYi Zen Hei\fs52\b0}差不多是需求的三分之一。
-Dialogue: 0,0:02:14.07,0:02:16.86,Default,,0,0,0,,When something is scarce, its price tells you.\N{\fnWenQuanYi Zen Hei\fs52\b0}一样东西缺不缺，看价格就知道。
-Dialogue: 0,0:02:17.11,0:02:20.30,Default,,0,0,0,,PJM runs the power grid across all or\N{\fnWenQuanYi Zen Hei\fs52\b0}PJM 负责管理美国 13 个州（全
-Dialogue: 0,0:02:20.30,0:02:24.11,Default,,0,0,0,,parts of 13 US states and Washington, D.C.\N{\fnWenQuanYi Zen Hei\fs52\b0}部或部分地区）加上华盛顿特区的电网。
-Dialogue: 0,0:02:24.36,0:02:26.30,Default,,0,0,0,,Every year, it holds an auction\N{\fnWenQuanYi Zen Hei\fs52\b0}它每年都会拍卖
-Dialogue: 0,0:02:26.30,0:02:28.00,Default,,0,0,0,,for future power supply.\N{\fnWenQuanYi Zen Hei\fs52\b0}未来的供电能力。
-Dialogue: 0,0:02:28.25,0:02:31.33,Default,,0,0,0,,For 2024 to 2025, the price was\N{\fnWenQuanYi Zen Hei\fs52\b0}2024 到 2025 年度，
-Dialogue: 0,0:02:31.33,0:02:34.90,Default,,0,0,0,,about 29 dollars per megawatt-day.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格大约是每兆瓦每天 29 美元。
-Dialogue: 0,0:02:35.15,0:02:38.94,Default,,0,0,0,,For 2027 to 2028, it hit 333 dollars,\N{\fnWenQuanYi Zen Hei\fs52\b0}到了 2027 到 2028 年度，
-Dialogue: 0,0:02:38.94,0:02:42.22,Default,,0,0,0,,the maximum the rules allowed.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格涨到 333 美元，碰到了规则允许的上限。
-Dialogue: 0,0:02:42.47,0:02:45.00,Default,,0,0,0,,Analysts estimate that without the cap,\N{\fnWenQuanYi Zen Hei\fs52\b0}分析师估计，如果没有上限，
-Dialogue: 0,0:02:45.00,0:02:47.28,Default,,0,0,0,,it would have been close to 530.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格会接近 530 美元。
-Dialogue: 0,0:02:47.53,0:02:50.05,Default,,0,0,0,,And even at that price, the auction still\N{\fnWenQuanYi Zen Hei\fs52\b0}而且就算开出这个价，
-Dialogue: 0,0:02:50.05,0:02:52.52,Default,,0,0,0,,fell short of its reliability target.\N{\fnWenQuanYi Zen Hei\fs52\b0}拍卖还是没凑够保障供电稳定所需的量。
-Dialogue: 0,0:02:52.77,0:02:58.66,Default,,0,0,0,,The reason? PJM's demand forecast jumped by 5,250 megawatts,\N{\fnWenQuanYi Zen Hei\fs52\b0}原因呢？PJM 预测的用电需求一下子多了 5250 兆瓦，
-Dialogue: 0,0:02:58.66,0:03:02.79,Default,,0,0,0,,almost entirely because of data centers.\N{\fnWenQuanYi Zen Hei\fs52\b0}几乎全是因为数据中心。
-Dialogue: 0,0:03:03.04,0:03:05.69,Default,,0,0,0,,And that cost doesn't stay with tech companies.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这笔钱，不只是科技公司在付。
-Dialogue: 0,0:03:05.94,0:03:08.78,Default,,0,0,0,,In Washington, D.C., one utility's\N{\fnWenQuanYi Zen Hei\fs52\b0}在华盛顿特区，
-Dialogue: 0,0:03:08.78,0:03:12.30,Default,,0,0,0,,residential customers saw bills rise about\N{\fnWenQuanYi Zen Hei\fs52\b0}一家电力公司的居民用户从 2025 年 6 月起，
-Dialogue: 0,0:03:12.30,0:03:15.73,Default,,0,0,0,,21 dollars a month starting in June 2025,\N{\fnWenQuanYi Zen Hei\fs52\b0}电费每月涨了约 21 美元，
-Dialogue: 0,0:03:15.73,0:03:19.53,Default,,0,0,0,,around 10 of it from these capacity prices.\N{\fnWenQuanYi Zen Hei\fs52\b0}其中约 10 美元来自这类容量价格。
-Dialogue: 0,0:03:20.33,0:03:22.29,Default,,0,0,0,,So the tech giants stopped waiting.\N{\fnWenQuanYi Zen Hei\fs52\b0}于是，科技巨头们不等了。
-Dialogue: 0,0:03:22.54,0:03:26.44,Default,,0,0,0,,Microsoft signed a deal to bring back a reactor\N{\fnWenQuanYi Zen Hei\fs52\b0}微软签了协议，
-Dialogue: 0,0:03:26.44,0:03:30.25,Default,,0,0,0,,at Three Mile Island, which shut down in 2019.\N{\fnWenQuanYi Zen Hei\fs52\b0}让三哩岛一座 2019 年就关掉的核反应堆重新启动，
-Dialogue: 0,0:03:30.25,0:03:33.60,Default,,0,0,0,,It's now expected back online in 2027.\N{\fnWenQuanYi Zen Hei\fs52\b0}现在预计 2027 年恢复发电。
-Dialogue: 0,0:03:33.85,0:03:36.11,Default,,0,0,0,,Others are skipping the grid entirely.\N{\fnWenQuanYi Zen Hei\fs52\b0}还有人干脆绕开电网。
-Dialogue: 0,0:03:36.36,0:03:40.06,Default,,0,0,0,,One analysis counted 59 US data center projects\N{\fnWenQuanYi Zen Hei\fs52\b0}一份分析统计，美国有 59 个数据中心项目计划自建现场发电，
-Dialogue: 0,0:03:40.06,0:03:44.59,Default,,0,0,0,,planning about 90 gigawatts of their own on-site power.\N{\fnWenQuanYi Zen Hei\fs52\b0}总共约 90 吉瓦。
-Dialogue: 0,0:03:44.84,0:03:47.21,Default,,0,0,0,,That's more than a quarter of all planned\N{\fnWenQuanYi Zen Hei\fs52\b0}这超过了全美规划中数据
-Dialogue: 0,0:03:47.21,0:03:49.48,Default,,0,0,0,,data center capacity in the country.\N{\fnWenQuanYi Zen Hei\fs52\b0}中心总容量的四分之一。
-Dialogue: 0,0:03:49.73,0:03:52.46,Default,,0,0,0,,And 92 percent of those projects were\N{\fnWenQuanYi Zen Hei\fs52\b0}而其中 92% 的项目，
-Dialogue: 0,0:03:52.46,0:03:55.16,Default,,0,0,0,,announced since the start of 2025.\N{\fnWenQuanYi Zen Hei\fs52\b0}都是 2025 年以后才宣布的。
-Dialogue: 0,0:03:55.41,0:04:00.53,Default,,0,0,0,,It got strange. Crusoe, a company that builds AI data centers,\N{\fnWenQuanYi Zen Hei\fs52\b0}事情开始变得离奇。AI 数据中心建造商 Crusoe，
-Dialogue: 0,0:04:00.53,0:04:04.25,Default,,0,0,0,,ordered 29 gas turbines from Boom Supersonic,\N{\fnWenQuanYi Zen Hei\fs52\b0}向 Boom Supersonic 订了 29 台燃气轮机，
-Dialogue: 0,0:04:04.25,0:04:08.66,Default,,0,0,0,,a startup best known for designing supersonic jets.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这家公司最出名的是设计超音速客机。
-Dialogue: 0,0:04:08.91,0:04:11.38,Default,,0,0,0,,Then, just last month, Crusoe walked\N{\fnWenQuanYi Zen Hei\fs52\b0}结果就在上个月，
-Dialogue: 0,0:04:11.38,0:04:13.65,Default,,0,0,0,,away from that deal and turned to\N{\fnWenQuanYi Zen Hei\fs52\b0}Crusoe 放弃了这笔订单，
-Dialogue: 0,0:04:13.65,0:04:16.46,Default,,0,0,0,,established suppliers like GE Vernova.\N{\fnWenQuanYi Zen Hei\fs52\b0}转向 GE Vernova 这样的老牌供应商。
-Dialogue: 0,0:04:16.71,0:04:18.67,Default,,0,0,0,,When time is the bottleneck,\N{\fnWenQuanYi Zen Hei\fs52\b0}当时间就是瓶颈，没被验证过的机器，
-Dialogue: 0,0:04:18.67,0:04:22.02,Default,,0,0,0,,an untested machine is a risk few can afford.\N{\fnWenQuanYi Zen Hei\fs52\b0}是很少有人敢冒的险。
-Dialogue: 0,0:04:22.82,0:04:24.12,Default,,0,0,0,,Now flip the map.\N{\fnWenQuanYi Zen Hei\fs52\b0}现在，把地图翻过来。
-Dialogue: 0,0:04:24.37,0:04:26.76,Default,,0,0,0,,China generates more than twice as\N{\fnWenQuanYi Zen Hei\fs52\b0}中国的发电量，
-Dialogue: 0,0:04:26.76,0:04:29.63,Default,,0,0,0,,much electricity as the United States.\N{\fnWenQuanYi Zen Hei\fs52\b0}是美国的两倍多。
-Dialogue: 0,0:04:29.88,0:04:33.28,Default,,0,0,0,,In 2025 alone, it added more than 430\N{\fnWenQuanYi Zen Hei\fs52\b0}光是 2025 年一年，
-Dialogue: 0,0:04:33.28,0:04:36.88,Default,,0,0,0,,gigawatts of wind and solar capacity.\N{\fnWenQuanYi Zen Hei\fs52\b0}中国就新增了超过 430 吉瓦的风电和光伏装机。
-Dialogue: 0,0:04:37.13,0:04:40.16,Default,,0,0,0,,BloombergNEF expects China to add more\N{\fnWenQuanYi Zen Hei\fs52\b0}彭博新能源财经预计，
-Dialogue: 0,0:04:40.16,0:04:43.50,Default,,0,0,0,,than six times as much generation capacity\N{\fnWenQuanYi Zen Hei\fs52\b0}未来五年，
-Dialogue: 0,0:04:43.50,0:04:46.49,Default,,0,0,0,,as the US over the next five years.\N{\fnWenQuanYi Zen Hei\fs52\b0}中国新增的发电装机将是美国的六倍多。
-Dialogue: 0,0:04:46.74,0:04:49.90,Default,,0,0,0,,One business school researcher put it simply:\N{\fnWenQuanYi Zen Hei\fs52\b0}一位商学院的研究者说得很直白：
-Dialogue: 0,0:04:49.90,0:04:52.92,Default,,0,0,0,,the US has the chips and is short on power.\N{\fnWenQuanYi Zen Hei\fs52\b0}美国有芯片、缺电；
-Dialogue: 0,0:04:52.92,0:04:56.06,Default,,0,0,0,,China has the power and is short on chips.\N{\fnWenQuanYi Zen Hei\fs52\b0}中国有电、缺芯片。
-Dialogue: 0,0:04:56.31,0:04:58.38,Default,,0,0,0,,So electricity isn't one ceiling.\N{\fnWenQuanYi Zen Hei\fs52\b0}所以电不是一块天花板。
-Dialogue: 0,0:04:58.38,0:05:02.02,Default,,0,0,0,,It's a different ceiling, depending on where you stand.\N{\fnWenQuanYi Zen Hei\fs52\b0}站在哪里，天花板就不一样。
-Dialogue: 0,0:05:02.82,0:05:04.27,Default,,0,0,0,,So here's my call.\N{\fnWenQuanYi Zen Hei\fs52\b0}所以，我的判断是：
-Dialogue: 0,0:05:04.52,0:05:06.30,Default,,0,0,0,,Electricity won't stop AI.\N{\fnWenQuanYi Zen Hei\fs52\b0}电挡不住 AI，
-Dialogue: 0,0:05:06.30,0:05:09.78,Default,,0,0,0,,Too much money is chasing this problem for that.\N{\fnWenQuanYi Zen Hei\fs52\b0}追着这个问题砸的钱太多了。
-Dialogue: 0,0:05:10.03,0:05:12.62,Default,,0,0,0,,But for the next few years, power will\N{\fnWenQuanYi Zen Hei\fs52\b0}但未来几年，电会决定三件事：
-Dialogue: 0,0:05:12.62,0:05:15.27,Default,,0,0,0,,decide three things: how fast AI grows,\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 长得多快、
-Dialogue: 0,0:05:15.27,0:05:17.79,Default,,0,0,0,,where it gets built, and who wins.\N{\fnWenQuanYi Zen Hei\fs52\b0}建在哪里，以及谁会赢。
-Dialogue: 0,0:05:18.04,0:05:21.19,Default,,0,0,0,,The winners won't just be the ones with the best models.\N{\fnWenQuanYi Zen Hei\fs52\b0}赢家不只是模型最好的那家，
-Dialogue: 0,0:05:21.19,0:05:23.98,Default,,0,0,0,,They'll be the ones who locked in power early.\N{\fnWenQuanYi Zen Hei\fs52\b0}而是最早锁定电力的那家。
-Dialogue: 0,0:05:24.23,0:05:26.74,Default,,0,0,0,,I'd go further: by the end of this decade,\N{\fnWenQuanYi Zen Hei\fs52\b0}我甚至觉得：到这个十年结束时，
-Dialogue: 0,0:05:26.74,0:05:29.19,Default,,0,0,0,,a guaranteed grid connection may be worth\N{\fnWenQuanYi Zen Hei\fs52\b0}一个有保障的电网接口，
-Dialogue: 0,0:05:29.19,0:05:31.60,Default,,0,0,0,,more than the chips you plug into it.\N{\fnWenQuanYi Zen Hei\fs52\b0}可能比插在上面的芯片还值钱。
-Dialogue: 0,0:05:32.39,0:05:33.99,Default,,0,0,0,,What does this mean for you?\N{\fnWenQuanYi Zen Hei\fs52\b0}这和你有什么关系？
-Dialogue: 0,0:05:34.24,0:05:37.00,Default,,0,0,0,,If you live where data centers are booming,\N{\fnWenQuanYi Zen Hei\fs52\b0}如果你住在数据中心扎堆的地方，
-Dialogue: 0,0:05:37.00,0:05:40.93,Default,,0,0,0,,part of AI's bill may already be on your electricity bill.\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 的一部分账单，可能已经算进你的电费里了。
-Dialogue: 0,0:05:41.18,0:05:44.69,Default,,0,0,0,,And next time someone says AI is limited by chips,\N{\fnWenQuanYi Zen Hei\fs52\b0}下次再有人说 AI 卡在芯片上，
-Dialogue: 0,0:05:44.69,0:05:46.74,Default,,0,0,0,,remember Microsoft's problem.\N{\fnWenQuanYi Zen Hei\fs52\b0}想想微软的问题：
-Dialogue: 0,0:05:46.74,0:05:49.68,Default,,0,0,0,,The chips were there. The power wasn't.\N{\fnWenQuanYi Zen Hei\fs52\b0}芯片有了，电没有。
-Dialogue: 0,0:05:49.93,0:05:52.65,Default,,0,0,0,,So which do you think runs out first: chips,\N{\fnWenQuanYi Zen Hei\fs52\b0}那你觉得，芯片和电，
-Dialogue: 0,0:05:52.65,0:05:55.32,Default,,0,0,0,,or electricity? Tell me in the comments.\N{\fnWenQuanYi Zen Hei\fs52\b0}哪个会先不够用？评论区告诉我。
+Dialogue: 0,0:00:01.20,0:00:02.69,Default,,0,0,0,,In November 2025,\N{\fnWenQuanYi Zen Hei\fs52\b0}2025 年 11 月，
+Dialogue: 0,0:00:02.69,0:00:06.32,Default,,0,0,0,,Microsoft's CEO said something strange.\N{\fnWenQuanYi Zen Hei\fs52\b0}微软的 CEO 说了一句奇怪的话。
+Dialogue: 0,0:00:06.57,0:00:09.17,Default,,0,0,0,,His company may have a bunch of AI chips\N{\fnWenQuanYi Zen Hei\fs52\b0}他们可能有一大批 AI 芯片躺在库存里，
+Dialogue: 0,0:00:09.17,0:00:12.29,Default,,0,0,0,,sitting in inventory – that it can't plug in.\N{\fnWenQuanYi Zen Hei\fs52\b0}插不上电。
+Dialogue: 0,0:00:12.54,0:00:14.26,Default,,0,0,0,,The chips weren't the problem.\N{\fnWenQuanYi Zen Hei\fs52\b0}问题不在芯片。
+Dialogue: 0,0:00:14.26,0:00:16.58,Default,,0,0,0,,The problem, in his words, was power.\N{\fnWenQuanYi Zen Hei\fs52\b0}用他的话说，问题在电。
+Dialogue: 0,0:00:16.83,0:00:18.40,Default,,0,0,0,,So here's the question:\N{\fnWenQuanYi Zen Hei\fs52\b0}所以问题来了：电，
+Dialogue: 0,0:00:18.40,0:00:21.48,Default,,0,0,0,,will electricity become the ceiling on AI?\N{\fnWenQuanYi Zen Hei\fs52\b0}会不会成为 AI 的天花板？
+Dialogue: 0,0:00:21.77,0:00:24.93,Default,,0,0,0,,My answer is yes. But not in the way you think.\N{\fnWenQuanYi Zen Hei\fs52\b0}我的答案是：会。但不是你想的那种方式。
+Dialogue: 0,0:00:25.33,0:00:27.56,Default,,0,0,0,,Because the thing that's really running\N{\fnWenQuanYi Zen Hei\fs52\b0}因为真正不够用的，
+Dialogue: 0,0:00:27.56,0:00:29.82,Default,,0,0,0,,out might not be electricity at all.\N{\fnWenQuanYi Zen Hei\fs52\b0}可能根本不是电。
+Dialogue: 0,0:00:30.62,0:00:32.60,Default,,0,0,0,,First, why does AI need so much\N{\fnWenQuanYi Zen Hei\fs52\b0}先说说，
+Dialogue: 0,0:00:32.60,0:00:34.79,Default,,0,0,0,,electricity in the first place?\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 到底为什么这么耗电？
+Dialogue: 0,0:00:35.04,0:00:37.24,Default,,0,0,0,,Data centers are built from racks,\N{\fnWenQuanYi Zen Hei\fs52\b0}数据中心是由一个个机柜组成的，
+Dialogue: 0,0:00:37.24,0:00:39.77,Default,,0,0,0,,tall cabinets packed with computers.\N{\fnWenQuanYi Zen Hei\fs52\b0}就是塞满电脑的高柜子。
+Dialogue: 0,0:00:40.02,0:00:44.30,Default,,0,0,0,,In 2024, the average rack drew under 8 kilowatts.\N{\fnWenQuanYi Zen Hei\fs52\b0}2024 年，一个机柜平均用电不到 8 千瓦。
+Dialogue: 0,0:00:44.55,0:00:48.12,Default,,0,0,0,,A single rack of Nvidia's GB200 AI\N{\fnWenQuanYi Zen Hei\fs52\b0}而英伟达 GB200 AI 系统的一个机柜，
+Dialogue: 0,0:00:48.12,0:00:52.42,Default,,0,0,0,,system is estimated to draw around 120.\N{\fnWenQuanYi Zen Hei\fs52\b0}估计要用大约 120 千瓦。
+Dialogue: 0,0:00:52.67,0:00:56.20,Default,,0,0,0,,That's roughly fifteen times as much, in one cabinet.\N{\fnWenQuanYi Zen Hei\fs52\b0}一个柜子，差不多是普通机柜的 15 倍。
+Dialogue: 0,0:00:56.45,0:00:59.98,Default,,0,0,0,,Now fill a whole campus with them. Elon Musk's xAI\N{\fnWenQuanYi Zen Hei\fs52\b0}现在把整个园区都装满这种机柜。
+Dialogue: 0,0:00:59.98,0:01:03.52,Default,,0,0,0,,already runs about one and a half gigawatts of its\N{\fnWenQuanYi Zen Hei\fs52\b0}马斯克的 xAI，
+Dialogue: 0,0:01:03.52,0:01:07.19,Default,,0,0,0,,own power plants for its data centers in Memphis.\N{\fnWenQuanYi Zen Hei\fs52\b0}光在孟菲斯就为自己的数据中心配了大约 1.5 吉瓦的自建电站。
+Dialogue: 0,0:01:07.44,0:01:10.48,Default,,0,0,0,,One gigawatt, running around the clock,\N{\fnWenQuanYi Zen Hei\fs52\b0}1 吉瓦全天候运转，
+Dialogue: 0,0:01:10.48,0:01:14.51,Default,,0,0,0,,is about what 800,000 average American homes use.\N{\fnWenQuanYi Zen Hei\fs52\b0}大约相当于 80 万户美国普通家庭的用电量。
+Dialogue: 0,0:01:14.76,0:01:19.21,Default,,0,0,0,,Add it all up, and in 2024, data centers worldwide\N{\fnWenQuanYi Zen Hei\fs52\b0}全部加起来，
+Dialogue: 0,0:01:19.21,0:01:23.42,Default,,0,0,0,,used about 415 terawatt-hours of electricity.\N{\fnWenQuanYi Zen Hei\fs52\b0}2024 年全球数据中心用了大约 415 太瓦时的电。
+Dialogue: 0,0:01:23.67,0:01:25.82,Default,,0,0,0,,That's around one and a half percent\N{\fnWenQuanYi Zen Hei\fs52\b0}大约占全世界用电
+Dialogue: 0,0:01:25.82,0:01:28.29,Default,,0,0,0,,of all the electricity the world uses.\N{\fnWenQuanYi Zen Hei\fs52\b0}量的 1.5%。
+Dialogue: 0,0:01:28.89,0:01:31.87,Default,,0,0,0,,One and a half percent doesn't sound like a crisis.\N{\fnWenQuanYi Zen Hei\fs52\b0}1.5%，听起来不像什么危机。
+Dialogue: 0,0:01:32.12,0:01:36.87,Default,,0,0,0,,But the International Energy Agency expects it to more\N{\fnWenQuanYi Zen Hei\fs52\b0}但国际能源署预计，到 2030 年这个数字会翻一倍多，
+Dialogue: 0,0:01:36.87,0:01:41.47,Default,,0,0,0,,than double by 2030, to around 945 terawatt-hours.\N{\fnWenQuanYi Zen Hei\fs52\b0}达到约 945 太瓦时。
+Dialogue: 0,0:01:41.72,0:01:44.89,Default,,0,0,0,,That's slightly more than all of Japan uses today.\N{\fnWenQuanYi Zen Hei\fs52\b0}比整个日本今天的用电量还略多一点。
+Dialogue: 0,0:01:45.14,0:01:49.27,Default,,0,0,0,,And it's concentrated. The United States alone accounts\N{\fnWenQuanYi Zen Hei\fs52\b0}而且非常集中。光美国一家，
+Dialogue: 0,0:01:49.27,0:01:53.07,Default,,0,0,0,,for about 45 percent of data center electricity.\N{\fnWenQuanYi Zen Hei\fs52\b0}就占了全球数据中心用电的约 45%。
+Dialogue: 0,0:01:53.32,0:01:56.71,Default,,0,0,0,,Through 2030, data centers are expected to drive\N{\fnWenQuanYi Zen Hei\fs52\b0}到 2030 年，美国新增的用电需求里，
+Dialogue: 0,0:01:56.71,0:02:00.72,Default,,0,0,0,,nearly half of America's growth in electricity demand.\N{\fnWenQuanYi Zen Hei\fs52\b0}预计将近一半来自数据中心。
+Dialogue: 0,0:02:01.52,0:02:03.35,Default,,0,0,0,,You might think: chips keep getting\N{\fnWenQuanYi Zen Hei\fs52\b0}你可能会想：芯片越来越省电，
+Dialogue: 0,0:02:03.35,0:02:05.43,Default,,0,0,0,,more efficient. Won't that solve it?\N{\fnWenQuanYi Zen Hei\fs52\b0}问题不就解决了吗？
+Dialogue: 0,0:02:05.68,0:02:08.01,Default,,0,0,0,,They are getting more efficient.\N{\fnWenQuanYi Zen Hei\fs52\b0}芯片确实越来越省电。英伟达说，
+Dialogue: 0,0:02:08.01,0:02:11.44,Default,,0,0,0,,Nvidia says its newest system delivers up to 25\N{\fnWenQuanYi Zen Hei\fs52\b0}在某些 AI 任务上，
+Dialogue: 0,0:02:11.44,0:02:14.73,Default,,0,0,0,,times more performance at the same power than\N{\fnWenQuanYi Zen Hei\fs52\b0}它最新的系统在同样的用电下，
+Dialogue: 0,0:02:14.73,0:02:18.22,Default,,0,0,0,,the previous generation, on certain AI tasks.\N{\fnWenQuanYi Zen Hei\fs52\b0}性能最高是上一代的 25 倍。
+Dialogue: 0,0:02:18.47,0:02:21.57,Default,,0,0,0,,And yet, data center electricity use has\N{\fnWenQuanYi Zen Hei\fs52\b0}但从 2017 年到现在，
+Dialogue: 0,0:02:21.57,0:02:24.74,Default,,0,0,0,,grown about 12 percent a year since 2017,\N{\fnWenQuanYi Zen Hei\fs52\b0}数据中心的用电量每年增长约 12%，
+Dialogue: 0,0:02:24.74,0:02:29.36,Default,,0,0,0,,more than four times faster than electricity use overall.\N{\fnWenQuanYi Zen Hei\fs52\b0}是全社会用电增速的四倍多。
+Dialogue: 0,0:02:29.61,0:02:33.56,Default,,0,0,0,,This is an old story. In 1865, the economist William\N{\fnWenQuanYi Zen Hei\fs52\b0}这是个老故事了。1865 年，经济学家杰文斯发现：
+Dialogue: 0,0:02:33.56,0:02:37.81,Default,,0,0,0,,Stanley Jevons noticed that more efficient steam engines\N{\fnWenQuanYi Zen Hei\fs52\b0}更高效的蒸汽机并没有让英国少烧煤，
+Dialogue: 0,0:02:37.81,0:02:41.73,Default,,0,0,0,,didn't cut Britain's coal use. They increased it.\N{\fnWenQuanYi Zen Hei\fs52\b0}反而让英国烧得更多了。
+Dialogue: 0,0:02:41.98,0:02:44.15,Default,,0,0,0,,When something gets cheaper to use,\N{\fnWenQuanYi Zen Hei\fs52\b0}一样东西用起来越便宜，
+Dialogue: 0,0:02:44.15,0:02:46.33,Default,,0,0,0,,we find far more ways to use it.\N{\fnWenQuanYi Zen Hei\fs52\b0}我们就会找到越多的用法。
+Dialogue: 0,0:02:46.58,0:02:49.80,Default,,0,0,0,,Cheaper AI means more AI. Efficiency doesn't\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 越便宜，用的人就越多。
+Dialogue: 0,0:02:49.80,0:02:52.86,Default,,0,0,0,,shrink the bill. It grows the appetite.\N{\fnWenQuanYi Zen Hei\fs52\b0}效率不会让账单变小，只会让胃口变大。
+Dialogue: 0,0:02:53.66,0:02:55.40,Default,,0,0,0,,Here's what most people miss.\N{\fnWenQuanYi Zen Hei\fs52\b0}但大多数人没注意到这一点。
+Dialogue: 0,0:02:56.00,0:02:58.52,Default,,0,0,0,,The world isn't running out of electricity.\N{\fnWenQuanYi Zen Hei\fs52\b0}世界不是电不够了，
+Dialogue: 0,0:02:58.52,0:03:01.01,Default,,0,0,0,,It's running out of time to connect it.\N{\fnWenQuanYi Zen Hei\fs52\b0}而是来不及把电接过来。
+Dialogue: 0,0:03:01.26,0:03:03.50,Default,,0,0,0,,A data center is just a building.\N{\fnWenQuanYi Zen Hei\fs52\b0}数据中心只是一栋楼。
+Dialogue: 0,0:03:03.50,0:03:06.55,Default,,0,0,0,,Feeding it takes a whole chain: power plants,\N{\fnWenQuanYi Zen Hei\fs52\b0}给它供电，需要一整条链：
+Dialogue: 0,0:03:06.55,0:03:08.98,Default,,0,0,0,,transmission lines, transformers.\N{\fnWenQuanYi Zen Hei\fs52\b0}发电厂、输电线、变压器。
+Dialogue: 0,0:03:09.23,0:03:12.19,Default,,0,0,0,,And every link in that chain has a waiting line.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这条链上的每一环，都在排队。
+Dialogue: 0,0:03:12.44,0:03:14.95,Default,,0,0,0,,Start with power plants. In the US,\N{\fnWenQuanYi Zen Hei\fs52\b0}先说发电厂。在美国，
+Dialogue: 0,0:03:14.95,0:03:17.46,Default,,0,0,0,,a new power project has to apply to\N{\fnWenQuanYi Zen Hei\fs52\b0}新建一个发电项目，
+Dialogue: 0,0:03:17.46,0:03:20.53,Default,,0,0,0,,connect to the grid, then wait its turn.\N{\fnWenQuanYi Zen Hei\fs52\b0}要先申请接入电网，然后排队等着。
+Dialogue: 0,0:03:20.78,0:03:24.46,Default,,0,0,0,,At the end of 2025, more than 2,000 gigawatts of\N{\fnWenQuanYi Zen Hei\fs52\b0}到 2025 年底，排在队伍里的发电和储能项目，
+Dialogue: 0,0:03:24.46,0:03:28.56,Default,,0,0,0,,generation and storage were sitting in those lines.\N{\fnWenQuanYi Zen Hei\fs52\b0}加起来超过 2000 吉瓦。
+Dialogue: 0,0:03:28.81,0:03:32.23,Default,,0,0,0,,For projects that finally came online in 2025,\N{\fnWenQuanYi Zen Hei\fs52\b0}2025 年终于建成的项目，
+Dialogue: 0,0:03:32.23,0:03:34.90,Default,,0,0,0,,the typical wait from application to\N{\fnWenQuanYi Zen Hei\fs52\b0}从申请到真正发电，
+Dialogue: 0,0:03:34.90,0:03:37.92,Default,,0,0,0,,switching on was more than five years.\N{\fnWenQuanYi Zen Hei\fs52\b0}中位等待时间超过 5 年。
+Dialogue: 0,0:03:38.17,0:03:40.49,Default,,0,0,0,,And most never make it at all.\N{\fnWenQuanYi Zen Hei\fs52\b0}而且大多数项目根本建不成。
+Dialogue: 0,0:03:40.49,0:03:44.27,Default,,0,0,0,,Of everything that applied between 2000 and 2020,\N{\fnWenQuanYi Zen Hei\fs52\b0}2000 到 2020 年申请的项目里，
+Dialogue: 0,0:03:44.27,0:03:46.86,Default,,0,0,0,,only 13 percent was ever built.\N{\fnWenQuanYi Zen Hei\fs52\b0}最后真正建成的只有 13%。
+Dialogue: 0,0:03:47.11,0:03:49.34,Default,,0,0,0,,New transmission lines in advanced\N{\fnWenQuanYi Zen Hei\fs52\b0}在发达经济体，
+Dialogue: 0,0:03:49.34,0:03:52.43,Default,,0,0,0,,economies take four to eight years to build.\N{\fnWenQuanYi Zen Hei\fs52\b0}建一条新的输电线要 4 到 8 年。
+Dialogue: 0,0:03:52.68,0:03:55.39,Default,,0,0,0,,Large power transformers now have lead\N{\fnWenQuanYi Zen Hei\fs52\b0}大型变压器的交货期已
+Dialogue: 0,0:03:55.39,0:03:58.38,Default,,0,0,0,,times of up to four years, and prices have\N{\fnWenQuanYi Zen Hei\fs52\b0}经拉长到最多 4 年，
+Dialogue: 0,0:03:58.38,0:04:01.43,Default,,0,0,0,,jumped roughly 80 percent in five years.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格五年里涨了大约 80%。
+Dialogue: 0,0:04:01.68,0:04:03.88,Default,,0,0,0,,Gas turbines? GE Vernova,\N{\fnWenQuanYi Zen Hei\fs52\b0}燃气轮机呢？最大的制造商之一 GE Ve
+Dialogue: 0,0:04:03.88,0:04:07.66,Default,,0,0,0,,one of the biggest makers, said in December\N{\fnWenQuanYi Zen Hei\fs52\b0}rnova 在 2025 年 12 月说，
+Dialogue: 0,0:04:07.66,0:04:11.29,Default,,0,0,0,,2025 that it was sold out through 2028.\N{\fnWenQuanYi Zen Hei\fs52\b0}2028 年以前的产能已经卖光了。
+Dialogue: 0,0:04:11.54,0:04:13.98,Default,,0,0,0,,The IEA estimates that, unless these\N{\fnWenQuanYi Zen Hei\fs52\b0}国际能源署估计，
+Dialogue: 0,0:04:13.98,0:04:16.90,Default,,0,0,0,,bottlenecks are fixed, around 20 percent of\N{\fnWenQuanYi Zen Hei\fs52\b0}如果这些瓶颈解决不了，
+Dialogue: 0,0:04:16.90,0:04:20.23,Default,,0,0,0,,planned data center projects could be delayed.\N{\fnWenQuanYi Zen Hei\fs52\b0}大约 20% 的在建数据中心项目可能延期。
+Dialogue: 0,0:04:20.48,0:04:23.88,Default,,0,0,0,,In September 2026, Morgan Stanley put a\N{\fnWenQuanYi Zen Hei\fs52\b0}2026 年 9 月，
+Dialogue: 0,0:04:23.88,0:04:27.54,Default,,0,0,0,,number on the gap: a shortfall of about 32\N{\fnWenQuanYi Zen Hei\fs52\b0}摩根士丹利算了一下缺口：到 2028 年，
+Dialogue: 0,0:04:27.54,0:04:31.48,Default,,0,0,0,,gigawatts for US data centers through 2028.\N{\fnWenQuanYi Zen Hei\fs52\b0}美国数据中心大约缺 32 吉瓦的电。
+Dialogue: 0,0:04:31.73,0:04:34.05,Default,,0,0,0,,That's roughly a third of what they need.\N{\fnWenQuanYi Zen Hei\fs52\b0}差不多是需求的三分之一。
+Dialogue: 0,0:04:34.30,0:04:36.35,Default,,0,0,0,,Chips move on product cycles.\N{\fnWenQuanYi Zen Hei\fs52\b0}芯片按产品周期更新，
+Dialogue: 0,0:04:36.35,0:04:39.61,Default,,0,0,0,,Power moves on permit and construction cycles,\N{\fnWenQuanYi Zen Hei\fs52\b0}电力却要按审批和施工的周期走，
+Dialogue: 0,0:04:39.61,0:04:42.21,Default,,0,0,0,,and those run five years and more.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这个周期动不动就是五年以上。
+Dialogue: 0,0:04:43.01,0:04:45.81,Default,,0,0,0,,When something is scarce, its price tells you.\N{\fnWenQuanYi Zen Hei\fs52\b0}一样东西缺不缺，看价格就知道。
+Dialogue: 0,0:04:46.06,0:04:49.24,Default,,0,0,0,,PJM runs the power grid across all or\N{\fnWenQuanYi Zen Hei\fs52\b0}PJM 负责管理美国 13 个州（全
+Dialogue: 0,0:04:49.24,0:04:53.06,Default,,0,0,0,,parts of 13 US states and Washington, D.C.\N{\fnWenQuanYi Zen Hei\fs52\b0}部或部分地区）加上华盛顿特区的电网。
+Dialogue: 0,0:04:53.31,0:04:55.25,Default,,0,0,0,,Every year, it holds an auction\N{\fnWenQuanYi Zen Hei\fs52\b0}它每年都会拍卖
+Dialogue: 0,0:04:55.25,0:04:56.95,Default,,0,0,0,,for future power supply.\N{\fnWenQuanYi Zen Hei\fs52\b0}未来的供电能力。
+Dialogue: 0,0:04:57.20,0:05:00.27,Default,,0,0,0,,For 2024 to 2025, the price was\N{\fnWenQuanYi Zen Hei\fs52\b0}2024 到 2025 年度，
+Dialogue: 0,0:05:00.27,0:05:03.85,Default,,0,0,0,,about 29 dollars per megawatt-day.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格大约是每兆瓦每天 29 美元。
+Dialogue: 0,0:05:04.10,0:05:08.11,Default,,0,0,0,,For 2027 to 2028, it hit 333 dollars,\N{\fnWenQuanYi Zen Hei\fs52\b0}到了 2027 到 2028 年度，
+Dialogue: 0,0:05:08.11,0:05:11.57,Default,,0,0,0,,the maximum the rules allowed.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格涨到 333 美元，碰到了规则允许的上限。
+Dialogue: 0,0:05:11.82,0:05:14.58,Default,,0,0,0,,Analysts estimate that without the cap,\N{\fnWenQuanYi Zen Hei\fs52\b0}分析师估计，如果没有上限，
+Dialogue: 0,0:05:14.58,0:05:17.05,Default,,0,0,0,,it would have been close to 530.\N{\fnWenQuanYi Zen Hei\fs52\b0}价格会接近 530 美元。
+Dialogue: 0,0:05:17.30,0:05:19.82,Default,,0,0,0,,And even at that price, the auction still\N{\fnWenQuanYi Zen Hei\fs52\b0}而且就算开出这个价，
+Dialogue: 0,0:05:19.82,0:05:22.29,Default,,0,0,0,,fell short of its reliability target.\N{\fnWenQuanYi Zen Hei\fs52\b0}拍卖还是没凑够保障供电稳定所需的量。
+Dialogue: 0,0:05:22.54,0:05:28.43,Default,,0,0,0,,The reason? PJM's demand forecast jumped by 5,250 megawatts,\N{\fnWenQuanYi Zen Hei\fs52\b0}原因呢？PJM 预测的用电需求一下子多了 5250 兆瓦，
+Dialogue: 0,0:05:28.43,0:05:32.56,Default,,0,0,0,,almost entirely because of data centers.\N{\fnWenQuanYi Zen Hei\fs52\b0}几乎全是因为数据中心。
+Dialogue: 0,0:05:32.81,0:05:35.45,Default,,0,0,0,,And that cost doesn't stay with tech companies.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这笔钱，不只是科技公司在付。
+Dialogue: 0,0:05:35.70,0:05:38.55,Default,,0,0,0,,In Washington, D.C., one utility's\N{\fnWenQuanYi Zen Hei\fs52\b0}在华盛顿特区，
+Dialogue: 0,0:05:38.55,0:05:42.06,Default,,0,0,0,,residential customers saw bills rise about\N{\fnWenQuanYi Zen Hei\fs52\b0}一家电力公司的居民用户从 2025 年 6 月起，
+Dialogue: 0,0:05:42.06,0:05:45.50,Default,,0,0,0,,21 dollars a month starting in June 2025,\N{\fnWenQuanYi Zen Hei\fs52\b0}电费每月涨了约 21 美元，
+Dialogue: 0,0:05:45.50,0:05:49.29,Default,,0,0,0,,around 10 of it from these capacity prices.\N{\fnWenQuanYi Zen Hei\fs52\b0}其中约 10 美元来自这类容量价格。
+Dialogue: 0,0:05:50.09,0:05:52.06,Default,,0,0,0,,So the tech giants stopped waiting.\N{\fnWenQuanYi Zen Hei\fs52\b0}于是，科技巨头们不等了。
+Dialogue: 0,0:05:52.31,0:05:56.20,Default,,0,0,0,,Microsoft signed a deal to bring back a reactor\N{\fnWenQuanYi Zen Hei\fs52\b0}微软签了协议，
+Dialogue: 0,0:05:56.20,0:06:00.02,Default,,0,0,0,,at Three Mile Island, which shut down in 2019.\N{\fnWenQuanYi Zen Hei\fs52\b0}让三哩岛一座 2019 年就关掉的核反应堆重新启动，
+Dialogue: 0,0:06:00.02,0:06:03.37,Default,,0,0,0,,It's now expected back online in 2027.\N{\fnWenQuanYi Zen Hei\fs52\b0}现在预计 2027 年恢复发电。
+Dialogue: 0,0:06:03.62,0:06:07.69,Default,,0,0,0,,Google signed up for small nuclear reactors from a\N{\fnWenQuanYi Zen Hei\fs52\b0}谷歌向一家叫 Kairos Power 的公司订了小型核反应堆：
+Dialogue: 0,0:06:07.69,0:06:11.69,Default,,0,0,0,,company called Kairos Power: up to 500 megawatts,\N{\fnWenQuanYi Zen Hei\fs52\b0}最多 500 兆瓦，第一座目标 2030 年投运，
+Dialogue: 0,0:06:11.69,0:06:16.30,Default,,0,0,0,,with the first targeted for 2030 and the rest by 2035.\N{\fnWenQuanYi Zen Hei\fs52\b0}其余的到 2035 年。
+Dialogue: 0,0:06:16.55,0:06:18.79,Default,,0,0,0,,Notice the dates. Even the fixes run\N{\fnWenQuanYi Zen Hei\fs52\b0}注意这些年份。就连解决办法，
+Dialogue: 0,0:06:18.79,0:06:21.24,Default,,0,0,0,,on the grid's clock, not the chip's.\N{\fnWenQuanYi Zen Hei\fs52\b0}走的也是电网的时钟，而不是芯片的时钟。
+Dialogue: 0,0:06:21.49,0:06:23.75,Default,,0,0,0,,Others are skipping the grid entirely.\N{\fnWenQuanYi Zen Hei\fs52\b0}还有人干脆绕开电网。
+Dialogue: 0,0:06:24.00,0:06:27.70,Default,,0,0,0,,One analysis counted 59 US data center projects\N{\fnWenQuanYi Zen Hei\fs52\b0}一份分析统计，美国有 59 个数据中心项目计划自建现场发电，
+Dialogue: 0,0:06:27.70,0:06:32.23,Default,,0,0,0,,planning about 90 gigawatts of their own on-site power.\N{\fnWenQuanYi Zen Hei\fs52\b0}总共约 90 吉瓦。
+Dialogue: 0,0:06:32.48,0:06:34.84,Default,,0,0,0,,That's more than a quarter of all planned\N{\fnWenQuanYi Zen Hei\fs52\b0}这超过了全美规划中数据
+Dialogue: 0,0:06:34.84,0:06:37.12,Default,,0,0,0,,data center capacity in the country.\N{\fnWenQuanYi Zen Hei\fs52\b0}中心总容量的四分之一。
+Dialogue: 0,0:06:37.37,0:06:40.10,Default,,0,0,0,,And 92 percent of those projects were\N{\fnWenQuanYi Zen Hei\fs52\b0}而其中 92% 的项目，
+Dialogue: 0,0:06:40.10,0:06:42.80,Default,,0,0,0,,announced since the start of 2025.\N{\fnWenQuanYi Zen Hei\fs52\b0}都是 2025 年以后才宣布的。
+Dialogue: 0,0:06:43.20,0:06:46.08,Default,,0,0,0,,But here's the catch. As of mid-2026,\N{\fnWenQuanYi Zen Hei\fs52\b0}但问题来了：截至 2026 年年中，
+Dialogue: 0,0:06:46.08,0:06:48.72,Default,,0,0,0,,only about 2 gigawatts of that was\N{\fnWenQuanYi Zen Hei\fs52\b0}真正在运行的只有大约 2 吉瓦，
+Dialogue: 0,0:06:48.72,0:06:51.72,Default,,0,0,0,,actually running. Roughly 2 percent.\N{\fnWenQuanYi Zen Hei\fs52\b0}差不多只占 2%。
+Dialogue: 0,0:06:51.97,0:06:54.06,Default,,0,0,0,,Announcing a power plant is easy.\N{\fnWenQuanYi Zen Hei\fs52\b0}宣布要建电厂很容易，
+Dialogue: 0,0:06:54.06,0:06:56.24,Default,,0,0,0,,Building one is the bottleneck.\N{\fnWenQuanYi Zen Hei\fs52\b0}真正建起来才是瓶颈。
+Dialogue: 0,0:06:56.49,0:07:00.04,Default,,0,0,0,,It got strange. In December 2025, Crusoe,\N{\fnWenQuanYi Zen Hei\fs52\b0}事情开始变得离奇。2025 年 12 月，
+Dialogue: 0,0:07:00.04,0:07:03.34,Default,,0,0,0,,a company that builds AI data centers,\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 数据中心建造商 Crusoe 向 Boom
+Dialogue: 0,0:07:03.34,0:07:07.25,Default,,0,0,0,,ordered 29 gas turbines from Boom Supersonic,\N{\fnWenQuanYi Zen Hei\fs52\b0}Supersonic 订了 29 台燃气轮机，
+Dialogue: 0,0:07:07.25,0:07:11.88,Default,,0,0,0,,a startup best known for designing supersonic jets.\N{\fnWenQuanYi Zen Hei\fs52\b0}而这家公司最出名的是设计超音速客机。
+Dialogue: 0,0:07:12.13,0:07:13.99,Default,,0,0,0,,Then, in September 2026,\N{\fnWenQuanYi Zen Hei\fs52\b0}结果到了 2026 年 9 月，
+Dialogue: 0,0:07:13.99,0:07:17.42,Default,,0,0,0,,Crusoe walked away from that deal and turned\N{\fnWenQuanYi Zen Hei\fs52\b0}Crusoe 放弃了这笔订单，
+Dialogue: 0,0:07:17.42,0:07:20.81,Default,,0,0,0,,to established suppliers like GE Vernova.\N{\fnWenQuanYi Zen Hei\fs52\b0}转向 GE Vernova 这样的老牌供应商。
+Dialogue: 0,0:07:21.06,0:07:23.02,Default,,0,0,0,,When time is the bottleneck,\N{\fnWenQuanYi Zen Hei\fs52\b0}当时间就是瓶颈，没被验证过的机器，
+Dialogue: 0,0:07:23.02,0:07:26.37,Default,,0,0,0,,an untested machine is a risk few can afford.\N{\fnWenQuanYi Zen Hei\fs52\b0}是很少有人敢冒的险。
+Dialogue: 0,0:07:27.17,0:07:28.46,Default,,0,0,0,,Now flip the map.\N{\fnWenQuanYi Zen Hei\fs52\b0}现在，把地图翻过来。
+Dialogue: 0,0:07:28.71,0:07:31.11,Default,,0,0,0,,China generates more than twice as\N{\fnWenQuanYi Zen Hei\fs52\b0}中国的发电量，
+Dialogue: 0,0:07:31.11,0:07:33.98,Default,,0,0,0,,much electricity as the United States.\N{\fnWenQuanYi Zen Hei\fs52\b0}是美国的两倍多。
+Dialogue: 0,0:07:34.23,0:07:37.63,Default,,0,0,0,,In 2025 alone, it added more than 430\N{\fnWenQuanYi Zen Hei\fs52\b0}光是 2025 年一年，
+Dialogue: 0,0:07:37.63,0:07:41.23,Default,,0,0,0,,gigawatts of wind and solar capacity.\N{\fnWenQuanYi Zen Hei\fs52\b0}中国就新增了超过 430 吉瓦的风电和光伏装机。
+Dialogue: 0,0:07:41.48,0:07:44.51,Default,,0,0,0,,BloombergNEF expects China to add more\N{\fnWenQuanYi Zen Hei\fs52\b0}彭博新能源财经预计，
+Dialogue: 0,0:07:44.51,0:07:47.85,Default,,0,0,0,,than six times as much generation capacity\N{\fnWenQuanYi Zen Hei\fs52\b0}未来五年，
+Dialogue: 0,0:07:47.85,0:07:50.84,Default,,0,0,0,,as the US over the next five years.\N{\fnWenQuanYi Zen Hei\fs52\b0}中国新增的发电装机将是美国的六倍多。
+Dialogue: 0,0:07:51.09,0:07:54.24,Default,,0,0,0,,One business school researcher put it simply:\N{\fnWenQuanYi Zen Hei\fs52\b0}一位商学院的研究者说得很直白：
+Dialogue: 0,0:07:54.24,0:07:57.26,Default,,0,0,0,,the US has the chips and is short on power.\N{\fnWenQuanYi Zen Hei\fs52\b0}美国有芯片、缺电；
+Dialogue: 0,0:07:57.26,0:08:00.41,Default,,0,0,0,,China has the power and is short on chips.\N{\fnWenQuanYi Zen Hei\fs52\b0}中国有电、缺芯片。
+Dialogue: 0,0:08:00.66,0:08:02.73,Default,,0,0,0,,So electricity isn't one ceiling.\N{\fnWenQuanYi Zen Hei\fs52\b0}所以电不是一块天花板。
+Dialogue: 0,0:08:02.73,0:08:06.37,Default,,0,0,0,,It's a different ceiling, depending on where you stand.\N{\fnWenQuanYi Zen Hei\fs52\b0}站在哪里，天花板就不一样。
+Dialogue: 0,0:08:07.17,0:08:08.62,Default,,0,0,0,,So here's my call.\N{\fnWenQuanYi Zen Hei\fs52\b0}所以，我的判断是：
+Dialogue: 0,0:08:08.87,0:08:10.64,Default,,0,0,0,,Electricity won't stop AI.\N{\fnWenQuanYi Zen Hei\fs52\b0}电挡不住 AI，
+Dialogue: 0,0:08:10.64,0:08:14.12,Default,,0,0,0,,Too much money is chasing this problem for that.\N{\fnWenQuanYi Zen Hei\fs52\b0}追着这个问题砸的钱太多了。
+Dialogue: 0,0:08:14.37,0:08:16.96,Default,,0,0,0,,But for the next few years, power will\N{\fnWenQuanYi Zen Hei\fs52\b0}但未来几年，电会决定三件事：
+Dialogue: 0,0:08:16.96,0:08:19.62,Default,,0,0,0,,decide three things: how fast AI grows,\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 长得多快、
+Dialogue: 0,0:08:19.62,0:08:22.13,Default,,0,0,0,,where it gets built, and who wins.\N{\fnWenQuanYi Zen Hei\fs52\b0}建在哪里，以及谁会赢。
+Dialogue: 0,0:08:22.38,0:08:25.54,Default,,0,0,0,,The winners won't just be the ones with the best models.\N{\fnWenQuanYi Zen Hei\fs52\b0}赢家不只是模型最好的那家，
+Dialogue: 0,0:08:25.54,0:08:28.33,Default,,0,0,0,,They'll be the ones who locked in power early.\N{\fnWenQuanYi Zen Hei\fs52\b0}而是最早锁定电力的那家。
+Dialogue: 0,0:08:28.58,0:08:31.08,Default,,0,0,0,,I'd go further: by the end of this decade,\N{\fnWenQuanYi Zen Hei\fs52\b0}我甚至觉得：到这个十年结束时，
+Dialogue: 0,0:08:31.08,0:08:33.53,Default,,0,0,0,,a guaranteed grid connection may be worth\N{\fnWenQuanYi Zen Hei\fs52\b0}一个有保障的电网接口，
+Dialogue: 0,0:08:33.53,0:08:35.94,Default,,0,0,0,,more than the chips you plug into it.\N{\fnWenQuanYi Zen Hei\fs52\b0}可能比插在上面的芯片还值钱。
+Dialogue: 0,0:08:36.34,0:08:39.28,Default,,0,0,0,,And if I'm wrong, it'll be because the grid\N{\fnWenQuanYi Zen Hei\fs52\b0}如果我错了，那一定是因为电网突然跑出了芯片的速度：
+Dialogue: 0,0:08:39.28,0:08:42.63,Default,,0,0,0,,suddenly started moving at chip speed: new lines,\N{\fnWenQuanYi Zen Hei\fs52\b0}新的输电线、电厂和变压器，
+Dialogue: 0,0:08:42.63,0:08:46.33,Default,,0,0,0,,plants and transformers arriving in two or three years\N{\fnWenQuanYi Zen Hei\fs52\b0}两三年就能到位，而不是五年以上。
+Dialogue: 0,0:08:46.33,0:08:50.09,Default,,0,0,0,,instead of five or more. That's the signal to watch.\N{\fnWenQuanYi Zen Hei\fs52\b0}这就是值得盯住的信号。
+Dialogue: 0,0:08:50.89,0:08:52.48,Default,,0,0,0,,What does this mean for you?\N{\fnWenQuanYi Zen Hei\fs52\b0}这和你有什么关系？
+Dialogue: 0,0:08:52.73,0:08:55.49,Default,,0,0,0,,If you live where data centers are booming,\N{\fnWenQuanYi Zen Hei\fs52\b0}如果你住在数据中心扎堆的地方，
+Dialogue: 0,0:08:55.49,0:08:59.42,Default,,0,0,0,,part of AI's bill may already be on your electricity bill.\N{\fnWenQuanYi Zen Hei\fs52\b0}AI 的一部分账单，可能已经算进你的电费里了。
+Dialogue: 0,0:08:59.67,0:09:03.18,Default,,0,0,0,,And next time someone says AI is limited by chips,\N{\fnWenQuanYi Zen Hei\fs52\b0}下次再有人说 AI 卡在芯片上，
+Dialogue: 0,0:09:03.18,0:09:05.23,Default,,0,0,0,,remember Microsoft's problem.\N{\fnWenQuanYi Zen Hei\fs52\b0}想想微软的问题：
+Dialogue: 0,0:09:05.23,0:09:08.17,Default,,0,0,0,,The chips were there. The power wasn't.\N{\fnWenQuanYi Zen Hei\fs52\b0}芯片有了，电没有。
+Dialogue: 0,0:09:08.42,0:09:11.14,Default,,0,0,0,,So which do you think runs out first: chips,\N{\fnWenQuanYi Zen Hei\fs52\b0}那你觉得，芯片和电，
+Dialogue: 0,0:09:11.14,0:09:13.81,Default,,0,0,0,,or electricity? Tell me in the comments.\N{\fnWenQuanYi Zen Hei\fs52\b0}哪个会先不够用？评论区告诉我。

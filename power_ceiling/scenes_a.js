@@ -33,7 +33,9 @@ function sec0(t) {
     if (p >= 1) { const j = Math.sin(t * 21) > 0; if (j) { P([[560, 600], [590, 630], [575, 640], [610, 670]], 1, { c: C.cyan, w: 3 }); } dim(560, 720, 700, 720, 'GAP', 1, { s: 32 }); } });
   A(vis(t, t03 + 1.6, t04 + .05, .05) , () => stamp('NO POWER', 640, 470, t, t03 + 1.6, { s: 56 }));
   // 0.4 / 0.5 建筑剖面 + 琥珀虚线屋顶
-  A(vis(t, t04, Infinity, .5), () => {
+  const hz = vis(t, S('0.6') - .1, E('0.6') + .3, .5);
+  A(hz, () => hourglass(960, 430, 380, lin(t, S('0.6') - .1, 1.0), .5 + .3 * Math.sin(t * 1.4)));
+  A(vis(t, t04, Infinity, .5) * (1 - .85 * hz), () => {
     const p = lin(t, t04, 1.3);
     P([[600, 360], [600, 740], [1320, 740], [1320, 360]], p, { w: 4 });
     ln(600, 487, 1320, 487, p, { w: 2 }); ln(600, 613, 1320, 613, p, { w: 2 });
@@ -46,7 +48,6 @@ function sec0(t) {
 // ---------- 段 1 ----------
 function sec1(t) {
   const t11 = S('1.1'), t12 = S('1.2'), t13 = S('1.3'), t14 = S('1.4'), t15 = S('1.5'), t16 = S('1.6'), t17 = S('1.7'), t18 = S('1.8');
-  bigSheet('SHEET 1 — LOAD', t11, t12 - .1, t);
   // 1.2 计数器 → 1.3 缩到左上
   const mv = ap(t, t13, .8), cs = lerp(200, 72, mv), cxn = lerp(960, 100, mv), cyn = lerp(470, 150, mv), al = vis(t, t12, t15 + .05, .4);
   A(al, () => {
@@ -119,7 +120,7 @@ function sec2(t) {
   });
   // 2.3 供电链
   const xs = [300, 700, 1130, 1560], names = ['POWER PLANTS', 'TRANSMISSION LINES', 'TRANSFORMERS', 'DATA CENTER'];
-  A(vis(t, t23, t25 + .05, .4), () => {
+  A(vis(t, t23, S('3.5') + .05, .4), () => {
     const times = [WT('2.3', 'power plants') - .3, WT('2.3', 'transmission') - .3, WT('2.3', 'transformers') - .3, t23 + .8];
     const ps = times.map(tt => lin(t, tt, .8));
     plant(xs[0], 380, 220, ps[0]); tower(xs[1], 380, 260, ps[1]); trafo(xs[2], 380, 230, ps[2]); dc(xs[3], 380, 190, ps[3]);
@@ -158,7 +159,7 @@ function sec2(t) {
     A(flip > .9 ? 1 : 0, () => { dim(1480, 520, 1810, 520, '', 1); tx('≈20% AT RISK', 1645, 590, { a: 'c', s: 44, b: 1 }); tx('DELAYED?', 1645, 640, { a: 'c', s: 32 }); });
   });
   // 2.9 / 2.10 缺口 32 GW
-  A(vis(t, t29 - .1, Infinity, .4), () => {
+  A(vis(t, t29 - .1, S('3.15') + .05, .4), () => {
     const p = lin(t, t29 - .1, 1.0), x = 460, y = 220, w = 1000, h = 420;
     tx('US DATA CENTER POWER NEED THROUGH 2028', 960, 180, { a: 'c', s: 36, b: 1 });
     rc(x, y, w, h, p, { w: 4 });

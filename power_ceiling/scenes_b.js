@@ -63,7 +63,7 @@ function sec4(t) {
   const [t41, t42, t43, t44, t45, t46, t47, t48, t49] = ['4.1', '4.2', '4.3', '4.4', '4.5', '4.6', '4.7', '4.8', '4.9'].map(S);
   bigSheet('SHEET 4 — WORKAROUND', t41, t42 - .1, t);
   // 4.2 三哩岛
-  A(vis(t, t42 - .1, t43 + .05, .5), () => {
+  A(vis(t, t42 - .1, S('5.3') + .05, .5), () => {
     const rev = ap(t, WT('4.2', 'now expected') - .6, .8);
     coolingTower(620, 400, 400, lin(t, t42 - .1, 1.2), { dash: 1 }); A(rev, () => { coolingTower(620, 400, 400, 1, {}); for (let i = 0; i < 3; i++) { const k = ((t * .5 + i / 3) % 1); ci(620 + Math.sin(k * 6 + i) * 30, 180 - k * 120, 22 + k * 40, 1, { c: C.cyan, w: 2, alpha: 1 - k }); } });
     tx('THREE MILE ISLAND', 620, 700, { a: 'c', s: 36, b: 1 }); tx('MICROSOFT DEAL', 620, 746, { a: 'c', s: 32, c: C.cyan });
@@ -93,7 +93,7 @@ function sec4(t) {
     A(q > .8 ? 1 : 0, () => { tx('> 1/4', cx + 70, cy - 40, { s: 100, b: 1 }); tx('ON-SITE POWER', 960, 740, { a: 'c', s: 36, b: 1, c: C.cyan }); tx('SHARE OF ALL PLANNED DATA CENTER CAPACITY', 960, 790, { a: 'c', s: 32 }); });
   });
   // 4.6 时间轴点阵
-  A(vis(t, t46 - .1, t47 + .05, .5), () => {
+  A(vis(t, t46 - .1, S('5.9') + .05, .5), () => {
     const x0 = 200, u = 405, y = 560, p = lin(t, t46 - .1, .8); ln(x0, y, x0 + 3.75 * u, y, p, { w: 3 });
     [2023, 2024, 2025, 2026].forEach((yr, i) => { ln(x0 + i * u, y - 14, x0 + i * u, y + 14, p, { w: 3 }); tx(String(yr), x0 + i * u, y + 58, { a: 'c', s: 36, al: p }); });
     ln(x0 + 2 * u, 200, x0 + 2 * u, y, p, { w: 2, dash: [10, 8] });

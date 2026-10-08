@@ -5,7 +5,9 @@ const cv = document.getElementById('c'); cv.width = W; cv.height = H;
 const g = cv.getContext('2d');
 const MONO = '"JB", "DejaVu Sans Mono", monospace', HAND = '"AD", "Architects Daughter", cursive';
 let TL = null;
-const S = id => TL.byId[id].start, E = id => TL.byId[id].end, D = id => E(id) - S(id);
+let IDM = {}; const rid = id => IDM[id] || id;      // 旧画面代码用的是 5 分钟版编号，按段临时映射到 v2 编号
+const S = id => TL.byId[rid(id)].start, E = id => TL.byId[rid(id)].end, D = id => E(id) - S(id);
+const mapped = (m, fn) => t => { const o = IDM; IDM = m; try { fn(t); } finally { IDM = o; } };
 const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
 const eo = x => 1 - Math.pow(1 - x, 3);
 const eio = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
@@ -14,7 +16,7 @@ const lin = (t, t0, d) => clamp((t - t0) / d);
 const lerp = (a, b, k) => a + (b - a) * k;
 // 估算某个短语在一句旁白里被读到的时刻（按字符权重比例）
 function WT(id, phrase) {
-  const L = TL.byId[id], s = L.en, i = s.indexOf(phrase); if (i < 0) return L.start;
+  const L = TL.byId[rid(id)], s = L.en, i = s.indexOf(phrase); if (i < 0) return L.start;
   const wgt = (str) => { let w = 0; for (const ch of str) w += /[0-9]/.test(ch) ? 2.6 : /[,:;—]/.test(ch) ? 5 : /[.?!]/.test(ch) ? 9 : 1; return w; };
   return L.start + (L.end - L.start) * wgt(s.slice(0, i)) / wgt(s);
 }

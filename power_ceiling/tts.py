@@ -1,26 +1,16 @@
 import sys, json, numpy as np, soundfile as sf
 sys.path.insert(0, '.')
-from script import LINES, TTS_FIX
+from script import LINES, spoken
 from kokoro_onnx import Kokoro
 k = Kokoro('/tmp/claude-0/w/models/kokoro-v1.0.onnx', '/tmp/claude-0/w/models/voices-v1.0.bin')
-VOICE, SPEED = 'am_michael', 0.97
+VOICE, SPEED = 'am_michael', 0.97      # 与 5 分钟版相同的 TTS 与声音
 SR = 24000
-def fix(t):
-    for a, b in sorted(TTS_FIX.items(), key=lambda x: -len(x[0])): t = t.replace(a, b)
-    return t
-out, t, tl = [], 0.0, []
-prev = None
+PAUSE_BEFORE = {'0.5': .5, '0.6': .6, '1.10': .8, '3.2': .8, '7.1': .8, '7.6': .6, '5.9': .6}
+out, t, tl, prev = [], 0.0, [], None
 for L in LINES:
-    s, sr = k.create(fix(L['en']), voice=VOICE, speed=SPEED, lang='en-us')
-    assert sr == SR
-    # trim leading/trailing silence
+    s, sr = k.create(spoken(L['en']), voice=VOICE, speed=SPEED, lang='en-us'); assert sr == SR
     nz = np.where(np.abs(s) > 0.004)[0]; s = s[nz[0]:nz[-1] + 1]
-    # pause before this line
-    if prev is None: gap = 1.2
-    elif L['sec'] != prev: gap = 1.0
-    elif L['id'] in ('0.5','1.4','2.2','6.1'): gap = 0.8
-    else: gap = 0.45
-    if L['id'] == '0.5': gap = 0.5
+    gap = 1.2 if prev is None else 1.0 if L['sec'] != prev else PAUSE_BEFORE.get(L['id'], .45)
     out.append(np.zeros(int(gap * SR), np.float32)); t += gap
     d = len(s) / SR
     tl.append(dict(id=L['id'], sec=L['sec'], start=round(t, 3), end=round(t + d, 3), en=L['en'], zh=L['zh']))

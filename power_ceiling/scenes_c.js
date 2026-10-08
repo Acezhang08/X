@@ -48,14 +48,14 @@ function sec6(t) {
   // 6.3 三行工程注释
   A(vis(t, t63 - .1, t64 + .05, .5), () => { tx('POWER WILL DECIDE THREE THINGS', 960, 140, { a: 'c', s: 44, b: 1, p: lin(t, t63, 1.2) }); const rows = [['1', 'SPEED', 'HOW FAST AI GROWS', 'how fast AI grows'], ['2', 'LOCATION', 'WHERE IT GETS BUILT', 'where it gets built'], ['3', 'WINNER', 'WHO WINS', 'who wins']];
     const ts = [WT('6.3', 'how fast'), WT('6.3', 'where'), WT('6.3', 'who wins')];
-    rows.forEach(([n, a, b, c], i) => { const p = lin(t, ts[i] - .7, .8), y = 260 + i * 190; ci(420, y, 54, p, { w: 4 }); tx(n, 420, y + 18, { a: 'c', s: 64, b: 1, al: p }); tx(a, 540, y + 14, { s: 72, b: 1, p }); ln(540, y + 40, 1300, y + 40, p, { w: 2 }); tx(c, 1330, y + 14, { s: 36, f: 'h', c: C.cyan, p: lin(t, ts[i] + .3, .8) }); }); });
+    rows.forEach(([n, a, b, c], i) => { const p = lin(t, ts[i] - 1.1, .8), y = 260 + i * 190; ci(420, y, 54, p, { w: 4 }); tx(n, 420, y + 18, { a: 'c', s: 64, b: 1, al: p }); tx(a, 540, y + 14, { s: 72, b: 1, p }); ln(540, y + 40, 1300, y + 40, p, { w: 2 }); tx(c, 1330, y + 14, { s: 36, f: 'h', c: C.cyan, p: lin(t, ts[i] + .3, .8) }); }); });
   // 6.4 插头插入 + 电流
   A(vis(t, t64 - .1, t65 + .05, .5), () => { const k = eio(lin(t, WT('6.4', 'locked') - .4, 1.2)); const px = lerp(560, 780, k);
     ln(120, 430, px - 100, 430, 1, { w: 4 }); plug(px, 430, 200, 1); socket(1010, 430, 230, 1); ln(1120, 430, 1760, 430, 1, { w: 4 });
     if (k >= 1) { const off = -t * 140; ln(120, 430, 1760, 430, 1, { c: C.cyan, w: 6, dash: [26, 22], off }); }
     A(ap(t, t64 + 1.2, .6), () => { tx('THE BEST MODELS', 330, 640, { a: 'c', s: 36 }); tx('POWER LOCKED IN EARLY', 1300, 640, { a: 'c', s: 36, b: 1, c: C.cyan }); }); });
   // 6.5 天平
-  A(vis(t, t65 - .1, Infinity, .5), () => { const p = lin(t, t65 - .1, .9), ang = .22 * eio(lin(t, WT('6.5', 'may be worth') - .4, 1.4)), cx = 960, by = 250, L = 330;
+  A(vis(t, t65 - .1, S('7.6') + .05, .5), () => { const p = lin(t, t65 - .1, .9), ang = .22 * eio(lin(t, WT('6.5', 'may be worth') - .4, 1.4)), cx = 960, by = 250, L = 330;
     ln(cx, by, cx, 720, p, { w: 5 }); ln(cx - 140, 720, cx + 140, 720, p, { w: 5 }); ci(cx, by, 16, p, { w: 4 });
     const lx = cx - L * Math.cos(ang), ly = by + L * Math.sin(ang), rx = cx + L * Math.cos(ang), ry = by - L * Math.sin(ang);
     ln(lx, ly, rx, ry, p, { w: 6 });
@@ -77,7 +77,6 @@ function sec7(t) {
     if (p >= 1 && Math.floor(t * 2) % 2 == 0) ln(960, 340, 960, 500, 1, { w: 5 });
     tx('TELL ME IN THE COMMENTS', 960, 640, { a: 'c', s: 40, f: 'h' }); });
 }
-const SECS = [['0', 'SHEET 0 — INTRO', sec0], ['1', 'SHEET 1 — LOAD', sec1], ['2', 'SHEET 2 — TIME', sec2], ['3', 'SHEET 3 — PRICE', sec3], ['4', 'SHEET 4 — WORKAROUND', sec4], ['5', 'SHEET 5 — FLIP', sec5], ['6', 'SHEET 6 — CALL', sec6], ['7', 'SHEET 7 — YOU', sec7]];
 function bg(a = 1) {
   g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
   g.save(); g.globalAlpha = .05 * a; g.strokeStyle = '#fff'; g.lineWidth = 1; g.beginPath(); for (let x = 0; x <= W; x += 24) { g.moveTo(x, 0); g.lineTo(x, H); } for (let y = 0; y <= H; y += 24) { g.moveTo(0, y); g.lineTo(W, y); } g.stroke();
@@ -103,9 +102,9 @@ function frame(t) {
   const drawFull = (kk) => { bg(); scene(kk, t); };
   if (k > 0 && wp < 1) {
     drawFull(k - 1);
-    if (SECS[k][0] === '5') { const q = clamp(wp); if (q < .5) { g.save(); g.translate(960, 0); g.scale(Math.max(.001, Math.cos(q * Math.PI)), 1); g.translate(-960, 0); drawFull(k - 1); g.restore(); g.fillStyle = '#000'; } else { g.fillStyle = '#000'; g.fillRect(0, 0, W, H); g.save(); g.translate(960, 0); g.scale(Math.max(.001, -Math.cos(q * Math.PI)), 1); g.translate(-960, 0); drawFull(k); g.restore(); } }
+    if (SECS[k][0] === '6') { const q = clamp(wp); if (q < .5) { g.save(); g.translate(960, 0); g.scale(Math.max(.001, Math.cos(q * Math.PI)), 1); g.translate(-960, 0); drawFull(k - 1); g.restore(); g.fillStyle = '#000'; } else { g.fillStyle = '#000'; g.fillRect(0, 0, W, H); g.save(); g.translate(960, 0); g.scale(Math.max(.001, -Math.cos(q * Math.PI)), 1); g.translate(-960, 0); drawFull(k); g.restore(); } }
     else { const wx = W * eio(clamp(wp)); g.save(); g.beginPath(); g.rect(0, 0, wx, H); g.clip(); drawFull(k); g.restore();
       const gr = g.createLinearGradient(wx, 0, wx + 60, 0); gr.addColorStop(0, 'rgba(0,0,0,.45)'); gr.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = gr; g.fillRect(wx, 0, 60, H); ln(wx, 0, wx, H, 1, { w: 4 }); ln(wx + 10, 0, wx + 10, H, 1, { w: 1.5, c: C.cyan }); }
   } else drawFull(k);
-  const nm = (t >= S('7.4') - .1) ? 'END OF DRAWING' : SECS[(k > 0 && wp < 1 && wp < .55) ? k - 1 : k][1]; titleBlock(nm, t);
+  const nm = (t >= S('8.4') - .1) ? 'END OF DRAWING' : SECS[(k > 0 && wp < 1 && wp < .55) ? k - 1 : k][1]; titleBlock(nm, t);
 }
