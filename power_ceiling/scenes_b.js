@@ -8,7 +8,7 @@ function billDraw(t, t0, x, y) {
 }
 function sec3(t) {
   const [t31, t32, t33, t34, t35, t36, t37, t38, t39, t310] = ['3.1', '3.2', '3.3', '3.4', '3.5', '3.6', '3.7', '3.8', '3.9', '3.10'].map(S);
-  bigSheet('SHEET 3 — PRICE', t31, t32 - .1, t);
+  bigSheet('SHEET 4 — PRICE', t31, t32 - .1, t);
   // 3.2 PJM 地图 + 3.3 木槌
   A(vis(t, t32 - .1, t34 + .05, .5), () => {
     const sc = .9, ox = 100, oy = 190, p = lin(t, t32 - .1, 1.2);
@@ -61,7 +61,7 @@ function inUS(x, y) { for (const r of GEO.us.all) { let c = false; for (let i = 
 let DOTS = null; function dots(n) { if (DOTS) return DOTS; let s = 7; const R = () => (s = (s * 16807) % 2147483647) / 2147483647; DOTS = []; while (DOTS.length < n) { const x = R() * 1000, y = R() * GEO.us._h; if (inUS(x, y)) DOTS.push([x, y]); } return DOTS; }
 function sec4(t) {
   const [t41, t42, t43, t44, t45, t46, t47, t48, t49] = ['4.1', '4.2', '4.3', '4.4', '4.5', '4.6', '4.7', '4.8', '4.9'].map(S);
-  bigSheet('SHEET 4 — WORKAROUND', t41, t42 - .1, t);
+  bigSheet('SHEET 5 — WORKAROUND', t41, t42 - .1, t);
   // 4.2 三哩岛
   A(vis(t, t42 - .1, S('5.3') + .05, .5), () => {
     const rev = ap(t, WT('4.2', 'now expected') - .6, .8);
@@ -77,7 +77,7 @@ function sec4(t) {
     const cutK = lin(t, t43 + .6, .4); A(cutK, () => { rc(480, 440, 90, 60, 1, { w: 1, alpha: 0 }); ln(500, 440, 560, 500, 1, { w: 6 }); ln(560, 440, 500, 500, 1, { w: 6 }); });
     if (cutK > .5) { P([[300, 470], [500, 470]], 1, { c: C.bg, w: 8, alpha: 0 }); }
     const q = lin(t, t43 + 1.0, 1.0); plant(1450, 430, 260, q); ln(1030, 470, 1340, 470, lin(t, t43 + 1.6, .5), { c: C.cyan, w: 4 });
-    tx('GRID', 230, 680, { a: 'c', s: 36 }); tx('ON-SITE POWER', 1450, 680, { a: 'c', s: 36, b: 1, c: C.cyan, p: q });
+    tx('GRID', 230, 680, { a: 'c', s: 36 }); tx('ON-SITE POWER', 1450, 680, { a: 'c', s: 36, b: 1, c: C.cyan, p: lin(t, t43 + .4, .9) });
   });
   // 4.4 地图 + 59 个点
   A(vis(t, t44 - .1, t45 + .05, .5), () => {

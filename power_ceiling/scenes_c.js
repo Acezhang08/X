@@ -26,7 +26,7 @@ function sec5(t) {
     for (let r = 0; r < 2; r++) for (let c = 0; c < 3; c++) { const x = 270 + c * 240, y = 270 + r * 200; chip(x, y, 64, lin(t, t55 + .2 + (r * 3 + c) * .1, .5)); plug(x + 56, y + 90, 34, lin(t, t55 + .5, .5)); if (p >= 1) { ln(x, y + 38, x, y + 90, 1, { w: 2 }); } }
     for (let r = 0; r < 4; r++) ln(1040, 230 + r * 90, 1840, 230 + r * 90, lin(t, t55 + .3 + r * .1, .8), { c: C.cyan, w: 4 });
     for (let r = 0; r < 2; r++) for (let c = 0; c < 3; c++) { const x = 1150 + c * 240, y = 270 + r * 200; chip(x, y, 64, lin(t, t55 + .6, .6), { dash: [8, 6] }); }
-    const k = ap(t, t55 + .3, .6); quote('The US has the chips and is short on power. China has the power and is short on chips.', 'IMD Business School, via Al Jazeera, May 2026', 160, 610, 1600, t, t55 + .6, { s: 32 }); });
+    const k = ap(t, t55 + .3, .6); quote('…the US has the chips and is short on power, while China has the power and is short on chips.', 'IMD Business School, via Al Jazeera, May 2026', 110, 610, 1700, t, t55 + .6, { s: 32 }); });
   // 5.6 两张图纸、两条不同高度的虚线
   A(vis(t, t56 - .1, Infinity, .5), () => { const p = lin(t, t56 - .1, .9);
     rc(120, 150, 780, 560, p, { w: 3 }); rc(1020, 150, 780, 560, p, { w: 3 });

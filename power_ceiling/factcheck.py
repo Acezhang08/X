@@ -44,7 +44,7 @@ ROWS = [
  ("5.12","2026 年 9 月 Crusoe 取消订单，转向 GE Vernova 等","TechRepublic（2026-09-25）— https://www.techrepublic.com/article/news-crusoe-boom-turbine-deal/","✅"),
  ("5.13","没验证的机器是很少有人敢冒的险","观点","—"),
  ("6.2–6.4","中国发电量是美国两倍多；2025 年新增风光 430+ GW；BNEF 预计未来五年中国新增装机是美国六倍多","Al Jazeera（2026-05-28）— https://www.aljazeera.com/economy/2026/5/28/chinas-secret-weapon-in-ai-race-with-us-lots-of-cheap-energy","✅"),
- ("6.5","美国有芯片缺电，中国有电缺芯片","同上，IMD 商学院一位 director","✅ 卡片里的英文按旁白转述写成，未逐字比对原文"),
+ ("6.5","美国有芯片缺电，中国有电缺芯片","同上，IMD 商学院一位 director","✅ 卡片里的英文已按审片意见改为原文"),
  ("7.2–7.6","电挡不住 AI；决定速度、地点、赢家；电网接口可能比芯片值钱；判断错了的信号","观点","—"),
  ("8.2","AI 的账单可能已经算进部分地区居民电费","有 4.10 支撑；用了 \"may\"","✅"),
 ]

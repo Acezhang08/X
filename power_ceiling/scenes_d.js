@@ -20,7 +20,7 @@ function twoTimelines(t, t0, mode = 'abstract', shrink = 0, marks = 0) {
     const L0 = (x1 - x0) * .66, L = lerp(L0, (x1 - x0) * .22, eio(shrink));
     const bq = lin(t, t0 + 1.0, 1.4); fillRc(x0, yp - 40, L * bq, 80, C.cyan, .22); hatchRc(x0, yp - 40, L * bq, 80, 14, -Math.PI / 4, C.cyan, .7, 2);
     rc(x0, yp - 40, L * bq, 80, 1, { c: C.cyan, w: 3 });
-    A(bq > .9 ? 1 : 0, () => { tx(shrink > .6 ? '2–3 YRS' : '5+ YRS', x0 + L + 24, yp + 18, { s: 56, b: 1 }); ln(x0 + L, yp - 40, x0 + L, yp + 40, 1, { w: 3 }); });
+    A(bq > .9 ? 1 : 0, () => { tx(shrink > .6 ? '2–3 YRS' : '5+ YRS', x0 + L + 24, yp - 16, { s: 56, b: 1 }); ln(x0 + L, yp - 40, x0 + L, yp + 40, 1, { w: 3 }); });
   } else {
     for (let y = 2026; y <= 2036; y += 2) { const x = x0 + (y - 2026) * (x1 - x0) / 10; ln(x, yp + 10, x, yp + 24, p, { c: C.cyan, w: 2 }); tx(String(y), x, yp + 62, { a: 'c', s: 32, al: p }); }
     const xf = x0 + 4 * 140, xr = x0 + 9 * 140, m1 = lin(t, t0 + marks, .8), m2 = lin(t, t0 + marks + 1.4, .8);
