@@ -1,0 +1,27 @@
+# The Tay Bridge Disaster
+
+**Date:** The bridge collapsed on the night of Sunday, 28 December 1879 [sourced], during a severe storm [sourced]. The collapse happened at about 7:15 pm [sourced].
+
+**Location:** The bridge crossed the Firth of Tay between Wormit in Fife and Dundee, Scotland [sourced].
+
+**The train:** It was a North British Railway passenger train from Burntisland to Dundee, via Edinburgh Waverley and the Forth crossing by ferry [sourced]. It was hauled by a 4-4-0 locomotive, No. 224, built by Thomas Wheatley [sourced]. It carried five or six carriages and a brake van [sourced]. The train was crossing the "high girders" section when the girders fell into the water with the train [sourced]. The locomotive was later recovered from the Tay, repaired and returned to service, and nicknamed "The Diver" [sourced].
+
+**Deaths:** The commonly cited figure is 75 [sourced]. The exact number was never established because no complete list of passengers existed, since many tickets were collected at earlier stations or not recorded [sourced]. Estimates have ranged from about 59 to 75 [guess], and recent research has identified roughly 60 victims by name [guess]. There were no survivors [sourced]. Only 46 bodies were recovered [sourced].
+
+**Designer:** The bridge was designed by Sir Thomas Bouch [sourced], who was knighted after the bridge was opened and Queen Victoria crossed it [sourced]. It was a lattice-girder bridge on piers of brick and iron columns, almost two miles long (about 3,150 yards) [sourced]. It opened in 1878 [sourced]. The contractor was initially Charles de Bergue & Co., then Hopkins Gilkes & Co. [sourced]. The ironwork was cast at the Wormit foundry, which the contractor's firm had set up [guess].
+
+**The inquiry:** A court of inquiry sat in early 1880 [sourced]. It had three members: Henry Rothery, the Wreck Commissioner, Colonel William Yolland and William Henry Barlow [sourced]. Their findings were:
+
+- The bridge was badly designed, badly built and badly maintained [sourced].
+- Rothery's report held Bouch chiefly responsible, because he had not allowed for wind pressure [sourced].
+- The cast-iron lugs holding the columns to the piers failed, along with the bracing ties and their fixings [sourced]. This was a weakness in the cast-iron components [sourced].
+- Poor casting quality and inadequate inspection were found [sourced].
+- Yolland and Barlow's majority report blamed Bouch for the design and the lack of allowance for wind loading [sourced], while Rothery's separate report went further in blaming Bouch alone [sourced]. The exact split between the reports is something I'm less sure of [guess].
+
+**Aftermath:**
+- Bouch's reputation was ruined, and he died in October 1880 [sourced].
+- His design for the Forth Bridge was abandoned [sourced].
+- The bridge was replaced by a new, stronger bridge built alongside the remains of the old piers [sourced]. It opened in 1887 [sourced].
+- Wind loading became a formal consideration in British bridge design afterward [sourced].
+
+Everything above comes from memory, not from a search I ran. The [sourced] and [guess] tags reflect my confidence, so check the details marked [guess] (the lower casualty estimates, the Wormit foundry, and how the inquiry reports differed) before relying on them.

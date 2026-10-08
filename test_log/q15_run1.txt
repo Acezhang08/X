@@ -1,0 +1,28 @@
+# The Johnstown Flood of 1889
+
+**Date:** The flood struck on May 31, 1889, in Johnstown, Pennsylvania, after days of extreme rain. [sourced] The dam failed in the mid-afternoon, at about 3:10 p.m. [sourced] The flood reached Johnstown roughly an hour later, at about 4:07 p.m. [sourced]
+
+**The dam:** The South Fork Dam stood on the Little Conemaugh River, about 14 miles upstream of Johnstown. [sourced]
+- Height: about 72 feet. [sourced]
+- Length: about 931 feet. [sourced]
+- It held back Lake Conemaugh, which was roughly 2 miles long, about a mile wide, and up to about 60 feet deep near the dam. [sourced]
+- The lake held an estimated 20 million tons of water. [sourced]
+- The dam was an earthen embankment originally built in the 1840s as part of Pennsylvania's canal system, and it was later abandoned. [sourced]
+- Its failure came from overtopping. [sourced] Contributing factors included a lowered crest, a discharge pipe system that had been removed, a clogged fish screen, and no working spillway capacity for the storm. [sourced]
+
+**Death toll:** 2,209 people died. [sourced] Hundreds of bodies were never identified, and 777 victims were unidentified. [guess] Entire families were wiped out, and about 99 families were lost completely. [guess] The flood also killed 396 children. [guess] It was among the deadliest disasters in US history for its time. [sourced] A fire at the Stone Bridge, where debris piled up, caused additional deaths. [sourced]
+
+**The club:** The dam belonged to the South Fork Fishing and Hunting Club, a private resort for wealthy Pittsburgh industrialists. [sourced]
+- Members included Andrew Carnegie, Henry Clay Frick, and Andrew Mellon. [sourced]
+- Frick was a key figure in organizing the club. [sourced] Benjamin Ruff, who had bought the property and dam from the state, was its president at the time of the flood. [guess]
+- Club members had made the dam less safe by lowering its crest to widen the road across the top and by removing the original discharge pipes. [sourced]
+- Their changes also added to the dam's weakness when earlier repairs were poorly done. [guess]
+
+**Lawsuits:** The survivors did not win damages from the club. [sourced]
+- The courts treated the disaster as an "act of God," so the club was not held liable. [sourced]
+- Not one claim against the club or its members led to a payout. [sourced] The legal obstacles included the difficulty of proving negligence under the standards of the time. [guess]
+- Some of the cases were filed under the strict-liability principle from *Rylands v. Fletcher*, but that approach was not adopted by the Pennsylvania courts in these cases. [guess]
+- In place of lawsuits, the main relief came from public donations, which came from across the US and from other countries. [sourced] The Red Cross, led by Clara Barton, helped with the response. [sourced]
+- The disaster is often cited as an influence on American tort law, including the later spread of strict liability. [sourced]
+
+**Caveat:** The figures marked [guess] are the ones I'm not sure of. Check them against a source like the Johnstown Area Heritage Association or the National Park Service before relying on them.

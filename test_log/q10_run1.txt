@@ -1,0 +1,38 @@
+# The Quebec Bridge collapses
+
+**Background**
+- The bridge crosses the St. Lawrence River just upstream of Quebec City, connecting to Lévis. [sourced]
+- It was meant to be a cantilever bridge with a very long main span. The design called for a main span of about 1,800 ft (549 m). [sourced]
+- After the first collapse, the redesigned bridge had a 1,800 ft (549 m) suspended-and-cantilever main span. It became the longest cantilever span in the world and still holds that record. [sourced]
+
+**First collapse: August 29, 1907**
+- It happened at about 5:30 pm, just before the end of the workday. [sourced]
+- It killed 75 workers. [sourced] The usual breakdown is that 33 of them were Mohawk ironworkers from Kahnawake. [sourced]
+- Only about 11 men survived the fall. [guess]
+- The entire south cantilever arm and the anchor arm fell into the river, with about 19,000 tons of steel. [sourced for the collapse, guess for the exact tonnage]
+- The cause was the failure of lower chord compression members near the support. They were under-designed because the dead load had been badly underestimated. [sourced]
+- A Royal Commission of Inquiry found that the collapse came from errors in the design. It blamed chief engineer Theodore Cooper and designer Peter Szlapka. [sourced]
+
+**Second collapse: September 11, 1916**
+- This happened while the central suspended span was being raised into place. [sourced]
+- The cause was a failure of a casting in a lifting support, or a bearing, at one of the lifting points. The span fell into the river. [sourced]
+- 13 workers died. [sourced]
+- The span was about 640 ft (195 m) long and weighed roughly 5,000 tons. [guess for the exact figures]
+- The bridge was then completed with a replacement span, and it opened to traffic in 1917 (I recall December 1917). [guess for the exact month]
+
+**Who designed it**
+- Theodore Cooper, a prominent American consulting engineer, was the consulting engineer in overall charge. He approved the design. [sourced]
+- Peter Szlapka of the Phoenix Bridge Company did the detailed design work. [sourced]
+- The post-1907 redesign was done by a new board of engineers, including C.C. Schneider, Maurice FitzMaurice and Henry Holgate. [sourced for Schneider and Holgate, guess for FitzMaurice]
+
+**Who built it**
+- The Phoenix Bridge Company of Pennsylvania was the contractor and fabricator for the original structure. [sourced]
+- The Quebec Bridge Company was the project owner. [sourced]
+- The Canadian federal government took over the project after the first collapse. [sourced]
+- The rebuilt bridge was built by the St. Lawrence Bridge Company, which was a joint venture of Canadian firms. [sourced for the name, guess for the exact composition]
+
+**Aftermath**
+- The disaster led to the founding of the Ring Ritual (Iron Ring) for Canadian engineers. Rudyard Kipling wrote the text of the ritual, and the first ceremony was held in 1925. [sourced for Kipling, guess for the exact date]
+- The iron rings are said to be made from the wreckage of the first collapse. [guess, since this is often disputed]
+
+**Caveat:** I wrote this from memory without checking sources, and I'm giving the [sourced] tags on that basis. I'd verify the exact figures (especially the 1916 death toll and the 1907 survivor count) before relying on them. I can run a web search to confirm if you'd like.

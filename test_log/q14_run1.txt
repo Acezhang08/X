@@ -1,0 +1,16 @@
+**Tacoma Narrows Bridge collapse (1940)**
+
+- **Date:** The bridge collapsed on November 7, 1940. [sourced] It had opened to traffic on July 1, 1940, only about four months earlier. [sourced]
+- **Wind speed:** The wind was about 40 mph (roughly 64 km/h) at the time of the collapse. [sourced] The bridge had been designed to withstand much higher winds, around 100 mph. [sourced]
+- **Designer:** Leon Moisseiff was the lead designer and a proponent of the slender deflection-theory design. [sourced] Clark Eldridge produced the original, more conventional design, and a Washington State engineer; Moisseiff's thinner, cheaper design was adopted instead. [sourced] The Public Works Administration's funding constraints pushed the choice of the cheaper design. [guess]
+- **Cost:** Construction cost about $6.4 million, largely funded by the PWA and tolls. [sourced] The exact split between the PWA grant and the RFC loan is something I'm not sure of. [guess]
+- **Main span:** The main span was 2,800 feet (about 853 m). [sourced] That made it the third-longest suspension bridge span in the world at the time. [sourced] The total length was about 5,939 feet. [sourced]
+
+**Other well-documented points**
+- The deck was only 39 feet wide, and the plate girders were 8 feet deep, which made it very flexible. [sourced]
+- The bridge was nicknamed "Galloping Gertie" because it moved in the wind from the start. [sourced]
+- The only fatality was a dog, Tubby, left in a car. [sourced]
+- The failure is now attributed to aeroelastic flutter, not to resonance with vortex shedding as many textbooks long claimed. [sourced]
+- The replacement bridge opened in 1950. [sourced]
+
+I answered from memory without checking any sources, so the [sourced] tags mean I'm confident the facts are well documented, not that I verified them just now. Please verify the cost breakdown and the funding details before relying on them.

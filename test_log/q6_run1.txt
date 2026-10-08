@@ -1,0 +1,45 @@
+**The Tay Bridge disaster, 1879**
+
+The tags below are my own confidence labels, from memory. I haven't checked any of this against a source in this session.
+
+**Date and event**
+- The bridge collapsed on the night of Sunday 28 December 1879 [sourced].
+- It happened during a violent storm [sourced].
+- The bridge crossed the Firth of Tay between Wormit in Fife and Dundee [sourced].
+- The central section, the "High Girders", fell into the water with the train on it [sourced].
+
+**The train**
+- It was the evening mail train from Burntisland, in Fife, to Dundee [sourced].
+- The train was operated by the North British Railway [sourced].
+- It consisted of a small tank locomotive, NBR No. 224, and six carriages [sourced].
+- The locomotive was later recovered from the river and returned to service, nicknamed "The Diver" [sourced].
+- The train had come from Edinburgh, with a change at Burntisland and St Fort [guess].
+
+**Deaths**
+- No one survived [sourced].
+- The exact number is uncertain. The usual figure is about 75 [sourced].
+- Only 46 bodies were recovered [sourced].
+- Later research has suggested the toll may have been as low as 59, based on ticket sales and identifications [guess]. I'm not sure of that figure or its source.
+
+**Design and construction**
+- Sir Thomas Bouch designed the bridge [sourced].
+- Construction used cast-iron columns and wrought-iron girders on brick and masonry piers [sourced].
+- The bridge opened in 1878 [sourced].
+- Queen Victoria crossed it in June 1879, and Bouch was knighted soon afterwards [sourced].
+- The contractor who built the High Girders section was Hopkins Gilkes [guess]. I'm not confident of the firm.
+- The cast-iron work was made at the Wormit foundry, which was poorly supervised and run by Hopkins Gilkes [guess].
+
+**The inquiry**
+- A Court of Inquiry sat in 1880 [sourced].
+- Its three members were Henry Rothery, Colonel William Yolland and William Henry Barlow [sourced].
+- Bouch was found chiefly to blame. The court said the bridge was "badly designed, badly constructed and badly maintained" [sourced].
+- The court found the design did not properly allow for wind pressure [sourced].
+- Rothery wrote the report's main findings, and Barlow and Yolland signed a separate, more cautious report [sourced].
+- Yolland and Barlow's separate report was more cautious about wind pressure [guess].
+- The inquiry criticized the foundry's quality control, and the lugs on the cast-iron columns were a specific weak point [sourced].
+- Later reanalysis has suggested other possible causes, including fatigue and fractures in the cast-iron work [guess].
+- Bouch's reputation was ruined. He died in 1880, a few months after the report [sourced].
+- The disaster led to changes in how wind loading was considered in British bridge design [sourced].
+- A replacement bridge was built alongside, using the surviving piers, and opened in 1887 [sourced].
+
+If you need these details for something formal, I can search and verify the items I tagged [guess].
