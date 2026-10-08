@@ -54,4 +54,9 @@ for r in ROWS: out.append(f"| {r[0]} | {rng(r[0])} | {r[1]} | {r[2]} | {r[3]} |"
 out += ["", "**已删掉、不要加回来的说法**：Crusoe 是 OpenAI 星际之门项目的建造商（未核实）；Crusoe 取消订单的具体原因（来源说法不一）。", "",
         "## 全部旁白句时间码", "", "| 句 | 起 | 止 | 英文旁白 |", "|---|---|---|---|"]
 for l in tl['lines']: out.append(f"| {l['id']} | {tc(l['start'])} | {tc(l['end'])} | {l['en']} |")
-open('fact_check.md', 'w').write('\n'.join(out) + '\n')
+# 保留手写的"交付前自查"附录，重新生成时不要覆盖
+try:
+    old = open('fact_check.md').read(); i = old.index('## 交付前自查'); appendix = '\n' + old[i:]
+except (FileNotFoundError, ValueError):
+    appendix = ''
+open('fact_check.md', 'w').write('\n'.join(out) + '\n' + appendix)
