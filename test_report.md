@@ -45,7 +45,7 @@ Fisher exact test (wrong vs right, [guess] vs [sourced]): p = 0.017.
 - **All 3 wrong [guess] claims came from Q5 (Cutty Sark)**: two in run 1 (captain Moore's years; who killed a crewman under Captain Wallace) and one in run 2 (reopening year).
 - In Q1 to Q4, **no [guess] claim that could be checked was wrong** (0 of 13). Many [guess] claims were right: survivor names, the $7,000 payout, Hall's age of 94, the 49 m tower height.
 - Q4 (Voynich): none of the 4 [guess] claims could be confirmed or refuted, so that question adds nothing to the comparison.
-- The model also tagged far fewer claims [guess] (34) than [sourced] (224), and often added its own notes like "I'm less sure of this" next to a [sourced] tag.
+- The model also tagged far fewer claims [guess] (34) than [sourced] (223), and often added its own notes like "I'm less sure of this" next to a [sourced] tag.
 
 ## Judgment
 
