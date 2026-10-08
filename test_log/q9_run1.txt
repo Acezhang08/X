@@ -1,0 +1,38 @@
+# The Great Stink of London (1858)
+
+**Timing and cause**
+- The Great Stink peaked in the hot, dry summer of 1858, mainly June–August. [sourced]
+- The Thames was effectively an open sewer. Raw sewage from a city of about 2.5–3 million people flowed into it. [sourced]
+- Earlier cholera outbreaks, including 1848–49 and 1853–54, had been linked to contaminated water. At the time, "miasma" (bad air) was the prevailing theory of disease. [sourced]
+- The smell was bad enough that Parliament, which sits beside the river, was affected. Curtains soaked in lime chloride were hung over the windows. [sourced]
+- Disraeli, then Chancellor of the Exchequer, reportedly fled a committee room holding a handkerchief to his face. [sourced]
+- Parliament passed the Metropolis Local Management Amendment Act, authorising the sewer works, in August 1858. The bill moved through very quickly, in about 18 days. [sourced for the August 1858 act; guess on the exact number of days]
+
+**Bazalgette's plan**
+- Joseph Bazalgette was chief engineer of the Metropolitan Board of Works. [sourced]
+- The plan used interceptor sewers that ran roughly parallel to the Thames. They caught the sewage from the existing outfalls and carried it east, by gravity and pumping, to discharge points downstream. [sourced]
+- Three interceptors ran on the north side and two on the south side. [sourced]
+- The northern outfall was at Beckton and the southern outfall at Crossness. Both released sewage into the tidal Thames on the ebb tide. This was a diversion, not treatment. [sourced]
+- Construction began around 1859 and ran through the mid-1860s. The Embankments were built partly to house the sewers. [sourced]
+- The system was formally opened in 1865 by the Prince of Wales. Crossness was opened separately, also in 1865. [sourced]
+- The Victoria, Albert and Chelsea Embankments were built over sewer lines. [sourced]
+
+**Scale and cost**
+- About 82 miles of main intercepting sewers were built. [sourced]
+- About 1,100 miles of street sewers fed into them. [sourced]
+- Roughly 318 million bricks were used. [guess]
+- The cost was about £4.2 million. [sourced; some accounts quote slightly different totals]
+- Bazalgette was knighted in 1875. [sourced]
+
+**Pumping stations**
+- There were four main stations: Abbey Mills (north, Stratford), Crossness (south), Deptford (south) and Western (Pimlico, north). [sourced]
+- Abbey Mills was built in an ornate, Byzantine-influenced style, which led to its nickname the "Cathedral of Sewage". [sourced]
+- Crossness has restored beam engines, which are open to the public on steam days. [sourced]
+- Crossness was designed by Bazalgette with Charles Driver as architect. [sourced]
+- Abbey Mills was in Stratford, east of the City. [sourced]
+
+**Aftermath**
+- Cholera deaths dropped sharply after the sewers were built. The 1866 East End outbreak was linked to a water company that had not connected to the new system. [sourced]
+- Much of the system is still in use today, though it was later supplemented, most recently by the Thames Tideway Tunnel, completed in the 2020s. [sourced]
+
+**Caveats:** Figures such as mileage, cost and brick counts vary between sources and are often rounded. If you need them for citation, check them against a primary source such as the Museum of London, the Institution of Civil Engineers or Thames Water. I haven't searched anything, so all of this comes from memory.

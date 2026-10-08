@@ -1,0 +1,47 @@
+**Hoover Dam: construction summary**
+
+**Dates**
+- Congress authorized the project through the Boulder Canyon Project Act, signed December 21, 1928. [sourced]
+- The Six Companies, Inc. consortium won the contract in March 1931. [sourced]
+- Construction began in 1931, with the river diverted in late 1932 or early 1933. [sourced] Foundation excavation started in 1932 and the first concrete was poured June 6, 1933. [sourced]
+- The last concrete went in on May 29, 1935. [sourced]
+- President Franklin D. Roosevelt dedicated the dam on September 30, 1935. [sourced]
+- The first generator went online in 1936. [sourced]
+- The contract's deadline was 1938, so the dam was finished about two years early. [sourced]
+- The dam was formally declared complete in March 1936. [guess]
+
+**Cost**
+- The Six Companies bid about $48.9 million, the lowest of the bids submitted. [sourced]
+- Total project cost, including the power plant and related facilities, was roughly $165 million. [sourced]
+- The often-cited figure of about $49 million for the dam itself is more commonly attached to the contract than to final cost. [guess]
+- One often-cited modern equivalent is around $1 billion or more. [guess]
+
+**Concrete**
+- About 3.25 million cubic yards of concrete went into the dam itself. [sourced]
+- Including the power plant and other works, the total was about 4.4 million cubic yards. [sourced]
+- The concrete was poured in interlocking columns and cooled with embedded pipes carrying river water and then refrigerated water. [sourced] Without that cooling, it would have taken roughly 125 years to cool naturally. [sourced]
+
+**Deaths**
+- The official count is 96 industrial fatalities connected to construction. [sourced]
+- The first official death was surveyor J.G. Tierney, who drowned in 1922 while looking for dam sites. [sourced]
+- The last was his son, Patrick Tierney, who died on December 20, 1935, exactly 13 years later. [sourced]
+- The official count excludes some deaths, such as workers who died of heat exhaustion or pneumonia. [sourced] The claim that many more died than are officially recorded is widely repeated, but I don't know of reliable numbers. [guess]
+- The peak workforce was about 5,200 men. [sourced]
+
+**Contractors**
+- Six Companies, Inc. was the consortium that built the dam. [sourced]
+- Its members were:
+  - Utah Construction Company [sourced]
+  - Pacific Bridge Company [sourced]
+  - Henry J. Kaiser & W.A. Bechtel Company [sourced]
+  - MacDonald & Kahn Ltd. [sourced]
+  - J.F. Shea Company [sourced]
+  - Morrison-Knudsen Company [sourced]
+- Warren "Felix" Bechtel and Henry J. Kaiser were key figures. [sourced]
+- W.H. Wattis of Utah Construction was the consortium's president. [sourced]
+- Frank Crowe was the general superintendent. [sourced]
+- The Bureau of Reclamation was the government agency overseeing the project. [sourced]
+- Ralph Lowry's role as the Bureau's resident engineer was minor or only partial. [guess]
+
+**Notes on reliability**
+These figures come from my memory of standard references, not from a search done just now. The dates, the contractor list, the concrete volumes and the 96-death count are widely documented. The cost breakdowns and the equivalent-dollar figures vary by source and by what the source includes. I can look up primary sources, such as the Bureau of Reclamation, if you want any of them verified.

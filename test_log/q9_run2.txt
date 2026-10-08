@@ -1,0 +1,51 @@
+# The Great Stink of London (1858)
+
+**Background**
+- London's sewage flowed largely into the Thames, which was also a source of drinking water. [sourced]
+- Cholera epidemics (notably 1848–49 and 1853–54) were linked to contaminated water. Miasma theory, the belief that disease spread through foul air, still dominated official thinking. [sourced]
+- Parliament sat in the Palace of Westminster, right on the river bank. [sourced]
+
+**Dates**
+- The Great Stink peaked in the hot summer of 1858, mainly June to August. [sourced]
+- June 1858 was unusually hot, with temperatures reported around 30–35 °C (mid-90s °F). [sourced for "very hot"; the exact figures are a guess]
+- Curtains soaked in chloride of lime were hung at Parliament's windows in an attempt to mask the smell. [sourced]
+- MPs considered leaving Westminster, and some committee work was disrupted. [sourced]
+- Disraeli, then Chancellor of the Exchequer, was reported to have fled a committee room holding a handkerchief to his face. [sourced]
+- Parliament passed the Metropolis Local Management Amendment Act in August 1858, which gave the Metropolitan Board of Works the authority and borrowing powers to build the system. It passed within about 18 days. [sourced for the August 1858 act; the "18 days" figure is a guess]
+
+**Joseph Bazalgette's plan**
+- Bazalgette was chief engineer of the Metropolitan Board of Works. [sourced]
+- His design used interceptor sewers running roughly parallel to the Thames. They caught the flow from the old sewers and the rivers that had been used as sewers, and carried it east by gravity and pumping, away from central London. [sourced]
+- Discharge went to outfalls downstream, at Beckton on the north bank and Crossness on the south bank. The sewage was released into the tidal Thames on the ebb tide. [sourced]
+- Bazalgette reportedly built the sewers larger than the estimates required, to allow for population growth. [sourced]
+- Construction began in 1859. [sourced]
+- The system was opened in stages, with the Prince of Wales opening the southern part at Crossness in 1865. [sourced]
+- The main works were largely complete by around 1875. [sourced]
+
+**Miles of sewers**
+- About 82 miles (about 132 km) of main intercepting sewers. [sourced]
+- About 1,100 miles (about 1,770 km) of street sewers feeding into them. [sourced]
+- Over 300 million bricks were used. [guess; the figure I recall is around 318 million, but I'm not certain]
+
+**Cost**
+- Roughly £4.2 million for the main works. [sourced for the order of magnitude; the exact figure varies by account]
+- The total was greater once later extensions and the embankments are included. [guess]
+- It was financed by loans raised by the Metropolitan Board of Works, repaid through a local tax on London property. [sourced]
+
+**Pumping stations**
+- Several pumping stations lifted sewage from the low-lying interceptors to higher-level sewers or to the outfalls. [sourced]
+- The main stations were:
+  - **Abbey Mills** (Stratford, north): its ornate architecture gave it the nickname "cathedral of sewage". [sourced]
+  - **Crossness** (south): famous for its Victorian beam engines. [sourced]
+  - **Deptford**, **Western** (Pimlico) and **Chelsea**. [sourced for Deptford and Pimlico; Chelsea is a guess]
+- Crossness and Abbey Mills both opened around 1865–68. [sourced]
+- The Crossness engines were named *Victoria*, *Prince Consort*, *Albert Edward* and *Alexandra*. [sourced]
+
+**Legacy**
+- Cholera outbreaks fell sharply after the system was built. [sourced]
+- Much of Bazalgette's network is still in use today. [sourced]
+- The Victoria, Albert and Chelsea Embankments were built in the same period and hid the interceptor sewers beneath them. [sourced]
+- Bazalgette was knighted in 1875. [sourced]
+
+**Caveats**
+Sources differ on several numbers, including the cost, the brick count and the exact mileage. Check them against a primary source before you cite them. The Crossness Engines Trust and the Museum of London are good places to start.
