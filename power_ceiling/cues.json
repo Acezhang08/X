@@ -1,0 +1,1220 @@
+[
+ {
+  "id": "0.1",
+  "start": 1.2,
+  "end": 2.693,
+  "en": "In November 2025,",
+  "zh": "2025 年 11 月，"
+ },
+ {
+  "id": "0.1",
+  "start": 2.693,
+  "end": 6.318,
+  "en": "Microsoft's CEO said something strange.",
+  "zh": "微软的 CEO 说了一句奇怪的话。"
+ },
+ {
+  "id": "0.2",
+  "start": 6.568,
+  "end": 9.166,
+  "en": "His company may have a bunch of AI chips",
+  "zh": "他们可能有一大批 AI 芯片躺在库存里，"
+ },
+ {
+  "id": "0.2",
+  "start": 9.166,
+  "end": 12.289,
+  "en": "sitting in inventory — that it can't plug in.",
+  "zh": "插不上电。"
+ },
+ {
+  "id": "0.3",
+  "start": 12.539,
+  "end": 14.258,
+  "en": "The chips weren't the problem.",
+  "zh": "问题不在芯片。"
+ },
+ {
+  "id": "0.3",
+  "start": 14.258,
+  "end": 16.577,
+  "en": "The problem, in his words, was power.",
+  "zh": "用他的话说，问题在电。"
+ },
+ {
+  "id": "0.4",
+  "start": 16.827,
+  "end": 18.401,
+  "en": "So here's the question:",
+  "zh": "所以问题来了：电，"
+ },
+ {
+  "id": "0.4",
+  "start": 18.401,
+  "end": 21.475,
+  "en": "will electricity become the ceiling on AI?",
+  "zh": "会不会成为 AI 的天花板？"
+ },
+ {
+  "id": "0.5",
+  "start": 21.775,
+  "end": 24.934,
+  "en": "My answer is yes. But not in the way you think.",
+  "zh": "我的答案是：会。但不是你想的那种方式。"
+ },
+ {
+  "id": "0.6",
+  "start": 25.334,
+  "end": 27.561,
+  "en": "Because the thing that's really running",
+  "zh": "因为真正不够用的，"
+ },
+ {
+  "id": "0.6",
+  "start": 27.561,
+  "end": 29.816,
+  "en": "out might not be electricity at all.",
+  "zh": "可能根本不是电。"
+ },
+ {
+  "id": "1.1",
+  "start": 30.616,
+  "end": 32.091,
+  "en": "First, why does AI need",
+  "zh": "先说说，"
+ },
+ {
+  "id": "1.1",
+  "start": 32.091,
+  "end": 34.792,
+  "en": "so much electricity in the first place?",
+  "zh": "AI 到底为什么这么耗电？"
+ },
+ {
+  "id": "1.2",
+  "start": 35.042,
+  "end": 37.241,
+  "en": "Data centers are built from racks,",
+  "zh": "数据中心是由一个个机柜组成的，"
+ },
+ {
+  "id": "1.2",
+  "start": 37.241,
+  "end": 39.77,
+  "en": "tall cabinets packed with computers.",
+  "zh": "就是塞满电脑的高柜子。"
+ },
+ {
+  "id": "1.3",
+  "start": 40.02,
+  "end": 44.304,
+  "en": "In 2024, the average rack drew under 8 kilowatts.",
+  "zh": "2024 年，一个机柜平均用电不到 8 千瓦。"
+ },
+ {
+  "id": "1.4",
+  "start": 44.554,
+  "end": 48.123,
+  "en": "A single rack of Nvidia's GB200 AI",
+  "zh": "而英伟达 GB200 AI 系统的一个机柜，"
+ },
+ {
+  "id": "1.4",
+  "start": 48.123,
+  "end": 52.417,
+  "en": "system is estimated to draw around 120.",
+  "zh": "估计要用大约 120 千瓦。"
+ },
+ {
+  "id": "1.5",
+  "start": 52.667,
+  "end": 56.196,
+  "en": "That's roughly fifteen times as much, in one cabinet.",
+  "zh": "一个柜子，差不多是普通机柜的 15 倍。"
+ },
+ {
+  "id": "1.6",
+  "start": 56.446,
+  "end": 58.851,
+  "en": "Now fill a whole campus with them.",
+  "zh": "现在把整个园区都装满这种机柜。"
+ },
+ {
+  "id": "1.6",
+  "start": 58.851,
+  "end": 63.025,
+  "en": "Elon Musk's xAI already runs about one and a half gigawatts",
+  "zh": "马斯克的 xAI，"
+ },
+ {
+  "id": "1.6",
+  "start": 63.025,
+  "end": 67.186,
+  "en": "of its own power plants for its data centers in Memphis.",
+  "zh": "光在孟菲斯就为自己的数据中心配了大约 1.5 吉瓦的自建电站。"
+ },
+ {
+  "id": "1.7",
+  "start": 67.436,
+  "end": 70.481,
+  "en": "One gigawatt, running around the clock,",
+  "zh": "1 吉瓦全天候运转，"
+ },
+ {
+  "id": "1.7",
+  "start": 70.481,
+  "end": 74.507,
+  "en": "is about what 800,000 average American homes use.",
+  "zh": "大约相当于 80 万户美国普通家庭的用电量。"
+ },
+ {
+  "id": "1.8",
+  "start": 74.757,
+  "end": 79.209,
+  "en": "Add it all up, and in 2024, data centers worldwide",
+  "zh": "全部加起来，"
+ },
+ {
+  "id": "1.8",
+  "start": 79.209,
+  "end": 83.416,
+  "en": "used about 415 terawatt-hours of electricity.",
+  "zh": "2024 年全球数据中心用了大约 415 太瓦时的电。"
+ },
+ {
+  "id": "1.9",
+  "start": 83.666,
+  "end": 85.818,
+  "en": "That's around one and a half percent",
+  "zh": "大约占全世界用电"
+ },
+ {
+  "id": "1.9",
+  "start": 85.818,
+  "end": 88.29,
+  "en": "of all the electricity the world uses.",
+  "zh": "量的 1.5%。"
+ },
+ {
+  "id": "1.10",
+  "start": 88.89,
+  "end": 91.867,
+  "en": "One and a half percent doesn't sound like a crisis.",
+  "zh": "1.5%，听起来不像什么危机。"
+ },
+ {
+  "id": "1.11",
+  "start": 92.117,
+  "end": 95.901,
+  "en": "But the International Energy Agency expects",
+  "zh": "但国际能源署预计，"
+ },
+ {
+  "id": "1.11",
+  "start": 95.901,
+  "end": 101.468,
+  "en": "it to more than double by 2030, to around 945 terawatt-hours.",
+  "zh": "到 2030 年这个数字会翻一倍多，达到约 945 太瓦时。"
+ },
+ {
+  "id": "1.12",
+  "start": 101.718,
+  "end": 104.895,
+  "en": "That's slightly more than all of Japan uses today.",
+  "zh": "比整个日本今天的用电量还略多一点。"
+ },
+ {
+  "id": "1.13",
+  "start": 105.145,
+  "end": 109.272,
+  "en": "And it's concentrated. The United States alone accounts",
+  "zh": "而且非常集中。光美国一家，"
+ },
+ {
+  "id": "1.13",
+  "start": 109.272,
+  "end": 113.074,
+  "en": "for about 45 percent of data center electricity.",
+  "zh": "就占了全球数据中心用电的约 45%。"
+ },
+ {
+  "id": "1.14",
+  "start": 113.324,
+  "end": 116.71,
+  "en": "Through 2030, data centers are expected to drive",
+  "zh": "到 2030 年，美国新增的用电需求里，"
+ },
+ {
+  "id": "1.14",
+  "start": 116.71,
+  "end": 120.719,
+  "en": "nearly half of America's growth in electricity demand.",
+  "zh": "预计将近一半来自数据中心。"
+ },
+ {
+  "id": "2.1",
+  "start": 121.519,
+  "end": 124.182,
+  "en": "You might think: chips keep getting more efficient.",
+  "zh": "你可能会想：芯片越来越省电，"
+ },
+ {
+  "id": "2.1",
+  "start": 124.182,
+  "end": 125.426,
+  "en": "Won't that solve it?",
+  "zh": "问题不就解决了吗？"
+ },
+ {
+  "id": "2.2",
+  "start": 125.676,
+  "end": 128.013,
+  "en": "They are getting more efficient.",
+  "zh": "芯片确实越来越省电。"
+ },
+ {
+  "id": "2.2",
+  "start": 128.013,
+  "end": 131.445,
+  "en": "Nvidia says its newest system delivers up to 25",
+  "zh": "英伟达说，在某些 AI 任务上，"
+ },
+ {
+  "id": "2.2",
+  "start": 131.445,
+  "end": 134.367,
+  "en": "times more performance at the same power",
+  "zh": "它最新的系统在同样的用电下，"
+ },
+ {
+  "id": "2.2",
+  "start": 134.367,
+  "end": 138.218,
+  "en": "than the previous generation, on certain AI tasks.",
+  "zh": "性能最高是上一代的 25 倍。"
+ },
+ {
+  "id": "2.3",
+  "start": 138.468,
+  "end": 141.256,
+  "en": "And yet, data center electricity use",
+  "zh": "但从 2017 年到现在，"
+ },
+ {
+  "id": "2.3",
+  "start": 141.256,
+  "end": 144.741,
+  "en": "has grown about 12 percent a year since 2017,",
+  "zh": "数据中心的用电量每年增长约 12%，"
+ },
+ {
+  "id": "2.3",
+  "start": 144.741,
+  "end": 149.356,
+  "en": "more than four times faster than electricity use overall.",
+  "zh": "是全社会用电增速的四倍多。"
+ },
+ {
+  "id": "2.4",
+  "start": 149.606,
+  "end": 152.948,
+  "en": "This is an old story. In 1865, the economist",
+  "zh": "这是个老故事了。1865 年，"
+ },
+ {
+  "id": "2.4",
+  "start": 152.948,
+  "end": 157.201,
+  "en": "William Stanley Jevons noticed that more efficient steam",
+  "zh": "经济学家杰文斯发现：更高效的蒸汽机并没有让英国少烧煤，"
+ },
+ {
+  "id": "2.4",
+  "start": 157.201,
+  "end": 161.73,
+  "en": "engines didn't cut Britain's coal use. They increased it.",
+  "zh": "反而让英国烧得更多了。"
+ },
+ {
+  "id": "2.5",
+  "start": 161.98,
+  "end": 164.149,
+  "en": "When something gets cheaper to use,",
+  "zh": "一样东西用起来越便宜，"
+ },
+ {
+  "id": "2.5",
+  "start": 164.149,
+  "end": 166.332,
+  "en": "we find far more ways to use it.",
+  "zh": "我们就会找到越多的用法。"
+ },
+ {
+  "id": "2.6",
+  "start": 166.582,
+  "end": 168.412,
+  "en": "Cheaper AI means more AI.",
+  "zh": "AI 越便宜，"
+ },
+ {
+  "id": "2.6",
+  "start": 168.412,
+  "end": 172.857,
+  "en": "Efficiency doesn't shrink the bill. It grows the appetite.",
+  "zh": "用的人就越多。效率不会让账单变小，只会让胃口变大。"
+ },
+ {
+  "id": "3.1",
+  "start": 173.657,
+  "end": 175.396,
+  "en": "Here's what most people miss.",
+  "zh": "但大多数人没注意到这一点。"
+ },
+ {
+  "id": "3.2",
+  "start": 175.996,
+  "end": 178.521,
+  "en": "The world isn't running out of electricity.",
+  "zh": "世界不是电不够了，"
+ },
+ {
+  "id": "3.2",
+  "start": 178.521,
+  "end": 181.012,
+  "en": "It's running out of time to connect it.",
+  "zh": "而是来不及把电接过来。"
+ },
+ {
+  "id": "3.3",
+  "start": 181.262,
+  "end": 183.498,
+  "en": "A data center is just a building.",
+  "zh": "数据中心只是一栋楼。"
+ },
+ {
+  "id": "3.3",
+  "start": 183.498,
+  "end": 186.546,
+  "en": "Feeding it takes a whole chain: power plants,",
+  "zh": "给它供电，需要一整条链："
+ },
+ {
+  "id": "3.3",
+  "start": 186.546,
+  "end": 188.982,
+  "en": "transmission lines, transformers.",
+  "zh": "发电厂、输电线、变压器。"
+ },
+ {
+  "id": "3.4",
+  "start": 189.232,
+  "end": 192.187,
+  "en": "And every link in that chain has a waiting line.",
+  "zh": "而这条链上的每一环，都在排队。"
+ },
+ {
+  "id": "3.5",
+  "start": 192.437,
+  "end": 194.948,
+  "en": "Start with power plants. In the US,",
+  "zh": "先说发电厂。在美国，"
+ },
+ {
+  "id": "3.5",
+  "start": 194.948,
+  "end": 198.966,
+  "en": "a new power project has to apply to connect to the grid,",
+  "zh": "新建一个发电项目，要先申请接入电网，"
+ },
+ {
+  "id": "3.5",
+  "start": 198.966,
+  "end": 200.529,
+  "en": "then wait its turn.",
+  "zh": "然后排队等着。"
+ },
+ {
+  "id": "3.6",
+  "start": 200.779,
+  "end": 204.225,
+  "en": "At the end of 2025, more than 2,000 gigawatts",
+  "zh": "到 2025 年底，排在队伍里的发电和储能项目，"
+ },
+ {
+  "id": "3.6",
+  "start": 204.225,
+  "end": 208.56,
+  "en": "of generation and storage were sitting in those lines.",
+  "zh": "加起来超过 2000 吉瓦。"
+ },
+ {
+  "id": "3.7",
+  "start": 208.81,
+  "end": 212.227,
+  "en": "For projects that finally came online in 2025,",
+  "zh": "2025 年终于建成的项目，"
+ },
+ {
+  "id": "3.7",
+  "start": 212.227,
+  "end": 214.678,
+  "en": "the typical wait from application",
+  "zh": "从申请到真正发电，"
+ },
+ {
+  "id": "3.7",
+  "start": 214.678,
+  "end": 217.924,
+  "en": "to switching on was more than five years.",
+  "zh": "中位等待时间超过 5 年。"
+ },
+ {
+  "id": "3.8",
+  "start": 218.174,
+  "end": 220.489,
+  "en": "And most never make it at all.",
+  "zh": "而且大多数项目根本建不成。"
+ },
+ {
+  "id": "3.8",
+  "start": 220.489,
+  "end": 224.271,
+  "en": "Of everything that applied between 2000 and 2020,",
+  "zh": "2000 到 2020 年申请的项目里，"
+ },
+ {
+  "id": "3.8",
+  "start": 224.271,
+  "end": 226.863,
+  "en": "only 13 percent was ever built.",
+  "zh": "最后真正建成的只有 13%。"
+ },
+ {
+  "id": "3.9",
+  "start": 227.113,
+  "end": 229.345,
+  "en": "New transmission lines in advanced",
+  "zh": "在发达经济体，"
+ },
+ {
+  "id": "3.9",
+  "start": 229.345,
+  "end": 232.433,
+  "en": "economies take four to eight years to build.",
+  "zh": "建一条新的输电线要 4 到 8 年。"
+ },
+ {
+  "id": "3.10",
+  "start": 232.683,
+  "end": 235.39,
+  "en": "Large power transformers now have lead",
+  "zh": "大型变压器的交货期已经拉长到最多 4 年，"
+ },
+ {
+  "id": "3.10",
+  "start": 235.39,
+  "end": 237.242,
+  "en": "times of up to four years,",
+  "zh": "价"
+ },
+ {
+  "id": "3.10",
+  "start": 237.242,
+  "end": 241.432,
+  "en": "and prices have jumped roughly 80 percent in five years.",
+  "zh": "格五年里涨了大约 80%。"
+ },
+ {
+  "id": "3.11",
+  "start": 241.682,
+  "end": 243.88,
+  "en": "Gas turbines? GE Vernova,",
+  "zh": "燃气轮机呢？"
+ },
+ {
+  "id": "3.11",
+  "start": 243.88,
+  "end": 246.166,
+  "en": "one of the biggest makers,",
+  "zh": "最大的制造商之一 GE Vernova 在"
+ },
+ {
+  "id": "3.11",
+  "start": 246.166,
+  "end": 251.289,
+  "en": "said in December 2025 that it was sold out through 2028.",
+  "zh": "2025 年 12 月说，2028 年以前的产能已经卖光了。"
+ },
+ {
+  "id": "3.12",
+  "start": 251.539,
+  "end": 255.545,
+  "en": "The IEA estimates that, unless these bottlenecks are fixed,",
+  "zh": "国际能源署估计，如果这些瓶颈解决不了，"
+ },
+ {
+  "id": "3.12",
+  "start": 255.545,
+  "end": 257.785,
+  "en": "around 20 percent of planned data",
+  "zh": "大约 20% 的在建"
+ },
+ {
+  "id": "3.12",
+  "start": 257.785,
+  "end": 260.226,
+  "en": "center projects could be delayed.",
+  "zh": "数据中心项目可能延期。"
+ },
+ {
+  "id": "3.13",
+  "start": 260.476,
+  "end": 265.531,
+  "en": "In September 2026, Morgan Stanley put a number on the gap:",
+  "zh": "2026 年 9 月，摩根士丹利算了一下缺口："
+ },
+ {
+  "id": "3.13",
+  "start": 265.531,
+  "end": 268.407,
+  "en": "a shortfall of about 32 gigawatts",
+  "zh": "到 2028 年，"
+ },
+ {
+  "id": "3.13",
+  "start": 268.407,
+  "end": 271.483,
+  "en": "for US data centers through 2028.",
+  "zh": "美国数据中心大约缺 32 吉瓦的电。"
+ },
+ {
+  "id": "3.14",
+  "start": 271.733,
+  "end": 274.049,
+  "en": "That's roughly a third of what they need.",
+  "zh": "差不多是需求的三分之一。"
+ },
+ {
+  "id": "3.15",
+  "start": 274.299,
+  "end": 276.351,
+  "en": "Chips move on product cycles.",
+  "zh": "芯片按产品周期更新，"
+ },
+ {
+  "id": "3.15",
+  "start": 276.351,
+  "end": 279.607,
+  "en": "Power moves on permit and construction cycles,",
+  "zh": "电力却要按审批和施工的周期走，"
+ },
+ {
+  "id": "3.15",
+  "start": 279.607,
+  "end": 282.213,
+  "en": "and those run five years and more.",
+  "zh": "而这个周期动不动就是五年以上。"
+ },
+ {
+  "id": "4.1",
+  "start": 283.013,
+  "end": 285.805,
+  "en": "When something is scarce, its price tells you.",
+  "zh": "一样东西缺不缺，看价格就知道。"
+ },
+ {
+  "id": "4.2",
+  "start": 286.055,
+  "end": 289.757,
+  "en": "PJM runs the power grid across all or parts",
+  "zh": "PJM 负责管理美国 13 个州（全部或"
+ },
+ {
+  "id": "4.2",
+  "start": 289.757,
+  "end": 293.057,
+  "en": "of 13 US states and Washington, D.C.",
+  "zh": "部分地区）加上华盛顿特区的电网。"
+ },
+ {
+  "id": "4.3",
+  "start": 293.307,
+  "end": 293.995,
+  "en": "Every year,",
+  "zh": "它每年"
+ },
+ {
+  "id": "4.3",
+  "start": 293.995,
+  "end": 296.947,
+  "en": "it holds an auction for future power supply.",
+  "zh": "都会拍卖未来的供电能力。"
+ },
+ {
+  "id": "4.4",
+  "start": 297.197,
+  "end": 298.884,
+  "en": "For 2024 to 2025,",
+  "zh": "2024 到 2025 年度，"
+ },
+ {
+  "id": "4.4",
+  "start": 298.884,
+  "end": 303.846,
+  "en": "the price was about 29 dollars per megawatt-day.",
+  "zh": "价格大约是每兆瓦每天 29 美元。"
+ },
+ {
+  "id": "4.5",
+  "start": 304.096,
+  "end": 308.111,
+  "en": "For 2027 to 2028, it hit 333 dollars,",
+  "zh": "到了 2027 到 2028 年度，"
+ },
+ {
+  "id": "4.5",
+  "start": 308.111,
+  "end": 311.566,
+  "en": "the maximum the rules allowed.",
+  "zh": "价格涨到 333 美元，碰到了规则允许的上限。"
+ },
+ {
+  "id": "4.6",
+  "start": 311.816,
+  "end": 314.582,
+  "en": "Analysts estimate that without the cap,",
+  "zh": "分析师估计，如果没有上限，"
+ },
+ {
+  "id": "4.6",
+  "start": 314.582,
+  "end": 317.051,
+  "en": "it would have been close to 530.",
+  "zh": "价格会接近 530 美元。"
+ },
+ {
+  "id": "4.7",
+  "start": 317.301,
+  "end": 318.712,
+  "en": "And even at that price,",
+  "zh": "而且就算开出这个价，"
+ },
+ {
+  "id": "4.7",
+  "start": 318.712,
+  "end": 322.286,
+  "en": "the auction still fell short of its reliability target.",
+  "zh": "拍卖还是没凑够保障供电稳定所需的量。"
+ },
+ {
+  "id": "4.8",
+  "start": 322.536,
+  "end": 328.428,
+  "en": "The reason? PJM's demand forecast jumped by 5,250 megawatts,",
+  "zh": "原因呢？PJM 预测的用电需求一下子多了 5250 兆瓦，"
+ },
+ {
+  "id": "4.8",
+  "start": 328.428,
+  "end": 332.556,
+  "en": "almost entirely because of data centers.",
+  "zh": "几乎全是因为数据中心。"
+ },
+ {
+  "id": "4.9",
+  "start": 332.806,
+  "end": 335.455,
+  "en": "And that cost doesn't stay with tech companies.",
+  "zh": "而这笔钱，不只是科技公司在付。"
+ },
+ {
+  "id": "4.10",
+  "start": 335.705,
+  "end": 337.379,
+  "en": "In Washington, D.C.,",
+  "zh": "在华盛顿特区，"
+ },
+ {
+  "id": "4.10",
+  "start": 337.379,
+  "end": 341.563,
+  "en": "one utility's residential customers saw bills rise",
+  "zh": "一家电力公司的居民用户从 2025 年 6 月起，"
+ },
+ {
+  "id": "4.10",
+  "start": 341.563,
+  "end": 345.496,
+  "en": "about 21 dollars a month starting in June 2025,",
+  "zh": "电费每月涨了约 21 美元，"
+ },
+ {
+  "id": "4.10",
+  "start": 345.496,
+  "end": 349.294,
+  "en": "around 10 of it from these capacity prices.",
+  "zh": "其中约 10 美元来自这类容量价格。"
+ },
+ {
+  "id": "5.1",
+  "start": 350.094,
+  "end": 352.058,
+  "en": "So the tech giants stopped waiting.",
+  "zh": "于是，科技巨头们不等了。"
+ },
+ {
+  "id": "5.2",
+  "start": 352.308,
+  "end": 356.204,
+  "en": "Microsoft signed a deal to bring back a reactor",
+  "zh": "微软签了协议，"
+ },
+ {
+  "id": "5.2",
+  "start": 356.204,
+  "end": 360.016,
+  "en": "at Three Mile Island, which shut down in 2019.",
+  "zh": "让三哩岛一座 2019 年就关掉的核反应堆重新启动，"
+ },
+ {
+  "id": "5.2",
+  "start": 360.016,
+  "end": 363.366,
+  "en": "It's now expected back online in 2027.",
+  "zh": "现在预计 2027 年恢复发电。"
+ },
+ {
+  "id": "5.3",
+  "start": 363.616,
+  "end": 367.123,
+  "en": "Google signed up for small nuclear reactors",
+  "zh": "谷歌向一家叫 Kairos Power"
+ },
+ {
+  "id": "5.3",
+  "start": 367.123,
+  "end": 371.691,
+  "en": "from a company called Kairos Power: up to 500 megawatts,",
+  "zh": "的公司订了小型核反应堆：最多 500 兆瓦，"
+ },
+ {
+  "id": "5.3",
+  "start": 371.691,
+  "end": 376.295,
+  "en": "with the first targeted for 2030 and the rest by 2035.",
+  "zh": "第一座目标 2030 年投运，其余的到 2035 年。"
+ },
+ {
+  "id": "5.4",
+  "start": 376.545,
+  "end": 378.791,
+  "en": "Notice the dates. Even the fixes run",
+  "zh": "注意这些年份。就连解决办法，"
+ },
+ {
+  "id": "5.4",
+  "start": 378.791,
+  "end": 381.236,
+  "en": "on the grid's clock, not the chip's.",
+  "zh": "走的也是电网的时钟，而不是芯片的时钟。"
+ },
+ {
+  "id": "5.5",
+  "start": 381.486,
+  "end": 383.751,
+  "en": "Others are skipping the grid entirely.",
+  "zh": "还有人干脆绕开电网。"
+ },
+ {
+  "id": "5.6",
+  "start": 384.001,
+  "end": 387.7,
+  "en": "One analysis counted 59 US data center projects",
+  "zh": "一份分析统计，"
+ },
+ {
+  "id": "5.6",
+  "start": 387.7,
+  "end": 392.229,
+  "en": "planning about 90 gigawatts of their own on-site power.",
+  "zh": "美国有 59 个数据中心项目计划自建现场发电，总共约 90 吉瓦。"
+ },
+ {
+  "id": "5.7",
+  "start": 392.479,
+  "end": 394.844,
+  "en": "That's more than a quarter of all planned",
+  "zh": "这超过了全美规划中数据中"
+ },
+ {
+  "id": "5.7",
+  "start": 394.844,
+  "end": 397.12,
+  "en": "data center capacity in the country.",
+  "zh": "心总容量的四分之一。"
+ },
+ {
+  "id": "5.8",
+  "start": 397.37,
+  "end": 399.728,
+  "en": "And 92 percent of those projects",
+  "zh": "而其中 92% 的项目，"
+ },
+ {
+  "id": "5.8",
+  "start": 399.728,
+  "end": 402.801,
+  "en": "were announced since the start of 2025.",
+  "zh": "都是 2025 年以后才宣布的。"
+ },
+ {
+  "id": "5.9",
+  "start": 403.201,
+  "end": 406.077,
+  "en": "But here's the catch. As of mid-2026,",
+  "zh": "但问题来了：截至 2026 年年中，"
+ },
+ {
+  "id": "5.9",
+  "start": 406.077,
+  "end": 410.118,
+  "en": "only about 2 gigawatts of that was actually running.",
+  "zh": "真正在运行的只有大约 2 吉瓦，"
+ },
+ {
+  "id": "5.9",
+  "start": 410.118,
+  "end": 411.717,
+  "en": "Roughly 2 percent.",
+  "zh": "差不多只占 2%。"
+ },
+ {
+  "id": "5.10",
+  "start": 411.967,
+  "end": 414.065,
+  "en": "Announcing a power plant is easy.",
+  "zh": "宣布要建电厂很容易，"
+ },
+ {
+  "id": "5.10",
+  "start": 414.065,
+  "end": 416.235,
+  "en": "Building one is the bottleneck.",
+  "zh": "真正建起来才是瓶颈。"
+ },
+ {
+  "id": "5.11",
+  "start": 416.485,
+  "end": 420.044,
+  "en": "It got strange. In December 2025, Crusoe,",
+  "zh": "事情开始变得离奇。2025 年 12 月，"
+ },
+ {
+  "id": "5.11",
+  "start": 420.044,
+  "end": 423.343,
+  "en": "a company that builds AI data centers,",
+  "zh": "AI 数据中心建造商 Crusoe"
+ },
+ {
+  "id": "5.11",
+  "start": 423.343,
+  "end": 427.25,
+  "en": "ordered 29 gas turbines from Boom Supersonic,",
+  "zh": "向 Boom Supersonic 订了 29 台燃气轮机，"
+ },
+ {
+  "id": "5.11",
+  "start": 427.25,
+  "end": 431.877,
+  "en": "a startup best known for designing supersonic jets.",
+  "zh": "而这家公司最出名的是设计超音速客机。"
+ },
+ {
+  "id": "5.12",
+  "start": 432.127,
+  "end": 433.994,
+  "en": "Then, in September 2026,",
+  "zh": "结果到了 2026 年 9 月，"
+ },
+ {
+  "id": "5.12",
+  "start": 433.994,
+  "end": 437.416,
+  "en": "Crusoe walked away from that deal and turned",
+  "zh": "Crusoe 放弃了这笔订单，"
+ },
+ {
+  "id": "5.12",
+  "start": 437.416,
+  "end": 440.805,
+  "en": "to established suppliers like GE Vernova.",
+  "zh": "转向 GE Vernova 这样的老牌供应商。"
+ },
+ {
+  "id": "5.13",
+  "start": 441.055,
+  "end": 443.016,
+  "en": "When time is the bottleneck,",
+  "zh": "当时间就是瓶颈，"
+ },
+ {
+  "id": "5.13",
+  "start": 443.016,
+  "end": 446.368,
+  "en": "an untested machine is a risk few can afford.",
+  "zh": "没被验证过的机器，是很少有人敢冒的险。"
+ },
+ {
+  "id": "6.1",
+  "start": 447.168,
+  "end": 448.461,
+  "en": "Now flip the map.",
+  "zh": "现在，把地图翻过来。"
+ },
+ {
+  "id": "6.2",
+  "start": 448.711,
+  "end": 450.893,
+  "en": "China generates more than twice",
+  "zh": "中国的发电量，"
+ },
+ {
+  "id": "6.2",
+  "start": 450.893,
+  "end": 453.98,
+  "en": "as much electricity as the United States.",
+  "zh": "是美国的两倍多。"
+ },
+ {
+  "id": "6.3",
+  "start": 454.23,
+  "end": 457.63,
+  "en": "In 2025 alone, it added more than 430",
+  "zh": "光是 2025 年一年，"
+ },
+ {
+  "id": "6.3",
+  "start": 457.63,
+  "end": 461.231,
+  "en": "gigawatts of wind and solar capacity.",
+  "zh": "中国就新增了超过 430 吉瓦的风电和光伏装机。"
+ },
+ {
+  "id": "6.4",
+  "start": 461.481,
+  "end": 464.108,
+  "en": "BloombergNEF expects China to add",
+  "zh": "彭博新能源财经预计，"
+ },
+ {
+  "id": "6.4",
+  "start": 464.108,
+  "end": 467.133,
+  "en": "more than six times as much generation",
+  "zh": "未来五年，"
+ },
+ {
+  "id": "6.4",
+  "start": 467.133,
+  "end": 470.836,
+  "en": "capacity as the US over the next five years.",
+  "zh": "中国新增的发电装机将是美国的六倍多。"
+ },
+ {
+  "id": "6.5",
+  "start": 471.086,
+  "end": 474.244,
+  "en": "One business school researcher put it simply:",
+  "zh": "一位商学院的研究者说得很直白："
+ },
+ {
+  "id": "6.5",
+  "start": 474.244,
+  "end": 477.262,
+  "en": "the US has the chips and is short on power.",
+  "zh": "美国有芯片、"
+ },
+ {
+  "id": "6.5",
+  "start": 477.262,
+  "end": 480.41,
+  "en": "China has the power and is short on chips.",
+  "zh": "缺电；中国有电、缺芯片。"
+ },
+ {
+  "id": "6.6",
+  "start": 480.66,
+  "end": 482.725,
+  "en": "So electricity isn't one ceiling.",
+  "zh": "所以电不是一块天花板。"
+ },
+ {
+  "id": "6.6",
+  "start": 482.725,
+  "end": 486.367,
+  "en": "It's a different ceiling, depending on where you stand.",
+  "zh": "站在哪里，天花板就不一样。"
+ },
+ {
+  "id": "7.1",
+  "start": 487.167,
+  "end": 488.618,
+  "en": "So here's my call.",
+  "zh": "所以，我的判断是："
+ },
+ {
+  "id": "7.2",
+  "start": 488.868,
+  "end": 490.644,
+  "en": "Electricity won't stop AI.",
+  "zh": "电挡不住 AI，"
+ },
+ {
+  "id": "7.2",
+  "start": 490.644,
+  "end": 494.124,
+  "en": "Too much money is chasing this problem for that.",
+  "zh": "追着这个问题砸的钱太多了。"
+ },
+ {
+  "id": "7.3",
+  "start": 494.374,
+  "end": 496.212,
+  "en": "But for the next few years,",
+  "zh": "但未来几年，"
+ },
+ {
+  "id": "7.3",
+  "start": 496.212,
+  "end": 499.617,
+  "en": "power will decide three things: how fast AI grows,",
+  "zh": "电会决定三件事：AI 长得多快、"
+ },
+ {
+  "id": "7.3",
+  "start": 499.617,
+  "end": 502.132,
+  "en": "where it gets built, and who wins.",
+  "zh": "建在哪里，以及谁会赢。"
+ },
+ {
+  "id": "7.4",
+  "start": 502.382,
+  "end": 505.536,
+  "en": "The winners won't just be the ones with the best models.",
+  "zh": "赢家不只是模型最好的那家，"
+ },
+ {
+  "id": "7.4",
+  "start": 505.536,
+  "end": 508.327,
+  "en": "They'll be the ones who locked in power early.",
+  "zh": "而是最早锁定电力的那家。"
+ },
+ {
+  "id": "7.5",
+  "start": 508.577,
+  "end": 511.084,
+  "en": "I'd go further: by the end of this decade,",
+  "zh": "我甚至觉得：到这个十年结束时，"
+ },
+ {
+  "id": "7.5",
+  "start": 511.084,
+  "end": 513.532,
+  "en": "a guaranteed grid connection may be worth",
+  "zh": "一个有保障的电网接口，"
+ },
+ {
+  "id": "7.5",
+  "start": 513.532,
+  "end": 515.941,
+  "en": "more than the chips you plug into it.",
+  "zh": "可能比插在上面的芯片还值钱。"
+ },
+ {
+  "id": "7.6",
+  "start": 516.341,
+  "end": 519.283,
+  "en": "And if I'm wrong, it'll be because the grid",
+  "zh": "如果我错了，"
+ },
+ {
+  "id": "7.6",
+  "start": 519.283,
+  "end": 522.635,
+  "en": "suddenly started moving at chip speed: new lines,",
+  "zh": "那一定是因为电网突然跑出了芯片的速度：新的输电线、"
+ },
+ {
+  "id": "7.6",
+  "start": 522.635,
+  "end": 526.329,
+  "en": "plants and transformers arriving in two or three years",
+  "zh": "电厂和变压器，两三年就能到位，"
+ },
+ {
+  "id": "7.6",
+  "start": 526.329,
+  "end": 530.087,
+  "en": "instead of five or more. That's the signal to watch.",
+  "zh": "而不是五年以上。这就是值得盯住的信号。"
+ },
+ {
+  "id": "8.1",
+  "start": 530.887,
+  "end": 532.478,
+  "en": "What does this mean for you?",
+  "zh": "这和你有什么关系？"
+ },
+ {
+  "id": "8.2",
+  "start": 532.728,
+  "end": 535.49,
+  "en": "If you live where data centers are booming,",
+  "zh": "如果你住在数据中心扎堆的地方，"
+ },
+ {
+  "id": "8.2",
+  "start": 535.49,
+  "end": 539.416,
+  "en": "part of AI's bill may already be on your electricity bill.",
+  "zh": "AI 的一部分账单，可能已经算进你的电费里了。"
+ },
+ {
+  "id": "8.3",
+  "start": 539.666,
+  "end": 543.185,
+  "en": "And next time someone says AI is limited by chips,",
+  "zh": "下次再有人说 AI 卡在芯片上，"
+ },
+ {
+  "id": "8.3",
+  "start": 543.185,
+  "end": 545.227,
+  "en": "remember Microsoft's problem.",
+  "zh": "想想微软的问题："
+ },
+ {
+  "id": "8.3",
+  "start": 545.227,
+  "end": 548.172,
+  "en": "The chips were there. The power wasn't.",
+  "zh": "芯片有了，电没有。"
+ },
+ {
+  "id": "8.4",
+  "start": 548.422,
+  "end": 551.141,
+  "en": "So which do you think runs out first: chips,",
+  "zh": "那你觉得，芯片和电，"
+ },
+ {
+  "id": "8.4",
+  "start": 551.141,
+  "end": 553.812,
+  "en": "or electricity? Tell me in the comments.",
+  "zh": "哪个会先不够用？评论区告诉我。"
+ }
+]
