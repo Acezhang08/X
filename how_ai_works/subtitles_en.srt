@@ -1,0 +1,580 @@
+1
+00:00:01,200 --> 00:00:04,769
+You've probably heard that AI just predicts the next word.
+
+2
+00:00:05,169 --> 00:00:06,075
+That's true.
+
+3
+00:00:06,475 --> 00:00:09,035
+But it's also where most explanations stop.
+
+4
+00:00:09,435 --> 00:00:15,513
+In September 2024, OpenAI tested two of its models on the AIME,
+
+5
+00:00:15,643 --> 00:00:17,970
+a hard American math competition.
+
+6
+00:00:18,370 --> 00:00:24,008
+The older model, GPT-4o, solved about 12 percent of the problems.
+
+7
+00:00:24,408 --> 00:00:28,188
+The newer one, called o1, solved 74 percent.
+
+8
+00:00:28,738 --> 00:00:31,670
+Both of them still work by predicting the next word.
+
+9
+00:00:32,070 --> 00:00:36,109
+The difference is that one of them learned to think before it answers.
+
+10
+00:00:37,059 --> 00:00:39,781
+Let's start with what the model actually sees.
+
+11
+00:00:40,181 --> 00:00:42,444
+Not letters. Not words. Numbers.
+
+12
+00:00:42,844 --> 00:00:45,910
+Your text gets chopped into pieces called tokens.
+
+13
+00:00:46,310 --> 00:00:49,295
+In English, a token is about four characters,
+
+14
+00:00:49,425 --> 00:00:51,517
+or roughly three quarters of a word.
+
+15
+00:00:51,917 --> 00:00:54,883
+Each token is then swapped for an ID number.
+
+16
+00:00:55,333 --> 00:00:58,526
+From here on, the model never sees your words again.
+
+17
+00:00:58,926 --> 00:01:00,234
+Only these numbers.
+
+18
+00:01:00,634 --> 00:01:04,373
+That's why AI can stumble on things that feel trivial to us,
+
+19
+00:01:04,503 --> 00:01:06,524
+like counting the letters in a word.
+
+20
+00:01:06,924 --> 00:01:08,460
+It never saw the letters.
+
+21
+00:01:09,410 --> 00:01:12,174
+So what does the model do with those numbers?
+
+22
+00:01:12,574 --> 00:01:14,591
+Just one job, over and over:
+
+23
+00:01:14,721 --> 00:01:17,469
+given everything so far, what comes next?
+
+24
+00:01:17,869 --> 00:01:21,354
+For every possible next token, it gives a probability.
+
+25
+00:01:21,754 --> 00:01:25,318
+After "The cat sat on the," the word "mat" might score high,
+
+26
+00:01:25,448 --> 00:01:28,640
+"floor" a bit lower, and "banana" almost zero.
+
+27
+00:01:29,040 --> 00:01:33,221
+It picks one, adds it to the end, and asks the same question again.
+
+28
+00:01:33,621 --> 00:01:34,944
+Token by token,
+
+29
+00:01:35,074 --> 00:01:39,008
+that's how every answer you've ever gotten from a chatbot was built.
+
+30
+00:01:39,408 --> 00:01:44,335
+A long answer can take hundreds or even thousands of these predictions,
+
+31
+00:01:44,465 --> 00:01:47,571
+each one depending on everything that came before it.
+
+32
+00:01:47,971 --> 00:01:50,279
+And it doesn't always pick the top choice.
+
+33
+00:01:50,679 --> 00:01:53,389
+A little randomness is usually built in,
+
+34
+00:01:53,519 --> 00:01:57,024
+which is why the same question can get two different answers.
+
+35
+00:01:57,474 --> 00:02:00,827
+So far, this is the explanation you've heard before.
+
+36
+00:02:01,227 --> 00:02:04,843
+The interesting part is where those probabilities come from.
+
+37
+00:02:05,793 --> 00:02:09,731
+Inside the model are billions of numbers called parameters.
+
+38
+00:02:10,131 --> 00:02:15,927
+GPT-3, back in 2020, had 175 billion of them.
+
+39
+00:02:16,327 --> 00:02:19,023
+So how does it decide which earlier words matter?
+
+40
+00:02:19,423 --> 00:02:22,778
+Inside, each token becomes a long list of numbers,
+
+41
+00:02:22,908 --> 00:02:25,391
+and those lists pass through layer after layer.
+
+42
+00:02:25,791 --> 00:02:29,855
+In each layer, every token can look back at the tokens before it,
+
+43
+00:02:29,985 --> 00:02:32,053
+and pull in the ones that are relevant.
+
+44
+00:02:32,453 --> 00:02:36,463
+Take this sentence: "The cat sat on the mat because it was tired."
+
+45
+00:02:36,863 --> 00:02:41,797
+To make sense of "it," the model has to connect it back to "cat," not "mat."
+
+46
+00:02:42,197 --> 00:02:43,927
+This step is called attention.
+
+47
+00:02:44,327 --> 00:02:48,480
+It comes from a 2017 paper by researchers at Google,
+
+48
+00:02:48,610 --> 00:02:50,651
+titled "Attention Is All You Need,"
+
+49
+00:02:50,781 --> 00:02:55,324
+and it's the core of the design behind today's large language models.
+
+50
+00:02:55,724 --> 00:02:58,506
+At the start, all those parameters are random,
+
+51
+00:02:58,636 --> 00:03:00,788
+and the model's guesses are nonsense.
+
+52
+00:03:01,188 --> 00:03:02,975
+Training is a guessing game.
+
+53
+00:03:03,375 --> 00:03:07,173
+Show the model real text, hide the next token, let it guess,
+
+54
+00:03:07,303 --> 00:03:10,885
+then nudge every parameter slightly toward the right answer.
+
+55
+00:03:11,285 --> 00:03:13,250
+Then do it again. And again.
+
+56
+00:03:13,650 --> 00:03:18,204
+Meta's Llama 3 was trained on more than 15 trillion tokens.
+
+57
+00:03:18,654 --> 00:03:20,309
+To put that in perspective:
+
+58
+00:03:20,439 --> 00:03:24,026
+a person reading nonstop, at an average reading speed,
+
+59
+00:03:24,156 --> 00:03:28,431
+would need roughly 90,000 years to get through that much text.
+
+60
+00:03:28,831 --> 00:03:30,654
+And here's the surprising part.
+
+61
+00:03:31,054 --> 00:03:34,331
+To get good at guessing the next word across all that text,
+
+62
+00:03:34,461 --> 00:03:37,199
+the model ends up picking up grammar, facts,
+
+63
+00:03:37,329 --> 00:03:39,736
+and patterns of reasoning along the way.
+
+64
+00:03:40,186 --> 00:03:41,968
+Nobody programmed those in.
+
+65
+00:03:42,368 --> 00:03:44,712
+They're a side effect of getting good at guessing.
+
+66
+00:03:45,662 --> 00:03:49,439
+But a model trained only this way has a strange problem.
+
+67
+00:03:49,839 --> 00:03:51,933
+It's an autocomplete for the internet.
+
+68
+00:03:52,333 --> 00:03:55,817
+Ask it a question, and it might just write more questions,
+
+69
+00:03:55,947 --> 00:03:59,049
+the way a quiz or a homework sheet would carry on.
+
+70
+00:03:59,449 --> 00:04:03,784
+Turning it into an assistant takes a second, much smaller round of training.
+
+71
+00:04:04,184 --> 00:04:08,226
+People write example answers and rank the model's replies,
+
+72
+00:04:08,356 --> 00:04:11,497
+and the model is tuned toward the ones people prefer.
+
+73
+00:04:11,897 --> 00:04:13,638
+Ranking is the clever part.
+
+74
+00:04:14,038 --> 00:04:18,190
+It's much easier for a person to say which of two answers is better
+
+75
+00:04:18,320 --> 00:04:20,687
+than to write the perfect answer themselves.
+
+76
+00:04:21,087 --> 00:04:25,522
+In 2022, OpenAI showed how powerful this step is.
+
+77
+00:04:25,922 --> 00:04:31,419
+People preferred answers from a 1.3 billion parameter model trained this way
+
+78
+00:04:31,549 --> 00:04:36,171
+over the 175 billion parameter GPT-3.
+
+79
+00:04:36,621 --> 00:04:41,024
+A model more than 100 times smaller, and people liked it better.
+
+80
+00:04:41,424 --> 00:04:44,306
+By 2023, that was the full story:
+
+81
+00:04:44,436 --> 00:04:48,242
+predict the next word, then get polished by human feedback.
+
+82
+00:04:48,992 --> 00:04:50,533
+Then the story changed.
+
+83
+00:04:51,483 --> 00:04:53,140
+Remember those math scores?
+
+84
+00:04:53,540 --> 00:04:55,953
+12 percent versus 74.
+
+85
+00:04:56,353 --> 00:04:59,496
+The key new ingredient was a different kind of training,
+
+86
+00:04:59,626 --> 00:05:01,382
+called reinforcement learning.
+
+87
+00:05:01,782 --> 00:05:04,401
+OpenAI hasn't published the details,
+
+88
+00:05:04,531 --> 00:05:08,749
+but here's the basic idea, as other labs have since described it.
+
+89
+00:05:09,149 --> 00:05:11,093
+Give the model a math problem.
+
+90
+00:05:11,493 --> 00:05:15,823
+Let it write out as much working as it wants before its final answer.
+
+91
+00:05:16,223 --> 00:05:18,366
+If the answer is right, reward it.
+
+92
+00:05:18,766 --> 00:05:20,027
+If it's wrong, don't.
+
+93
+00:05:20,427 --> 00:05:22,310
+Nobody shows it how to reason.
+
+94
+00:05:22,710 --> 00:05:25,766
+It only finds out whether it got the answer right.
+
+95
+00:05:26,166 --> 00:05:30,691
+In January 2025, the Chinese lab DeepSeek published
+
+96
+00:05:30,821 --> 00:05:33,519
+what happened when they trained a model this way.
+
+97
+00:05:33,919 --> 00:05:35,877
+On that same math competition,
+
+98
+00:05:36,007 --> 00:05:40,952
+the model's score climbed from 15.6 percent to 71 percent
+
+99
+00:05:41,082 --> 00:05:42,713
+over the course of training.
+
+100
+00:05:43,113 --> 00:05:46,053
+And it started doing things nobody had taught it.
+
+101
+00:05:46,453 --> 00:05:49,084
+It spent longer thinking on each problem.
+
+102
+00:05:49,484 --> 00:05:51,575
+It went back and checked its own steps.
+
+103
+00:05:52,025 --> 00:05:55,168
+At one point, in the middle of a solution, it wrote:
+
+104
+00:05:55,298 --> 00:05:56,581
+"Wait, wait. Wait."
+
+105
+00:05:56,981 --> 00:05:58,762
+Then it found its own mistake.
+
+106
+00:05:59,312 --> 00:06:01,728
+The researchers called it an "aha moment."
+
+107
+00:06:02,128 --> 00:06:07,569
+By the spring of 2025, OpenAI, DeepSeek, Anthropic and Google
+
+108
+00:06:07,699 --> 00:06:11,305
+had all released models that can think before they answer.
+
+109
+00:06:11,705 --> 00:06:14,335
+And OpenAI reported something else:
+
+110
+00:06:14,465 --> 00:06:18,564
+the longer the model is allowed to think, the better it tends to do.
+
+111
+00:06:18,964 --> 00:06:21,516
+That's what is happening when a chatbot pauses
+
+112
+00:06:21,646 --> 00:06:23,532
+and shows you a "thinking" label.
+
+113
+00:06:23,932 --> 00:06:27,080
+It's writing out its working before it shows you the answer.
+
+114
+00:06:27,480 --> 00:06:29,267
+And that working isn't free.
+
+115
+00:06:29,667 --> 00:06:33,656
+Every thinking token has to be predicted, just like the answer.
+
+116
+00:06:34,056 --> 00:06:39,203
+On OpenAI's API, those reasoning tokens are billed as output,
+
+117
+00:06:39,333 --> 00:06:41,003
+even though you never see them.
+
+118
+00:06:41,403 --> 00:06:43,339
+That's why thinking mode is slower,
+
+119
+00:06:43,469 --> 00:06:45,208
+and why it often costs more.
+
+120
+00:06:46,158 --> 00:06:49,008
+So here's the part most explanations miss.
+
+121
+00:06:49,458 --> 00:06:51,761
+AI still just predicts the next word.
+
+122
+00:06:52,161 --> 00:06:53,470
+That never changed.
+
+123
+00:06:53,870 --> 00:06:56,060
+What changed is what it's predicting.
+
+124
+00:06:56,460 --> 00:06:59,511
+Not just what someone on the internet would write next,
+
+125
+00:06:59,641 --> 00:07:01,848
+but the steps that lead to a right answer.
+
+126
+00:07:02,248 --> 00:07:05,816
+The thinking is made of the same tokens, one at a time.
+
+127
+00:07:06,216 --> 00:07:09,130
+It's next-word prediction, pointed at a goal.
+
+128
+00:07:09,530 --> 00:07:11,911
+So the whole recipe has three stages.
+
+129
+00:07:12,311 --> 00:07:15,641
+First, guess the next word across trillions of tokens.
+
+130
+00:07:16,041 --> 00:07:18,718
+Second, get polished by human preferences.
+
+131
+00:07:19,118 --> 00:07:22,137
+Third, get rewarded for reaching right answers.
+
+132
+00:07:22,687 --> 00:07:25,379
+Most explanations stop after the first two.
+
+133
+00:07:25,779 --> 00:07:28,843
+The third is the one that changed what AI can do.
+
+134
+00:07:29,793 --> 00:07:31,294
+What does this mean for you?
+
+135
+00:07:31,694 --> 00:07:35,386
+First, for hard problems, like math, code, or planning,
+
+136
+00:07:35,516 --> 00:07:38,318
+use the thinking mode if your AI has one.
+
+137
+00:07:38,718 --> 00:07:41,941
+It's the same kind of machine, given time to think.
+
+138
+00:07:42,341 --> 00:07:44,665
+Second, thinking isn't the same as knowing.
+
+139
+00:07:45,065 --> 00:07:48,045
+Its knowledge still comes from patterns in its training,
+
+140
+00:07:48,175 --> 00:07:51,058
+so it can reason carefully and still be wrong.
+
+141
+00:07:51,458 --> 00:07:53,089
+Check anything that matters.
+
+142
+00:07:53,639 --> 00:07:55,197
+So here's my question.
+
+143
+00:07:55,597 --> 00:07:59,405
+When an AI writes "wait, let me check that," is it really thinking?
+
+144
+00:07:59,805 --> 00:08:03,764
+Or is it just a very good prediction of what thinking looks like?
+
+145
+00:08:04,164 --> 00:08:05,480
+Tell me in the comments.
+

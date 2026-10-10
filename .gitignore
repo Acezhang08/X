@@ -1,1 +1,6 @@
 node_modules/
+how_ai_works/assets/
+how_ai_works/build/
+how_ai_works/preview/
+how_ai_works/__pycache__/
+how_ai_works/scenes/__pycache__/
