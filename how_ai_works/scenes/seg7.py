@@ -66,8 +66,8 @@ class Seg7(Seg):
         self.act(self.tr("7.4", 1, 0.0), FadeIn(q), d=0.8)
         b1 = VGroup(RoundedRectangle(corner_radius=0.15, width=5.6, height=1.5, stroke_color=WHITE, stroke_width=4, fill_color=WHITE, fill_opacity=0.08),
                     Text("THINKING", font=SERIF, font_size=50, color=WHITE)).move_to(LEFT * 3.4 + UP * 0.6)
-        b2 = VGroup(RoundedRectangle(corner_radius=0.15, width=5.6, height=1.5, stroke_color=YELLOW, stroke_width=4, fill_color=YELLOW, fill_opacity=0.08),
-                    Text("PREDICTING", font=SERIF, font_size=50, color=YELLOW)).move_to(RIGHT * 3.4 + UP * 0.6)
+        b2 = VGroup(RoundedRectangle(corner_radius=0.15, width=5.6, height=1.5, stroke_color=WHITE, stroke_width=4, fill_color=WHITE, fill_opacity=0.08),
+                    Text("PREDICTING", font=SERIF, font_size=50, color=WHITE)).move_to(RIGHT * 3.4 + UP * 0.6)
         b1[1].move_to(b1[0]); b2[1].move_to(b2[0])
         self.act(self.tr("7.4", 2, 0.0), FadeIn(b1, shift=RIGHT * 0.2), FadeIn(b2, shift=LEFT * 0.2), d=0.9)
         cur = Rectangle(width=0.07, height=1.1, stroke_width=0, fill_color=WHITE, fill_opacity=1).move_to(UP * 0.6)
@@ -76,6 +76,7 @@ class Seg7(Seg):
         cm = T("tell me in the comments", 34, GREY).move_to(DOWN * 1.6)
         self.act(self.tr("7.4", 3, 0.0), FadeIn(cm), d=0.7)
         # 片尾慢收
+        self.dump_marks()
         self.go(self.dur - 1.3)
         self.play(*[FadeOut(m) for m in list(self.mobjects)], run_time=1.0)
         self.go(self.dur)

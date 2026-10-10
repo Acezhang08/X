@@ -17,7 +17,8 @@ class Seg1(Seg):
         self.act(self.tr("1.1", 0, 0.05), Write(txt), FadeIn(cap), d=1.6)
 
         # 1.2 切成 token
-        toks = VGroup(*[tok(p, BLUE, w=max(1.25, 0.34 * len(p) + 0.7), h=0.9, size=32) for p in pieces]).arrange(RIGHT, buff=0.3)
+        ids = ["4438", "1587", "15592", "990", "30"]
+        toks = VGroup(*[tok(p, BLUE, w=max(1.25, 0.34 * max(len(p), len(i)) + 0.85), h=0.9, size=32) for p, i in zip(pieces, ids)]).arrange(RIGHT, buff=0.3)
         toks.move_to(UP * 0.55)
         divs = VGroup()
         for a, b in zip(txt[:-1], txt[1:]):
@@ -30,11 +31,10 @@ class Seg1(Seg):
         brace = Brace(toks[3], DOWN, color=YELLOW, buff=0.15)
         lab1 = T("≈ 4 characters", 30, YELLOW).next_to(brace, DOWN, buff=0.2)
         lab2 = T("≈ ¾ of a word", 30, YELLOW).next_to(lab1, DOWN, buff=0.15)
-        self.act(self.tr("1.3", 0, 0.5), GrowFromCenter(brace), FadeIn(lab1), d=0.7)
-        self.act(self.tr("1.3", 1, 0.0), FadeIn(lab2), d=0.6)
+        self.act_mark("4 characters (1.3)", self.wt("1.3", 0, "four"), GrowFromCenter(brace), FadeIn(lab1), d=0.5)
+        self.act_mark("3/4 of a word (1.3)", self.wt("1.3", 1, "three"), FadeIn(lab2), d=0.5)
 
         # 1.4 换成编号
-        ids = ["4438", "1587", "15592", "990", "30"]
         new_txt = [Text(i, font=MONO, font_size=32, color=BLUE).move_to(toks[k][1]) for k, i in enumerate(ids)]
         tg = illus("IDs illustrative")
         self.act(self.tr("1.4", f=0.05), FadeOut(brace), FadeOut(lab1), FadeOut(lab2),

@@ -16,13 +16,14 @@ class Seg3(Seg):
         self.act(self.tr("3.1", f=0.05), LaggedStart(*[Create(e) for e in edges], lag_ratio=0.004), FadeIn(dots), d=2.2)
         self.act(self.tr("3.1", f=0.6), FadeIn(plab), d=0.5)
         # 3.2 175 billion
-        c, a = counter(lambda v: f"{int(round(v)):,}", 0, 175_000_000_000, DOWN * 0.15 + UP * 0.0, 66, BLUE)
+        c, a = counter(lambda v: f"{int(round(v)):,}", 0, 175_000_000_000, DOWN * 0.15 + UP * 0.0, 66, BLUE, rate=rate_functions.smooth)
         c.move_to(DOWN * 0.4)
         cl = T("GPT-3 · 2020", 30, GREY).move_to(DOWN * 1.5)
-        self.act(self.tr("3.2", f=0.0), net.animate.scale(0.6).move_to(UP * 2.1), FadeOut(plab), d=0.9)
-        self.go(self.tr("3.2", f=0.08))
+        self.act(self.tr("3.2", f=0.0), net.animate.scale(0.6).move_to(UP * 2.1), FadeOut(plab), FadeIn(cl), d=0.9)
+        ta, tb = self.wt("3.2", 0, "one"), self.wt("3.2", 0, "billion", end=True)
+        self.go(ta)
         self.add(c)
-        self.act(self.tr("3.2", f=0.08), a, FadeIn(cl), d=3.4)
+        self.act_mark("175 billion (3.2)", ta, a, d=tb - ta)
 
         # 3.3 token -> 向量 -> 层
         self.act(self.tr("3.3", 0, 0.0), FadeOut(net), FadeOut(c), FadeOut(cl), d=0.6)
@@ -122,30 +123,33 @@ class Seg3(Seg):
                       *[e.animate.set_stroke(random.choice([BLUE, GREEN, YELLOW]), 1.6, 0.5) for e in random.sample(list(edges), 25)],
                       run_time=0.32)
         self.act(self.tr("3.9", 1, 0.0), *[FadeOut(m) for m in list(self.mobjects)], d=0.5)
-        c, a = counter(lambda v: f"{int(round(v)):,}+", 0, 15_000_000_000_000, UP * 0.7, 62, BLUE)
+        c, a = counter(lambda v: f"{int(round(v)):,}+", 0, 15_000_000_000_000, UP * 0.7, 62, BLUE, rate=rate_functions.smooth)
         lab = T("tokens  ·  Meta's Llama 3", 32, GREY).move_to(DOWN * 0.5)
-        self.go(self.tr("3.9", 1, 0.2))
+        self.go(self.tr("3.9", 1, 0.0) + 0.5)
         self.add(c)
-        self.act(self.tr("3.9", 1, 0.2), a, FadeIn(lab), d=3.2)
+        self.play(FadeIn(lab), run_time=0.4)
+        ta, tb = self.wt("3.9", 1, "more"), self.wt("3.9", 1, "tokens", end=True)
+        self.act_mark("15 trillion (3.9)", ta, a, d=tb - ta)
+        t_hold_end = self.now() + 1.5   # 满亮度停留至少 1.5 秒
 
         # 3.10 九万年
-        self.act(self.tr("3.10", 0, 0.0), *[FadeOut(m) for m in list(self.mobjects)], d=0.5)
+        self.act(t_hold_end, *[FadeOut(m) for m in list(self.mobjects)], d=0.5)
         axis = Line(LEFT * 5.8 + DOWN * 0.3, RIGHT * 5.8 + DOWN * 0.3, color=WHITE, stroke_width=3)
         ticks = VGroup()
         for k in range(10):
             x = -5.8 + 11.6 * k / 9
             ticks.add(Line(RIGHT * x + DOWN * 0.2, RIGHT * x + DOWN * 0.4, color=WHITE, stroke_width=2))
             ticks.add(T(f"{k * 10_000:,}", 20, GREY).move_to(RIGHT * x + DOWN * 0.78))
-        self.act(self.tr("3.10", 0, 0.1), Create(axis), FadeIn(ticks), d=0.9)
+        self.act(self.now(), Create(axis), FadeIn(ticks), d=0.9)
         rd = person(WHITE, 1.2).move_to(LEFT * 5.8 + UP * 0.35)
-        read = T("reading nonstop, at an average speed", 28, GREY).move_to(UP * 1.5)
+        read = T("reading nonstop, at an average speed", 28, GREY).move_to(DOWN * 1.7)
         self.act(self.tr("3.10", 1, 0.0), FadeIn(rd), FadeIn(read), d=0.6)
-        yc, ya = counter(lambda v: f"{int(round(v)):,}", 0, 90_000, UP * 2.7 + LEFT * 1.0, 80, YELLOW)
-        yl = T("YEARS", 36, YELLOW)
-        yl.next_to(yc, RIGHT, buff=0.35).align_to(yc, DOWN)
-        self.go(self.tr("3.10", 2, 0.15))
+        yc, ya = counter(lambda v: f"≈ {int(round(v)):,}", 0, 90_000, UP * 2.9, 80, YELLOW, rate=rate_functions.smooth)
+        yl = T("YEARS", 36, YELLOW).move_to(UP * 1.85)
+        ta, tb = self.wt("3.10", 2, "roughly"), self.wt("3.10", 2, "years", end=True)
+        self.go(ta)
         self.add(yc, yl)
-        self.act(self.tr("3.10", 2, 0.15), ya, rd.animate.move_to(RIGHT * 5.8 + UP * 0.35), d=3.4, rate_func=rate_functions.ease_out_cubic)
+        self.act_mark("90,000 years (3.10)", ta, ya, rd.animate.move_to(RIGHT * 5.8 + UP * 0.35), d=tb - ta, rate_func=rate_functions.smooth)
         self.go(self.tr("3.10", 2, 1.0))
 
         # 3.11 / 3.12 网络里浮现语法、事实、推理

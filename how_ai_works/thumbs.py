@@ -22,8 +22,8 @@ for i in range(3): d.ellipse((605+i*40-13,400-13,605+i*40+13,400+13),fill=YELLOW
 im.save("thumbnail_A.png")
 # B
 im=Image.new("RGB",(1280,720),BG); d=ImageDraw.Draw(im)
-ctext(d,(640,110),"SAME AI?",f(SER,150),WHITE)
-rr(d,(90,260,430,560),GREY,mix(GREY,.2)); ctext(d,(260,410),"12%",f(SER,150),GREY)
-rr(d,(650,200,1190,600),YELLOW,mix(YELLOW,.18),w=8); ctext(d,(920,400),"74%",f(SER,230),YELLOW)
-d.line((450,410,630,410),fill=WHITE,width=10); d.polygon([(650,410),(610,380),(610,440)],fill=WHITE)
+d.text((50,100),"WHAT CHANGED?",font=f(SER,118),fill=WHITE,anchor="lm")
+rr(d,(50,215,310,355),GREY,mix(GREY,.2)); ctext(d,(180,285),"12%",f(SER,100),GREY)
+d.line((330,285,420,285),fill=WHITE,width=8); d.polygon([(440,285),(410,262),(410,308)],fill=WHITE)
+rr(d,(450,195,830,355),YELLOW,mix(YELLOW,.18),w=8); ctext(d,(640,275),"74%",f(SER,130),YELLOW)
 im.save("thumbnail_B.png")

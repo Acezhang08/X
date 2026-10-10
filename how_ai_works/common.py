@@ -18,6 +18,13 @@ SERIF, SANS, MONO = "CMU Serif", "Inter", "JetBrains Mono"
 
 config.background_color = BG
 
+import re as _re
+try:
+    WORDS = {(w["row"], w["i"]): [(_re.sub(r"\(\d+\)", "", n), a, b) for n, a, b in w["words"] if n not in ("<sil>", "+SPN+")]
+             for w in json.load(open(f"{HERE}/build/words.json"))}
+except FileNotFoundError:
+    WORDS = {}
+
 # 内容区（字幕占底部约 1.5 个单位）
 TOP, BOTTOM = 3.55, -2.45
 
@@ -106,6 +113,7 @@ class Seg(Scene):
         self.t0 = round(seg["begin"] * fps) / fps
         self.t1 = round(seg["end"] * fps) / fps
         self.dur = self.t1 - self.t0
+        self.marks = {}
         self.rows = {r["id"]: r for r in TL["rows"]}
         self.chunks = {}
         for c in TL["chunks"]:
@@ -138,7 +146,25 @@ class Seg(Scene):
         if anims:
             self.play(*anims, run_time=d, **kw)
 
+    def wt(self, rid, ci, word, k=0, end=False):
+        """某块里第 k 个 word（口语读法，小写）的起/止时间（本段局部秒）。找不到则退回块起点。"""
+        hits = [(a, b) for n, a, b in WORDS.get((rid, ci), []) if n == word]
+        if len(hits) <= k:
+            return self.tr(rid, ci, 0.0)
+        return (hits[k][1] if end else hits[k][0]) - self.t0
+
+    def act_mark(self, name, t, *anims, d=1.0, **kw):
+        """act + 记录该数字实际上屏的起止（全局秒），写入 marks 供 analyze.py 对齐检查"""
+        self.go(t)
+        s = self.now()
+        self.act(t, *anims, d=d, **kw)
+        self.marks[name] = [round(self.t0 + s, 3), round(self.t0 + self.now(), 3)]
+
+    def dump_marks(self):
+        json.dump(self.marks, open(f"{HERE}/build/marks_{self.SEG}.json", "w"), indent=1)
+
     def finish(self, fade=True):
+        self.dump_marks()
         if fade:
             self.go(self.dur - 0.35)
             objs = list(self.mobjects)

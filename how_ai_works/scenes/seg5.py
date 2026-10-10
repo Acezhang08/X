@@ -16,6 +16,10 @@ def grid15(n_full, part=0.0, scale=1.0):
     return VGroup(g, extra).scale(scale)
 
 
+def corner_note(text="illustrative"):
+    return T(text, 18, GREY).move_to(LEFT * 6.8 + DOWN * 2.35, aligned_edge=LEFT)
+
+
 def stream(n, color=BLUE, s=0.3, gap=0.38, op=0.3):
     return VGroup(*[sq(color, s, op, 2).move_to(RIGHT * i * gap) for i in range(n)])
 
@@ -44,8 +48,8 @@ class Seg5(Seg):
         self.act(self.tr("5.1", 0, 0.0), FadeIn(gl), FadeIn(gr), FadeIn(ll), FadeIn(lr), d=1.0)
         n1 = Text("12%", font=SERIF, font_size=88, color=YELLOW).move_to(LEFT * 3.6 + DOWN * 1.2)
         n2 = Text("74%", font=SERIF, font_size=88, color=YELLOW).move_to(RIGHT * 3.6 + DOWN * 1.2)
-        self.act(self.tr("5.1", 1, 0.0), FadeIn(n1, scale=0.8), d=0.5)
-        self.act(self.tr("5.1", 1, 0.6), FadeIn(n2, scale=0.8), d=0.5)
+        self.act_mark("12% (5.1)", self.wt("5.1", 1, "twelve"), FadeIn(n1, scale=0.8), d=0.2)
+        self.act_mark("74% (5.1)", self.wt("5.1", 1, "seventy"), FadeIn(n2, scale=0.8), d=0.2)
 
         # 5.2 强化学习
         self.clear(self.tr("5.2", 0, 0.0))
@@ -109,7 +113,7 @@ class Seg5(Seg):
 
         # 5.7 15.6 -> 71
         self.clear(self.tr("5.7", 0, 0.0))
-        x0, x1, y0, y1 = -4.6, 4.6, -1.7, 2.7
+        x0, x1, y0, y1 = -4.1, 4.6, -1.7, 2.7
         ax = axes(x0, x1, y0, y1, "training steps", "AIME 2024 score")
         self.act(self.tr("5.7", 0, 0.1), Create(ax[0]), FadeIn(ax[1]), FadeIn(ax[2]), d=1.0)
 
@@ -122,11 +126,13 @@ class Seg5(Seg):
             v = base + wig
             return np.array([x0 + (x1 - x0) * t, yv(v), 0])
         curve = ParametricFunction(f, t_range=[0, 1], color=YELLOW, stroke_width=6)
-        l1 = Text("15.6%", font=SERIF, font_size=48, color=YELLOW).move_to(RIGHT * (x0 + 1.0) + UP * (yv(15.6) - 0.55))
+        l1 = Text("15.6%", font=SERIF, font_size=48, color=YELLOW).move_to(RIGHT * (x0 - 0.25) + UP * (yv(15.6) + 0.55), aligned_edge=RIGHT)
+        d1 = Dot(RIGHT * x0 + UP * yv(15.6), radius=0.09, color=YELLOW)
         l2 = Text("71%", font=SERIF, font_size=60, color=YELLOW).move_to(RIGHT * (x1 - 0.5) + UP * (yv(71) + 0.6))
-        self.act(self.tr("5.7", 1, 0.0), FadeIn(l1), d=0.4)
-        self.act(self.tr("5.7", 1, 0.1), Create(curve), d=2.8)
-        self.act(self.tr("5.7", 1, 0.85), FadeIn(l2, scale=0.8), FadeIn(illus("curve shape illustrative")), d=0.5)
+        self.act_mark("15.6% (5.7)", self.wt("5.7", 1, "fifteen"), FadeIn(l1), FadeIn(d1), d=0.3)
+        t_s = self.wt("5.7", 1, "seventy")
+        self.act(self.now(), Create(curve), d=max(0.5, t_s - self.now() - 0.05))
+        self.act_mark("71% (5.7)", t_s, FadeIn(l2, scale=0.8), FadeIn(corner_note("curve shape illustrative")), d=0.3)
 
         # 5.8 越想越久、回头检查
         self.clear(self.tr("5.8", 0, 0.0))
@@ -173,7 +179,7 @@ class Seg5(Seg):
         ax2 = axes(-4.6, 4.6, -1.3, 2.7, "thinking time", "accuracy")
         self.act(self.tr("5.12", 0, 0.1), Create(ax2[0]), FadeIn(ax2[1]), FadeIn(ax2[2]), d=1.0)
         g = ParametricFunction(lambda t: np.array([-4.6 + 9.2 * t * 0.96 + 0.2, -0.8 + 3.3 * np.log1p(6 * t) / np.log1p(6), 0]), t_range=[0, 1], color=YELLOW, stroke_width=6)
-        self.act(self.tr("5.12", 1, 0.0), Create(g), FadeIn(illus("trend shown in OpenAI's o1 post, illustrative")), d=3.2)
+        self.act(self.tr("5.12", 1, 0.0), Create(g), FadeIn(corner_note("trend shown in OpenAI's o1 post, illustrative")), d=3.2)
 
         # 5.13 Thinking…
         self.clear(self.tr("5.13", 0, 0.0))

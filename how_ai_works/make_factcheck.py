@@ -21,4 +21,6 @@ for l in ROWS:
     c = [x.strip() for x in l.split("|")]
     out.append(f"| {c[0]} | {span(c[0])} | {c[1]} | {c[2]} | {c[3]} |")
 out += ["", "**刻意没写的说法**：o1 和 GPT-4o 的模型大小、训练数据量（OpenAI 没公开，所以没说「o1 没变大」）；推理模型能「真正思考」（留作结尾问题，不下结论）。", ""]
+out.append(open("alignment_check.md", encoding="utf-8").read())
+out.append(open("selfcheck.md", encoding="utf-8").read())
 open("fact_check.md", "w", encoding="utf-8").write("\n".join(out))

@@ -31,7 +31,6 @@ class Seg6(Seg):
         self.act(self.tr("6.4", 0, 0.5), FadeOut(lab2), d=0.4)
         self.act(self.tr("6.4", 1, 0.0), GrowArrow(arr), FadeIn(cap), answer[0].animate.set_fill(GREEN, 0.4), d=1.2)
         # 6.5 三级台阶
-        self.act(self.tr("6.5", 0, 0.0), *[FadeOut(m) for m in list(self.mobjects)], d=0.5)
         specs = [("PREDICT", BLUE, 1.3, "15T tokens", -4.6), ("POLISH", WHITE, 2.3, "1.3B > 175B", 0.0), ("REWARD", GREEN, 3.3, "15.6% → 71%", 4.6)]
         base_y = -2.0
         steps_g = []
@@ -43,9 +42,14 @@ class Seg6(Seg):
                 n.move_to(r.get_center() + DOWN * 0.1)
                 t.move_to(r.get_top() + UP * 0.45)
             steps_g.append(VGroup(r, t, n))
-        for k in range(3):
-            self.act(self.tr("6.5", k + 1, 0.0), FadeIn(steps_g[k][0], shift=UP * 0.3), FadeIn(steps_g[k][1]), d=0.7)
-            self.act(self.tr("6.5", k + 1, 0.45), FadeIn(steps_g[k][2], scale=0.8), d=0.5)
+        # 第一个台阶随旁白一开始就画出；数字在对应那句话里出现
+        self.act_mark("PREDICT step (6.5)", self.tr("6.5", 0, 0.0), *[FadeOut(m) for m in list(self.mobjects)],
+                      FadeIn(steps_g[0][0], shift=UP * 0.3), FadeIn(steps_g[0][1]), d=0.5)
+        self.act(self.wt("6.5", 1, "trillions"), FadeIn(steps_g[0][2], scale=0.8), d=0.4)
+        self.act(self.wt("6.5", 2, "second"), FadeIn(steps_g[1][0], shift=UP * 0.3), FadeIn(steps_g[1][1]), d=0.6)
+        self.act(self.wt("6.5", 2, "preferences"), FadeIn(steps_g[1][2], scale=0.8), d=0.4)
+        self.act(self.wt("6.5", 3, "third"), FadeIn(steps_g[2][0], shift=UP * 0.3), FadeIn(steps_g[2][1]), d=0.6)
+        self.act(self.wt("6.5", 3, "rewarded"), FadeIn(steps_g[2][2], scale=0.8), d=0.4)
         # 6.6
         self.act(self.tr("6.6", 1, 0.0), steps_g[0].animate.set_opacity(0.25), steps_g[1].animate.set_opacity(0.25),
                  steps_g[2][0].animate.set_fill(GREEN, 0.4).set_stroke(GREEN, 7), d=0.9)

@@ -25,14 +25,19 @@ class Seg0(Seg):
         cursor.clear_updaters()
         self.play(FadeOut(cursor), FadeOut(blank), FadeIn(mat, shift=UP * 0.2), run_time=0.4)
 
-        # 0.2 缩小变灰退到角落
+        # 0.2 句子留在画面中央：白色 60% 透明度，句末一条短竖线表示"讲到这里就停了"
         full = VGroup(base, mat)
-        self.act(self.tr("0.2", 0, 0.1), full.animate.scale(0.42).set_color(GREY).move_to(LEFT * 4.6 + UP * 3.3), d=1.0)
+        stop = Line(DOWN * 0.5, UP * 0.5, color=WHITE, stroke_width=7).move_to(mat.get_right() + RIGHT * 0.4)
+        stop.set_y(base.get_center()[1])
+        cap02 = T("where most explanations stop", 34, GREY).move_to(UP * 0.6 + DOWN * 1.3)
+        self.act(self.tr("0.2", 0, 0.05), full.animate.set_color(WHITE).set_opacity(0.6), Create(stop), d=0.8)
+        self.act(self.tr("0.2", 1, 0.1), FadeIn(cap02, shift=UP * 0.1), d=0.7)
 
         # 0.3 试卷：15 个方块
         row = VGroup(*[sq(WHITE, 0.5, 0.12, 3) for _ in range(15)]).arrange(RIGHT, buff=0.14).move_to(UP * 0.6)
         lab = T("AIME 2024  ·  15 problems", 32, WHITE).next_to(row, UP, buff=0.5)
-        self.act(self.tr("0.3", 0, 0.1), LaggedStart(*[FadeIn(s, scale=0.6) for s in row], lag_ratio=0.05), FadeIn(lab), d=1.6)
+        self.act(self.tr("0.3", 0, 0.0), FadeOut(full), FadeOut(stop), FadeOut(cap02),
+                 LaggedStart(*[FadeIn(s, scale=0.6) for s in row], lag_ratio=0.05), FadeIn(lab), d=1.6)
         note = T("OpenAI · September 2024", 24, GREY).next_to(row, DOWN, buff=0.5)
         self.act(self.tr("0.3", 1, 0.0), FadeIn(note), d=0.6)
 
@@ -42,22 +47,25 @@ class Seg0(Seg):
             return g
         gl, gr = grid().move_to(LEFT * 3.6 + UP * 0.5), grid().move_to(RIGHT * 3.6 + UP * 0.5)
         ll, lr = T("GPT-4o", 34, WHITE).next_to(gl, UP, buff=0.4), T("o1", 34, WHITE).next_to(gr, UP, buff=0.4)
-        self.act(self.tr("0.4", f=0.0), ReplacementTransform(row, gl), FadeOut(lab), FadeOut(note), FadeIn(ll),
-                 FadeOut(full), d=1.0)
+        self.act(self.tr("0.4", f=0.0), ReplacementTransform(row, gl), FadeOut(lab), FadeOut(note), FadeIn(ll), d=1.0)
         c1, a1 = counter(lambda v: f"{int(round(v))}%", 0, 12, LEFT * 3.6 + DOWN * 1.65, 80, YELLOW)
         gl[0].set_fill(GREEN, 0.7).set_stroke(GREEN)
         part = Rectangle(width=0.5 * 0.8, height=0.5, stroke_width=0, fill_color=GREEN, fill_opacity=0.7)
         part.align_to(gl[1], LEFT).align_to(gl[1], UP)
-        self.act(self.tr("0.4", f=0.55), FadeIn(c1), FadeIn(part), gl[0].animate.set_fill(GREEN, 0.7), d=0.3)
-        self.play(a1, run_time=1.4)
+        self.act(self.wt("0.4", 0, "solved"), FadeIn(part), gl[0].animate.set_fill(GREEN, 0.7), d=0.3)
+        ta, tb = self.wt("0.4", 0, "twelve"), self.wt("0.4", 0, "percent", end=True)
+        self.go(ta)
+        self.add(c1)
+        self.act_mark("12% (0.4)", ta, a1, d=max(0.3, tb - ta))
 
         # 0.5 右边：o1 74%
         c2, a2 = counter(lambda v: f"{int(round(v))}%", 0, 74, RIGHT * 3.6 + DOWN * 1.65, 80, YELLOW)
         self.act(self.tr("0.5", f=0.0), FadeIn(gr, scale=0.9), FadeIn(lr), d=0.6)
-        self.go(self.tr("0.5", f=0.4))
+        ta, tb = self.wt("0.5", 0, "seventy"), self.wt("0.5", 0, "percent", end=True)
+        self.go(ta)
         self.add(c2)
-        self.act(self.tr("0.5", f=0.4),
-                 LaggedStart(*[gr[i].animate.set_fill(GREEN, 0.7).set_stroke(GREEN) for i in range(11)], lag_ratio=0.08), a2, d=1.8)
+        self.act_mark("74% (0.5)", ta,
+                      LaggedStart(*[gr[i].animate.set_fill(GREEN, 0.7).set_stroke(GREEN) for i in range(11)], lag_ratio=0.08), a2, d=max(0.3, tb - ta))
 
         # 0.6 思考气泡
         bubble = RoundedRectangle(corner_radius=0.3, width=1.5, height=0.7, stroke_color=BLUE, stroke_width=3,
