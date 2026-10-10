@@ -1,0 +1,38 @@
+0.3-0.5 | 2024 年 9 月 OpenAI 用 AIME 测试；GPT-4o 平均约 12%，o1 74% | OpenAI《Learning to Reason with LLMs》（2024-09-12）：2024 AIME 上 GPT-4o 平均 12%（1.8/15），o1 单次采样平均 74%（11.1/15）— https://openai.com/index/learning-to-reason-with-llms/ | ✅ 用的是"单次采样"的 74%，不是多次投票的更高分
+0.3 | AIME 是一场很难的美国数学竞赛 | 稳定常识（American Invitational Mathematics Examination） | ✅
+0.6 | 两个模型都还是预测下一个词；o1 学会先想再答 | 同上，原文 "o1 thinks before it answers" | ✅
+1.3 | 英文里 1 个 token ≈ 4 个字符 ≈ ¾ 个单词 | OpenAI 帮助中心《What are tokens》— https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them | ✅ 经验估算，旁白用了 "about""roughly"
+1.4-1.5 | token 被换成编号，模型只处理编号 | 同上；分词机制的通用说法 | ✅ 画面编号标 "illustrative"
+1.6 | 数字母会出错，因为模型看不到字母 | 机制解释（分词把字母藏在 token 里）；旁白用了 "can stumble" | ✅
+2.1-2.5 | 模型对每个可能的下一个 token 给概率，选一个接上，再重复 | Hugging Face《How to generate text》— https://huggingface.co/blog/how-to-generate | ✅
+2.3 | mat / floor / banana 的概率高低 | 示意 | — 画面标 "illustrative"
+2.6 | 长回答要做几百甚至几千次预测，每次取决于前面所有内容 | 由 2.1–2.5 的机制推出：每生成一个 token 是一次预测；750 词约 1,000 token | ✅ 用了 "can"
+2.7 | 通常加入随机性，所以同一问题答案会不同 | 同上：采样"不再是确定性的" | ✅ 用了 "usually"
+3.2 | 2020 年的 GPT-3 有 1750 亿参数 | Brown et al.《Language Models are Few-Shot Learners》（2020）— https://arxiv.org/abs/2005.14165 | ✅
+3.3-3.4 | 每个 token 变成一长串数字，穿过一层层；每层里 token 可回看前面的 token，取相关信息 | Vaswani et al.《Attention Is All You Need》（2017）— https://arxiv.org/abs/1706.03762 | ✅ 通俗化描述
+3.5 | "it" 要连回 "cat" 而不是 "mat" | 示意（说明注意力的作用，不是某个模型的实测） | — 画面标 "illustrative"
+3.6 | 注意力来自 2017 年谷歌研究者的论文，是今天大语言模型设计的核心 | 论文首页作者单位 Google Brain / Google Research — https://arxiv.org/pdf/1706.03762 ；GPT-3 论文说明其架构基于 Transformer | ✅ 旁白写 "researchers at Google"
+3.7-3.8 | 参数一开始随机；训练是遮住下一个 token 让模型猜，再微调参数 | 预训练的通用机制描述 | ✅
+3.9 | Llama 3 训练用了超过 15 万亿 token | Meta 官方博客（2024-04-18）"over 15T tokens" — https://ai.meta.com/blog/meta-llama-3/ | ✅
+3.10 | 一个人不停地读，大约要 9 万年 | 计算：15 万亿 × 0.75 = 11.25 万亿词；÷ 238 词/分钟（Brysbaert 2019）≈ 89,900 年 — https://www.bps.org.uk/research-digest/most-comprehensive-review-date-finds-average-persons-reading-speed-slower | ✅ 用 "roughly"；15T 是下限，所以是保守估计
+3.11-3.12 | 为了猜准下一个词，模型顺带学会语法、事实和推理套路；没人写进程序 | 观点 / 通俗解释 | —
+4.2 | 基础模型被问问题时可能接着写更多问题 | 示意；InstructGPT 论文的出发点；旁白用了 "might" | — 画面标 "illustrative"
+4.3-4.4 | 第二轮训练规模小得多：人写示范回答、给回答排序，模型往人喜欢的方向调 | Ouyang et al.《InstructGPT》（2022）— https://arxiv.org/abs/2203.02155 | ✅
+4.5 | 让人比较两个回答比让人写出完美回答容易得多 | 观点 | —
+4.6-4.7 | 13 亿参数的 InstructGPT 比 1750 亿的 GPT-3 更受人喜欢；小 100 多倍 | 同上摘要；175 ÷ 1.3 ≈ 135 | ✅ 画面圆圈标 "not to scale"
+4.8 | 到 2023 年，主流说法就是"预测下一个词 + 人类反馈打磨" | 观点 / 概括 | —
+5.2-5.5 | 新的训练是强化学习；OpenAI 没公开细节；其他实验室公开的做法：答案可核对，答对奖励，不教推理 | OpenAI 同上；DeepSeek-R1 论文 — https://arxiv.org/abs/2501.12948 | ✅ 明确说 OpenAI 没公开细节，做法归给"其他实验室"
+5.6 | 2025 年 1 月 DeepSeek 公开结果 | 同上（arXiv 2501.12948） | ✅
+5.7 | 同一场竞赛（AIME 2024）分数从 15.6% 涨到 71% | DeepSeek-R1 论文：R1-Zero AIME 2024 pass@1 从 15.6% 涨到 71.0% — https://arxiv.org/html/2501.12948v1 | ✅ R1-Zero；曲线形状标 "illustrative"
+5.8 | 想得越来越久，会回头检查步骤 | 同上 | ✅
+5.9-5.10 | 解题中途写下 "Wait, wait. Wait."，研究者称 "aha moment" | 同上，论文表 3 | ✅ 引语带出处
+5.11 | 2025 年春天 OpenAI、DeepSeek、Anthropic、谷歌都推出了先想再答的模型 | OpenAI o1（2024-09-12）；DeepSeek-R1（2025-01）；Claude 3.7 Sonnet（2025-02-24）https://www.anthropic.com/news/claude-3-7-sonnet ；Gemini 2.5（2025-03-25）https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/ | ✅
+5.12 | 允许想得越久，往往做得越好 | OpenAI 同上：性能随测试时计算增加而提升 | ✅ "tends to"；画面标示意
+5.13 | 聊天机器人显示"思考中"时，是在先写推演再给答案 | 同 5.3、5.11；https://developers.openai.com/api/docs/guides/reasoning | ✅
+5.14 | 每个思考 token 都要被预测；OpenAI API 上推理 token 按输出计费，用户看不到原文 | OpenAI 推理模型文档（同上） | ✅ 只说 OpenAI 的 API
+5.15 | 思考模式更慢，也常常更贵 | 由 5.14 推出；用了 "often" | ✅
+6.1-6.4 | 还是在预测下一个词，只是目标变成通往正确答案的步骤 | 观点（5.2–5.9 支撑） | —
+6.5 | 三步：万亿级 token 猜词、按人的喜好打磨、答对奖励 | 3.9、4.3–4.4、5.2–5.5 的总结 | ✅
+6.6 | 大多数解释讲完前两步就停了；第三步改变了 AI 的能力 | 观点；基于 10/9 选题调研 | —
+7.2-7.3 | 难题用思考模式；会思考不等于知道 | 观点 / 建议 | —
+7.4 | 结尾问题 | — | —
