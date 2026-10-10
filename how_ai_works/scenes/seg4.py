@@ -76,9 +76,10 @@ class Seg4(Seg):
         self.act(self.tr("4.5", 2, 0.0), Create(ck), bx1[0].animate.set_stroke(GREEN), FadeIn(hard), FadeIn(easy), d=0.9)
 
         # 4.6 / 4.7 1.3B vs 175B
-        self.act(self.tr("4.6", 0, 0.0), *[FadeOut(m) for m in list(self.mobjects)], d=0.5)
+        title46 = Text("2022 · OpenAI · InstructGPT", font=SERIF, font_size=44, color=WHITE).move_to(UP * 3.4)
+        self.act(self.tr("4.6", 0, 0.0), *[FadeOut(m) for m in list(self.mobjects)], FadeIn(title46, shift=DOWN * 0.1), d=0.5)
         sm = Circle(radius=0.75, stroke_color=YELLOW, stroke_width=4, fill_color=YELLOW, fill_opacity=0.15).move_to(LEFT * 3.4 + UP * 1.3)
-        bg = Circle(radius=2.0, stroke_color=BLUE, stroke_width=4, fill_color=BLUE, fill_opacity=0.15).move_to(RIGHT * 2.8 + UP * 1.3)
+        bg = Circle(radius=1.7, stroke_color=BLUE, stroke_width=4, fill_color=BLUE, fill_opacity=0.15).move_to(RIGHT * 2.8 + UP * 1.3)
         t_sm = Text("1.3B", font=SERIF, font_size=46, color=YELLOW).move_to(sm)
         t_bg = Text("175B", font=SERIF, font_size=72, color=BLUE).move_to(bg)
         n_sm = T("InstructGPT · 1.3 billion", 26, WHITE).next_to(sm, DOWN, buff=1.55)
@@ -86,8 +87,8 @@ class Seg4(Seg):
         n_sm.move_to(LEFT * 3.4 + DOWN * 0.95)
         self.act_mark("1.3B (4.6)", self.wt("4.6", 1, "one"), FadeIn(sm), FadeIn(t_sm), FadeIn(n_sm), d=0.5)
         self.act_mark("175B (4.6)", self.wt("4.6", 2, "one"), FadeIn(t_bg), FadeIn(bg), FadeIn(n_bg), d=0.5)
-        ck2 = check(sm.get_top() + UP * 0.5, YELLOW, s=3.0)
-        pr = T("preferred by people", 28, YELLOW).next_to(sm, UP, buff=0.9)
+        ck2 = check(sm.get_top() + UP * 0.4, YELLOW, s=2.4)
+        pr = T("preferred by people", 28, YELLOW).next_to(sm, DOWN, buff=0.3)
         self.act(self.wt("4.6", 2, "g"), Create(ck2), FadeIn(pr), FadeIn(illus("circles not to scale")), d=0.8)
         dim = DoubleArrow(sm.get_center() + DOWN * 2.4, bg.get_center() + DOWN * 2.4, buff=0.0, color=YELLOW, stroke_width=4, tip_length=0.2)
         dim = Line(LEFT * 3.4 + DOWN * 1.65, RIGHT * 2.8 + DOWN * 1.65, color=YELLOW, stroke_width=4)
