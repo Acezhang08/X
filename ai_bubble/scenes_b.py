@@ -40,12 +40,12 @@ def seg3(c, t):
         text(c, "illustrative", bx, 880, "sansr", 32, GRAYDK)
     t2 = Wd("3.2", "By the end")
     with fade(c, t, t2, gone, 0.4):
-        bond_stack(c, 1250, 700, 7, t, Wd("3.2", "170") - 0.5)
+        bond_stack(c, 1250, 730, 7, t, Wd("3.2", "170") - 0.5)
         v = roll(t, Wd("3.2", "170"), 1.5, 0, 170)
-        text(c, "$%.0fB" % v, 1350, 260, "mono", 150, RED)
-        text(c, "IN BONDS · 2026 (TO JUNE)", 1350, 372, "sans", 44)
-        text(c, "Source: Aviva Investors, Jul 2026", 1350, 430, "sansr", 32, GRAY)
-        fade_text(c, "That's borrowed money.", 1350, 800, t, Wd("3.2", "That's"), "sanss", 40, RED)
+        text(c, "$%.0fB" % v, 1350, 215, "mono", 150, RED)
+        text(c, "IN BONDS · 2026 (TO JUNE)", 1350, 322, "sans", 44)
+        text(c, "Source: Aviva Investors, Jul 2026", 1350, 378, "sansr", 32, GRAY)
+        fade_text(c, "That's borrowed money.", 1350, 868, t, Wd("3.2", "That's"), "sanss", 40, RED)
     # 3.3 ledger search
     t3 = S("3.3"); g3 = S("3.4") - 0.1
     with fade(c, t, t3, g3, 0.4):

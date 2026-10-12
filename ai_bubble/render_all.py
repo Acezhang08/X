@@ -33,6 +33,7 @@ if __name__ == "__main__":
     chunk = 450
     jobs = [(i, s, min(total, s + chunk)) for i, s in enumerate(range(0, total, chunk))]
     os.makedirs("build/chunks", exist_ok=True)
+    if os.environ.get("ONLY"): jobs = [j for j in jobs if j[0] in {int(x) for x in os.environ["ONLY"].split(",")}]
     if len(sys.argv) > 1 and sys.argv[1] == "test":
         jobs = [(900, 3000, 3030)]
     t0 = time.time()
