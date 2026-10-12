@@ -1,0 +1,524 @@
+1
+00:00:01,200 --> 00:00:04,370
+In 2025, five tech companies spent about
+
+2
+00:00:04,370 --> 00:00:07,691
+four hundred billion dollars building AI.
+
+3
+00:00:07,991 --> 00:00:10,329
+This year, they're on track to spend around
+
+4
+00:00:10,329 --> 00:00:13,363
+eight hundred billion. Double, in one year.
+
+5
+00:00:13,663 --> 00:00:17,994
+And the question everyone types into YouTube is: is this a bubble?
+
+6
+00:00:18,544 --> 00:00:22,483
+I think that's the wrong question. The better one is: where is
+
+7
+00:00:22,483 --> 00:00:26,289
+the money actually going, and what's left standing if it stops?
+
+8
+00:00:26,589 --> 00:00:30,444
+So let's follow one dollar all the way around. Because
+
+9
+00:00:30,444 --> 00:00:34,013
+it doesn't go in a straight line. It goes in a circle.
+
+10
+00:00:34,863 --> 00:00:37,841
+Start with Nvidia. It makes the chips
+
+11
+00:00:37,841 --> 00:00:40,207
+that almost every AI model runs on.
+
+12
+00:00:40,507 --> 00:00:44,341
+In September 2025, Nvidia announced it intended
+
+13
+00:00:44,341 --> 00:00:48,803
+to invest up to one hundred billion dollars in OpenAI.
+
+14
+00:00:49,103 --> 00:00:52,978
+Read the fine print: the money would arrive in stages,
+
+15
+00:00:52,978 --> 00:00:56,579
+as each gigawatt of computing power was deployed.
+
+16
+00:00:56,879 --> 00:01:00,432
+Computing power built on what? Nvidia systems.
+
+17
+00:01:00,732 --> 00:01:05,385
+Two weeks later, OpenAI signed a deal with Nvidia's rival,
+
+18
+00:01:05,385 --> 00:01:09,592
+AMD. OpenAI would buy six gigawatts of AMD chips.
+
+19
+00:01:09,892 --> 00:01:15,355
+And AMD handed OpenAI the right to buy up to 160 million AMD
+
+20
+00:01:15,355 --> 00:01:20,610
+shares, unlocked step by step as OpenAI's purchases grow.
+
+21
+00:01:21,060 --> 00:01:24,409
+The hundred-billion plan never got finalized.
+
+22
+00:01:24,709 --> 00:01:29,758
+But this April, OpenAI closed a funding round of 122 billion
+
+23
+00:01:29,758 --> 00:01:34,573
+dollars. One of the biggest checks, 30 billion, came from Nvidia.
+
+24
+00:01:35,023 --> 00:01:37,316
+So: the company selling the chips puts
+
+25
+00:01:37,316 --> 00:01:39,818
+money into the company buying the chips.
+
+26
+00:01:40,118 --> 00:01:43,130
+The buyer uses that money to buy more chips.
+
+27
+00:01:43,430 --> 00:01:45,413
+And the seller books that as revenue.
+
+28
+00:01:46,263 --> 00:01:52,703
+Is that illegal? No. Is it new? Also no. It has a name: vendor financing.
+
+29
+00:01:53,253 --> 00:01:56,971
+And the last time it happened at this scale, it didn't end well.
+
+30
+00:01:57,271 --> 00:02:02,037
+Late 1990s. The internet boom. Lucent was one of
+
+31
+00:02:02,037 --> 00:02:05,166
+the biggest telecom equipment makers in the world.
+
+32
+00:02:05,466 --> 00:02:08,718
+Its customers were new internet companies racing to
+
+33
+00:02:08,718 --> 00:02:12,245
+build networks, and many of them didn't have the cash.
+
+34
+00:02:12,545 --> 00:02:14,356
+So Lucent lent it to them.
+
+35
+00:02:14,656 --> 00:02:18,276
+In one deal it agreed to finance more than one hundred
+
+36
+00:02:18,276 --> 00:02:21,651
+percent of a small carrier's equipment purchases.
+
+37
+00:02:21,951 --> 00:02:25,283
+By the time the bubble burst, Lucent had about seven
+
+38
+00:02:25,283 --> 00:02:29,016
+billion dollars in loan commitments to its own customers.
+
+39
+00:02:29,316 --> 00:02:32,561
+Then the customers started going bankrupt. That
+
+40
+00:02:32,561 --> 00:02:36,719
+small carrier filed in 2001. The loans went bad.
+
+41
+00:02:37,019 --> 00:02:39,343
+Lucent's stock fell below one dollar.
+
+42
+00:02:39,793 --> 00:02:44,968
+Now, Nvidia is not Lucent. Nvidia is enormously profitable.
+
+43
+00:02:45,268 --> 00:02:49,114
+Last quarter alone, its data center business brought
+
+44
+00:02:49,114 --> 00:02:53,251
+in 89 billion dollars, and it holds more than 50 billion
+
+45
+00:02:53,251 --> 00:02:57,262
+dollars in cash and bonds. It can afford to be wrong.
+
+46
+00:02:57,562 --> 00:03:01,727
+The real question isn't whether Nvidia survives. It's
+
+47
+00:03:01,727 --> 00:03:04,591
+whether its customers can pay for what they've ordered.
+
+48
+00:03:04,891 --> 00:03:06,897
+And for that, we need to look at who's
+
+49
+00:03:06,897 --> 00:03:08,950
+paying for the eight hundred billion.
+
+50
+00:03:09,800 --> 00:03:11,941
+Most of it still comes from cash these
+
+51
+00:03:11,941 --> 00:03:14,976
+companies earn. But not all of it anymore.
+
+52
+00:03:15,276 --> 00:03:19,044
+By the end of June this year, the biggest cloud
+
+53
+00:03:19,044 --> 00:03:22,655
+companies had already sold around 170 billion
+
+54
+00:03:22,655 --> 00:03:26,458
+dollars of bonds in 2026. That's borrowed money.
+
+55
+00:03:26,758 --> 00:03:29,675
+And some of the borrowing doesn't show up where you'd look.
+
+56
+00:03:29,975 --> 00:03:34,416
+Take Meta's giant data center in Louisiana, called Hyperion.
+
+57
+00:03:34,716 --> 00:03:39,186
+Meta didn't put the 27 billion dollars of debt on its own books.
+
+58
+00:03:39,486 --> 00:03:42,616
+It set up a separate company: an investment
+
+59
+00:03:42,616 --> 00:03:46,038
+firm, Blue Owl, owns 80 percent, Meta owns 20.
+
+60
+00:03:46,338 --> 00:03:48,219
+That company borrowed the money
+
+61
+00:03:48,219 --> 00:03:51,331
+and built the data center. Meta rents it.
+
+62
+00:03:51,631 --> 00:03:55,229
+But here's the catch. If Meta walks away, Meta has
+
+63
+00:03:55,229 --> 00:03:59,436
+promised to cover the building's value for the first 16 years.
+
+64
+00:03:59,736 --> 00:04:04,289
+So the risk is Meta's. The debt just isn't on Meta's balance sheet.
+
+65
+00:04:04,589 --> 00:04:07,120
+Or take Oracle, one of the companies
+
+66
+00:04:07,120 --> 00:04:09,937
+building computing capacity for OpenAI.
+
+67
+00:04:10,237 --> 00:04:14,387
+This year alone it has sold 25 billion dollars of bonds,
+
+68
+00:04:14,387 --> 00:04:18,391
+issued 5 billion of a special kind of preferred stock,
+
+69
+00:04:18,391 --> 00:04:22,035
+and planned up to 20 billion more in new shares.
+
+70
+00:04:22,385 --> 00:04:25,231
+That's three different ways of raising money in one
+
+71
+00:04:25,231 --> 00:04:28,584
+year. When a company is reaching for every tool
+
+72
+00:04:28,584 --> 00:04:31,853
+at once, it tells you how much cash this race eats.
+
+73
+00:04:32,703 --> 00:04:35,473
+All that borrowing only makes sense if the
+
+74
+00:04:35,473 --> 00:04:38,788
+money comes back as revenue. So does it?
+
+75
+00:04:39,088 --> 00:04:42,558
+In 2024, an investor at Sequoia Capital,
+
+76
+00:04:42,558 --> 00:04:45,840
+David Cahn, did a simple calculation.
+
+77
+00:04:46,140 --> 00:04:50,025
+Take what companies are spending on AI chips, double it for the
+
+78
+00:04:50,025 --> 00:04:54,667
+buildings and electricity, double it again so the customers make a profit.
+
+79
+00:04:54,967 --> 00:04:59,743
+His answer: AI needed to earn about 600 billion dollars a year
+
+80
+00:04:59,743 --> 00:05:04,127
+to justify the spending. It was earning a small fraction of that.
+
+81
+00:05:04,427 --> 00:05:08,642
+Look at OpenAI, the most-used AI company in the world.
+
+82
+00:05:08,942 --> 00:05:13,733
+In 2025, it made about 13 billion dollars in revenue.
+
+83
+00:05:14,033 --> 00:05:17,904
+Its CEO has talked about computing commitments
+
+84
+00:05:17,904 --> 00:05:21,925
+of about 1.4 trillion dollars over eight years.
+
+85
+00:05:22,225 --> 00:05:26,944
+It later scaled its plan to about 600 billion through 2030,
+
+86
+00:05:26,944 --> 00:05:31,498
+and projects revenue of more than 280 billion that year.
+
+87
+00:05:31,948 --> 00:05:35,326
+So: from 13 billion to 280 billion in
+
+88
+00:05:35,326 --> 00:05:38,494
+five years. That's about twenty times.
+
+89
+00:05:38,944 --> 00:05:42,493
+Possible? Maybe. But the whole loop depends on it.
+
+90
+00:05:43,343 --> 00:05:46,173
+Here's the part most bubble videos skip.
+
+91
+00:05:46,173 --> 00:05:49,835
+Bubbles don't only destroy. Sometimes they build.
+
+92
+00:05:50,135 --> 00:05:55,398
+Back to 2001. In the two years before the crash, telecom
+
+93
+00:05:55,398 --> 00:06:00,063
+companies laid about 100 million miles of fiber optic cable.
+
+94
+00:06:00,363 --> 00:06:03,558
+When the bubble burst, about 95 percent of it
+
+95
+00:06:03,558 --> 00:06:07,614
+was sitting dark, unused. Investors lost fortunes.
+
+96
+00:06:07,914 --> 00:06:11,717
+But the fiber stayed in the ground. Later, other companies
+
+97
+00:06:11,717 --> 00:06:15,423
+bought that unused capacity cheaply and switched it on.
+
+98
+00:06:15,723 --> 00:06:18,774
+The bubble was a disaster for the people who paid
+
+99
+00:06:18,774 --> 00:06:21,975
+for it, and a bargain for everyone who came after.
+
+100
+00:06:22,275 --> 00:06:24,960
+So will the AI bubble leave something behind
+
+101
+00:06:24,960 --> 00:06:27,783
+too? This is where it gets uncomfortable.
+
+102
+00:06:28,083 --> 00:06:31,997
+Fiber lasts for decades. AI chips don't. A
+
+103
+00:06:31,997 --> 00:06:34,891
+new generation comes out every year or two.
+
+104
+00:06:35,191 --> 00:06:37,677
+Most of these companies spread the cost
+
+105
+00:06:37,677 --> 00:06:40,313
+of their servers over five or six years.
+
+106
+00:06:40,613 --> 00:06:44,114
+The investor Michael Burry, the one from The Big Short,
+
+107
+00:06:44,114 --> 00:06:48,202
+argues that's too long for chips that go out of date this fast.
+
+108
+00:06:48,502 --> 00:06:53,372
+By his estimate, it makes the industry's profits look about
+
+109
+00:06:53,372 --> 00:06:57,987
+176 billion dollars bigger than they are, through 2028.
+
+110
+00:06:58,437 --> 00:07:02,129
+You don't have to agree with him. But it changes the question.
+
+111
+00:07:02,979 --> 00:07:04,742
+There are really two bubbles here.
+
+112
+00:07:05,042 --> 00:07:08,582
+One is in prices: stocks, valuations, deals that
+
+113
+00:07:08,582 --> 00:07:12,459
+loop back on themselves. That one can pop fast.
+
+114
+00:07:12,759 --> 00:07:18,064
+The other is in things: buildings, power lines, grid connections, chips.
+
+115
+00:07:18,064 --> 00:07:22,660
+Some of those will last decades. Some will be obsolete in three years.
+
+116
+00:07:23,010 --> 00:07:25,163
+Think about what's actually hard to get
+
+117
+00:07:25,163 --> 00:07:28,481
+right now. It isn't chips. It's electricity.
+
+118
+00:07:28,781 --> 00:07:33,022
+Microsoft's CEO has said the company has AI chips sitting in
+
+119
+00:07:33,022 --> 00:07:37,343
+inventory because it doesn't have the power to plug them in.
+
+120
+00:07:37,643 --> 00:07:42,043
+And in the US, new power projects that came online in 2025
+
+121
+00:07:42,043 --> 00:07:46,966
+typically waited more than five years for their grid connection.
+
+122
+00:07:47,266 --> 00:07:50,131
+A building with a power connection is still worth
+
+123
+00:07:50,131 --> 00:07:52,916
+something after the chips inside it are scrap.
+
+124
+00:07:53,266 --> 00:07:56,619
+That may be the fiber of this bubble: not the silicon,
+
+125
+00:07:56,619 --> 00:07:59,330
+but the concrete and the copper around it.
+
+126
+00:07:59,780 --> 00:08:03,706
+So instead of asking "is AI a bubble," ask: which parts last?
+
+127
+00:08:04,006 --> 00:08:06,083
+Because if you own an index fund,
+
+128
+00:08:06,083 --> 00:08:08,493
+you already own a piece of this loop.
+
+129
+00:08:08,793 --> 00:08:13,246
+My guess: the buildings and the power lines survive. The chips
+
+130
+00:08:13,246 --> 00:08:17,367
+don't. What do you think survives? Tell me in the comments.
+
+131
+00:08:17,667 --> 00:08:21,815
+This isn't investment advice. It's just following the money.
+
