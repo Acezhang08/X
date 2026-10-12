@@ -24,6 +24,8 @@ def fiber_bundle(c, x0, x1, y0, n, p, color=INK, spread=14, amp=26, w=5, alpha=1
         seg, _, _ = partial(pth, 0, clamp(p))
         c.drawPath(seg, P(color if i % 4 else AMBER, "stroke", w, alpha))
 
+T95 = Wd("5.3", "95 percent")
+
 def seg5(c, t):
     t1 = S("5.1")
     # 5.1 cards blown away
@@ -41,7 +43,7 @@ def seg5(c, t):
             text(c, "SOMETIMES THEY BUILD", 0, 0, "serif", 88)
     # 5.2 fiber
     t2 = S("5.2")
-    with fade(c, t, t2 + 0.2, S("5.3") - 0.1, 0.4):
+    with fade(c, t, t2 + 0.2, T95 - 0.35, 0.4):
         fiber_bundle(c, 80, 1840, 190, 14, e_io(prog(t, t2 + 0.3, t2 + 3.8)), INK, 18, 38, 5)
         fade_text(c, "100 MILLION MILES", 960, 560, t, Wd("5.2", "about 100"), "mono", 104, AMBER)
         fade_text(c, "of fiber optic cable", 960, 640, t, Wd("5.2", "about 100") + 0.3, "sans", 44, INK)
@@ -52,9 +54,9 @@ def seg5(c, t):
     lit_final = set(order[:5])
     dark_t = {}
     for rank, idx in enumerate(order[5:]):
-        dark_t[idx] = lerp(Wd("5.3", "sitting dark"), Wd("5.3", "sitting dark") + 2.2, rank/95)
+        dark_t[idx] = T95
     relight = {idx: lerp(Wd("5.4", "switched"), Wd("5.4", "switched") + 3.0, rank/95) for rank, idx in enumerate(order[5:])}
-    with fade(c, t, t3, t5 - 0.1, 0.4):
+    with fade(c, t, T95 - 0.3, t5 - 0.1, 0.25):
         for idx in range(100):
             r_, k = divmod(idx, 10)
             x = 170 + k*58; y = 190 + r_*58
@@ -63,7 +65,7 @@ def seg5(c, t):
             c.drawCircle(x, y, 22, P(GRAYDK if dark else mix(PAPER2, GREEN, 0.5)))
             c.drawCircle(x, y, 22, P(GRAYDK if dark else GREEN, "stroke", 3.5))
             c.drawCircle(x, y, 7, P(PAPER2 if dark else AMBER))
-        with fade(c, t, Wd("5.3", "95 percent"), t4 + 0.3, 0.3):
+        with fade(c, t, T95, t4 + 0.3, 0.1):
             text(c, "95%", 1330, 330, "mono", 190, AMBER)
             text(c, "DARK", 1330, 460, "mono", 100, INK)
             text(c, "Source: New York Times, Jun 2001", 1330, 560, "sansr", 32, GRAY)
@@ -138,7 +140,7 @@ def seg5(c, t):
             text(c, "OVERSTATED PROFITS", 0, 20, "sans", 56)
             text(c, "THROUGH 2028", 0, 90, "sans", 56)
             text(c, "Burry's estimate, Nov 2025", 0, 180, "sansr", 32, GRAY)
-    stamp(c, "ONE INVESTOR'S VIEW", 960, 460, t, S("5.11") + 0.3, GRAYDK, -8, 70, slam=2.2, alpha_max=0.92, fill=0xE6EFE9DD)
+    stamp(c, "ONE INVESTOR'S VIEW", 960, 800, t, S("5.11") + 0.3, 0xFF3F3B34, -3, 56, alpha_max=1.0, slam=1.5, spacing=2)
 
 # ====================================================================== SEGMENT 6
 def cam6(t):
@@ -215,17 +217,17 @@ def seg6(c, t):
         text(c, "Source: Satya Nadella, BG2 Pod, Nov 2025", 960, 850, "sansr", 32, GRAY)
     # 6.6 queue
     t6 = S("6.6")
-    with fade(c, t, t6, S("6.7") - 0.1, 0.4):
-        stamp(c, "APPLY", 280, 470, t, t6 + 0.1, INK, -2, 48)
-        x0 = 440; ppy = 200
-        wq = e_io(prog(t, Wd("6.6", "waited") - 0.5, E("6.6") - 0.3))
-        c.drawLine(x0, 470, x0 + 1050, 470, P(GRAY, "stroke", 6, dash=[14, 10]))
-        c.drawLine(x0, 470, x0 + 1050*wq, 470, P(RED, "stroke", 16))
-        for k in range(1, 6):
-            x = x0 + k*ppy*0.95 * 1.0
+    with fade(c, t, t6, S("6.7") - 0.5, 0.4):
+        stamp(c, "APPLY", 270, 470, t, t6 + 0.1, INK, -2, 48)
+        x0 = 420; ppy = 180
+        wq = e_io(prog(t, Wd("6.6", "waited") - 0.5, E("6.6") - 0.2))
+        c.drawLine(x0, 470, x0 + 6*ppy, 470, P(GRAY, "stroke", 6, dash=[14, 10]))
+        c.drawLine(x0, 470, x0 + 5.3*ppy*wq, 470, P(RED, "stroke", 16))
+        for k in range(1, 7):
+            x = x0 + k*ppy
             c.drawLine(x, 450, x, 490, P(INK, "stroke", 4)); text(c, str(k), x, 530, "mono", 34, INK)
         fade_text(c, "> 5 YRS (median)", 960, 300, t, Wd("6.6", "more than"), "mono", 84, AMBER)
-        stamp(c, "CONNECTED", 1670, 470, t, E("6.6") - 0.3, GREEN, 2, 44)
+        stamp(c, "CONNECTED", 1700, 470, t, E("6.6") - 0.5, GREEN, 2, 36)
         text(c, "Source: Berkeley Lab, Queued Up 2026", 960, 640, "sansr", 32, GRAY)
     # 6.7 chips scrap, building stays
     t7 = S("6.7")
@@ -257,28 +259,29 @@ def seg6(c, t):
         search_box(c, 960, 560, 1300, 140, typed_str("which parts last?", t, Wd("6.9", "ask"), 1.4), t, Wd("6.9", "ask") - 0.05, None, cursor_t=Wd("6.9", "ask"), text_color=GREEN)
     # 6.10 index fund
     t10 = S("6.10")
-    with fade(c, t, t10, S("6.11") - 0.1, 0.4):
+    with fade(c, t, t10, S("6.11") - 0.6, 0.4):
         names = ["NVIDIA", "MICROSOFT", "ALPHABET", "AMAZON", "META", "ORACLE"]
-        cols = [GREEN, GRAY, LGRAY, mix(GREEN, PAPER2, 0.5), mix(AMBER, PAPER2, 0.3), mix(GRAY, PAPER2, 0.4)]
         pc = (560, 470); R = 240
-        fr = [0.17, 0.15, 0.12, 0.10, 0.08, 0.05]; rest = 1 - sum(fr)
+        fr = [0.06] * 6; rest = 1 - sum(fr)
         a0 = -90.0
         mids = []
         sweep_t = e_out(prog(t, t10 + 0.2, t10 + 1.2))
         for i, f in enumerate(fr + [rest]):
             sw = f*360*sweep_t
-            col = cols[i] if i < 6 else mix(PAPER2, INK, 0.12)
+            col = mix(PAPER2, GREEN, 0.55) if i < 6 else mix(PAPER2, INK, 0.28)
             c.drawArc(skia.Rect.MakeXYWH(pc[0]-R, pc[1]-R, 2*R, 2*R), a0, sw, True, P(col))
             c.drawArc(skia.Rect.MakeXYWH(pc[0]-R, pc[1]-R, 2*R, 2*R), a0, sw, True, P(INK, "stroke", 3))
-            mids.append(math.radians(a0 + f*360/2))
+            mids.append(math.radians(a0 + f*360*sweep_t/2 if False else a0 + f*360/2))
             a0 += sw
+        fade_text(c, "EVERYTHING", 455, 495, t, t10 + 1.0, "sans", 32, INK)
+        fade_text(c, "ELSE", 455, 537, t, t10 + 1.0, "sans", 32, INK)
         text(c, "INDEX FUND", 560, 200, "mono", 48, INK, spacing=4)
         text(c, "illustrative", 560, 750, "sansr", 32, GRAYDK)
         for i, nm in enumerate(names):
             ty = 270 + i*88
             ta_ = Wd("6.10", "you already") - 0.2 + 0.18*i
             with fade(c, t, ta_, None, 0.3):
-                c.drawLine(pc[0] + R*0.7*math.cos(mids[i]), pc[1] + R*0.7*math.sin(mids[i]), 990, ty, P(INK, "stroke", 3, alpha=0.6))
+                c.drawLine(pc[0] + R*0.82*math.cos(mids[i]), pc[1] + R*0.82*math.sin(mids[i]), 990, ty, P(INK, "stroke", 3, alpha=0.6))
                 tag(c, nm, 1130, ty, t, -9, INK, 38, "mono")
         with fade(c, t, Wd("6.10", "piece"), None, 0.4):
             c.drawLine(1350, 270, 1350, 710, P(INK, "stroke", 6)); c.drawLine(1350, 490, 1440, 490, P(GREEN, "stroke", 7))

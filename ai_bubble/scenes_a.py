@@ -349,8 +349,8 @@ def seg2(c, t):
             q = prog(t, t8 + 0.3, t8 + 0.9)
             pth = bez((960, 240), (x, 300), (x, 396))
             arrow(c, pth, q, GRAYDK, 6, head=True)
-            ts = tb + 0.18 * i
-            stamp(c, "BANKRUPT", x, 470, t, ts, RED, (-12, 9, -8, 12, -10, 7)[i], 32, spacing=1, pad=(14, 10), slam=2.0) if False else None
+            if i not in (0, 1, 3, 4): continue   # four go bankrupt, two survive
+            ts = tb + 0.22 * (0, 1, 1.6, 2.2, 3.0, 3.6)[i]
             stamp(c, "BANKRUPT", x, 478, t, ts, RED, (-12, 9, -8, 12, -10, 7)[i], 32, spacing=0, pad=(12, 10), slam=2.0)
             if t > ts + 0.2:  # severed arrow
                 c.drawLine(x - 24, 336, x + 24, 366, P(RED, "stroke", 8))

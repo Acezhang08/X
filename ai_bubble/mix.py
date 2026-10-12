@@ -31,9 +31,9 @@ sf.write("build/bed.wav", (bed * 10 ** (BED_DB/20)).astype(np.float32), SR, subt
 SC = "sidechaincompress=threshold=0.01:ratio=14:attack=40:release=800:makeup=1"
 def run(cmd): return subprocess.run(cmd, capture_output=True, text=True)
 # music-only after ducking (for diagnostics)
-fc = f"[0:a]aresample=48000[m];[1:a]aresample=48000,asplit=2[v][vs];[m][vs]{SC}[md]"
+fc = f"[0:a]aresample=48000,highpass=f=35,equalizer=f=300:t=h:w=350:g=-4[m];[1:a]aresample=48000,asplit=2[v][vs];[m][vs]{SC}[md]"
 run(["ffmpeg", "-y", "-i", "build/bed.wav", "-i", "build/voice.wav", "-filter_complex", fc + ";[md]anull[o]", "-map", "[o]", "-t", str(D), "build/music_ducked.wav"])
-fc = f"[0:a]aresample=48000[m];[1:a]aresample=48000,asplit=2[v][vs];[m][vs]{SC}[md];[v][md]amix=inputs=2:normalize=0:duration=longest,afade=t=out:st={D-2.2}:d=2.2[o]"
+fc = f"[0:a]aresample=48000,highpass=f=35,equalizer=f=300:t=h:w=350:g=-4[m];[1:a]aresample=48000,asplit=2[v][vs];[m][vs]{SC}[md];[v][md]amix=inputs=2:normalize=0:duration=longest,afade=t=out:st={D-2.2}:d=2.2[o]"
 common = ["ffmpeg", "-y", "-i", "build/bed.wav", "-i", "build/voice.wav", "-filter_complex"]
 r = run(common + [fc.replace("[o]", "[o1]") + ";[o1]loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json[o]", "-map", "[o]", "-f", "null", "-"])
 j = json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", r.stderr, re.S).group(0)); print(j)

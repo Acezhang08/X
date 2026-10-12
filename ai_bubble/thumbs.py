@@ -10,22 +10,23 @@ def ring_pt(cx, cy, r, deg): return cx + r*math.cos(math.radians(deg)), cy + r*m
 
 def thumb_A(c):
     base(c)
-    cx, cy, r = 960, 440, 330
-    pth = skia.Path(); pth.addOval(skia.Rect.MakeXYWH(cx - r, cy - r, 2*r, 2*r))
-    c.drawPath(pth, P(GREEN, "stroke", 8, 0.35, dash=[26, 18]))
-    nodes = [(-90, "NVIDIA", -2), (30, "OPENAI", 2), (150, "AMD", -1.5)]
-    for i, (deg, nm, rot) in enumerate(nodes):
-        d1 = deg + 24; d2 = nodes[(i+1) % 3][0] + (360 if i == 2 else 0) - 24
-        ap = skia.Path()
-        for k in range(41):
-            x, y = ring_pt(cx, cy, r, d1 + (d2 - d1)*k/40)
-            ap.moveTo(x, y) if k == 0 else ap.lineTo(x, y)
-        arrow(c, ap, 1.0, GREEN, 18, head_size=50)
-    for i, (deg, nm, rot) in enumerate(nodes):
-        x, y = ring_pt(cx, cy, r, deg)
-        stamp(c, nm, x, y, 99, 0, INK, rot, 64, pad=(34, 22))
-    for deg in (-30, 90, 210):
-        x, y = ring_pt(cx, cy, r, deg); bill(c, x, y, deg + 90, 1.25)
+    NV, OA, AM = (430, 330), (1330, 330), (1330, 730)
+    # NVIDIA <-> OPENAI: top arc = $ investment, bottom arc = buys chips
+    top = bez((NV[0] + 190, NV[1] - 30), ((NV[0] + OA[0]) / 2, 90), (OA[0] - 190, OA[1] - 30))
+    bot = bez((OA[0] - 190, OA[1] + 40), ((NV[0] + OA[0]) / 2, 600), (NV[0] + 190, NV[1] + 40))
+    arrow(c, top, 1.0, GREEN, 20, head_size=56)
+    arrow(c, bot, 1.0, GREEN, 20, head_size=56)
+    text(c, "$", 880, 205, "mono", 150, AMBER, stroke=(INK, 4))
+    chip(c, 880, 505, 1.1, INK)
+    bill(c, 700, 205, -8, 1.3); bill(c, 1080, 455, 190, 1.0)
+    # OPENAI <-> AMD: smaller pair (chips down, shares up)
+    d1 = bez((OA[0] - 60, OA[1] + 60), (OA[0] - 120, (OA[1] + AM[1]) / 2), (AM[0] - 60, AM[1] - 60))
+    d2 = bez((AM[0] + 60, AM[1] - 60), (AM[0] + 120, (OA[1] + AM[1]) / 2), (OA[0] + 60, OA[1] + 60))
+    arrow(c, d1, 1.0, GREEN, 13, head_size=38)
+    arrow(c, d2, 1.0, AMBER, 13, head_size=38)
+    stamp(c, "NVIDIA", NV[0], NV[1], 99, 0, INK, -2, 64, pad=(34, 22))
+    stamp(c, "OPENAI", OA[0], OA[1], 99, 0, INK, 2, 64, pad=(34, 22))
+    stamp(c, "AMD", AM[0], AM[1], 99, 0, INK, -1.5, 56, pad=(30, 20))
     text(c, "THE MONEY LOOP", 800, 925, "serif", 150, INK)
 
 def thumb_B(c):

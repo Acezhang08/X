@@ -180,7 +180,7 @@ def seg4(c, t):
         fade_text(c, "revenue?", 960, 556, t, S("4.1") + 0.6, "sanss", 40, GREEN)
         fade_text(c, "?", 960, 650, t, Wd("4.1", "So does"), "mono", 150, AMBER)
     # 4.2 silhouette
-    silhouette(c, 330, 420, 1.3, t, S("4.2") + 0.1, "DAVID CAHN · SEQUOIA · 2024", 32, b=S("4.5") - 0.2)
+    silhouette(c, 330, 420, 1.3, t, S("4.2") + 0.1, "DAVID CAHN · SEQUOIA · 2024", 32, b=Wd("4.4", "His answer") - 0.55)
     # 4.3 bars
     t3 = S("4.3")
     xs = [800, 1250, 1700]; hs = [90, 180, 360]; labs = ["CHIP SPEND", "+ BUILDINGS & POWER", "+ CUSTOMER PROFIT"]
