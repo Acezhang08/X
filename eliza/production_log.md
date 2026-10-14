@@ -28,3 +28,6 @@
 ## 文件
 `script.py` → `tts.py` → `scenes_a/b/c.py`（+ `lib.py`、`props.py`）→ `render_all.py` → `music.py`/`mix.py` → `assemble.sh` → `eliza_history_of_ai.mp4`；`subs.py` → `subtitles_en.srt`；`thumbs.py` → `thumbnail_A/B/C.png`；`make_factcheck.py` → `fact_check.md`；`make_publish.py` → `publish.md`；`review_checks.py`、`qa.py`、`review_log.md`。
 - 提交到仓库的 `eliza_history_of_ai.mp4` 是重新压缩的版本（crf 24，64MB，画质与音轨与原版一致）；渲染原版（crf 17，约 416MB）在容器的 `eliza/build/eliza_master.mp4`，没有提交。
+
+## 更新：去掉背景音乐
+应你的要求，成片不再带音乐，只有配音（−15.3 LUFS）。上面关于音乐/混音的记录是做过但最终未采用的版本。
