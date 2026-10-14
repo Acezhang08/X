@@ -1,0 +1,1489 @@
+{
+ "lines": [
+  {
+   "id": "0.1",
+   "seg": 0,
+   "en": "In the mid-1960s, a computer scientist at MIT had a secretary who watched him build a program for months.",
+   "chunks": [
+    {
+     "t0": 1.2,
+     "t1": 9.155041666666666,
+     "c0": 0,
+     "c1": 105,
+     "text": "In the mid nineteen sixties, a computer scientist at M I T had a secretary who watched him build a program for months."
+    }
+   ],
+   "start": 1.2,
+   "end": 9.155041666666666
+  },
+  {
+   "id": "0.2",
+   "seg": 0,
+   "en": "She knew it was just a program.",
+   "chunks": [
+    {
+     "t0": 9.605041666666665,
+     "t1": 11.471958333333331,
+     "c0": 0,
+     "c1": 31,
+     "text": "She knew it was just a program."
+    }
+   ],
+   "start": 9.605041666666665,
+   "end": 11.471958333333331
+  },
+  {
+   "id": "0.3",
+   "seg": 0,
+   "en": "Then she started typing to it. After only a few exchanges, she asked him to leave the room.",
+   "chunks": [
+    {
+     "t0": 11.92195833333333,
+     "t1": 13.554624999999998,
+     "c0": 0,
+     "c1": 30,
+     "text": "Then she started typing to it."
+    },
+    {
+     "t0": 14.004624999999997,
+     "t1": 17.914374999999996,
+     "c0": 30,
+     "c1": 91,
+     "text": "After only a few exchanges, she asked him to leave the room."
+    }
+   ],
+   "start": 11.92195833333333,
+   "end": 17.914374999999996
+  },
+  {
+   "id": "0.4",
+   "seg": 0,
+   "en": "She wanted privacy. With a computer program.",
+   "chunks": [
+    {
+     "t0": 18.614374999999995,
+     "t1": 20.00458333333333,
+     "c0": 0,
+     "c1": 19,
+     "text": "She wanted privacy."
+    },
+    {
+     "t0": 20.45458333333333,
+     "t1": 21.82504166666666,
+     "c0": 19,
+     "c1": 44,
+     "text": "With a computer program."
+    }
+   ],
+   "start": 18.614374999999995,
+   "end": 21.82504166666666
+  },
+  {
+   "id": "0.5",
+   "seg": 0,
+   "en": "The program was called ELIZA. It understood nothing. It was a short list of rules for turning your own words back into questions.",
+   "chunks": [
+    {
+     "t0": 22.27504166666666,
+     "t1": 24.099708333333325,
+     "c0": 0,
+     "c1": 29,
+     "text": "The program was called Eliza."
+    },
+    {
+     "t0": 24.549708333333324,
+     "t1": 25.810124999999992,
+     "c0": 29,
+     "c1": 52,
+     "text": "It understood nothing."
+    },
+    {
+     "t0": 26.26012499999999,
+     "t1": 30.781416666666658,
+     "c0": 52,
+     "c1": 129,
+     "text": "It was a short list of rules for turning your own words back into questions."
+    }
+   ],
+   "start": 22.27504166666666,
+   "end": 30.781416666666658
+  },
+  {
+   "id": "0.6",
+   "seg": 0,
+   "en": "Its creator, Joseph Weizenbaum, was so unsettled that he spent decades warning people about what it showed.",
+   "chunks": [
+    {
+     "t0": 31.38141666666666,
+     "t1": 38.54191666666666,
+     "c0": 0,
+     "c1": 107,
+     "text": "Its creator, Joseph Weizenbaum, was so unsettled that he spent decades warning people about what it showed."
+    }
+   ],
+   "start": 31.38141666666666,
+   "end": 38.54191666666666
+  },
+  {
+   "id": "0.7",
+   "seg": 0,
+   "en": "Today, hundreds of millions of people talk to a chatbot every week.",
+   "chunks": [
+    {
+     "t0": 38.99191666666666,
+     "t1": 43.238749999999996,
+     "c0": 0,
+     "c1": 67,
+     "text": "Today, hundreds of millions of people talk to a chatbot every week."
+    }
+   ],
+   "start": 38.99191666666666,
+   "end": 43.238749999999996
+  },
+  {
+   "id": "0.8",
+   "seg": 0,
+   "en": "This is the story of the first one, and the warning that came with it.",
+   "chunks": [
+    {
+     "t0": 43.68875,
+     "t1": 47.72945833333333,
+     "c0": 0,
+     "c1": 70,
+     "text": "This is the story of the first one, and the warning that came with it."
+    }
+   ],
+   "start": 43.68875,
+   "end": 47.72945833333333
+  },
+  {
+   "id": "1.1",
+   "seg": 1,
+   "en": "ELIZA ran on a room-sized IBM mainframe at MIT. You sat at a typewriter terminal, and it typed back.",
+   "chunks": [
+    {
+     "t0": 48.72945833333333,
+     "t1": 53.03075,
+     "c0": 0,
+     "c1": 47,
+     "text": "Eliza ran on a room-sized I B M mainframe at M I T."
+    },
+    {
+     "t0": 53.48075,
+     "t1": 56.643375,
+     "c0": 47,
+     "c1": 100,
+     "text": "You sat at a typewriter terminal, and it typed back."
+    }
+   ],
+   "start": 48.72945833333333,
+   "end": 56.643375
+  },
+  {
+   "id": "1.2",
+   "seg": 1,
+   "en": "Its first line was: How do you do. Please tell me your problem.",
+   "chunks": [
+    {
+     "t0": 57.093375,
+     "t1": 59.43716666666667,
+     "c0": 0,
+     "c1": 34,
+     "text": "Its first line was: How do you do."
+    },
+    {
+     "t0": 59.88716666666667,
+     "t1": 61.491625000000006,
+     "c0": 34,
+     "c1": 63,
+     "text": "Please tell me your problem."
+    }
+   ],
+   "start": 57.093375,
+   "end": 61.491625000000006
+  },
+  {
+   "id": "1.3",
+   "seg": 1,
+   "en": "Here is the most famous conversation it ever had, printed in Weizenbaum's 1966 paper. The person types in lowercase. ELIZA answers in capital letters.",
+   "chunks": [
+    {
+     "t0": 61.94162500000001,
+     "t1": 68.63558333333334,
+     "c0": 0,
+     "c1": 85,
+     "text": "Here is the most famous conversation it ever had, printed in Weizenbaum's nineteen sixty-six paper."
+    },
+    {
+     "t0": 69.08558333333335,
+     "t1": 70.88366666666668,
+     "c0": 85,
+     "c1": 116,
+     "text": "The person types in lowercase."
+    },
+    {
+     "t0": 71.33366666666669,
+     "t1": 73.67800000000003,
+     "c0": 116,
+     "c1": 150,
+     "text": "Eliza answers in capital letters."
+    }
+   ],
+   "start": 61.94162500000001,
+   "end": 73.67800000000003
+  },
+  {
+   "id": "1.4",
+   "seg": 1,
+   "en": "The person says men are all alike. ELIZA asks: in what way.",
+   "chunks": [
+    {
+     "t0": 74.12800000000003,
+     "t1": 76.28200000000002,
+     "c0": 0,
+     "c1": 34,
+     "text": "The person says men are all alike."
+    },
+    {
+     "t0": 76.73200000000003,
+     "t1": 78.60508333333335,
+     "c0": 34,
+     "c1": 59,
+     "text": "Eliza asks: in what way."
+    }
+   ],
+   "start": 74.12800000000003,
+   "end": 78.60508333333335
+  },
+  {
+   "id": "1.5",
+   "seg": 1,
+   "en": "She says her boyfriend made her come here. ELIZA replies: your boyfriend made you come here.",
+   "chunks": [
+    {
+     "t0": 79.05508333333336,
+     "t1": 81.28241666666669,
+     "c0": 0,
+     "c1": 42,
+     "text": "She says her boyfriend made her come here."
+    },
+    {
+     "t0": 81.7324166666667,
+     "t1": 84.93850000000003,
+     "c0": 42,
+     "c1": 92,
+     "text": "Eliza replies: your boyfriend made you come here."
+    }
+   ],
+   "start": 79.05508333333336,
+   "end": 84.93850000000003
+  },
+  {
+   "id": "1.6",
+   "seg": 1,
+   "en": "She says she is depressed. ELIZA says it is sorry to hear that.",
+   "chunks": [
+    {
+     "t0": 85.38850000000004,
+     "t1": 86.81054166666671,
+     "c0": 0,
+     "c1": 26,
+     "text": "She says she is depressed."
+    },
+    {
+     "t0": 87.26054166666671,
+     "t1": 89.36216666666671,
+     "c0": 26,
+     "c1": 63,
+     "text": "Eliza says it is sorry to hear that."
+    }
+   ],
+   "start": 85.38850000000004,
+   "end": 89.36216666666671
+  },
+  {
+   "id": "1.7",
+   "seg": 1,
+   "en": "Read it again. Most of what ELIZA says is her own words, turned around.",
+   "chunks": [
+    {
+     "t0": 89.9621666666667,
+     "t1": 91.01075000000004,
+     "c0": 0,
+     "c1": 14,
+     "text": "Read it again."
+    },
+    {
+     "t0": 91.46075000000005,
+     "t1": 95.14695833333339,
+     "c0": 14,
+     "c1": 71,
+     "text": "Most of what Eliza says is her own words, turned around."
+    }
+   ],
+   "start": 89.9621666666667,
+   "end": 95.14695833333339
+  },
+  {
+   "id": "1.8",
+   "seg": 1,
+   "en": "Here is the whole trick. Step one: scan the sentence for a keyword. Mother. Dream. Alike. Always.",
+   "chunks": [
+    {
+     "t0": 95.59695833333339,
+     "t1": 97.04625000000006,
+     "c0": 0,
+     "c1": 24,
+     "text": "Here is the whole trick."
+    },
+    {
+     "t0": 97.49625000000006,
+     "t1": 102.51487500000006,
+     "c0": 24,
+     "c1": 97,
+     "text": "Step one: scan the sentence for a keyword. Mother. Dream. Alike. Always."
+    }
+   ],
+   "start": 95.59695833333339,
+   "end": 102.51487500000006
+  },
+  {
+   "id": "1.9",
+   "seg": 1,
+   "en": "Every keyword has a rank. If a sentence has several, the highest rank wins.",
+   "chunks": [
+    {
+     "t0": 102.96487500000006,
+     "t1": 104.55700000000006,
+     "c0": 0,
+     "c1": 25,
+     "text": "Every keyword has a rank."
+    },
+    {
+     "t0": 105.00700000000006,
+     "t1": 108.17966666666673,
+     "c0": 25,
+     "c1": 75,
+     "text": "If a sentence has several, the highest rank wins."
+    }
+   ],
+   "start": 102.96487500000006,
+   "end": 108.17966666666673
+  },
+  {
+   "id": "1.10",
+   "seg": 1,
+   "en": "Step two: cut the sentence apart and rebuild it from a template, swapping I for you, and my for your.",
+   "chunks": [
+    {
+     "t0": 108.62966666666674,
+     "t1": 115.00845833333341,
+     "c0": 0,
+     "c1": 101,
+     "text": "Step two: cut the sentence apart and rebuild it from a template, swapping I for you, and my for your."
+    }
+   ],
+   "start": 108.62966666666674,
+   "end": 115.00845833333341
+  },
+  {
+   "id": "1.11",
+   "seg": 1,
+   "en": "Step three: if there is no keyword at all, say something that fits anywhere. Please go on.",
+   "chunks": [
+    {
+     "t0": 115.45845833333341,
+     "t1": 120.01495833333341,
+     "c0": 0,
+     "c1": 76,
+     "text": "Step three: if there is no keyword at all, say something that fits anywhere."
+    },
+    {
+     "t0": 120.46495833333341,
+     "t1": 121.56704166666675,
+     "c0": 76,
+     "c1": 90,
+     "text": "Please go on."
+    }
+   ],
+   "start": 115.45845833333341,
+   "end": 121.56704166666675
+  },
+  {
+   "id": "1.12",
+   "seg": 1,
+   "en": "And one more trick. When you say my something, ELIZA saves a copy, and a few turns later brings it back: Earlier you said your something. As if it remembered.",
+   "chunks": [
+    {
+     "t0": 122.01704166666676,
+     "t1": 123.26729166666675,
+     "c0": 0,
+     "c1": 19,
+     "text": "And one more trick."
+    },
+    {
+     "t0": 123.71729166666675,
+     "t1": 131.06745833333343,
+     "c0": 19,
+     "c1": 137,
+     "text": "When you say my something, Eliza saves a copy, and a few turns later brings it back: Earlier you said your something."
+    },
+    {
+     "t0": 131.51745833333342,
+     "t1": 132.77141666666677,
+     "c0": 137,
+     "c1": 158,
+     "text": "As if it remembered."
+    }
+   ],
+   "start": 122.01704166666676,
+   "end": 132.77141666666677
+  },
+  {
+   "id": "1.13",
+   "seg": 1,
+   "en": "That is all of it. The script printed in the paper has fewer than 70 entries.",
+   "chunks": [
+    {
+     "t0": 133.22141666666676,
+     "t1": 134.31775000000007,
+     "c0": 0,
+     "c1": 18,
+     "text": "That is all of it."
+    },
+    {
+     "t0": 134.76775000000006,
+     "t1": 138.6497083333334,
+     "c0": 18,
+     "c1": 77,
+     "text": "The script printed in the paper has fewer than seventy entries."
+    }
+   ],
+   "start": 133.22141666666676,
+   "end": 138.6497083333334
+  },
+  {
+   "id": "1.14",
+   "seg": 1,
+   "en": "Why a therapist? Weizenbaum explained it himself. In a psychiatric interview, one side can pretend to know almost nothing about the world, and nobody finds that strange.",
+   "chunks": [
+    {
+     "t0": 139.2497083333334,
+     "t1": 140.43516666666673,
+     "c0": 0,
+     "c1": 16,
+     "text": "Why a therapist?"
+    },
+    {
+     "t0": 140.88516666666672,
+     "t1": 142.91970833333338,
+     "c0": 16,
+     "c1": 49,
+     "text": "Weizenbaum explained it himself."
+    },
+    {
+     "t0": 143.36970833333336,
+     "t1": 151.48533333333336,
+     "c0": 49,
+     "c1": 169,
+     "text": "In a psychiatric interview, one side can pretend to know almost nothing about the world, and nobody finds that strange."
+    }
+   ],
+   "start": 139.2497083333334,
+   "end": 151.48533333333336
+  },
+  {
+   "id": "1.15",
+   "seg": 1,
+   "en": "The format hides the missing intelligence.",
+   "chunks": [
+    {
+     "t0": 151.98533333333336,
+     "t1": 154.58770833333335,
+     "c0": 0,
+     "c1": 42,
+     "text": "The format hides the missing intelligence."
+    }
+   ],
+   "start": 151.98533333333336,
+   "end": 154.58770833333335
+  },
+  {
+   "id": "2.1",
+   "seg": 2,
+   "en": "Now the part Weizenbaum did not expect.",
+   "chunks": [
+    {
+     "t0": 155.58770833333335,
+     "t1": 158.31458333333336,
+     "c0": 0,
+     "c1": 39,
+     "text": "Now the part Weizenbaum did not expect."
+    }
+   ],
+   "start": 155.58770833333335,
+   "end": 158.31458333333336
+  },
+  {
+   "id": "2.2",
+   "seg": 2,
+   "en": "People treated it like a listener. In his words, he was startled by how quickly and how deeply they became emotionally involved with the computer.",
+   "chunks": [
+    {
+     "t0": 158.76458333333335,
+     "t1": 160.69650000000001,
+     "c0": 0,
+     "c1": 34,
+     "text": "People treated it like a listener."
+    },
+    {
+     "t0": 161.1465,
+     "t1": 168.35691666666668,
+     "c0": 34,
+     "c1": 146,
+     "text": "In his words, he was startled by how quickly and how deeply they became emotionally involved with the computer."
+    }
+   ],
+   "start": 158.76458333333335,
+   "end": 168.35691666666668
+  },
+  {
+   "id": "2.3",
+   "seg": 2,
+   "en": "Then he suggested something simple: rig the system so he could read every conversation, say, overnight.",
+   "chunks": [
+    {
+     "t0": 168.80691666666667,
+     "t1": 175.37095833333333,
+     "c0": 0,
+     "c1": 103,
+     "text": "Then he suggested something simple: rig the system so he could read every conversation, say, overnight."
+    }
+   ],
+   "start": 168.80691666666667,
+   "end": 175.37095833333333
+  },
+  {
+   "id": "2.4",
+   "seg": 2,
+   "en": "He was promptly bombarded with accusations that he was spying on people's most intimate thoughts.",
+   "chunks": [
+    {
+     "t0": 175.82095833333332,
+     "t1": 181.79616666666666,
+     "c0": 0,
+     "c1": 97,
+     "text": "He was promptly bombarded with accusations that he was spying on people's most intimate thoughts."
+    }
+   ],
+   "start": 175.82095833333332,
+   "end": 181.79616666666666
+  },
+  {
+   "id": "2.5",
+   "seg": 2,
+   "en": "Think about that. They were not protecting a diary. They were protecting a chat with a machine.",
+   "chunks": [
+    {
+     "t0": 182.39616666666666,
+     "t1": 183.44575,
+     "c0": 0,
+     "c1": 17,
+     "text": "Think about that."
+    },
+    {
+     "t0": 183.89575,
+     "t1": 185.78066666666666,
+     "c0": 17,
+     "c1": 51,
+     "text": "They were not protecting a diary."
+    },
+    {
+     "t0": 186.23066666666665,
+     "t1": 188.34816666666666,
+     "c0": 51,
+     "c1": 95,
+     "text": "They were protecting a chat with a machine."
+    }
+   ],
+   "start": 182.39616666666666,
+   "end": 188.34816666666666
+  },
+  {
+   "id": "2.6",
+   "seg": 2,
+   "en": "Weizenbaum's own paper opens by taking the magic away. Explain a program plainly enough, he wrote, and its magic crumbles away. It stands revealed as a mere collection of procedures.",
+   "chunks": [
+    {
+     "t0": 189.04816666666665,
+     "t1": 193.14779166666665,
+     "c0": 0,
+     "c1": 54,
+     "text": "Weizenbaum's own paper opens by taking the magic away."
+    },
+    {
+     "t0": 193.59779166666664,
+     "t1": 198.39849999999998,
+     "c0": 54,
+     "c1": 127,
+     "text": "Explain a program plainly enough, he wrote, and its magic crumbles away."
+    },
+    {
+     "t0": 198.84849999999997,
+     "t1": 202.2675833333333,
+     "c0": 127,
+     "c1": 182,
+     "text": "It stands revealed as a mere collection of procedures."
+    }
+   ],
+   "start": 189.04816666666665,
+   "end": 202.2675833333333
+  },
+  {
+   "id": "2.7",
+   "seg": 2,
+   "en": "His secretary had watched him build it, for months. She knew.",
+   "chunks": [
+    {
+     "t0": 202.7175833333333,
+     "t1": 206.2888333333333,
+     "c0": 0,
+     "c1": 61,
+     "text": "His secretary had watched him build it, for months. She knew."
+    }
+   ],
+   "start": 202.7175833333333,
+   "end": 206.2888333333333
+  },
+  {
+   "id": "2.8",
+   "seg": 2,
+   "en": "Knowing did not break the spell.",
+   "chunks": [
+    {
+     "t0": 207.0888333333333,
+     "t1": 208.9180833333333,
+     "c0": 0,
+     "c1": 32,
+     "text": "Knowing did not break the spell."
+    }
+   ],
+   "start": 207.0888333333333,
+   "end": 208.9180833333333
+  },
+  {
+   "id": "2.9",
+   "seg": 2,
+   "en": "Some psychiatrists went further. Weizenbaum wrote that a number of practicing psychiatrists seriously believed his program could grow into a nearly completely automatic form of psychotherapy.",
+   "chunks": [
+    {
+     "t0": 209.3680833333333,
+     "t1": 211.27837499999995,
+     "c0": 0,
+     "c1": 32,
+     "text": "Some psychiatrists went further."
+    },
+    {
+     "t0": 211.72837499999994,
+     "t1": 222.39108333333328,
+     "c0": 32,
+     "c1": 191,
+     "text": "Weizenbaum wrote that a number of practicing psychiatrists seriously believed his program could grow into a nearly completely automatic form of psychotherapy."
+    }
+   ],
+   "start": 209.3680833333333,
+   "end": 222.39108333333328
+  },
+  {
+   "id": "2.10",
+   "seg": 2,
+   "en": "In 1972, ELIZA even ended up talking to another program, PARRY, which imitated a patient with paranoia. The two chatted over the ARPANET, a forerunner of the internet.",
+   "chunks": [
+    {
+     "t0": 222.84108333333327,
+     "t1": 231.20433333333327,
+     "c0": 0,
+     "c1": 103,
+     "text": "In nineteen seventy-two, Eliza even ended up talking to another program, Parry, which imitated a patient with paranoia."
+    },
+    {
+     "t0": 231.65433333333326,
+     "t1": 235.37983333333327,
+     "c0": 103,
+     "c1": 167,
+     "text": "The two chatted over the Arpanet, a forerunner of the internet."
+    }
+   ],
+   "start": 222.84108333333327,
+   "end": 235.37983333333327
+  },
+  {
+   "id": "3.1",
+   "seg": 3,
+   "en": "Joseph Weizenbaum was born in Berlin in 1923. His Jewish family fled Nazi Germany in 1936, when he was thirteen.",
+   "chunks": [
+    {
+     "t0": 236.37983333333327,
+     "t1": 240.7247916666666,
+     "c0": 0,
+     "c1": 45,
+     "text": "Joseph Weizenbaum was born in Berlin in nineteen twenty-three."
+    },
+    {
+     "t0": 241.17479166666658,
+     "t1": 246.6159999999999,
+     "c0": 45,
+     "c1": 112,
+     "text": "His Jewish family fled Nazi Germany in nineteen thirty-six, when he was thirteen."
+    }
+   ],
+   "start": 236.37983333333327,
+   "end": 246.6159999999999
+  },
+  {
+   "id": "3.2",
+   "seg": 3,
+   "en": "In 1976, he published a book, Computer Power and Human Reason, and its argument is blunt.",
+   "chunks": [
+    {
+     "t0": 247.0659999999999,
+     "t1": 254.23383333333322,
+     "c0": 0,
+     "c1": 89,
+     "text": "In nineteen seventy-six, he published a book, Computer Power and Human Reason, and its argument is blunt."
+    }
+   ],
+   "start": 247.0659999999999,
+   "end": 254.23383333333322
+  },
+  {
+   "id": "3.3",
+   "seg": 3,
+   "en": "Some jobs should never be handed to machines, even if machines can do them.",
+   "chunks": [
+    {
+     "t0": 254.6838333333332,
+     "t1": 259.5362499999999,
+     "c0": 0,
+     "c1": 75,
+     "text": "Some jobs should never be handed to machines, even if machines can do them."
+    }
+   ],
+   "start": 254.6838333333332,
+   "end": 259.5362499999999
+  },
+  {
+   "id": "3.4",
+   "seg": 3,
+   "en": "In his words, there are objectives that are not appropriately assignable to machines.",
+   "chunks": [
+    {
+     "t0": 259.98624999999987,
+     "t1": 265.18174999999985,
+     "c0": 0,
+     "c1": 85,
+     "text": "In his words, there are objectives that are not appropriately assignable to machines."
+    }
+   ],
+   "start": 259.98624999999987,
+   "end": 265.18174999999985
+  },
+  {
+   "id": "3.5",
+   "seg": 3,
+   "en": "He drew a line between deciding and choosing. Deciding is computation, and a computer can do it. Choosing takes judgment, and judgment, he argued, is not calculation.",
+   "chunks": [
+    {
+     "t0": 265.63174999999984,
+     "t1": 268.2144999999998,
+     "c0": 0,
+     "c1": 45,
+     "text": "He drew a line between deciding and choosing."
+    },
+    {
+     "t0": 268.6644999999998,
+     "t1": 271.98554166666645,
+     "c0": 45,
+     "c1": 96,
+     "text": "Deciding is computation, and a computer can do it."
+    },
+    {
+     "t0": 272.43554166666644,
+     "t1": 277.2145833333331,
+     "c0": 96,
+     "c1": 166,
+     "text": "Choosing takes judgment, and judgment, he argued, is not calculation."
+    }
+   ],
+   "start": 265.63174999999984,
+   "end": 277.2145833333331
+  },
+  {
+   "id": "3.6",
+   "seg": 3,
+   "en": "The name ELIZA comes from Eliza Doolittle, the flower girl in Pygmalion who is taught to speak like a lady.",
+   "chunks": [
+    {
+     "t0": 277.9145833333331,
+     "t1": 285.17579166666644,
+     "c0": 0,
+     "c1": 107,
+     "text": "The name Eliza comes from Eliza Doolittle, the flower girl in Pygmalion who is taught to speak like a lady."
+    }
+   ],
+   "start": 277.9145833333331,
+   "end": 285.17579166666644
+  },
+  {
+   "id": "3.7",
+   "seg": 3,
+   "en": "Weizenbaum wrote that, like her, the program could be made to appear even more civilized. But the relation of appearance to reality, he said, remained in the domain of the playwright.",
+   "chunks": [
+    {
+     "t0": 285.62579166666643,
+     "t1": 291.5927083333331,
+     "c0": 0,
+     "c1": 89,
+     "text": "Weizenbaum wrote that, like her, the program could be made to appear even more civilized."
+    },
+    {
+     "t0": 292.0427083333331,
+     "t1": 297.5397083333331,
+     "c0": 89,
+     "c1": 183,
+     "text": "But the relation of appearance to reality, he said, remained in the domain of the playwright."
+    }
+   ],
+   "start": 285.62579166666643,
+   "end": 297.5397083333331
+  },
+  {
+   "id": "3.8",
+   "seg": 3,
+   "en": "In other words: it looks like understanding. It is theater.",
+   "chunks": [
+    {
+     "t0": 298.0397083333331,
+     "t1": 300.6716249999998,
+     "c0": 0,
+     "c1": 44,
+     "text": "In other words: it looks like understanding."
+    },
+    {
+     "t0": 301.12162499999977,
+     "t1": 302.1007499999998,
+     "c0": 44,
+     "c1": 59,
+     "text": "It is theater."
+    }
+   ],
+   "start": 298.0397083333331,
+   "end": 302.1007499999998
+  },
+  {
+   "id": "4.1",
+   "seg": 4,
+   "en": "Here is an odd footnote. Weizenbaum published the method, but never the program itself.",
+   "chunks": [
+    {
+     "t0": 303.1007499999998,
+     "t1": 304.6106666666664,
+     "c0": 0,
+     "c1": 24,
+     "text": "Here is an odd footnote."
+    },
+    {
+     "t0": 305.0606666666664,
+     "t1": 308.97899999999976,
+     "c0": 24,
+     "c1": 87,
+     "text": "Weizenbaum published the method, but never the program itself."
+    }
+   ],
+   "start": 303.1007499999998,
+   "end": 308.97899999999976
+  },
+  {
+   "id": "4.2",
+   "seg": 4,
+   "en": "For more than fifty years, the public could not read ELIZA's actual code.",
+   "chunks": [
+    {
+     "t0": 309.42899999999975,
+     "t1": 314.41924999999975,
+     "c0": 0,
+     "c1": 73,
+     "text": "For more than fifty years, the public could not read Eliza's actual code."
+    }
+   ],
+   "start": 309.42899999999975,
+   "end": 314.41924999999975
+  },
+  {
+   "id": "4.3",
+   "seg": 4,
+   "en": "Then, in 2021, the researcher Jeff Shrager and an MIT archivist found a printout of it in Weizenbaum's papers.",
+   "chunks": [
+    {
+     "t0": 314.86924999999974,
+     "t1": 324.0497916666664,
+     "c0": 0,
+     "c1": 110,
+     "text": "Then, in twenty twenty-one, the researcher Jeff Shrager and an M I T archivist found a printout of it in Weizenbaum's papers."
+    }
+   ],
+   "start": 314.86924999999974,
+   "end": 324.0497916666664
+  },
+  {
+   "id": "4.4",
+   "seg": 4,
+   "en": "It was in a folder labeled computer conversations, 1965.",
+   "chunks": [
+    {
+     "t0": 324.4997916666664,
+     "t1": 329.49287499999974,
+     "c0": 0,
+     "c1": 56,
+     "text": "It was in a folder labeled computer conversations, nineteen sixty-five."
+    }
+   ],
+   "start": 324.4997916666664,
+   "end": 329.49287499999974
+  },
+  {
+   "id": "4.5",
+   "seg": 4,
+   "en": "In 2025, a team ran that code again, on a rebuilt copy of the 1960s time-sharing system it was written for.",
+   "chunks": [
+    {
+     "t0": 329.94287499999973,
+     "t1": 338.61762499999975,
+     "c0": 0,
+     "c1": 107,
+     "text": "In twenty twenty-five, a team ran that code again, on a rebuilt copy of the nineteen sixties time-sharing system it was written for."
+    }
+   ],
+   "start": 329.94287499999973,
+   "end": 338.61762499999975
+  },
+  {
+   "id": "4.6",
+   "seg": 4,
+   "en": "What the code produces now has a name: the ELIZA effect.",
+   "chunks": [
+    {
+     "t0": 339.06762499999974,
+     "t1": 342.8952916666664,
+     "c0": 0,
+     "c1": 56,
+     "text": "What the code produces now has a name: the Eliza effect."
+    }
+   ],
+   "start": 339.06762499999974,
+   "end": 342.8952916666664
+  },
+  {
+   "id": "4.7",
+   "seg": 4,
+   "en": "It means reading far more understanding into a computer's words than is really there.",
+   "chunks": [
+    {
+     "t0": 343.3452916666664,
+     "t1": 348.7277916666664,
+     "c0": 0,
+     "c1": 85,
+     "text": "It means reading far more understanding into a computer's words than is really there."
+    }
+   ],
+   "start": 343.3452916666664,
+   "end": 348.7277916666664
+  },
+  {
+   "id": "4.8",
+   "seg": 4,
+   "en": "In 1995, the computer scientist Douglas Hofstadter gave one of his book chapters a title that still fits: The Ineradicable ELIZA Effect and Its Dangers.",
+   "chunks": [
+    {
+     "t0": 349.1777916666664,
+     "t1": 360.95937499999974,
+     "c0": 0,
+     "c1": 152,
+     "text": "In nineteen ninety-five, the computer scientist Douglas Hofstadter gave one of his book chapters a title that still fits: The Ineradicable Eliza Effect and Its Dangers."
+    }
+   ],
+   "start": 349.1777916666664,
+   "end": 360.95937499999974
+  },
+  {
+   "id": "5.1",
+   "seg": 5,
+   "en": "So how would ELIZA do today?",
+   "chunks": [
+    {
+     "t0": 361.95937499999974,
+     "t1": 363.73512499999975,
+     "c0": 0,
+     "c1": 28,
+     "text": "So how would Eliza do today?"
+    }
+   ],
+   "start": 361.95937499999974,
+   "end": 363.73512499999975
+  },
+  {
+   "id": "5.2",
+   "seg": 5,
+   "en": "In 2025, researchers at UC San Diego ran a Turing test with five-minute text chats. Each judge talked to a person and a machine at the same time, then picked which one was human.",
+   "chunks": [
+    {
+     "t0": 364.18512499999974,
+     "t1": 371.2920416666664,
+     "c0": 0,
+     "c1": 83,
+     "text": "In twenty twenty-five, researchers at U C San Diego ran a Turing test with five-minute text chats."
+    },
+    {
+     "t0": 371.7420416666664,
+     "t1": 377.60562499999975,
+     "c0": 83,
+     "c1": 178,
+     "text": "Each judge talked to a person and a machine at the same time, then picked which one was human."
+    }
+   ],
+   "start": 364.18512499999974,
+   "end": 377.60562499999975
+  },
+  {
+   "id": "5.3",
+   "seg": 5,
+   "en": "The best AI, GPT-4.5 told to play a persona, was picked as the human 73 percent of the time. More often than the actual humans.",
+   "chunks": [
+    {
+     "t0": 378.05562499999974,
+     "t1": 386.6796666666664,
+     "c0": 0,
+     "c1": 92,
+     "text": "The best A I, G P T four point five told to play a persona, was picked as the human seventy-three percent of the time."
+    },
+    {
+     "t0": 387.12966666666637,
+     "t1": 389.2564166666664,
+     "c0": 92,
+     "c1": 127,
+     "text": "More often than the actual humans."
+    }
+   ],
+   "start": 378.05562499999974,
+   "end": 389.2564166666664
+  },
+  {
+   "id": "5.4",
+   "seg": 5,
+   "en": "And ELIZA, the program from the 1960s? Picked as human 23 percent of the time. GPT-4o, without a persona, got 21.",
+   "chunks": [
+    {
+     "t0": 389.70641666666637,
+     "t1": 392.87379166666636,
+     "c0": 0,
+     "c1": 38,
+     "text": "And Eliza, the program from the nineteen sixties?"
+    },
+    {
+     "t0": 393.32379166666635,
+     "t1": 395.9977499999997,
+     "c0": 38,
+     "c1": 78,
+     "text": "Picked as human twenty-three percent of the time."
+    },
+    {
+     "t0": 396.4477499999997,
+     "t1": 400.153583333333,
+     "c0": 78,
+     "c1": 113,
+     "text": "G P T four o, without a persona, got twenty-one."
+    }
+   ],
+   "start": 389.70641666666637,
+   "end": 400.153583333333
+  },
+  {
+   "id": "5.5",
+   "seg": 5,
+   "en": "Seventy-three, twenty-three, twenty-one. So what does that tell us? That passing for human was never only about intelligence. It depends on how the chat is set up, and on who is judging.",
+   "chunks": [
+    {
+     "t0": 400.853583333333,
+     "t1": 403.192208333333,
+     "c0": 0,
+     "c1": 40,
+     "text": "Seventy-three, twenty-three, twenty-one."
+    },
+    {
+     "t0": 403.642208333333,
+     "t1": 405.214833333333,
+     "c0": 40,
+     "c1": 67,
+     "text": "So what does that tell us?"
+    },
+    {
+     "t0": 405.664833333333,
+     "t1": 409.567208333333,
+     "c0": 67,
+     "c1": 125,
+     "text": "That passing for human was never only about intelligence."
+    },
+    {
+     "t0": 410.017208333333,
+     "t1": 413.6181666666663,
+     "c0": 125,
+     "c1": 186,
+     "text": "It depends on how the chat is set up, and on who is judging."
+    }
+   ],
+   "start": 400.853583333333,
+   "end": 413.6181666666663
+  },
+  {
+   "id": "5.6",
+   "seg": 5,
+   "en": "ELIZA mostly echoed you. Modern chatbots can flatter you.",
+   "chunks": [
+    {
+     "t0": 414.0681666666663,
+     "t1": 415.76024999999964,
+     "c0": 0,
+     "c1": 24,
+     "text": "Eliza mostly echoed you."
+    },
+    {
+     "t0": 416.21024999999963,
+     "t1": 418.12908333333297,
+     "c0": 24,
+     "c1": 57,
+     "text": "Modern chatbots can flatter you."
+    }
+   ],
+   "start": 414.0681666666663,
+   "end": 418.12908333333297
+  },
+  {
+   "id": "5.7",
+   "seg": 5,
+   "en": "In April 2025, OpenAI rolled back a ChatGPT update. The company said it had been overly flattering or agreeable, often described as sycophantic.",
+   "chunks": [
+    {
+     "t0": 418.57908333333296,
+     "t1": 423.90583333333296,
+     "c0": 0,
+     "c1": 51,
+     "text": "In April twenty twenty-five, Open A I rolled back a Chat G P T update."
+    },
+    {
+     "t0": 424.35583333333295,
+     "t1": 430.228708333333,
+     "c0": 51,
+     "c1": 144,
+     "text": "The company said it had been overly flattering or agreeable, often described as sycophantic."
+    }
+   ],
+   "start": 418.57908333333296,
+   "end": 430.228708333333
+  },
+  {
+   "id": "5.8",
+   "seg": 5,
+   "en": "A few months later, in August, OpenAI retired the model GPT-4o. Some users said it felt like losing a companion. Within days, OpenAI brought it back as an option.",
+   "chunks": [
+    {
+     "t0": 430.67870833333296,
+     "t1": 436.30108333333294,
+     "c0": 0,
+     "c1": 63,
+     "text": "A few months later, in August, Open A I retired the model G P T four o."
+    },
+    {
+     "t0": 436.75108333333293,
+     "t1": 439.6068749999996,
+     "c0": 63,
+     "c1": 112,
+     "text": "Some users said it felt like losing a companion."
+    },
+    {
+     "t0": 440.0568749999996,
+     "t1": 443.2162916666663,
+     "c0": 112,
+     "c1": 162,
+     "text": "Within days, Open A I brought it back as an option."
+    }
+   ],
+   "start": 430.67870833333296,
+   "end": 443.2162916666663
+  },
+  {
+   "id": "5.8b",
+   "seg": 5,
+   "en": "By October 2025, OpenAI's chief executive said ChatGPT had more than 800 million weekly users.",
+   "chunks": [
+    {
+     "t0": 443.66629166666627,
+     "t1": 452.8815416666663,
+     "c0": 0,
+     "c1": 94,
+     "text": "By October twenty twenty-five, Open A I's chief executive said Chat G P T had more than eight hundred million weekly users."
+    }
+   ],
+   "start": 443.66629166666627,
+   "end": 452.8815416666663
+  },
+  {
+   "id": "5.9",
+   "seg": 5,
+   "en": "Now zoom out. In a Pew survey from February 2026, one in ten American adults said they use chatbots for emotional support or advice. Among adults aged 18 to 29, it was one in five.",
+   "chunks": [
+    {
+     "t0": 453.3315416666663,
+     "t1": 454.38395833333294,
+     "c0": 0,
+     "c1": 13,
+     "text": "Now zoom out."
+    },
+    {
+     "t0": 454.83395833333293,
+     "t1": 463.7819166666663,
+     "c0": 13,
+     "c1": 132,
+     "text": "In a Pew survey from February twenty twenty-six, one in ten American adults said they use chatbots for emotional support or advice."
+    },
+    {
+     "t0": 464.2319166666663,
+     "t1": 468.3709166666663,
+     "c0": 132,
+     "c1": 180,
+     "text": "Among adults aged eighteen to twenty-nine, it was one in five."
+    }
+   ],
+   "start": 453.3315416666663,
+   "end": 468.3709166666663
+  },
+  {
+   "id": "5.10",
+   "seg": 5,
+   "en": "In a 2025 survey by Common Sense Media, 72 percent of American teenagers had tried an AI companion. And 52 percent used one at least a few times a month.",
+   "chunks": [
+    {
+     "t0": 468.8209166666663,
+     "t1": 477.5164999999996,
+     "c0": 0,
+     "c1": 99,
+     "text": "In a twenty twenty-five survey by Common Sense Media, seventy-two percent of American teenagers had tried an A I companion."
+    },
+    {
+     "t0": 477.9664999999996,
+     "t1": 482.02591666666626,
+     "c0": 99,
+     "c1": 153,
+     "text": "And fifty-two percent used one at least a few times a month."
+    }
+   ],
+   "start": 468.8209166666663,
+   "end": 482.02591666666626
+  },
+  {
+   "id": "5.11",
+   "seg": 5,
+   "en": "So the woman who asked for privacy with a program is not a one-off from 1966. She is a survey result.",
+   "chunks": [
+    {
+     "t0": 482.72591666666625,
+     "t1": 488.8786249999996,
+     "c0": 0,
+     "c1": 77,
+     "text": "So the woman who asked for privacy with a program is not a one-off from nineteen sixty-six."
+    },
+    {
+     "t0": 489.3286249999996,
+     "t1": 490.7801249999996,
+     "c0": 77,
+     "c1": 101,
+     "text": "She is a survey result."
+    }
+   ],
+   "start": 482.72591666666625,
+   "end": 490.7801249999996
+  },
+  {
+   "id": "5.12",
+   "seg": 5,
+   "en": "Lawmakers have noticed. In August 2025, Illinois became the first state to bar AI from providing therapy without a licensed professional involved, with fines up to $10,000.",
+   "chunks": [
+    {
+     "t0": 491.2301249999996,
+     "t1": 492.71204166666627,
+     "c0": 0,
+     "c1": 23,
+     "text": "Lawmakers have noticed."
+    },
+    {
+     "t0": 493.16204166666625,
+     "t1": 505.3754583333329,
+     "c0": 23,
+     "c1": 172,
+     "text": "In August twenty twenty-five, Illinois became the first state to bar A I from providing therapy without a licensed professional involved, with fines up to ten thousand dollars."
+    }
+   ],
+   "start": 491.2301249999996,
+   "end": 505.3754583333329
+  },
+  {
+   "id": "5.13",
+   "seg": 5,
+   "en": "A month later, the Federal Trade Commission ordered seven companies, including OpenAI, Meta, and Character.AI, to explain how their companion chatbots affect children and teens.",
+   "chunks": [
+    {
+     "t0": 505.8254583333329,
+     "t1": 518.9180833333329,
+     "c0": 0,
+     "c1": 177,
+     "text": "A month later, the Federal Trade Commission ordered seven companies, including Open A I, Meta, and Character dot A I, to explain how their companion chatbots affect children and teens."
+    }
+   ],
+   "start": 505.8254583333329,
+   "end": 518.9180833333329
+  },
+  {
+   "id": "5.14",
+   "seg": 5,
+   "en": "Both lean on an old idea: keep a human in charge of the human parts. That is close to Weizenbaum's argument.",
+   "chunks": [
+    {
+     "t0": 519.368083333333,
+     "t1": 524.2850416666663,
+     "c0": 0,
+     "c1": 68,
+     "text": "Both lean on an old idea: keep a human in charge of the human parts."
+    },
+    {
+     "t0": 524.7350416666663,
+     "t1": 527.1371666666663,
+     "c0": 68,
+     "c1": 108,
+     "text": "That is close to Weizenbaum's argument."
+    }
+   ],
+   "start": 519.368083333333,
+   "end": 527.1371666666663
+  },
+  {
+   "id": "6.1",
+   "seg": 6,
+   "en": "Weizenbaum died in 2008, long before chatbots could talk like us.",
+   "chunks": [
+    {
+     "t0": 528.1371666666663,
+     "t1": 533.3541249999996,
+     "c0": 0,
+     "c1": 65,
+     "text": "Weizenbaum died in two thousand eight, long before chatbots could talk like us."
+    }
+   ],
+   "start": 528.1371666666663,
+   "end": 533.3541249999996
+  },
+  {
+   "id": "6.2",
+   "seg": 6,
+   "en": "His warning was not that machines would get too smart. It was that it takes so little to make us believe they are.",
+   "chunks": [
+    {
+     "t0": 533.8041249999997,
+     "t1": 537.1301249999997,
+     "c0": 0,
+     "c1": 54,
+     "text": "His warning was not that machines would get too smart."
+    },
+    {
+     "t0": 537.5801249999997,
+     "t1": 540.566083333333,
+     "c0": 54,
+     "c1": 114,
+     "text": "It was that it takes so little to make us believe they are."
+    }
+   ],
+   "start": 533.8041249999997,
+   "end": 540.566083333333
+  },
+  {
+   "id": "6.3",
+   "seg": 6,
+   "en": "In 1966, that took fewer than 70 entries and a typewriter.",
+   "chunks": [
+    {
+     "t0": 541.1660833333331,
+     "t1": 546.0027083333331,
+     "c0": 0,
+     "c1": 58,
+     "text": "In nineteen sixty-six, that took fewer than seventy entries and a typewriter."
+    }
+   ],
+   "start": 541.1660833333331,
+   "end": 546.0027083333331
+  },
+  {
+   "id": "6.4",
+   "seg": 6,
+   "en": "So here is my question for you. Have you ever told a chatbot something you would not tell a person?",
+   "chunks": [
+    {
+     "t0": 546.802708333333,
+     "t1": 548.8280833333331,
+     "c0": 0,
+     "c1": 31,
+     "text": "So here is my question for you."
+    },
+    {
+     "t0": 549.2780833333331,
+     "t1": 553.0221249999998,
+     "c0": 31,
+     "c1": 99,
+     "text": "Have you ever told a chatbot something you would not tell a person?"
+    }
+   ],
+   "start": 546.802708333333,
+   "end": 553.0221249999998
+  },
+  {
+   "id": "6.5",
+   "seg": 6,
+   "en": "And did it feel easier because it was a machine, or in spite of it? Tell me in the comments.",
+   "chunks": [
+    {
+     "t0": 553.4721249999999,
+     "t1": 557.3375416666665,
+     "c0": 0,
+     "c1": 67,
+     "text": "And did it feel easier because it was a machine, or in spite of it?"
+    },
+    {
+     "t0": 557.7875416666666,
+     "t1": 559.0535416666665,
+     "c0": 67,
+     "c1": 92,
+     "text": "Tell me in the comments."
+    }
+   ],
+   "start": 553.4721249999999,
+   "end": 559.0535416666665
+  }
+ ],
+ "seg_start": {
+  "0": 1.2,
+  "1": 48.72945833333333,
+  "2": 155.58770833333335,
+  "3": 236.37983333333327,
+  "4": 303.1007499999998,
+  "5": 361.95937499999974,
+  "6": 528.1371666666663
+ },
+ "duration": 561.5535416666667
+}
