@@ -1,0 +1,560 @@
+1
+00:00:01,200 --> 00:00:05,897
+In the mid-1960s, a computer scientist at MIT had a secretary
+
+2
+00:00:05,897 --> 00:00:09,335
+who watched him build a program for months.
+
+3
+00:00:09,605 --> 00:00:11,652
+She knew it was just a program.
+
+4
+00:00:11,922 --> 00:00:15,158
+Then she started typing to it. After only a few
+
+5
+00:00:15,158 --> 00:00:18,094
+exchanges, she asked him to leave the room.
+
+6
+00:00:18,614 --> 00:00:22,005
+She wanted privacy. With a computer program.
+
+7
+00:00:22,275 --> 00:00:27,200
+The program was called ELIZA. It understood nothing. It was a short
+
+8
+00:00:27,200 --> 00:00:30,961
+list of rules for turning your own words back into questions.
+
+9
+00:00:31,381 --> 00:00:34,661
+Its creator, Joseph Weizenbaum, was so unsettled
+
+10
+00:00:34,661 --> 00:00:38,722
+that he spent decades warning people about what it showed.
+
+11
+00:00:38,992 --> 00:00:43,419
+Today, hundreds of millions of people talk to a chatbot every week.
+
+12
+00:00:43,689 --> 00:00:47,909
+This is the story of the first one, and the warning that came with it.
+
+13
+00:00:48,729 --> 00:00:53,540
+ELIZA ran on a room-sized IBM mainframe at MIT.
+
+14
+00:00:53,540 --> 00:00:56,823
+You sat at a typewriter terminal, and it typed back.
+
+15
+00:00:57,093 --> 00:01:01,672
+Its first line was: How do you do. Please tell me your problem.
+
+16
+00:01:01,942 --> 00:01:05,879
+Here is the most famous conversation it ever had,
+
+17
+00:01:05,879 --> 00:01:09,782
+printed in Weizenbaum's 1966 paper. The person
+
+18
+00:01:09,782 --> 00:01:13,858
+types in lowercase. ELIZA answers in capital letters.
+
+19
+00:01:14,128 --> 00:01:18,785
+The person says men are all alike. ELIZA asks: in what way.
+
+20
+00:01:19,055 --> 00:01:21,797
+She says her boyfriend made her come here.
+
+21
+00:01:21,797 --> 00:01:25,119
+ELIZA replies: your boyfriend made you come here.
+
+22
+00:01:25,389 --> 00:01:29,542
+She says she is depressed. ELIZA says it is sorry to hear that.
+
+23
+00:01:29,962 --> 00:01:33,078
+Read it again. Most of what ELIZA says
+
+24
+00:01:33,078 --> 00:01:35,327
+is her own words, turned around.
+
+25
+00:01:35,597 --> 00:01:39,490
+Here is the whole trick. Step one: scan the sentence
+
+26
+00:01:39,490 --> 00:01:42,695
+for a keyword. Mother. Dream. Alike. Always.
+
+27
+00:01:42,965 --> 00:01:45,959
+Every keyword has a rank. If a sentence
+
+28
+00:01:45,959 --> 00:01:48,360
+has several, the highest rank wins.
+
+29
+00:01:48,630 --> 00:01:51,472
+Step two: cut the sentence apart and rebuild
+
+30
+00:01:51,472 --> 00:01:55,188
+it from a template, swapping I for you, and my for your.
+
+31
+00:01:55,458 --> 00:01:58,276
+Step three: if there is no keyword at all, say
+
+32
+00:01:58,276 --> 00:02:01,747
+something that fits anywhere. Please go on.
+
+33
+00:02:02,017 --> 00:02:05,461
+And one more trick. When you say my something,
+
+34
+00:02:05,461 --> 00:02:09,074
+ELIZA saves a copy, and a few turns later brings it back:
+
+35
+00:02:09,074 --> 00:02:12,951
+Earlier you said your something. As if it remembered.
+
+36
+00:02:13,221 --> 00:02:16,084
+That is all of it. The script printed
+
+37
+00:02:16,084 --> 00:02:18,830
+in the paper has fewer than 70 entries.
+
+38
+00:02:19,250 --> 00:02:23,437
+Why a therapist? Weizenbaum explained it himself.
+
+39
+00:02:23,437 --> 00:02:27,766
+In a psychiatric interview, one side can pretend to know almost
+
+40
+00:02:27,766 --> 00:02:31,665
+nothing about the world, and nobody finds that strange.
+
+41
+00:02:31,985 --> 00:02:34,768
+The format hides the missing intelligence.
+
+42
+00:02:35,588 --> 00:02:38,495
+Now the part Weizenbaum did not expect.
+
+43
+00:02:38,765 --> 00:02:42,112
+People treated it like a listener. In his words,
+
+44
+00:02:42,112 --> 00:02:45,074
+he was startled by how quickly and how deeply
+
+45
+00:02:45,074 --> 00:02:48,537
+they became emotionally involved with the computer.
+
+46
+00:02:48,807 --> 00:02:52,057
+Then he suggested something simple: rig the system
+
+47
+00:02:52,057 --> 00:02:55,551
+so he could read every conversation, say, overnight.
+
+48
+00:02:55,821 --> 00:02:58,470
+He was promptly bombarded with accusations
+
+49
+00:02:58,470 --> 00:03:01,976
+that he was spying on people's most intimate thoughts.
+
+50
+00:03:02,396 --> 00:03:06,279
+Think about that. They were not protecting a diary.
+
+51
+00:03:06,279 --> 00:03:08,528
+They were protecting a chat with a machine.
+
+52
+00:03:09,048 --> 00:03:13,664
+Weizenbaum's own paper opens by taking the magic away.
+
+53
+00:03:13,664 --> 00:03:18,070
+Explain a program plainly enough, he wrote, and its magic crumbles
+
+54
+00:03:18,070 --> 00:03:22,448
+away. It stands revealed as a mere collection of procedures.
+
+55
+00:03:22,718 --> 00:03:26,469
+His secretary had watched him build it, for months. She knew.
+
+56
+00:03:27,089 --> 00:03:29,098
+Knowing did not break the spell.
+
+57
+00:03:29,368 --> 00:03:32,533
+Some psychiatrists went further. Weizenbaum
+
+58
+00:03:32,533 --> 00:03:35,752
+wrote that a number of practicing psychiatrists
+
+59
+00:03:35,752 --> 00:03:39,507
+seriously believed his program could grow into a nearly
+
+60
+00:03:39,507 --> 00:03:42,571
+completely automatic form of psychotherapy.
+
+61
+00:03:42,841 --> 00:03:47,469
+In 1972, ELIZA even ended up talking to another program,
+
+62
+00:03:47,469 --> 00:03:52,178
+PARRY, which imitated a patient with paranoia. The two
+
+63
+00:03:52,178 --> 00:03:55,560
+chatted over the ARPANET, a forerunner of the internet.
+
+64
+00:03:56,380 --> 00:04:02,149
+Joseph Weizenbaum was born in Berlin in 1923. His Jewish
+
+65
+00:04:02,149 --> 00:04:06,796
+family fled Nazi Germany in 1936, when he was thirteen.
+
+66
+00:04:07,066 --> 00:04:10,690
+In 1976, he published a book, Computer Power
+
+67
+00:04:10,690 --> 00:04:14,414
+and Human Reason, and its argument is blunt.
+
+68
+00:04:14,684 --> 00:04:16,819
+Some jobs should never be handed
+
+69
+00:04:16,819 --> 00:04:19,716
+to machines, even if machines can do them.
+
+70
+00:04:19,986 --> 00:04:22,126
+In his words, there are objectives
+
+71
+00:04:22,126 --> 00:04:25,362
+that are not appropriately assignable to machines.
+
+72
+00:04:25,632 --> 00:04:29,316
+He drew a line between deciding and choosing. Deciding
+
+73
+00:04:29,316 --> 00:04:33,528
+is computation, and a computer can do it. Choosing takes
+
+74
+00:04:33,528 --> 00:04:37,395
+judgment, and judgment, he argued, is not calculation.
+
+75
+00:04:37,915 --> 00:04:41,579
+The name ELIZA comes from Eliza Doolittle, the flower
+
+76
+00:04:41,579 --> 00:04:45,356
+girl in Pygmalion who is taught to speak like a lady.
+
+77
+00:04:45,626 --> 00:04:49,581
+Weizenbaum wrote that, like her, the program could be made
+
+78
+00:04:49,581 --> 00:04:53,914
+to appear even more civilized. But the relation of appearance
+
+79
+00:04:53,914 --> 00:04:57,720
+to reality, he said, remained in the domain of the playwright.
+
+80
+00:04:58,040 --> 00:05:02,281
+In other words: it looks like understanding. It is theater.
+
+81
+00:05:03,101 --> 00:05:06,429
+Here is an odd footnote. Weizenbaum published
+
+82
+00:05:06,429 --> 00:05:09,159
+the method, but never the program itself.
+
+83
+00:05:09,429 --> 00:05:12,027
+For more than fifty years, the public
+
+84
+00:05:12,027 --> 00:05:14,599
+could not read ELIZA's actual code.
+
+85
+00:05:14,869 --> 00:05:19,376
+Then, in 2021, the researcher Jeff Shrager and an MIT
+
+86
+00:05:19,376 --> 00:05:24,230
+archivist found a printout of it in Weizenbaum's papers.
+
+87
+00:05:24,500 --> 00:05:29,673
+It was in a folder labeled computer conversations, 1965.
+
+88
+00:05:29,943 --> 00:05:34,402
+In 2025, a team ran that code again, on a rebuilt copy
+
+89
+00:05:34,402 --> 00:05:38,798
+of the 1960s time-sharing system it was written for.
+
+90
+00:05:39,068 --> 00:05:43,075
+What the code produces now has a name: the ELIZA effect.
+
+91
+00:05:43,345 --> 00:05:45,878
+It means reading far more understanding
+
+92
+00:05:45,878 --> 00:05:48,908
+into a computer's words than is really there.
+
+93
+00:05:49,178 --> 00:05:53,131
+In 1995, the computer scientist Douglas Hofstadter
+
+94
+00:05:53,131 --> 00:05:57,394
+gave one of his book chapters a title that still fits:
+
+95
+00:05:57,394 --> 00:06:01,139
+The Ineradicable ELIZA Effect and Its Dangers.
+
+96
+00:06:01,959 --> 00:06:03,915
+So how would ELIZA do today?
+
+97
+00:06:04,185 --> 00:06:07,696
+In 2025, researchers at UC San Diego ran
+
+98
+00:06:07,696 --> 00:06:12,112
+a Turing test with five-minute text chats. Each
+
+99
+00:06:12,112 --> 00:06:15,260
+judge talked to a person and a machine at the same
+
+100
+00:06:15,260 --> 00:06:17,786
+time, then picked which one was human.
+
+101
+00:06:18,056 --> 00:06:24,524
+The best AI, GPT-4.5 told to play a persona, was picked as the human
+
+102
+00:06:24,524 --> 00:06:29,436
+73 percent of the time. More often than the actual humans.
+
+103
+00:06:29,706 --> 00:06:34,460
+And ELIZA, the program from the 1960s? Picked as human
+
+104
+00:06:34,460 --> 00:06:40,334
+23 percent of the time. GPT-4o, without a persona, got 21.
+
+105
+00:06:40,854 --> 00:06:45,040
+Seventy-three, twenty-three, twenty-one. So what does that tell
+
+106
+00:06:45,040 --> 00:06:50,076
+us? That passing for human was never only about intelligence.
+
+107
+00:06:50,076 --> 00:06:53,798
+It depends on how the chat is set up, and on who is judging.
+
+108
+00:06:54,068 --> 00:06:58,309
+ELIZA mostly echoed you. Modern chatbots can flatter you.
+
+109
+00:06:58,579 --> 00:07:04,419
+In April 2025, OpenAI rolled back a ChatGPT update.
+
+110
+00:07:04,419 --> 00:07:07,387
+The company said it had been overly flattering
+
+111
+00:07:07,387 --> 00:07:10,409
+or agreeable, often described as sycophantic.
+
+112
+00:07:10,679 --> 00:07:15,676
+A few months later, in August, OpenAI retired the model
+
+113
+00:07:15,676 --> 00:07:20,120
+GPT-4o. Some users said it felt like losing a companion.
+
+114
+00:07:20,120 --> 00:07:23,396
+Within days, OpenAI brought it back as an option.
+
+115
+00:07:23,666 --> 00:07:28,274
+By October 2025, OpenAI's chief executive said
+
+116
+00:07:28,274 --> 00:07:33,062
+ChatGPT had more than 800 million weekly users.
+
+117
+00:07:33,332 --> 00:07:38,443
+Now zoom out. In a Pew survey from February 2026, one in ten
+
+118
+00:07:38,443 --> 00:07:43,030
+American adults said they use chatbots for emotional support
+
+119
+00:07:43,030 --> 00:07:48,551
+or advice. Among adults aged 18 to 29, it was one in five.
+
+120
+00:07:48,821 --> 00:07:53,300
+In a 2025 survey by Common Sense Media, 72 percent
+
+121
+00:07:53,300 --> 00:07:58,042
+of American teenagers had tried an AI companion.
+
+122
+00:07:58,042 --> 00:08:02,206
+And 52 percent used one at least a few times a month.
+
+123
+00:08:02,726 --> 00:08:06,721
+So the woman who asked for privacy with a program
+
+124
+00:08:06,721 --> 00:08:10,960
+is not a one-off from 1966. She is a survey result.
+
+125
+00:08:11,230 --> 00:08:15,867
+Lawmakers have noticed. In August 2025, Illinois became
+
+126
+00:08:15,867 --> 00:08:20,539
+the first state to bar AI from providing therapy without
+
+127
+00:08:20,539 --> 00:08:25,555
+a licensed professional involved, with fines up to $10,000.
+
+128
+00:08:25,825 --> 00:08:30,116
+A month later, the Federal Trade Commission ordered seven
+
+129
+00:08:30,116 --> 00:08:34,850
+companies, including OpenAI, Meta, and Character.AI, to explain
+
+130
+00:08:34,850 --> 00:08:39,098
+how their companion chatbots affect children and teens.
+
+131
+00:08:39,368 --> 00:08:42,911
+Both lean on an old idea: keep a human in charge
+
+132
+00:08:42,911 --> 00:08:47,317
+of the human parts. That is close to Weizenbaum's argument.
+
+133
+00:08:48,137 --> 00:08:53,534
+Weizenbaum died in 2008, long before chatbots could talk like us.
+
+134
+00:08:53,804 --> 00:08:57,630
+His warning was not that machines would get too smart.
+
+135
+00:08:57,630 --> 00:09:00,746
+It was that it takes so little to make us believe they are.
+
+136
+00:09:01,166 --> 00:09:06,183
+In 1966, that took fewer than 70 entries and a typewriter.
+
+137
+00:09:06,803 --> 00:09:10,379
+So here is my question for you. Have you ever told
+
+138
+00:09:10,379 --> 00:09:13,202
+a chatbot something you would not tell a person?
+
+139
+00:09:13,472 --> 00:09:16,299
+And did it feel easier because it was a machine,
+
+140
+00:09:16,299 --> 00:09:19,234
+or in spite of it? Tell me in the comments.
+
