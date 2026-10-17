@@ -1,0 +1,1533 @@
+{
+ "lines": [
+  {
+   "id": "0.1",
+   "seg": 0,
+   "en": "In 2017, a humanoid robot did a backflip.",
+   "chunks": [
+    {
+     "t0": 1.2,
+     "t1": 5.030208333333333,
+     "c0": 0,
+     "c1": 41,
+     "text": "In twenty seventeen, a humanoid robot did a backflip."
+    }
+   ],
+   "start": 1.2,
+   "end": 5.030208333333333
+  },
+  {
+   "id": "0.2",
+   "seg": 0,
+   "en": "In 2024, a company called Unitree posted a video of its electric humanoid doing one too.",
+   "chunks": [
+    {
+     "t0": 5.480208333333334,
+     "t1": 12.449,
+     "c0": 0,
+     "c1": 88,
+     "text": "In twenty twenty-four, a company called Unitree posted a video of its electric humanoid doing one too."
+    }
+   ],
+   "start": 5.480208333333334,
+   "end": 12.449
+  },
+  {
+   "id": "0.3",
+   "seg": 0,
+   "en": "Now ask one of these robots to fold a shirt.",
+   "chunks": [
+    {
+     "t0": 13.049,
+     "t1": 15.734833333333333,
+     "c0": 0,
+     "c1": 44,
+     "text": "Now ask one of these robots to fold a shirt."
+    }
+   ],
+   "start": 13.049,
+   "end": 15.734833333333333
+  },
+  {
+   "id": "0.4",
+   "seg": 0,
+   "en": "In February 2026, a startup began shipping a laundry-folding robot for nearly eight thousand dollars. When it gets stuck, a human specialist takes over remotely, for a few seconds at a time.",
+   "chunks": [
+    {
+     "t0": 16.184833333333334,
+     "t1": 23.62225,
+     "c0": 0,
+     "c1": 101,
+     "text": "In February twenty twenty-six, a startup began shipping a laundry-folding robot for nearly eight thousand dollars."
+    },
+    {
+     "t0": 24.07225,
+     "t1": 29.667416666666668,
+     "c0": 101,
+     "c1": 190,
+     "text": "When it gets stuck, a human specialist takes over remotely, for a few seconds at a time."
+    }
+   ],
+   "start": 16.184833333333334,
+   "end": 29.667416666666668
+  },
+  {
+   "id": "0.5",
+   "seg": 0,
+   "en": "A backflip makes headlines. Folding laundry is a chore a child can do.",
+   "chunks": [
+    {
+     "t0": 30.26741666666667,
+     "t1": 31.989583333333336,
+     "c0": 0,
+     "c1": 27,
+     "text": "A backflip makes headlines."
+    },
+    {
+     "t0": 32.43958333333334,
+     "t1": 35.35170833333334,
+     "c0": 27,
+     "c1": 70,
+     "text": "Folding laundry is a chore a child can do."
+    }
+   ],
+   "start": 30.26741666666667,
+   "end": 35.35170833333334
+  },
+  {
+   "id": "0.6",
+   "seg": 0,
+   "en": "So why has the stunt been solved, and the chore has not?",
+   "chunks": [
+    {
+     "t0": 35.85170833333334,
+     "t1": 39.46587500000001,
+     "c0": 0,
+     "c1": 56,
+     "text": "So why has the stunt been solved, and the chore has not?"
+    }
+   ],
+   "start": 35.85170833333334,
+   "end": 39.46587500000001
+  },
+  {
+   "id": "0.7",
+   "seg": 0,
+   "en": "The answer was written down in 1988, and it says the backflip is the easy part.",
+   "chunks": [
+    {
+     "t0": 40.165875000000014,
+     "t1": 45.97762500000002,
+     "c0": 0,
+     "c1": 79,
+     "text": "The answer was written down in nineteen eighty-eight, and it says the backflip is the easy part."
+    }
+   ],
+   "start": 40.165875000000014,
+   "end": 45.97762500000002
+  },
+  {
+   "id": "1.1",
+   "seg": 1,
+   "en": "In 1988, the roboticist Hans Moravec noticed something strange.",
+   "chunks": [
+    {
+     "t0": 46.97762500000002,
+     "t1": 52.17095833333335,
+     "c0": 0,
+     "c1": 63,
+     "text": "In nineteen eighty-eight, the roboticist Hans Moravek noticed something strange."
+    }
+   ],
+   "start": 46.97762500000002,
+   "end": 52.17095833333335
+  },
+  {
+   "id": "1.2",
+   "seg": 1,
+   "en": "In his book Mind Children, he argued that it is far easier to make a computer play checkers at an adult level than to give it the perception and mobility of a one-year-old.",
+   "chunks": [
+    {
+     "t0": 52.620958333333355,
+     "t1": 63.85095833333335,
+     "c0": 0,
+     "c1": 172,
+     "text": "In his book Mind Children, he argued that it is far easier to make a computer play checkers at an adult level than to give it the perception and mobility of a one-year-old."
+    }
+   ],
+   "start": 52.620958333333355,
+   "end": 63.85095833333335
+  },
+  {
+   "id": "1.3",
+   "seg": 1,
+   "en": "Nine years later, in 1997, IBM's Deep Blue beat the world chess champion, Garry Kasparov, in a match.",
+   "chunks": [
+    {
+     "t0": 64.30095833333336,
+     "t1": 72.86533333333335,
+     "c0": 0,
+     "c1": 101,
+     "text": "Nine years later, in nineteen ninety-seven, I B M's Deep Blue beat the world chess champion, Garry Kasparov, in a match."
+    }
+   ],
+   "start": 64.30095833333336,
+   "end": 72.86533333333335
+  },
+  {
+   "id": "1.4",
+   "seg": 1,
+   "en": "This became known as Moravec's paradox: what is hard for people is often easy for machines, and what is easy for people is often hard.",
+   "chunks": [
+    {
+     "t0": 73.46533333333335,
+     "t1": 82.97737500000001,
+     "c0": 0,
+     "c1": 134,
+     "text": "This became known as Moravek's paradox: what is hard for people is often easy for machines, and what is easy for people is often hard."
+    }
+   ],
+   "start": 73.46533333333335,
+   "end": 82.97737500000001
+  },
+  {
+   "id": "1.5",
+   "seg": 1,
+   "en": "Why? Moravec's explanation was evolution.",
+   "chunks": [
+    {
+     "t0": 83.42737500000001,
+     "t1": 84.00562500000001,
+     "c0": 0,
+     "c1": 4,
+     "text": "Why?"
+    },
+    {
+     "t0": 84.45562500000001,
+     "t1": 86.96112500000001,
+     "c0": 4,
+     "c1": 41,
+     "text": "Moravek's explanation was evolution."
+    }
+   ],
+   "start": 83.42737500000001,
+   "end": 86.96112500000001
+  },
+  {
+   "id": "1.6",
+   "seg": 1,
+   "en": "Seeing and moving have been refined for hundreds of millions of years. Fossil eyes date back more than 500 million years.",
+   "chunks": [
+    {
+     "t0": 87.41112500000001,
+     "t1": 91.70554166666668,
+     "c0": 0,
+     "c1": 70,
+     "text": "Seeing and moving have been refined for hundreds of millions of years."
+    },
+    {
+     "t0": 92.15554166666668,
+     "t1": 95.74900000000001,
+     "c0": 70,
+     "c1": 121,
+     "text": "Fossil eyes date back more than five hundred million years."
+    }
+   ],
+   "start": 87.41112500000001,
+   "end": 95.74900000000001
+  },
+  {
+   "id": "1.7",
+   "seg": 1,
+   "en": "Writing is about five thousand years old.",
+   "chunks": [
+    {
+     "t0": 96.24900000000001,
+     "t1": 98.76445833333334,
+     "c0": 0,
+     "c1": 41,
+     "text": "Writing is about five thousand years old."
+    }
+   ],
+   "start": 96.24900000000001,
+   "end": 98.76445833333334
+  },
+  {
+   "id": "1.8",
+   "seg": 1,
+   "en": "Reasoning feels hard because it is new. Seeing and moving feel easy only because evolution has polished them for so long.",
+   "chunks": [
+    {
+     "t0": 99.21445833333334,
+     "t1": 101.67545833333334,
+     "c0": 0,
+     "c1": 39,
+     "text": "Reasoning feels hard because it is new."
+    },
+    {
+     "t0": 102.12545833333334,
+     "t1": 107.519625,
+     "c0": 39,
+     "c1": 121,
+     "text": "Seeing and moving feel easy only because evolution has polished them for so long."
+    }
+   ],
+   "start": 99.21445833333334,
+   "end": 107.519625
+  },
+  {
+   "id": "1.9",
+   "seg": 1,
+   "en": "A robot gets no such head start. So the real question is not why robots are bad at laundry. It is why they are good at backflips.",
+   "chunks": [
+    {
+     "t0": 108.21962500000001,
+     "t1": 110.41708333333334,
+     "c0": 0,
+     "c1": 32,
+     "text": "A robot gets no such head start."
+    },
+    {
+     "t0": 110.86708333333334,
+     "t1": 114.92966666666668,
+     "c0": 32,
+     "c1": 91,
+     "text": "So the real question is not why robots are bad at laundry."
+    },
+    {
+     "t0": 115.37966666666668,
+     "t1": 117.34800000000001,
+     "c0": 91,
+     "c1": 129,
+     "text": "It is why they are good at backflips."
+    }
+   ],
+   "start": 108.21962500000001,
+   "end": 117.34800000000001
+  },
+  {
+   "id": "2.1",
+   "seg": 2,
+   "en": "Here is the first surprise. A backflip is easy in the same way chess is easy.",
+   "chunks": [
+    {
+     "t0": 118.34800000000001,
+     "t1": 120.01716666666668,
+     "c0": 0,
+     "c1": 27,
+     "text": "Here is the first surprise."
+    },
+    {
+     "t0": 120.46716666666669,
+     "t1": 123.66645833333335,
+     "c0": 27,
+     "c1": 77,
+     "text": "A backflip is easy in the same way chess is easy."
+    }
+   ],
+   "start": 118.34800000000001,
+   "end": 123.66645833333335
+  },
+  {
+   "id": "2.2",
+   "seg": 2,
+   "en": "A humanoid robot is a stack of rigid metal links joined at motors. Physics engines handle rigid bodies well, so a computer can simulate one.",
+   "chunks": [
+    {
+     "t0": 124.11645833333336,
+     "t1": 129.06770833333334,
+     "c0": 0,
+     "c1": 66,
+     "text": "A humanoid robot is a stack of rigid metal links joined at motors."
+    },
+    {
+     "t0": 129.51770833333333,
+     "t1": 134.56295833333334,
+     "c0": 66,
+     "c1": 140,
+     "text": "Physics engines handle rigid bodies well, so a computer can simulate one."
+    }
+   ],
+   "start": 124.11645833333336,
+   "end": 134.56295833333334
+  },
+  {
+   "id": "2.3",
+   "seg": 2,
+   "en": "That means engineers can train the robot in a simulator, where it can fall as many times as it takes without breaking anything.",
+   "chunks": [
+    {
+     "t0": 135.01295833333333,
+     "t1": 143.05204166666667,
+     "c0": 0,
+     "c1": 127,
+     "text": "That means engineers can train the robot in a simulator, where it can fall as many times as it takes without breaking anything."
+    }
+   ],
+   "start": 135.01295833333333,
+   "end": 143.05204166666667
+  },
+  {
+   "id": "2.4",
+   "seg": 2,
+   "en": "In 2021, researchers at ETH Zurich and NVIDIA taught a four-legged robot to walk over rough ground in about 20 minutes, on a single graphics card, using thousands of simulated robots at once.",
+   "chunks": [
+    {
+     "t0": 143.50204166666666,
+     "t1": 158.77795833333332,
+     "c0": 0,
+     "c1": 191,
+     "text": "In twenty twenty-one, researchers at E T H Zurich and Nvidia taught a four-legged robot to walk over rough ground in about twenty minutes, on a single graphics card, using thousands of simulated robots at once."
+    }
+   ],
+   "start": 143.50204166666666,
+   "end": 158.77795833333332
+  },
+  {
+   "id": "2.5",
+   "seg": 2,
+   "en": "Then the trained controller is copied onto the real machine. Reports say Unitree's 2024 backflip was trained that way too.",
+   "chunks": [
+    {
+     "t0": 159.2279583333333,
+     "t1": 162.69054166666663,
+     "c0": 0,
+     "c1": 60,
+     "text": "Then the trained controller is copied onto the real machine."
+    },
+    {
+     "t0": 163.14054166666662,
+     "t1": 167.9725833333333,
+     "c0": 60,
+     "c1": 122,
+     "text": "Reports say Unitree's twenty twenty-four backflip was trained that way too."
+    }
+   ],
+   "start": 159.2279583333333,
+   "end": 167.9725833333333
+  },
+  {
+   "id": "2.6",
+   "seg": 2,
+   "en": "A backflip is also short, rehearsed, and flat. The floor is known, the body is known, and nothing in the scene moves unless the robot moves it.",
+   "chunks": [
+    {
+     "t0": 168.42258333333328,
+     "t1": 171.3000416666666,
+     "c0": 0,
+     "c1": 46,
+     "text": "A backflip is also short, rehearsed, and flat."
+    },
+    {
+     "t0": 171.7500416666666,
+     "t1": 177.90558333333325,
+     "c0": 46,
+     "c1": 143,
+     "text": "The floor is known, the body is known, and nothing in the scene moves unless the robot moves it."
+    }
+   ],
+   "start": 168.42258333333328,
+   "end": 177.90558333333325
+  },
+  {
+   "id": "2.7",
+   "seg": 2,
+   "en": "It is an exam where the questions are published in advance.",
+   "chunks": [
+    {
+     "t0": 178.40558333333325,
+     "t1": 181.88995833333325,
+     "c0": 0,
+     "c1": 59,
+     "text": "It is an exam where the questions are published in advance."
+    }
+   ],
+   "start": 178.40558333333325,
+   "end": 181.88995833333325
+  },
+  {
+   "id": "2.8",
+   "seg": 2,
+   "en": "So here is the twist. A backflip is a hard stunt with an easy problem inside it: a known body, a known floor, a known goal.",
+   "chunks": [
+    {
+     "t0": 182.68995833333327,
+     "t1": 184.12387499999994,
+     "c0": 0,
+     "c1": 21,
+     "text": "So here is the twist."
+    },
+    {
+     "t0": 184.57387499999993,
+     "t1": 191.82858333333326,
+     "c0": 21,
+     "c1": 123,
+     "text": "A backflip is a hard stunt with an easy problem inside it: a known body, a known floor, a known goal."
+    }
+   ],
+   "start": 182.68995833333327,
+   "end": 191.82858333333326
+  },
+  {
+   "id": "2.9",
+   "seg": 2,
+   "en": "Laundry is the reverse. An easy-looking job with a hard problem inside it.",
+   "chunks": [
+    {
+     "t0": 192.32858333333326,
+     "t1": 193.85762499999993,
+     "c0": 0,
+     "c1": 23,
+     "text": "Laundry is the reverse."
+    },
+    {
+     "t0": 194.30762499999992,
+     "t1": 197.54324999999992,
+     "c0": 23,
+     "c1": 74,
+     "text": "An easy-looking job with a hard problem inside it."
+    }
+   ],
+   "start": 192.32858333333326,
+   "end": 197.54324999999992
+  },
+  {
+   "id": "3.1",
+   "seg": 3,
+   "en": "Start with the cloth. A metal link has one shape. A shirt has no fixed shape at all.",
+   "chunks": [
+    {
+     "t0": 198.54324999999992,
+     "t1": 199.77987499999992,
+     "c0": 0,
+     "c1": 21,
+     "text": "Start with the cloth."
+    },
+    {
+     "t0": 200.2298749999999,
+     "t1": 201.8644999999999,
+     "c0": 21,
+     "c1": 49,
+     "text": "A metal link has one shape."
+    },
+    {
+     "t0": 202.3144999999999,
+     "t1": 204.3168749999999,
+     "c0": 49,
+     "c1": 84,
+     "text": "A shirt has no fixed shape at all."
+    }
+   ],
+   "start": 198.54324999999992,
+   "end": 204.3168749999999
+  },
+  {
+   "id": "3.2",
+   "seg": 3,
+   "en": "Robotics researchers say a deformable object has, in effect, infinite degrees of freedom.",
+   "chunks": [
+    {
+     "t0": 204.76687499999989,
+     "t1": 211.41029166666655,
+     "c0": 0,
+     "c1": 89,
+     "text": "Robotics researchers say a deformable object has, in effect, infinite degrees of freedom."
+    }
+   ],
+   "start": 204.76687499999989,
+   "end": 211.41029166666655
+  },
+  {
+   "id": "3.3",
+   "seg": 3,
+   "en": "And cloth hides itself. A fold covers a sleeve, and the camera cannot see what is underneath.",
+   "chunks": [
+    {
+     "t0": 211.86029166666654,
+     "t1": 213.3594583333332,
+     "c0": 0,
+     "c1": 23,
+     "text": "And cloth hides itself."
+    },
+    {
+     "t0": 213.8094583333332,
+     "t1": 218.1067083333332,
+     "c0": 23,
+     "c1": 93,
+     "text": "A fold covers a sleeve, and the camera cannot see what is underneath."
+    }
+   ],
+   "start": 211.86029166666654,
+   "end": 218.1067083333332
+  },
+  {
+   "id": "3.4",
+   "seg": 3,
+   "en": "Simulating cloth is the other trouble. Studies report that simulated garments stretch, distort, and pass through themselves, and that accurate cloth simulators are often too slow for large-scale training.",
+   "chunks": [
+    {
+     "t0": 218.55670833333318,
+     "t1": 220.95558333333318,
+     "c0": 0,
+     "c1": 38,
+     "text": "Simulating cloth is the other trouble."
+    },
+    {
+     "t0": 221.40558333333317,
+     "t1": 232.63649999999984,
+     "c0": 38,
+     "c1": 204,
+     "text": "Studies report that simulated garments stretch, distort, and pass through themselves, and that accurate cloth simulators are often too slow for large-scale training."
+    }
+   ],
+   "start": 218.55670833333318,
+   "end": 232.63649999999984
+  },
+  {
+   "id": "3.5",
+   "seg": 3,
+   "en": "So the trick that taught the backflip works much less well on a shirt.",
+   "chunks": [
+    {
+     "t0": 233.13649999999984,
+     "t1": 236.8474166666665,
+     "c0": 0,
+     "c1": 70,
+     "text": "So the trick that taught the backflip works much less well on a shirt."
+    }
+   ],
+   "start": 233.13649999999984,
+   "end": 236.8474166666665
+  },
+  {
+   "id": "3.6",
+   "seg": 3,
+   "en": "Then there is your home. Every kitchen, every closet, every laundry basket is different.",
+   "chunks": [
+    {
+     "t0": 237.2974166666665,
+     "t1": 238.6640416666665,
+     "c0": 0,
+     "c1": 24,
+     "text": "Then there is your home."
+    },
+    {
+     "t0": 239.11404166666648,
+     "t1": 243.3796249999998,
+     "c0": 24,
+     "c1": 88,
+     "text": "Every kitchen, every closet, every laundry basket is different."
+    }
+   ],
+   "start": 237.2974166666665,
+   "end": 243.3796249999998
+  },
+  {
+   "id": "3.7",
+   "seg": 3,
+   "en": "And there are the hands. A human hand has about 17,000 receptors for light touch.",
+   "chunks": [
+    {
+     "t0": 243.8296249999998,
+     "t1": 245.0879999999998,
+     "c0": 0,
+     "c1": 24,
+     "text": "And there are the hands."
+    },
+    {
+     "t0": 245.53799999999978,
+     "t1": 250.01791666666645,
+     "c0": 24,
+     "c1": 81,
+     "text": "A human hand has about seventeen thousand receptors for light touch."
+    }
+   ],
+   "start": 243.8296249999998,
+   "end": 250.01791666666645
+  },
+  {
+   "id": "3.8",
+   "seg": 3,
+   "en": "Rodney Brooks, a co-founder of iRobot, argues that you cannot learn touch if nobody is collecting touch data.",
+   "chunks": [
+    {
+     "t0": 250.46791666666644,
+     "t1": 258.19366666666645,
+     "c0": 0,
+     "c1": 109,
+     "text": "Rodney Brooks, a co-founder of eye-Robot, argues that you cannot learn touch if nobody is collecting touch data."
+    }
+   ],
+   "start": 250.46791666666644,
+   "end": 258.19366666666645
+  },
+  {
+   "id": "3.9",
+   "seg": 3,
+   "en": "In 2019, OpenAI trained a robot hand in simulation to solve a Rubik's Cube, with training equal to roughly 13,000 years of experience.",
+   "chunks": [
+    {
+     "t0": 258.79366666666647,
+     "t1": 269.9412083333331,
+     "c0": 0,
+     "c1": 134,
+     "text": "In twenty nineteen, Open A I trained a robot hand in simulation to solve a Rubik's Cube, with training equal to roughly thirteen thousand years of experience."
+    }
+   ],
+   "start": 258.79366666666647,
+   "end": 269.9412083333331
+  },
+  {
+   "id": "3.10",
+   "seg": 3,
+   "en": "A separate program worked out the moves. The hand only had to carry them out. It still solved the cube just 60 percent of the time, and 20 percent for the hardest scrambles.",
+   "chunks": [
+    {
+     "t0": 270.3912083333331,
+     "t1": 272.63295833333314,
+     "c0": 0,
+     "c1": 40,
+     "text": "A separate program worked out the moves."
+    },
+    {
+     "t0": 273.0829583333331,
+     "t1": 275.1642499999998,
+     "c0": 40,
+     "c1": 77,
+     "text": "The hand only had to carry them out."
+    },
+    {
+     "t0": 275.6142499999998,
+     "t1": 281.6946666666665,
+     "c0": 77,
+     "c1": 173,
+     "text": "It still solved the cube just sixty percent of the time, and twenty percent for the hardest scrambles."
+    }
+   ],
+   "start": 270.3912083333331,
+   "end": 281.6946666666665
+  },
+  {
+   "id": "3.11",
+   "seg": 3,
+   "en": "In 2010, a robot at UC Berkeley folded towels, 50 times out of 50. But a towel is a rectangle with four corners. A shirt is not.",
+   "chunks": [
+    {
+     "t0": 282.2946666666665,
+     "t1": 288.4747916666665,
+     "c0": 0,
+     "c1": 66,
+     "text": "In twenty ten, a robot at U C Berkeley folded towels, fifty times out of fifty."
+    },
+    {
+     "t0": 288.92479166666647,
+     "t1": 291.8784999999998,
+     "c0": 66,
+     "c1": 112,
+     "text": "But a towel is a rectangle with four corners."
+    },
+    {
+     "t0": 292.3284999999998,
+     "t1": 293.4311249999998,
+     "c0": 112,
+     "c1": 128,
+     "text": "A shirt is not."
+    }
+   ],
+   "start": 282.2946666666665,
+   "end": 293.4311249999998
+  },
+  {
+   "id": "3.12",
+   "seg": 3,
+   "en": "In 2026, a laundry robot on sale reportedly cannot handle bed sheets or inside-out garments.",
+   "chunks": [
+    {
+     "t0": 293.88112499999977,
+     "t1": 301.5739583333331,
+     "c0": 0,
+     "c1": 92,
+     "text": "In twenty twenty-six, a laundry robot on sale reportedly cannot handle bed sheets or inside-out garments."
+    }
+   ],
+   "start": 293.88112499999977,
+   "end": 301.5739583333331
+  },
+  {
+   "id": "3.13",
+   "seg": 3,
+   "en": "The robot is not failing at the physics. It is failing at the variety, and at the practice.",
+   "chunks": [
+    {
+     "t0": 302.17395833333313,
+     "t1": 304.58858333333313,
+     "c0": 0,
+     "c1": 40,
+     "text": "The robot is not failing at the physics."
+    },
+    {
+     "t0": 305.0385833333331,
+     "t1": 307.9691249999998,
+     "c0": 40,
+     "c1": 91,
+     "text": "It is failing at the variety, and at the practice."
+    }
+   ],
+   "start": 302.17395833333313,
+   "end": 307.9691249999998
+  },
+  {
+   "id": "4.1",
+   "seg": 4,
+   "en": "Which brings us to the real bottleneck. Not the motors. The data.",
+   "chunks": [
+    {
+     "t0": 308.9691249999998,
+     "t1": 311.2587499999998,
+     "c0": 0,
+     "c1": 39,
+     "text": "Which brings us to the real bottleneck."
+    },
+    {
+     "t0": 311.7087499999998,
+     "t1": 313.31891666666644,
+     "c0": 39,
+     "c1": 65,
+     "text": "Not the motors. The data."
+    }
+   ],
+   "start": 308.9691249999998,
+   "end": 313.31891666666644
+  },
+  {
+   "id": "4.2",
+   "seg": 4,
+   "en": "Chatbots learned from text, and there is a lot of text. Meta's Llama 3 was trained on more than 15 trillion tokens.",
+   "chunks": [
+    {
+     "t0": 313.7689166666664,
+     "t1": 317.0975416666664,
+     "c0": 0,
+     "c1": 55,
+     "text": "Chatbots learned from text, and there is a lot of text."
+    },
+    {
+     "t0": 317.5475416666664,
+     "t1": 322.0520833333331,
+     "c0": 55,
+     "c1": 115,
+     "text": "Meta's Llama three was trained on more than fifteen trillion tokens."
+    }
+   ],
+   "start": 313.7689166666664,
+   "end": 322.0520833333331
+  },
+  {
+   "id": "4.3",
+   "seg": 4,
+   "en": "A token is roughly three-quarters of a word. At the average adult reading speed, 238 words a minute, reading that much nonstop would take about 90,000 years.",
+   "chunks": [
+    {
+     "t0": 322.5020833333331,
+     "t1": 325.4293333333331,
+     "c0": 0,
+     "c1": 44,
+     "text": "A token is roughly three-quarters of a word."
+    },
+    {
+     "t0": 325.8793333333331,
+     "t1": 335.4164166666664,
+     "c0": 44,
+     "c1": 157,
+     "text": "At the average adult reading speed, two hundred and thirty-eight words a minute, reading that much nonstop would take about ninety thousand years."
+    }
+   ],
+   "start": 322.5020833333331,
+   "end": 335.4164166666664
+  },
+  {
+   "id": "4.4",
+   "seg": 4,
+   "en": "Now the robots. The Open X-Embodiment project pooled data from 21 institutions into more than a million robot trajectories, from 22 kinds of robot.",
+   "chunks": [
+    {
+     "t0": 336.01641666666643,
+     "t1": 337.18641666666645,
+     "c0": 0,
+     "c1": 15,
+     "text": "Now the robots."
+    },
+    {
+     "t0": 337.63641666666643,
+     "t1": 347.98012499999976,
+     "c0": 15,
+     "c1": 147,
+     "text": "The Open X-Embodiment project pooled data from twenty-one institutions into more than a million robot trajectories, from twenty-two kinds of robot."
+    }
+   ],
+   "start": 336.01641666666643,
+   "end": 347.98012499999976
+  },
+  {
+   "id": "4.5",
+   "seg": 4,
+   "en": "A million sounds like a lot. But each trajectory is one short attempt at a task. The DROID dataset, collected by 50 people over 12 months, has 76,000 trajectories. That adds up to about 350 hours.",
+   "chunks": [
+    {
+     "t0": 348.43012499999975,
+     "t1": 350.0878333333331,
+     "c0": 0,
+     "c1": 28,
+     "text": "A million sounds like a lot."
+    },
+    {
+     "t0": 350.5378333333331,
+     "t1": 353.9206666666664,
+     "c0": 28,
+     "c1": 80,
+     "text": "But each trajectory is one short attempt at a task."
+    },
+    {
+     "t0": 354.3706666666664,
+     "t1": 361.39254166666643,
+     "c0": 80,
+     "c1": 163,
+     "text": "The Droid dataset, collected by fifty people over twelve months, has seventy-six thousand trajectories."
+    },
+    {
+     "t0": 361.8425416666664,
+     "t1": 364.91862499999974,
+     "c0": 163,
+     "c1": 196,
+     "text": "That adds up to about three hundred and fifty hours."
+    }
+   ],
+   "start": 348.43012499999975,
+   "end": 364.91862499999974
+  },
+  {
+   "id": "4.6",
+   "seg": 4,
+   "en": "AgiBot World, from 2025, lists almost 3,000 hours of recordings, gathered by over a hundred robots. That is 124 days.",
+   "chunks": [
+    {
+     "t0": 365.3686249999997,
+     "t1": 374.0777083333331,
+     "c0": 0,
+     "c1": 99,
+     "text": "Agi-Bot World, from twenty twenty-five, lists almost three thousand hours of recordings, gathered by over a hundred robots."
+    },
+    {
+     "t0": 374.52770833333307,
+     "t1": 376.7554166666664,
+     "c0": 99,
+     "c1": 117,
+     "text": "That is a hundred and twenty-four days."
+    }
+   ],
+   "start": 365.3686249999997,
+   "end": 376.7554166666664
+  },
+  {
+   "id": "4.7",
+   "seg": 4,
+   "en": "Ninety thousand years of text, against four months of robot.",
+   "chunks": [
+    {
+     "t0": 377.4554166666664,
+     "t1": 381.41333333333307,
+     "c0": 0,
+     "c1": 60,
+     "text": "Ninety thousand years of text, against four months of robot."
+    }
+   ],
+   "start": 377.4554166666664,
+   "end": 381.41333333333307
+  },
+  {
+   "id": "4.8",
+   "seg": 4,
+   "en": "A token and an hour of robot time are not the same thing. But in time, the gap is more than 200,000 to one.",
+   "chunks": [
+    {
+     "t0": 381.86333333333306,
+     "t1": 385.8369166666664,
+     "c0": 0,
+     "c1": 57,
+     "text": "A token and an hour of robot time are not the same thing."
+    },
+    {
+     "t0": 386.2869166666664,
+     "t1": 389.9407916666664,
+     "c0": 57,
+     "c1": 107,
+     "text": "But in time, the gap is more than two hundred thousand to one."
+    }
+   ],
+   "start": 381.86333333333306,
+   "end": 389.9407916666664
+  },
+  {
+   "id": "4.9",
+   "seg": 4,
+   "en": "So where does robot data come from? There are three places.",
+   "chunks": [
+    {
+     "t0": 390.54079166666645,
+     "t1": 392.71191666666647,
+     "c0": 0,
+     "c1": 35,
+     "text": "So where does robot data come from?"
+    },
+    {
+     "t0": 393.16191666666646,
+     "t1": 394.56524999999976,
+     "c0": 35,
+     "c1": 59,
+     "text": "There are three places."
+    }
+   ],
+   "start": 390.54079166666645,
+   "end": 394.56524999999976
+  },
+  {
+   "id": "4.10",
+   "seg": 4,
+   "en": "First, teleoperation. A person drives the robot through a task while it records. Stanford's Mobile ALOHA team found that 50 demonstrations per task, combined with older data, could raise success rates by up to 90 percent, enough for tasks like cooking a shrimp.",
+   "chunks": [
+    {
+     "t0": 395.01524999999975,
+     "t1": 396.53249999999974,
+     "c0": 0,
+     "c1": 21,
+     "text": "First, teleoperation."
+    },
+    {
+     "t0": 396.98249999999973,
+     "t1": 400.48974999999973,
+     "c0": 21,
+     "c1": 80,
+     "text": "A person drives the robot through a task while it records."
+    },
+    {
+     "t0": 400.9397499999997,
+     "t1": 414.0510416666664,
+     "c0": 80,
+     "c1": 261,
+     "text": "Stanford's Mobile Aloha team found that fifty demonstrations per task, combined with older data, could raise success rates by up to ninety percent, enough for tasks like cooking a shrimp."
+    }
+   ],
+   "start": 395.01524999999975,
+   "end": 414.0510416666664
+  },
+  {
+   "id": "4.11",
+   "seg": 4,
+   "en": "It works, but it is slow by design: an hour of data costs at least an hour of someone's time.",
+   "chunks": [
+    {
+     "t0": 414.50104166666637,
+     "t1": 420.88220833333304,
+     "c0": 0,
+     "c1": 93,
+     "text": "It works, but it is slow by design: an hour of data costs at least an hour of someone's time."
+    }
+   ],
+   "start": 414.50104166666637,
+   "end": 420.88220833333304
+  },
+  {
+   "id": "4.12",
+   "seg": 4,
+   "en": "Second, simulation, which we saw works for backflips and badly for cloth.",
+   "chunks": [
+    {
+     "t0": 421.332208333333,
+     "t1": 426.073708333333,
+     "c0": 0,
+     "c1": 73,
+     "text": "Second, simulation, which we saw works for backflips and badly for cloth."
+    }
+   ],
+   "start": 421.332208333333,
+   "end": 426.073708333333
+  },
+  {
+   "id": "4.13",
+   "seg": 4,
+   "en": "Third, video of people. Figure says a model trained only on first-person human video could navigate cluttered homes. But video has no touch in it, and that is Brooks's objection.",
+   "chunks": [
+    {
+     "t0": 426.523708333333,
+     "t1": 428.0053749999997,
+     "c0": 0,
+     "c1": 23,
+     "text": "Third, video of people."
+    },
+    {
+     "t0": 428.45537499999966,
+     "t1": 434.80774999999966,
+     "c0": 23,
+     "c1": 116,
+     "text": "Figure says a model trained only on first-person human video could navigate cluttered homes."
+    },
+    {
+     "t0": 435.25774999999965,
+     "t1": 439.0250416666663,
+     "c0": 116,
+     "c1": 178,
+     "text": "But video has no touch in it, and that is Brooks's objection."
+    }
+   ],
+   "start": 426.523708333333,
+   "end": 439.0250416666663
+  },
+  {
+   "id": "5.1",
+   "seg": 5,
+   "en": "This is why robot demos are so hard to read.",
+   "chunks": [
+    {
+     "t0": 440.0250416666663,
+     "t1": 443.087583333333,
+     "c0": 0,
+     "c1": 44,
+     "text": "This is why robot demos are so hard to read."
+    }
+   ],
+   "start": 440.0250416666663,
+   "end": 443.087583333333
+  },
+  {
+   "id": "5.2",
+   "seg": 5,
+   "en": "In October 2024, Tesla showed Optimus robots serving drinks at its We, Robot event. Bloomberg reported that people in another location oversaw many of the interactions, and a Tesla official later said some functions were remotely controlled.",
+   "chunks": [
+    {
+     "t0": 443.537583333333,
+     "t1": 450.49187499999965,
+     "c0": 0,
+     "c1": 83,
+     "text": "In October twenty twenty-four, Tesla showed Optimus robots serving drinks at its We, Robot event."
+    },
+    {
+     "t0": 450.94187499999964,
+     "t1": 461.280458333333,
+     "c0": 83,
+     "c1": 241,
+     "text": "Bloomberg reported that people in another location oversaw many of the interactions, and a Tesla official later said some functions were remotely controlled."
+    }
+   ],
+   "start": 443.537583333333,
+   "end": 461.280458333333
+  },
+  {
+   "id": "5.3",
+   "seg": 5,
+   "en": "In October 2025, a reporter at the Wall Street Journal tested a home humanoid called Neo, priced at 20,000 dollars. In her test, the work was done by a remote human operator.",
+   "chunks": [
+    {
+     "t0": 461.730458333333,
+     "t1": 471.32770833333296,
+     "c0": 0,
+     "c1": 115,
+     "text": "In October twenty twenty-five, a reporter at the Wall Street Journal tested a home humanoid called Neo, priced at twenty thousand dollars."
+    },
+    {
+     "t0": 471.77770833333295,
+     "t1": 475.6134166666663,
+     "c0": 115,
+     "c1": 174,
+     "text": "In her test, the work was done by a remote human operator."
+    }
+   ],
+   "start": 461.730458333333,
+   "end": 475.6134166666663
+  },
+  {
+   "id": "5.4",
+   "seg": 5,
+   "en": "That is not necessarily a trick. Some companies say openly that the human is part of the plan. 1X's chief executive told her that without customers' data, the product cannot get better.",
+   "chunks": [
+    {
+     "t0": 476.0634166666663,
+     "t1": 478.07895833333293,
+     "c0": 0,
+     "c1": 32,
+     "text": "That is not necessarily a trick."
+    },
+    {
+     "t0": 478.5289583333329,
+     "t1": 482.47404166666627,
+     "c0": 32,
+     "c1": 94,
+     "text": "Some companies say openly that the human is part of the plan."
+    },
+    {
+     "t0": 482.92404166666626,
+     "t1": 489.3199999999996,
+     "c0": 94,
+     "c1": 185,
+     "text": "One X's chief executive told her that without customers' data, the product cannot get better."
+    }
+   ],
+   "start": 476.0634166666663,
+   "end": 489.3199999999996
+  },
+  {
+   "id": "5.5",
+   "seg": 5,
+   "en": "The laundry startup says the same: its specialists' corrections feed back into its model.",
+   "chunks": [
+    {
+     "t0": 489.7699999999996,
+     "t1": 495.4134999999996,
+     "c0": 0,
+     "c1": 89,
+     "text": "The laundry startup says the same: its specialists' corrections feed back into its model."
+    }
+   ],
+   "start": 489.7699999999996,
+   "end": 495.4134999999996
+  },
+  {
+   "id": "5.6",
+   "seg": 5,
+   "en": "The remote human is a stopgap. And it is also where the missing data comes from.",
+   "chunks": [
+    {
+     "t0": 496.0134999999996,
+     "t1": 497.97037499999965,
+     "c0": 0,
+     "c1": 30,
+     "text": "The remote human is a stopgap."
+    },
+    {
+     "t0": 498.42037499999964,
+     "t1": 500.98470833333295,
+     "c0": 30,
+     "c1": 80,
+     "text": "And it is also where the missing data comes from."
+    }
+   ],
+   "start": 496.0134999999996,
+   "end": 500.98470833333295
+  },
+  {
+   "id": "5.7",
+   "seg": 5,
+   "en": "So when you watch a robot demo, ask three questions.",
+   "chunks": [
+    {
+     "t0": 501.58470833333297,
+     "t1": 504.9528749999996,
+     "c0": 0,
+     "c1": 52,
+     "text": "So when you watch a robot demo, ask three questions."
+    }
+   ],
+   "start": 501.58470833333297,
+   "end": 504.9528749999996
+  },
+  {
+   "id": "5.8",
+   "seg": 5,
+   "en": "Is it autonomous, or is someone driving? Is the video at real speed? And how many tries did it take?",
+   "chunks": [
+    {
+     "t0": 505.4028749999996,
+     "t1": 508.0876249999996,
+     "c0": 0,
+     "c1": 40,
+     "text": "Is it autonomous, or is someone driving?"
+    },
+    {
+     "t0": 508.5376249999996,
+     "t1": 510.3102916666663,
+     "c0": 40,
+     "c1": 68,
+     "text": "Is the video at real speed?"
+    },
+    {
+     "t0": 510.76029166666626,
+     "t1": 512.5506666666663,
+     "c0": 68,
+     "c1": 100,
+     "text": "And how many tries did it take?"
+    }
+   ],
+   "start": 505.4028749999996,
+   "end": 512.5506666666663
+  },
+  {
+   "id": "5.9",
+   "seg": 5,
+   "en": "A robot that fails one time in ten still needs someone watching.",
+   "chunks": [
+    {
+     "t0": 513.0506666666663,
+     "t1": 517.4642916666663,
+     "c0": 0,
+     "c1": 64,
+     "text": "A robot that fails one time in ten still needs someone watching."
+    }
+   ],
+   "start": 513.0506666666663,
+   "end": 517.4642916666663
+  },
+  {
+   "id": "6.1",
+   "seg": 6,
+   "en": "So when will a robot fold your laundry at home, on its own?",
+   "chunks": [
+    {
+     "t0": 518.4642916666663,
+     "t1": 522.152708333333,
+     "c0": 0,
+     "c1": 59,
+     "text": "So when will a robot fold your laundry at home, on its own?"
+    }
+   ],
+   "start": 518.4642916666663,
+   "end": 522.152708333333
+  },
+  {
+   "id": "6.2",
+   "seg": 6,
+   "en": "Here is my bet. It depends on two things.",
+   "chunks": [
+    {
+     "t0": 522.652708333333,
+     "t1": 523.7822916666663,
+     "c0": 0,
+     "c1": 15,
+     "text": "Here is my bet."
+    },
+    {
+     "t0": 524.2322916666664,
+     "t1": 525.831083333333,
+     "c0": 15,
+     "c1": 41,
+     "text": "It depends on two things."
+    }
+   ],
+   "start": 522.652708333333,
+   "end": 525.831083333333
+  },
+  {
+   "id": "6.3",
+   "seg": 6,
+   "en": "One: data from real homes. Not thousands of hours. Millions. Probably collected by robots that are partly driven by people today.",
+   "chunks": [
+    {
+     "t0": 526.2810833333331,
+     "t1": 528.157083333333,
+     "c0": 0,
+     "c1": 26,
+     "text": "One: data from real homes."
+    },
+    {
+     "t0": 528.6070833333331,
+     "t1": 531.0525833333331,
+     "c0": 26,
+     "c1": 60,
+     "text": "Not thousands of hours. Millions."
+    },
+    {
+     "t0": 531.5025833333332,
+     "t1": 535.7982083333332,
+     "c0": 60,
+     "c1": 129,
+     "text": "Probably collected by robots that are partly driven by people today."
+    }
+   ],
+   "start": 526.2810833333331,
+   "end": 535.7982083333332
+  },
+  {
+   "id": "6.4",
+   "seg": 6,
+   "en": "Two: reliability. The day the remote helper is no longer needed is the day it works 99 times out of 100, not 9 out of 10.",
+   "chunks": [
+    {
+     "t0": 536.2482083333332,
+     "t1": 537.5088749999999,
+     "c0": 0,
+     "c1": 17,
+     "text": "Two: reliability."
+    },
+    {
+     "t0": 537.9588749999999,
+     "t1": 546.1979583333333,
+     "c0": 17,
+     "c1": 121,
+     "text": "The day the remote helper is no longer needed is the day it works ninety-nine times out of a hundred, not nine out of ten."
+    }
+   ],
+   "start": 536.2482083333332,
+   "end": 546.1979583333333
+  },
+  {
+   "id": "6.5",
+   "seg": 6,
+   "en": "Robots that fold some clothes, with a human on call, are already for sale. A robot that handles your whole household? Rodney Brooks has written that dexterity will still lag far behind human hands past 2036.",
+   "chunks": [
+    {
+     "t0": 546.6479583333333,
+     "t1": 551.5057916666667,
+     "c0": 0,
+     "c1": 74,
+     "text": "Robots that fold some clothes, with a human on call, are already for sale."
+    },
+    {
+     "t0": 551.9557916666668,
+     "t1": 554.4737083333334,
+     "c0": 74,
+     "c1": 117,
+     "text": "A robot that handles your whole household?"
+    },
+    {
+     "t0": 554.9237083333335,
+     "t1": 561.5418750000001,
+     "c0": 117,
+     "c1": 207,
+     "text": "Rodney Brooks has written that dexterity will still lag far behind human hands past twenty thirty-six."
+    }
+   ],
+   "start": 546.6479583333333,
+   "end": 561.5418750000001
+  },
+  {
+   "id": "6.6",
+   "seg": 6,
+   "en": "My bet sits in between. A supervised robot that folds most of your laundry by the end of this decade. One that does it with nobody watching, not before the mid-2030s.",
+   "chunks": [
+    {
+     "t0": 562.1418750000001,
+     "t1": 563.6932500000001,
+     "c0": 0,
+     "c1": 23,
+     "text": "My bet sits in between."
+    },
+    {
+     "t0": 564.1432500000002,
+     "t1": 569.2745000000002,
+     "c0": 23,
+     "c1": 101,
+     "text": "A supervised robot that folds most of your laundry by the end of this decade."
+    },
+    {
+     "t0": 569.7245000000003,
+     "t1": 574.2738333333336,
+     "c0": 101,
+     "c1": 166,
+     "text": "One that does it with nobody watching, not before the mid twenty-thirties."
+    }
+   ],
+   "start": 562.1418750000001,
+   "end": 574.2738333333336
+  },
+  {
+   "id": "6.7",
+   "seg": 6,
+   "en": "A signal to watch: the day a company stops saying remote operator in the fine print.",
+   "chunks": [
+    {
+     "t0": 574.7238333333337,
+     "t1": 580.5871250000004,
+     "c0": 0,
+     "c1": 84,
+     "text": "A signal to watch: the day a company stops saying remote operator in the fine print."
+    }
+   ],
+   "start": 574.7238333333337,
+   "end": 580.5871250000004
+  },
+  {
+   "id": "6.8",
+   "seg": 6,
+   "en": "The lesson is bigger than laundry. What looks easy to us is easy because evolution did the work, and nobody wrote that work down as data.",
+   "chunks": [
+    {
+     "t0": 581.1871250000004,
+     "t1": 583.1785000000003,
+     "c0": 0,
+     "c1": 34,
+     "text": "The lesson is bigger than laundry."
+    },
+    {
+     "t0": 583.6285000000004,
+     "t1": 590.5103750000004,
+     "c0": 34,
+     "c1": 137,
+     "text": "What looks easy to us is easy because evolution did the work, and nobody wrote that work down as data."
+    }
+   ],
+   "start": 581.1871250000004,
+   "end": 590.5103750000004
+  },
+  {
+   "id": "6.9",
+   "seg": 6,
+   "en": "So the next time you see a robot do a backflip, don't ask how it got so good. Ask what it was never asked to do.",
+   "chunks": [
+    {
+     "t0": 591.1103750000004,
+     "t1": 595.8486666666671,
+     "c0": 0,
+     "c1": 77,
+     "text": "So the next time you see a robot do a backflip, don't ask how it got so good."
+    },
+    {
+     "t0": 596.2986666666671,
+     "t1": 598.2447083333338,
+     "c0": 77,
+     "c1": 112,
+     "text": "Ask what it was never asked to do."
+    }
+   ],
+   "start": 591.1103750000004,
+   "end": 598.2447083333338
+  },
+  {
+   "id": "6.10",
+   "seg": 6,
+   "en": "Which chore would you hand to a robot first? And would you let a stranger drive it while you are out? Tell me in the comments.",
+   "chunks": [
+    {
+     "t0": 599.0447083333338,
+     "t1": 601.4976250000004,
+     "c0": 0,
+     "c1": 44,
+     "text": "Which chore would you hand to a robot first?"
+    },
+    {
+     "t0": 601.9476250000005,
+     "t1": 604.7774166666671,
+     "c0": 44,
+     "c1": 101,
+     "text": "And would you let a stranger drive it while you are out?"
+    },
+    {
+     "t0": 605.2274166666672,
+     "t1": 606.4934166666671,
+     "c0": 101,
+     "c1": 126,
+     "text": "Tell me in the comments."
+    }
+   ],
+   "start": 599.0447083333338,
+   "end": 606.4934166666671
+  }
+ ],
+ "seg_start": {
+  "0": 1.2,
+  "1": 46.97762500000002,
+  "2": 118.34800000000001,
+  "3": 198.54324999999992,
+  "4": 308.9691249999998,
+  "5": 440.0250416666663,
+  "6": 518.4642916666663
+ },
+ "duration": 608.9934166666667
+}
