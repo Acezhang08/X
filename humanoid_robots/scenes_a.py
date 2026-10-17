@@ -189,7 +189,7 @@ def seg1(c, t):
         text(c, "1988", ax, ay - 50, "monob", 52, LINE, "c", C); text(c, "1997", bx, ay - 50, "monob", 52, LINE, "c", ap(t, a0 + .9, .4) * C)
         dim(c, ax + 30, ay + 55, bx - 30, ay + 55, "9 YEARS LATER", e_out(prog(t, a0 + .5, a0 + 1.6)), CYAN, 2.5, size=40, alpha=C)
         tb = Wd("1.3", "IBM")
-        chessboard(c, 700, 330, 56, ap(t, tb, 1.2), C, 8)
+        chessboard(c, 750, 300, 52, ap(t, tb, 1.2), C, 8)
         lk = ap(t, Wd("1.3", "Garry"), .5) * C
         text(c, "KASPAROV", 400, 450, "monob", 44, LINE, "c", lk); text(c, "WORLD CHAMPION", 400, 502, "mono", 36, CYAN, "c", lk)
         person(c, 400, 640, .9, alpha=lk)
@@ -198,14 +198,14 @@ def seg1(c, t):
         rect(c, 1380, 560, 200, 150, dk, 3.5, LINE, C, fill=BG, falpha=.9)
         for k in range(4): line(c, 1400, 590 + k * 30, 1560, 590 + k * 30, dk, 3, CYAN, C)
         sc = ap(t, Wd("1.3", "beat"), .5) * C
-        text(c, "3½ – 2½", 960, 770, "monob", 56, LINE, "c", sc) if False else text(c, "3.5 - 2.5", 960, 770, "monob", 56, LINE, "c", sc)
+        text(c, "3½ – 2½", 960, 770, "monob", 56, LINE, "c", sc) if False else text(c, "3.5 - 2.5", 960, 760, "monob", 56, LINE, "c", sc)
         src(c, "SRC: IBM / HISTORY.COM, MAY 1997", t, a0 + 1.5, a1)
     # ---- 1.4 the paradox table
     a0 = S("1.4") - .05; a1 = S("1.5") - .1
     Dd = win(t, a0, a1, .45, .35)
     if Dd > 0:
         text(c, "MORAVEC'S PARADOX", 960, 135, "monob", 60, LINE, "c", Dd)
-        t1 = Wd("1.4", "what is hard for people"); t2 = Wd("1.4", "and what is easy")
+        t1 = min(Wd("1.4", "what is hard for people"), a0 + 1.0); t2 = Wd("1.4", "and what is easy")
         # row 1
         y1 = 330; y2 = 590
         a_ = ap(t, t1, .5) * Dd

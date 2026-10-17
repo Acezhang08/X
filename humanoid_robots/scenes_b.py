@@ -69,10 +69,10 @@ def seg2(c, t):
         tag(c, "SIMULATOR", 960, 140, ap(t, a0, .4) * C, 56, LINE, "c", "monob")
         n = 0
         for r in range(3):
-            line(c, 140, 330 + r * 190, 140 + 1300 * e_out(prog(t, a0 + .2 + r * .15, a0 + 1.0 + r * .15)), 330 + r * 190, 1, 3, LINE, C * .8)
+            line(c, 140, 430 + r * 180, 140 + 1300 * e_out(prog(t, a0 + .2 + r * .15, a0 + 1.0 + r * .15)), 430 + r * 180, 1, 3, LINE, C * .8)
             for cidx in range(6):
                 ia = ap(t, a0 + .5 + (r * 6 + cidx) * .06, .4)
-                if ia > 0: mini_fall(c, 230 + cidx * 220, 330 + r * 190, (r * 6 + cidx) * .137, t, .5, ia * C)
+                if ia > 0: mini_fall(c, 230 + cidx * 220, 430 + r * 180, (r * 6 + cidx) * .137, t, .5, ia * C)
         tc = ap(t, Wd("2.3", "fall as many times"), .5) * C
         tag(c, "ATTEMPTS", 1660, 300, tc, 40, CYAN, "c", "monob")
         tag(c, f"{int(max(0, t - a0 - 2.0) ** 2 * 3300):,}", 1660, 380, tc, 52, LINE, "c", "monob")
@@ -90,7 +90,7 @@ def seg2(c, t):
                 pts = [(x0 - 120 + i * 24, y0 + 6 + 10 * math.sin(i * .8 + r * 2 + k)) for i in range(11)]
                 draw_on(c, pts, ia, 3, LINE, Dd * .8)
                 if ia > 0.1: quad(c, x0, y0 - 4, 1.0, (t * .9 + r * .2 + k * .13) % 1.0, LINE, ia * Dd)
-        tag(c, "THOUSANDS AT ONCE", 700, 720, ap(t, Wd("2.4", "thousands of simulated"), .5) * Dd, 40, CYAN, "c", "monob")
+        tag(c, "THOUSANDS AT ONCE", 700, 785, ap(t, Wd("2.4", "thousands of simulated"), .5) * Dd, 40, CYAN, "c", "monob")
         t1 = Wd("2.4", "20 minutes") if False else Wd("2.4", "about 20")
         tm = prog(t, t1, t1 + 1.6)
         clock_icon(c, 1560, 300, 90, tm * .33, LINE, ap(t, t1, .5) * Dd)
