@@ -1,0 +1,1355 @@
+{
+ "lines": [
+  {
+   "id": "0.1",
+   "seg": 0,
+   "en": "Here is a quiz. Ten five-second clips are real. Ten were made by AI. Your job is to say which is which.",
+   "chunks": [
+    {
+     "t0": 1.2,
+     "t1": 2.310208333333333,
+     "c0": 0,
+     "c1": 15,
+     "text": "Here is a quiz."
+    },
+    {
+     "t0": 2.7602083333333334,
+     "t1": 4.6857500000000005,
+     "c0": 15,
+     "c1": 47,
+     "text": "Ten five-second clips are real."
+    },
+    {
+     "t0": 5.135750000000001,
+     "t1": 6.611291666666667,
+     "c0": 47,
+     "c1": 68,
+     "text": "Ten were made by A I."
+    },
+    {
+     "t0": 7.061291666666667,
+     "t1": 9.192,
+     "c0": 68,
+     "c1": 103,
+     "text": "Your job is to say which is which."
+    }
+   ],
+   "start": 1.2,
+   "end": 9.192
+  },
+  {
+   "id": "0.2",
+   "seg": 0,
+   "en": "Runway, a company that builds AI video models, ran this quiz with 1,043 people. Each one watched twenty clips.",
+   "chunks": [
+    {
+     "t0": 9.642,
+     "t1": 16.23408333333333,
+     "c0": 0,
+     "c1": 79,
+     "text": "Runway, a company that builds A I video models, ran this quiz with one thousand forty three people."
+    },
+    {
+     "t0": 16.68408333333333,
+     "t1": 18.375874999999997,
+     "c0": 79,
+     "c1": 110,
+     "text": "Each one watched twenty clips."
+    }
+   ],
+   "start": 9.642,
+   "end": 18.375874999999997
+  },
+  {
+   "id": "0.3",
+   "seg": 0,
+   "en": "The average score was 57.1 percent.",
+   "chunks": [
+    {
+     "t0": 18.875874999999997,
+     "t1": 22.110541666666663,
+     "c0": 0,
+     "c1": 35,
+     "text": "The average score was fifty seven point one percent."
+    }
+   ],
+   "start": 18.875874999999997,
+   "end": 22.110541666666663
+  },
+  {
+   "id": "0.4",
+   "seg": 0,
+   "en": "A coin flip scores 50. So the typical viewer was only slightly better than guessing.",
+   "chunks": [
+    {
+     "t0": 22.51054166666666,
+     "t1": 24.237708333333327,
+     "c0": 0,
+     "c1": 22,
+     "text": "A coin flip scores fifty."
+    },
+    {
+     "t0": 24.687708333333326,
+     "t1": 28.246958333333325,
+     "c0": 22,
+     "c1": 84,
+     "text": "So the typical viewer was only slightly better than guessing."
+    }
+   ],
+   "start": 22.51054166666666,
+   "end": 28.246958333333325
+  },
+  {
+   "id": "0.5",
+   "seg": 0,
+   "en": "Only 99 people, about one in ten, did well enough that luck is an unlikely explanation.",
+   "chunks": [
+    {
+     "t0": 28.696958333333324,
+     "t1": 35.473541666666655,
+     "c0": 0,
+     "c1": 87,
+     "text": "Only ninety nine people, about one in ten, did well enough that luck is an unlikely explanation."
+    }
+   ],
+   "start": 28.696958333333324,
+   "end": 35.473541666666655
+  },
+  {
+   "id": "0.52",
+   "seg": 0,
+   "en": "Real clips were judged correctly 58 percent of the time, and fake clips 56 percent. Neither side was much better than the other.",
+   "chunks": [
+    {
+     "t0": 35.92354166666666,
+     "t1": 42.20945833333332,
+     "c0": 0,
+     "c1": 83,
+     "text": "Real clips were judged correctly fifty eight percent of the time, and fake clips fifty six percent."
+    },
+    {
+     "t0": 42.659458333333326,
+     "t1": 45.19629166666666,
+     "c0": 83,
+     "c1": 128,
+     "text": "Neither side was much better than the other."
+    }
+   ],
+   "start": 35.92354166666666,
+   "end": 45.19629166666666
+  },
+  {
+   "id": "0.53",
+   "seg": 0,
+   "en": "Animal and building clips fell below chance, at 45 to 47 percent. Clips showing people, hands, or actions were easier, at 58 to 65 percent.",
+   "chunks": [
+    {
+     "t0": 45.64629166666666,
+     "t1": 50.88683333333333,
+     "c0": 0,
+     "c1": 65,
+     "text": "Animal and building clips fell below chance, at forty five to forty seven percent."
+    },
+    {
+     "t0": 51.33683333333333,
+     "t1": 57.25991666666666,
+     "c0": 65,
+     "c1": 139,
+     "text": "Clips showing people, hands, or actions were easier, at fifty eight to sixty five percent."
+    }
+   ],
+   "start": 45.64629166666666,
+   "end": 57.25991666666666
+  },
+  {
+   "id": "0.55",
+   "seg": 0,
+   "en": "That is a small group. For most viewers, the honest answer to whether a clip is real is a guess.",
+   "chunks": [
+    {
+     "t0": 57.75991666666666,
+     "t1": 59.04624999999999,
+     "c0": 0,
+     "c1": 22,
+     "text": "That is a small group."
+    },
+    {
+     "t0": 59.496249999999996,
+     "t1": 64.10170833333333,
+     "c0": 22,
+     "c1": 96,
+     "text": "For most viewers, the honest answer to whether a clip is real is a guess."
+    }
+   ],
+   "start": 57.75991666666666,
+   "end": 64.10170833333333
+  },
+  {
+   "id": "0.6",
+   "seg": 0,
+   "en": "Keep in mind who ran the study. A company that sells these models measured how well people spot them.",
+   "chunks": [
+    {
+     "t0": 64.70170833333333,
+     "t1": 66.51579166666666,
+     "c0": 0,
+     "c1": 31,
+     "text": "Keep in mind who ran the study."
+    },
+    {
+     "t0": 66.96579166666666,
+     "t1": 71.34712499999999,
+     "c0": 31,
+     "c1": 101,
+     "text": "A company that sells these models measured how well people spot them."
+    }
+   ],
+   "start": 64.70170833333333,
+   "end": 71.34712499999999
+  },
+  {
+   "id": "0.7",
+   "seg": 0,
+   "en": "Still, the result is hard to ignore. So why can't we tell anymore?",
+   "chunks": [
+    {
+     "t0": 71.84712499999999,
+     "t1": 74.13929166666665,
+     "c0": 0,
+     "c1": 36,
+     "text": "Still, the result is hard to ignore."
+    },
+    {
+     "t0": 74.58929166666665,
+     "t1": 76.34983333333332,
+     "c0": 36,
+     "c1": 66,
+     "text": "So why can't we tell anymore?"
+    }
+   ],
+   "start": 71.84712499999999,
+   "end": 76.34983333333332
+  },
+  {
+   "id": "0.8",
+   "seg": 0,
+   "en": "Here is the short answer. Every checklist for spotting AI video is already out of date, and the reason is built into how these videos are made.",
+   "chunks": [
+    {
+     "t0": 76.94983333333332,
+     "t1": 78.47333333333331,
+     "c0": 0,
+     "c1": 25,
+     "text": "Here is the short answer."
+    },
+    {
+     "t0": 78.92333333333332,
+     "t1": 86.28133333333332,
+     "c0": 25,
+     "c1": 143,
+     "text": "Every checklist for spotting A I video is already out of date, and the reason is built into how these videos are made."
+    }
+   ],
+   "start": 76.94983333333332,
+   "end": 86.28133333333332
+  },
+  {
+   "id": "1.1",
+   "seg": 1,
+   "en": "Most guides to spotting AI video are lists of flaws. Extra fingers. Garbled signs. Faces that blink wrong.",
+   "chunks": [
+    {
+     "t0": 87.28133333333332,
+     "t1": 93.61912499999998,
+     "c0": 0,
+     "c1": 82,
+     "text": "Most guides to spotting A I video are lists of flaws. Extra fingers. Garbled signs."
+    },
+    {
+     "t0": 94.06912499999999,
+     "t1": 95.61699999999999,
+     "c0": 82,
+     "c1": 106,
+     "text": "Faces that blink wrong."
+    }
+   ],
+   "start": 87.28133333333332,
+   "end": 95.61699999999999
+  },
+  {
+   "id": "1.2",
+   "seg": 1,
+   "en": "Those lists are snapshots. To see why they expire, you first need to see how a video is made.",
+   "chunks": [
+    {
+     "t0": 96.067,
+     "t1": 97.710375,
+     "c0": 0,
+     "c1": 26,
+     "text": "Those lists are snapshots."
+    },
+    {
+     "t0": 98.160375,
+     "t1": 102.42054166666667,
+     "c0": 26,
+     "c1": 93,
+     "text": "To see why they expire, you first need to see how a video is made."
+    }
+   ],
+   "start": 96.067,
+   "end": 102.42054166666667
+  },
+  {
+   "id": "1.3",
+   "seg": 1,
+   "en": "It starts with pure noise, like the static on an old television.",
+   "chunks": [
+    {
+     "t0": 102.87054166666667,
+     "t1": 106.97475,
+     "c0": 0,
+     "c1": 64,
+     "text": "It starts with pure noise, like the static on an old television."
+    }
+   ],
+   "start": 102.87054166666667,
+   "end": 106.97475
+  },
+  {
+   "id": "1.4",
+   "seg": 1,
+   "en": "A diffusion model learns to remove that noise a little at a time, guided by the text prompt.",
+   "chunks": [
+    {
+     "t0": 107.42475,
+     "t1": 113.48991666666667,
+     "c0": 0,
+     "c1": 92,
+     "text": "A diffusion model learns to remove that noise a little at a time, guided by the text prompt."
+    }
+   ],
+   "start": 107.42475,
+   "end": 113.48991666666667
+  },
+  {
+   "id": "1.5",
+   "seg": 1,
+   "en": "The training works in reverse. Take a real image, add noise until nothing is left, and teach the model to undo the damage one step at a time.",
+   "chunks": [
+    {
+     "t0": 113.93991666666668,
+     "t1": 115.66066666666667,
+     "c0": 0,
+     "c1": 30,
+     "text": "The training works in reverse."
+    },
+    {
+     "t0": 116.11066666666667,
+     "t1": 123.97433333333333,
+     "c0": 30,
+     "c1": 141,
+     "text": "Take a real image, add noise until nothing is left, and teach the model to undo the damage one step at a time."
+    }
+   ],
+   "start": 113.93991666666668,
+   "end": 123.97433333333333
+  },
+  {
+   "id": "1.6",
+   "seg": 1,
+   "en": "A 2020 paper from UC Berkeley described this approach for images, and it became influential.",
+   "chunks": [
+    {
+     "t0": 124.42433333333334,
+     "t1": 131.42420833333333,
+     "c0": 0,
+     "c1": 92,
+     "text": "A twenty twenty paper from U C Berkeley described this approach for images, and it became influential."
+    }
+   ],
+   "start": 124.42433333333334,
+   "end": 131.42420833333333
+  },
+  {
+   "id": "1.7",
+   "seg": 1,
+   "en": "Each step nudges the picture from static toward something that matches the prompt.",
+   "chunks": [
+    {
+     "t0": 131.8742083333333,
+     "t1": 136.98929166666665,
+     "c0": 0,
+     "c1": 82,
+     "text": "Each step nudges the picture from static toward something that matches the prompt."
+    }
+   ],
+   "start": 131.8742083333333,
+   "end": 136.98929166666665
+  },
+  {
+   "id": "1.8",
+   "seg": 1,
+   "en": "A video model does the same for many frames at once. The frames have to agree with each other, or the motion looks wrong.",
+   "chunks": [
+    {
+     "t0": 137.43929166666663,
+     "t1": 140.96216666666663,
+     "c0": 0,
+     "c1": 52,
+     "text": "A video model does the same for many frames at once."
+    },
+    {
+     "t0": 141.41216666666662,
+     "t1": 145.24654166666662,
+     "c0": 52,
+     "c1": 121,
+     "text": "The frames have to agree with each other, or the motion looks wrong."
+    }
+   ],
+   "start": 137.43929166666663,
+   "end": 145.24654166666662
+  },
+  {
+   "id": "1.9",
+   "seg": 1,
+   "en": "So the model is not pasting together a fake. It is learning what real footage looks like, and getting better at matching it.",
+   "chunks": [
+    {
+     "t0": 145.8465416666666,
+     "t1": 148.5604166666666,
+     "c0": 0,
+     "c1": 44,
+     "text": "So the model is not pasting together a fake."
+    },
+    {
+     "t0": 149.0104166666666,
+     "t1": 153.44649999999993,
+     "c0": 44,
+     "c1": 124,
+     "text": "It is learning what real footage looks like, and getting better at matching it."
+    }
+   ],
+   "start": 145.8465416666666,
+   "end": 153.44649999999993
+  },
+  {
+   "id": "1.10",
+   "seg": 1,
+   "en": "Notice what that means. The model learns statistical patterns from its training data, and patterns are exactly what a checklist cannot capture.",
+   "chunks": [
+    {
+     "t0": 153.89649999999992,
+     "t1": 155.35879166666658,
+     "c0": 0,
+     "c1": 23,
+     "text": "Notice what that means."
+    },
+    {
+     "t0": 155.80879166666656,
+     "t1": 163.10554166666657,
+     "c0": 23,
+     "c1": 143,
+     "text": "The model learns statistical patterns from its training data, and patterns are exactly what a checklist cannot capture."
+    }
+   ],
+   "start": 153.89649999999992,
+   "end": 163.10554166666657
+  },
+  {
+   "id": "1.11",
+   "seg": 1,
+   "en": "That is also why the same prompt gives different results each time. Each run starts from different static, and the model settles on a different picture.",
+   "chunks": [
+    {
+     "t0": 163.55554166666656,
+     "t1": 167.5968749999999,
+     "c0": 0,
+     "c1": 67,
+     "text": "That is also why the same prompt gives different results each time."
+    },
+    {
+     "t0": 168.0468749999999,
+     "t1": 172.84916666666655,
+     "c0": 67,
+     "c1": 152,
+     "text": "Each run starts from different static, and the model settles on a different picture."
+    }
+   ],
+   "start": 163.55554166666656,
+   "end": 172.84916666666655
+  },
+  {
+   "id": "2.1",
+   "seg": 2,
+   "en": "Take hands. Early image generators drew hands badly, with too many fingers or fused knuckles.",
+   "chunks": [
+    {
+     "t0": 173.84916666666655,
+     "t1": 174.79045833333322,
+     "c0": 0,
+     "c1": 11,
+     "text": "Take hands."
+    },
+    {
+     "t0": 175.2404583333332,
+     "t1": 180.87812499999987,
+     "c0": 11,
+     "c1": 93,
+     "text": "Early image generators drew hands badly, with too many fingers or fused knuckles."
+    }
+   ],
+   "start": 173.84916666666655,
+   "end": 180.87812499999987
+  },
+  {
+   "id": "2.2",
+   "seg": 2,
+   "en": "One reason was the training data. Hands are small in most photos, and often hidden behind objects or other hands.",
+   "chunks": [
+    {
+     "t0": 181.32812499999986,
+     "t1": 183.56412499999985,
+     "c0": 0,
+     "c1": 33,
+     "text": "One reason was the training data."
+    },
+    {
+     "t0": 184.01412499999984,
+     "t1": 189.50320833333316,
+     "c0": 33,
+     "c1": 113,
+     "text": "Hands are small in most photos, and often hidden behind objects or other hands."
+    }
+   ],
+   "start": 181.32812499999986,
+   "end": 189.50320833333316
+  },
+  {
+   "id": "2.3",
+   "seg": 2,
+   "en": "A model can only learn from what it sees. As the data grew and the models got bigger, the hands got better.",
+   "chunks": [
+    {
+     "t0": 189.95320833333315,
+     "t1": 192.4032916666665,
+     "c0": 0,
+     "c1": 41,
+     "text": "A model can only learn from what it sees."
+    },
+    {
+     "t0": 192.85329166666648,
+     "t1": 196.89420833333315,
+     "c0": 41,
+     "c1": 107,
+     "text": "As the data grew and the models got bigger, the hands got better."
+    }
+   ],
+   "start": 189.95320833333315,
+   "end": 196.89420833333315
+  },
+  {
+   "id": "2.4",
+   "seg": 2,
+   "en": "Text followed the same path. Early generators produced letters that looked right from a distance and fell apart up close.",
+   "chunks": [
+    {
+     "t0": 197.34420833333314,
+     "t1": 199.02616666666648,
+     "c0": 0,
+     "c1": 28,
+     "text": "Text followed the same path."
+    },
+    {
+     "t0": 199.47616666666647,
+     "t1": 205.14345833333314,
+     "c0": 28,
+     "c1": 121,
+     "text": "Early generators produced letters that looked right from a distance and fell apart up close."
+    }
+   ],
+   "start": 197.34420833333314,
+   "end": 205.14345833333314
+  },
+  {
+   "id": "2.45",
+   "seg": 2,
+   "en": "Fingers are a good example, because a hand has a rigid structure that people notice instantly. A model has to learn that structure from pixels alone.",
+   "chunks": [
+    {
+     "t0": 205.59345833333313,
+     "t1": 211.5171249999998,
+     "c0": 0,
+     "c1": 94,
+     "text": "Fingers are a good example, because a hand has a rigid structure that people notice instantly."
+    },
+    {
+     "t0": 211.96712499999978,
+     "t1": 215.15991666666645,
+     "c0": 94,
+     "c1": 149,
+     "text": "A model has to learn that structure from pixels alone."
+    }
+   ],
+   "start": 205.59345833333313,
+   "end": 215.15991666666645
+  },
+  {
+   "id": "2.5",
+   "seg": 2,
+   "en": "Blinking and reflections did too. Each flaw was a gap in what the model had learned, and the gaps closed.",
+   "chunks": [
+    {
+     "t0": 215.60991666666644,
+     "t1": 217.81829166666643,
+     "c0": 0,
+     "c1": 33,
+     "text": "Blinking and reflections did too."
+    },
+    {
+     "t0": 218.2682916666664,
+     "t1": 222.48187499999975,
+     "c0": 33,
+     "c1": 105,
+     "text": "Each flaw was a gap in what the model had learned, and the gaps closed."
+    }
+   ],
+   "start": 215.60991666666644,
+   "end": 222.48187499999975
+  },
+  {
+   "id": "2.6",
+   "seg": 2,
+   "en": "That is why a checklist of tells goes stale. The tells were never a law of physics. They were gaps in training, and gaps get filled.",
+   "chunks": [
+    {
+     "t0": 223.08187499999974,
+     "t1": 225.62245833333307,
+     "c0": 0,
+     "c1": 44,
+     "text": "That is why a checklist of tells goes stale."
+    },
+    {
+     "t0": 226.07245833333306,
+     "t1": 228.4051249999997,
+     "c0": 44,
+     "c1": 83,
+     "text": "The tells were never a law of physics."
+    },
+    {
+     "t0": 228.8551249999997,
+     "t1": 231.57995833333302,
+     "c0": 83,
+     "c1": 132,
+     "text": "They were gaps in training, and gaps get filled."
+    }
+   ],
+   "start": 223.08187499999974,
+   "end": 231.57995833333302
+  },
+  {
+   "id": "2.7",
+   "seg": 2,
+   "en": "So a list written this year is a guess about next year's models.",
+   "chunks": [
+    {
+     "t0": 232.17995833333302,
+     "t1": 236.27066666666636,
+     "c0": 0,
+     "c1": 64,
+     "text": "So a list written this year is a guess about next year's models."
+    }
+   ],
+   "start": 232.17995833333302,
+   "end": 236.27066666666636
+  },
+  {
+   "id": "2.8",
+   "seg": 2,
+   "en": "Each new round of training removes some old tells and brings new ones. The lesson is not that the flaws are gone. It is that the list is always behind.",
+   "chunks": [
+    {
+     "t0": 236.72066666666635,
+     "t1": 241.40274999999968,
+     "c0": 0,
+     "c1": 70,
+     "text": "Each new round of training removes some old tells and brings new ones."
+    },
+    {
+     "t0": 241.85274999999967,
+     "t1": 244.48124999999968,
+     "c0": 70,
+     "c1": 113,
+     "text": "The lesson is not that the flaws are gone."
+    },
+    {
+     "t0": 244.93124999999966,
+     "t1": 247.322083333333,
+     "c0": 113,
+     "c1": 151,
+     "text": "It is that the list is always behind."
+    }
+   ],
+   "start": 236.72066666666635,
+   "end": 247.322083333333
+  },
+  {
+   "id": "3.1",
+   "seg": 3,
+   "en": "Now the second study. Researchers at UC Berkeley showed 376 people clips from three AI video models, along with real footage.",
+   "chunks": [
+    {
+     "t0": 248.322083333333,
+     "t1": 249.691083333333,
+     "c0": 0,
+     "c1": 21,
+     "text": "Now the second study."
+    },
+    {
+     "t0": 250.141083333333,
+     "t1": 259.01229166666633,
+     "c0": 21,
+     "c1": 125,
+     "text": "Researchers at U C Berkeley showed three hundred seventy six people clips from three A I video models, along with real footage."
+    }
+   ],
+   "start": 248.322083333333,
+   "end": 259.01229166666633
+  },
+  {
+   "id": "3.2",
+   "seg": 3,
+   "en": "They changed how long each clip was shown, from a single frame up to eight seconds.",
+   "chunks": [
+    {
+     "t0": 259.4622916666663,
+     "t1": 264.53324999999967,
+     "c0": 0,
+     "c1": 83,
+     "text": "They changed how long each clip was shown, from a single frame up to eight seconds."
+    }
+   ],
+   "start": 259.4622916666663,
+   "end": 264.53324999999967
+  },
+  {
+   "id": "3.3",
+   "seg": 3,
+   "en": "For the fake clips, watching longer helped. Accuracy rose from about 58 percent on one frame to about 75 percent at eight seconds.",
+   "chunks": [
+    {
+     "t0": 264.98324999999966,
+     "t1": 267.498708333333,
+     "c0": 0,
+     "c1": 43,
+     "text": "For the fake clips, watching longer helped."
+    },
+    {
+     "t0": 267.948708333333,
+     "t1": 274.961833333333,
+     "c0": 43,
+     "c1": 130,
+     "text": "Accuracy rose from about fifty eight percent on one frame to about seventy five percent at eight seconds."
+    }
+   ],
+   "start": 264.98324999999966,
+   "end": 274.961833333333
+  },
+  {
+   "id": "3.75",
+   "seg": 3,
+   "en": "Seedance was the easiest model for viewers to catch, and Sora the hardest.",
+   "chunks": [
+    {
+     "t0": 275.411833333333,
+     "t1": 280.150083333333,
+     "c0": 0,
+     "c1": 74,
+     "text": "Seedance was the easiest model for viewers to catch, and Sora the hardest."
+    }
+   ],
+   "start": 275.411833333333,
+   "end": 280.150083333333
+  },
+  {
+   "id": "3.4",
+   "seg": 3,
+   "en": "For the real clips, it did not. Accuracy stayed near 60 percent, however long people watched.",
+   "chunks": [
+    {
+     "t0": 280.750083333333,
+     "t1": 282.5367916666663,
+     "c0": 0,
+     "c1": 31,
+     "text": "For the real clips, it did not."
+    },
+    {
+     "t0": 282.9867916666663,
+     "t1": 287.1670416666663,
+     "c0": 31,
+     "c1": 93,
+     "text": "Accuracy stayed near sixty percent, however long people watched."
+    }
+   ],
+   "start": 280.750083333333,
+   "end": 287.1670416666663
+  },
+  {
+   "id": "3.5",
+   "seg": 3,
+   "en": "Think about what that means.",
+   "chunks": [
+    {
+     "t0": 287.76704166666633,
+     "t1": 289.298208333333,
+     "c0": 0,
+     "c1": 28,
+     "text": "Think about what that means."
+    }
+   ],
+   "start": 287.76704166666633,
+   "end": 289.298208333333
+  },
+  {
+   "id": "3.6",
+   "seg": 3,
+   "en": "Looking longer helped people catch the fakes. It did not help them with the real clips.",
+   "chunks": [
+    {
+     "t0": 289.798208333333,
+     "t1": 292.3171666666663,
+     "c0": 0,
+     "c1": 45,
+     "text": "Looking longer helped people catch the fakes."
+    },
+    {
+     "t0": 292.7671666666663,
+     "t1": 294.987708333333,
+     "c0": 45,
+     "c1": 87,
+     "text": "It did not help them with the real clips."
+    }
+   ],
+   "start": 289.798208333333,
+   "end": 294.987708333333
+  },
+  {
+   "id": "3.7",
+   "seg": 3,
+   "en": "Viewers in that study leaned on motion, and looked for movement that broke what they expected.",
+   "chunks": [
+    {
+     "t0": 295.437708333333,
+     "t1": 300.9890416666663,
+     "c0": 0,
+     "c1": 94,
+     "text": "Viewers in that study leaned on motion, and looked for movement that broke what they expected."
+    }
+   ],
+   "start": 295.437708333333,
+   "end": 300.9890416666663
+  },
+  {
+   "id": "3.8",
+   "seg": 3,
+   "en": "For real clips, a longer look earned no more trust than a glance.",
+   "chunks": [
+    {
+     "t0": 301.4390416666663,
+     "t1": 305.51320833333295,
+     "c0": 0,
+     "c1": 65,
+     "text": "For real clips, a longer look earned no more trust than a glance."
+    }
+   ],
+   "start": 301.4390416666663,
+   "end": 305.51320833333295
+  },
+  {
+   "id": "3.9",
+   "seg": 3,
+   "en": "So the cost of fake video is not only being fooled. The bigger risk is that real video stops being believed.",
+   "chunks": [
+    {
+     "t0": 306.113208333333,
+     "t1": 309.3695416666663,
+     "c0": 0,
+     "c1": 51,
+     "text": "So the cost of fake video is not only being fooled."
+    },
+    {
+     "t0": 309.8195416666663,
+     "t1": 313.47199999999964,
+     "c0": 51,
+     "c1": 108,
+     "text": "The bigger risk is that real video stops being believed."
+    }
+   ],
+   "start": 306.113208333333,
+   "end": 313.47199999999964
+  },
+  {
+   "id": "3.95",
+   "seg": 3,
+   "en": "A checklist of tells will never show that cost. Only a habit of checking will.",
+   "chunks": [
+    {
+     "t0": 313.9219999999996,
+     "t1": 316.70345833333295,
+     "c0": 0,
+     "c1": 47,
+     "text": "A checklist of tells will never show that cost."
+    },
+    {
+     "t0": 317.15345833333294,
+     "t1": 318.92133333333294,
+     "c0": 47,
+     "c1": 78,
+     "text": "Only a habit of checking will."
+    }
+   ],
+   "start": 313.9219999999996,
+   "end": 318.92133333333294
+  },
+  {
+   "id": "4.1",
+   "seg": 4,
+   "en": "If eyes and checklists keep failing, what still works? Three things.",
+   "chunks": [
+    {
+     "t0": 319.92133333333294,
+     "t1": 324.0488749999996,
+     "c0": 0,
+     "c1": 68,
+     "text": "If eyes and checklists keep failing, what still works? Three things."
+    }
+   ],
+   "start": 319.92133333333294,
+   "end": 324.0488749999996
+  },
+  {
+   "id": "4.2",
+   "seg": 4,
+   "en": "First, provenance. Some cameras and editing tools attach a signed record called Content Credentials, under a standard called C2PA. It says who captured or generated a file, and with which tool.",
+   "chunks": [
+    {
+     "t0": 324.4988749999996,
+     "t1": 325.6461249999996,
+     "c0": 0,
+     "c1": 18,
+     "text": "First, provenance."
+    },
+    {
+     "t0": 326.0961249999996,
+     "t1": 334.23412499999955,
+     "c0": 18,
+     "c1": 130,
+     "text": "Some cameras and editing tools attach a signed record called Content Credentials, under a standard called C two P A."
+    },
+    {
+     "t0": 334.68412499999954,
+     "t1": 338.58799999999957,
+     "c0": 130,
+     "c1": 193,
+     "text": "It says who captured or generated a file, and with which tool."
+    }
+   ],
+   "start": 324.4988749999996,
+   "end": 338.58799999999957
+  },
+  {
+   "id": "4.3",
+   "seg": 4,
+   "en": "The weakness is that many platforms strip this record when a file is uploaded, and a screenshot removes it too. So a missing record proves nothing in either direction.",
+   "chunks": [
+    {
+     "t0": 339.03799999999956,
+     "t1": 346.1669166666662,
+     "c0": 0,
+     "c1": 111,
+     "text": "The weakness is that many platforms strip this record when a file is uploaded, and a screenshot removes it too."
+    },
+    {
+     "t0": 346.6169166666662,
+     "t1": 349.65237499999955,
+     "c0": 111,
+     "c1": 167,
+     "text": "So a missing record proves nothing in either direction."
+    }
+   ],
+   "start": 339.03799999999956,
+   "end": 349.65237499999955
+  },
+  {
+   "id": "4.4",
+   "seg": 4,
+   "en": "Second, invisible watermarks. Google's SynthID hides a signal inside images, video, and audio.",
+   "chunks": [
+    {
+     "t0": 350.10237499999954,
+     "t1": 352.06187499999953,
+     "c0": 0,
+     "c1": 29,
+     "text": "Second, invisible watermarks."
+    },
+    {
+     "t0": 352.5118749999995,
+     "t1": 357.2138749999995,
+     "c0": 29,
+     "c1": 94,
+     "text": "Google's Synth I D hides a signal inside images, video, and audio."
+    }
+   ],
+   "start": 350.10237499999954,
+   "end": 357.2138749999995
+  },
+  {
+   "id": "4.5",
+   "seg": 4,
+   "en": "On October 7, 2026, Google opened its SynthID Detector to anyone, in English. It also reads watermarks from partners such as OpenAI, NVIDIA, and Kakao.",
+   "chunks": [
+    {
+     "t0": 357.6638749999995,
+     "t1": 364.73379166666615,
+     "c0": 0,
+     "c1": 77,
+     "text": "On October seventh, twenty twenty six, Google opened its Synth I D Detector to anyone, in English."
+    },
+    {
+     "t0": 365.18379166666614,
+     "t1": 370.9569999999995,
+     "c0": 77,
+     "c1": 151,
+     "text": "It also reads watermarks from partners such as OpenAI, Nvidia, and Kakao."
+    }
+   ],
+   "start": 357.6638749999995,
+   "end": 370.9569999999995
+  },
+  {
+   "id": "4.55",
+   "seg": 4,
+   "en": "Google's tool is free to use, and it reads only the watermarks it knows. Anything without one, or with a mark from a source it does not check, comes back with no answer.",
+   "chunks": [
+    {
+     "t0": 371.40699999999947,
+     "t1": 376.1203333333328,
+     "c0": 0,
+     "c1": 72,
+     "text": "Google's tool is free to use, and it reads only the watermarks it knows."
+    },
+    {
+     "t0": 376.57033333333277,
+     "t1": 382.72895833333274,
+     "c0": 72,
+     "c1": 169,
+     "text": "Anything without one, or with a mark from a source it does not check, comes back with no answer."
+    }
+   ],
+   "start": 371.40699999999947,
+   "end": 382.72895833333274
+  },
+  {
+   "id": "4.6",
+   "seg": 4,
+   "en": "A match tells you a watermark is there. No match tells you nothing, because many AI clips carry no SynthID mark at all.",
+   "chunks": [
+    {
+     "t0": 383.32895833333276,
+     "t1": 385.6909999999994,
+     "c0": 0,
+     "c1": 39,
+     "text": "A match tells you a watermark is there."
+    },
+    {
+     "t0": 386.1409999999994,
+     "t1": 391.57837499999937,
+     "c0": 39,
+     "c1": 119,
+     "text": "No match tells you nothing, because many A I clips carry no Synth I D mark at all."
+    }
+   ],
+   "start": 383.32895833333276,
+   "end": 391.57837499999937
+  },
+  {
+   "id": "4.7",
+   "seg": 4,
+   "en": "Those two tools are useful, and both have holes. That is why they are not the whole answer.",
+   "chunks": [
+    {
+     "t0": 392.07837499999937,
+     "t1": 395.1960833333327,
+     "c0": 0,
+     "c1": 48,
+     "text": "Those two tools are useful, and both have holes."
+    },
+    {
+     "t0": 395.6460833333327,
+     "t1": 397.9062083333327,
+     "c0": 48,
+     "c1": 91,
+     "text": "That is why they are not the whole answer."
+    }
+   ],
+   "start": 392.07837499999937,
+   "end": 397.9062083333327
+  },
+  {
+   "id": "4.8",
+   "seg": 4,
+   "en": "Neither one answers whether a specific clip is real. They answer narrower questions, and you have to know which question you are asking.",
+   "chunks": [
+    {
+     "t0": 398.3562083333327,
+     "t1": 401.439041666666,
+     "c0": 0,
+     "c1": 52,
+     "text": "Neither one answers whether a specific clip is real."
+    },
+    {
+     "t0": 401.889041666666,
+     "t1": 406.5905833333327,
+     "c0": 52,
+     "c1": 136,
+     "text": "They answer narrower questions, and you have to know which question you are asking."
+    }
+   ],
+   "start": 398.3562083333327,
+   "end": 406.5905833333327
+  },
+  {
+   "id": "5.1",
+   "seg": 5,
+   "en": "Third, the method that does not depend on any tool. Ask who posted the clip first.",
+   "chunks": [
+    {
+     "t0": 407.5905833333327,
+     "t1": 410.741541666666,
+     "c0": 0,
+     "c1": 51,
+     "text": "Third, the method that does not depend on any tool."
+    },
+    {
+     "t0": 411.191541666666,
+     "t1": 412.999541666666,
+     "c0": 51,
+     "c1": 82,
+     "text": "Ask who posted the clip first."
+    }
+   ],
+   "start": 407.5905833333327,
+   "end": 412.999541666666
+  },
+  {
+   "id": "5.2",
+   "seg": 5,
+   "en": "A repost is not a source. Find the earliest upload you can, and see what the account posted before it.",
+   "chunks": [
+    {
+     "t0": 413.449541666666,
+     "t1": 415.209916666666,
+     "c0": 0,
+     "c1": 25,
+     "text": "A repost is not a source."
+    },
+    {
+     "t0": 415.659916666666,
+     "t1": 420.470541666666,
+     "c0": 25,
+     "c1": 102,
+     "text": "Find the earliest upload you can, and see what the account posted before it."
+    }
+   ],
+   "start": 413.449541666666,
+   "end": 420.470541666666
+  },
+  {
+   "id": "5.25",
+   "seg": 5,
+   "en": "Be wary of a clip that arrives with a dramatic caption and no origin. Real footage often arrives that way too, which is why the origin matters more than the look.",
+   "chunks": [
+    {
+     "t0": 420.920541666666,
+     "t1": 425.776291666666,
+     "c0": 0,
+     "c1": 69,
+     "text": "Be wary of a clip that arrives with a dramatic caption and no origin."
+    },
+    {
+     "t0": 426.226291666666,
+     "t1": 432.30633333333265,
+     "c0": 69,
+     "c1": 162,
+     "text": "Real footage often arrives that way too, which is why the origin matters more than the look."
+    }
+   ],
+   "start": 420.920541666666,
+   "end": 432.30633333333265
+  },
+  {
+   "id": "5.3",
+   "seg": 5,
+   "en": "Then look for a second, independent source that reports the same event.",
+   "chunks": [
+    {
+     "t0": 432.75633333333263,
+     "t1": 437.2026249999993,
+     "c0": 0,
+     "c1": 71,
+     "text": "Then look for a second, independent source that reports the same event."
+    }
+   ],
+   "start": 432.75633333333263,
+   "end": 437.2026249999993
+  },
+  {
+   "id": "5.4",
+   "seg": 5,
+   "en": "Check whether the place, the time, and the details line up with what else is known.",
+   "chunks": [
+    {
+     "t0": 437.65262499999926,
+     "t1": 442.71379166666594,
+     "c0": 0,
+     "c1": 83,
+     "text": "Check whether the place, the time, and the details line up with what else is known."
+    }
+   ],
+   "start": 437.65262499999926,
+   "end": 442.71379166666594
+  },
+  {
+   "id": "5.45",
+   "seg": 5,
+   "en": "A reverse image search and a look at the original post can settle many cases in a minute.",
+   "chunks": [
+    {
+     "t0": 443.16379166666593,
+     "t1": 449.0422499999993,
+     "c0": 0,
+     "c1": 89,
+     "text": "A reverse image search and a look at the original post can settle many cases in a minute."
+    }
+   ],
+   "start": 443.16379166666593,
+   "end": 449.0422499999993
+  },
+  {
+   "id": "5.5",
+   "seg": 5,
+   "en": "None of these asks you to find a flaw in the pixels. That is the point.",
+   "chunks": [
+    {
+     "t0": 449.5422499999993,
+     "t1": 452.50520833333263,
+     "c0": 0,
+     "c1": 52,
+     "text": "None of these asks you to find a flaw in the pixels."
+    },
+    {
+     "t0": 452.9552083333326,
+     "t1": 454.0163333333326,
+     "c0": 52,
+     "c1": 71,
+     "text": "That is the point."
+    }
+   ],
+   "start": 449.5422499999993,
+   "end": 454.0163333333326
+  },
+  {
+   "id": "5.6",
+   "seg": 5,
+   "en": "So the question is no longer whether you can tell AI video from real video. Most people cannot do it reliably, and that is not a personal failing.",
+   "chunks": [
+    {
+     "t0": 454.4663333333326,
+     "t1": 459.1652083333326,
+     "c0": 0,
+     "c1": 75,
+     "text": "So the question is no longer whether you can tell A I video from real video."
+    },
+    {
+     "t0": 459.6152083333326,
+     "t1": 464.13062499999927,
+     "c0": 75,
+     "c1": 146,
+     "text": "Most people cannot do it reliably, and that is not a personal failing."
+    }
+   ],
+   "start": 454.4663333333326,
+   "end": 464.13062499999927
+  },
+  {
+   "id": "5.65",
+   "seg": 5,
+   "en": "None of these checks needs a new tool. They work the same way next year, whatever the models look like.",
+   "chunks": [
+    {
+     "t0": 464.58062499999926,
+     "t1": 466.7707499999993,
+     "c0": 0,
+     "c1": 38,
+     "text": "None of these checks needs a new tool."
+    },
+    {
+     "t0": 467.22074999999927,
+     "t1": 470.8257083333326,
+     "c0": 38,
+     "c1": 103,
+     "text": "They work the same way next year, whatever the models look like."
+    }
+   ],
+   "start": 464.58062499999926,
+   "end": 470.8257083333326
+  },
+  {
+   "id": "5.7",
+   "seg": 5,
+   "en": "The question is what you will still trust when a real video shows up.",
+   "chunks": [
+    {
+     "t0": 471.42570833333264,
+     "t1": 475.63558333333265,
+     "c0": 0,
+     "c1": 69,
+     "text": "The question is what you will still trust when a real video shows up."
+    }
+   ],
+   "start": 471.42570833333264,
+   "end": 475.63558333333265
+  },
+  {
+   "id": "5.8",
+   "seg": 5,
+   "en": "Tell us in the comments. The last time you were not sure a video was AI, how did you decide?",
+   "chunks": [
+    {
+     "t0": 476.08558333333264,
+     "t1": 477.41141666666596,
+     "c0": 0,
+     "c1": 24,
+     "text": "Tell us in the comments."
+    },
+    {
+     "t0": 477.86141666666595,
+     "t1": 482.1400833333326,
+     "c0": 24,
+     "c1": 92,
+     "text": "The last time you were not sure a video was A I, how did you decide?"
+    }
+   ],
+   "start": 476.08558333333264,
+   "end": 482.1400833333326
+  }
+ ],
+ "seg_start": {
+  "0": 1.2,
+  "1": 87.28133333333332,
+  "2": 173.84916666666655,
+  "3": 248.322083333333,
+  "4": 319.92133333333294,
+  "5": 407.5905833333327
+ },
+ "duration": 484.64008333333334
+}
