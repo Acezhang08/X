@@ -1,0 +1,1527 @@
+{
+ "lines": [
+  {
+   "id": "0.1",
+   "seg": 0,
+   "en": "Two years ago, America's biggest power grid paid twenty-nine dollars to keep one megawatt on standby for a day.",
+   "chunks": [
+    {
+     "t0": 1.2,
+     "t1": 8.598833333333333,
+     "c0": 0,
+     "c1": 111,
+     "text": "Two years ago, America's biggest power grid paid twenty-nine dollars to keep one megawatt on standby for a day."
+    }
+   ],
+   "start": 1.2,
+   "end": 8.598833333333333
+  },
+  {
+   "id": "0.2",
+   "seg": 0,
+   "en": "This year: three hundred and twenty-nine.",
+   "chunks": [
+    {
+     "t0": 9.048833333333333,
+     "t1": 11.366958333333333,
+     "c0": 0,
+     "c1": 41,
+     "text": "This year: three hundred and twenty-nine."
+    }
+   ],
+   "start": 9.048833333333333,
+   "end": 11.366958333333333
+  },
+  {
+   "id": "0.3",
+   "seg": 0,
+   "en": "More than ten times as much \u2014 mainly because of data centers.",
+   "chunks": [
+    {
+     "t0": 11.816958333333332,
+     "t1": 16.108833333333333,
+     "c0": 0,
+     "c1": 61,
+     "text": "More than ten times as much \u2014 mainly because of data centers."
+    }
+   ],
+   "start": 11.816958333333332,
+   "end": 16.108833333333333
+  },
+  {
+   "id": "0.4",
+   "seg": 0,
+   "en": "And sixty-seven million people pay for it, in their electric bills.",
+   "chunks": [
+    {
+     "t0": 16.558833333333332,
+     "t1": 20.875124999999997,
+     "c0": 0,
+     "c1": 67,
+     "text": "And sixty-seven million people pay for it, in their electric bills."
+    }
+   ],
+   "start": 16.558833333333332,
+   "end": 20.875124999999997
+  },
+  {
+   "id": "0.5",
+   "seg": 0,
+   "en": "But the power industry's own research lab found that until recently, data centers were making those bills cheaper.",
+   "chunks": [
+    {
+     "t0": 21.325124999999996,
+     "t1": 29.11083333333333,
+     "c0": 0,
+     "c1": 114,
+     "text": "But the power industry's own research lab found that until recently, data centers were making those bills cheaper."
+    }
+   ],
+   "start": 21.325124999999996,
+   "end": 29.11083333333333
+  },
+  {
+   "id": "0.6",
+   "seg": 0,
+   "en": "Both are true.",
+   "chunks": [
+    {
+     "t0": 29.71083333333333,
+     "t1": 30.765124999999998,
+     "c0": 0,
+     "c1": 14,
+     "text": "Both are true."
+    }
+   ],
+   "start": 29.71083333333333,
+   "end": 30.765124999999998
+  },
+  {
+   "id": "0.7",
+   "seg": 0,
+   "en": "So what flipped?",
+   "chunks": [
+    {
+     "t0": 31.465124999999997,
+     "t1": 32.48104166666666,
+     "c0": 0,
+     "c1": 16,
+     "text": "So what flipped?"
+    }
+   ],
+   "start": 31.465124999999997,
+   "end": 32.48104166666666
+  },
+  {
+   "id": "1.1",
+   "seg": 1,
+   "en": "Open your electric bill and it looks like one number. It isn't.",
+   "chunks": [
+    {
+     "t0": 33.48104166666666,
+     "t1": 37.49787499999999,
+     "c0": 0,
+     "c1": 63,
+     "text": "Open your electric bill and it looks like one number. It isn't."
+    }
+   ],
+   "start": 33.48104166666666,
+   "end": 37.49787499999999
+  },
+  {
+   "id": "1.2",
+   "seg": 1,
+   "en": "Some of it pays for the power itself. Some pays for the wires that carry it. And one slice pays for something most people have never heard of: capacity.",
+   "chunks": [
+    {
+     "t0": 37.947874999999996,
+     "t1": 39.93845833333333,
+     "c0": 0,
+     "c1": 37,
+     "text": "Some of it pays for the power itself."
+    },
+    {
+     "t0": 40.38845833333333,
+     "t1": 42.53608333333333,
+     "c0": 37,
+     "c1": 76,
+     "text": "Some pays for the wires that carry it."
+    },
+    {
+     "t0": 42.98608333333333,
+     "t1": 47.654291666666666,
+     "c0": 76,
+     "c1": 152,
+     "text": "And one slice pays for something most people have never heard of: capacity."
+    }
+   ],
+   "start": 37.947874999999996,
+   "end": 47.654291666666666
+  },
+  {
+   "id": "1.3",
+   "seg": 1,
+   "en": "Capacity is the price of being ready. A grid can't just have enough power on an average day. It needs enough on the hottest afternoon of the year, plus a cushion.",
+   "chunks": [
+    {
+     "t0": 48.10429166666667,
+     "t1": 50.573708333333336,
+     "c0": 0,
+     "c1": 37,
+     "text": "Capacity is the price of being ready."
+    },
+    {
+     "t0": 51.02370833333334,
+     "t1": 54.24100000000001,
+     "c0": 37,
+     "c1": 92,
+     "text": "A grid can't just have enough power on an average day."
+    },
+    {
+     "t0": 54.69100000000001,
+     "t1": 58.61829166666668,
+     "c0": 92,
+     "c1": 162,
+     "text": "It needs enough on the hottest afternoon of the year, plus a cushion."
+    }
+   ],
+   "start": 48.10429166666667,
+   "end": 58.61829166666668
+  },
+  {
+   "id": "1.4",
+   "seg": 1,
+   "en": "So every year, the grid buys that readiness in advance, at an auction.",
+   "chunks": [
+    {
+     "t0": 59.06829166666668,
+     "t1": 63.45958333333335,
+     "c0": 0,
+     "c1": 70,
+     "text": "So every year, the grid buys that readiness in advance, at an auction."
+    }
+   ],
+   "start": 59.06829166666668,
+   "end": 63.45958333333335
+  },
+  {
+   "id": "1.5",
+   "seg": 1,
+   "en": "In thirteen states and Washington, DC, the grid operator is PJM. The same grid from the start of this video.",
+   "chunks": [
+    {
+     "t0": 63.90958333333335,
+     "t1": 69.11420833333335,
+     "c0": 0,
+     "c1": 64,
+     "text": "In thirteen states and Washington, D C, the grid operator is P J M."
+    },
+    {
+     "t0": 69.56420833333335,
+     "t1": 71.97066666666669,
+     "c0": 64,
+     "c1": 108,
+     "text": "The same grid from the start of this video."
+    }
+   ],
+   "start": 63.90958333333335,
+   "end": 71.97066666666669
+  },
+  {
+   "id": "1.6",
+   "seg": 1,
+   "en": "Here's how the auction works. PJM first calculates how many megawatts it will need on the hottest days, cushion included.",
+   "chunks": [
+    {
+     "t0": 72.42066666666669,
+     "t1": 74.04566666666669,
+     "c0": 0,
+     "c1": 29,
+     "text": "Here's how the auction works."
+    },
+    {
+     "t0": 74.4956666666667,
+     "t1": 80.98033333333336,
+     "c0": 29,
+     "c1": 121,
+     "text": "P J M first calculates how many megawatts it will need on the hottest days, cushion included."
+    }
+   ],
+   "start": 72.42066666666669,
+   "end": 80.98033333333336
+  },
+  {
+   "id": "1.7",
+   "seg": 1,
+   "en": "Power plants bid, each naming the lowest price it will accept.",
+   "chunks": [
+    {
+     "t0": 81.43033333333337,
+     "t1": 85.4197916666667,
+     "c0": 0,
+     "c1": 62,
+     "text": "Power plants bid, each naming the lowest price it will accept."
+    }
+   ],
+   "start": 81.43033333333337,
+   "end": 85.4197916666667
+  },
+  {
+   "id": "1.8",
+   "seg": 1,
+   "en": "PJM lines the bids up from cheapest to most expensive, and buys from the bottom until it has enough.",
+   "chunks": [
+    {
+     "t0": 85.8697916666667,
+     "t1": 93.3684166666667,
+     "c0": 0,
+     "c1": 100,
+     "text": "P J M lines the bids up from cheapest to most expensive, and buys from the bottom until it has enough."
+    }
+   ],
+   "start": 85.8697916666667,
+   "end": 93.3684166666667
+  },
+  {
+   "id": "1.9",
+   "seg": 1,
+   "en": "And here's the part that matters. Every plant that wins is paid the price of the last one needed. One price, for everyone.",
+   "chunks": [
+    {
+     "t0": 93.9684166666667,
+     "t1": 95.71687500000003,
+     "c0": 0,
+     "c1": 33,
+     "text": "And here's the part that matters."
+    },
+    {
+     "t0": 96.16687500000003,
+     "t1": 100.3937916666667,
+     "c0": 33,
+     "c1": 97,
+     "text": "Every plant that wins is paid the price of the last one needed."
+    },
+    {
+     "t0": 100.8437916666667,
+     "t1": 102.4117916666667,
+     "c0": 97,
+     "c1": 122,
+     "text": "One price, for everyone."
+    }
+   ],
+   "start": 93.9684166666667,
+   "end": 102.4117916666667
+  },
+  {
+   "id": "1.10",
+   "seg": 1,
+   "en": "So when demand grows and supply is tight, the last plant costs more. And everyone gets paid more.",
+   "chunks": [
+    {
+     "t0": 102.8617916666667,
+     "t1": 107.4369166666667,
+     "c0": 0,
+     "c1": 68,
+     "text": "So when demand grows and supply is tight, the last plant costs more."
+    },
+    {
+     "t0": 107.8869166666667,
+     "t1": 109.70225000000003,
+     "c0": 68,
+     "c1": 97,
+     "text": "And everyone gets paid more."
+    }
+   ],
+   "start": 102.8617916666667,
+   "end": 109.70225000000003
+  },
+  {
+   "id": "1.11",
+   "seg": 1,
+   "en": "The utilities that buy this power for customers pay that price. It ends up in your bill.",
+   "chunks": [
+    {
+     "t0": 110.15225000000004,
+     "t1": 114.0650416666667,
+     "c0": 0,
+     "c1": 63,
+     "text": "The utilities that buy this power for customers pay that price."
+    },
+    {
+     "t0": 114.5150416666667,
+     "t1": 115.9152916666667,
+     "c0": 63,
+     "c1": 88,
+     "text": "It ends up in your bill."
+    }
+   ],
+   "start": 110.15225000000004,
+   "end": 115.9152916666667
+  },
+  {
+   "id": "1.12",
+   "seg": 1,
+   "en": "Now look at that price, in dollars per megawatt, per day. Two years ago: twenty-nine. Then two hundred and seventy. Then three hundred and twenty-nine. Then three hundred and thirty-three.",
+   "chunks": [
+    {
+     "t0": 116.3652916666667,
+     "t1": 119.85650000000004,
+     "c0": 0,
+     "c1": 57,
+     "text": "Now look at that price, in dollars per megawatt, per day."
+    },
+    {
+     "t0": 120.30650000000004,
+     "t1": 121.99300000000004,
+     "c0": 57,
+     "c1": 85,
+     "text": "Two years ago: twenty-nine."
+    },
+    {
+     "t0": 122.44300000000004,
+     "t1": 124.17320833333338,
+     "c0": 85,
+     "c1": 115,
+     "text": "Then two hundred and seventy."
+    },
+    {
+     "t0": 124.62320833333338,
+     "t1": 126.72020833333337,
+     "c0": 115,
+     "c1": 151,
+     "text": "Then three hundred and twenty-nine."
+    },
+    {
+     "t0": 127.17020833333338,
+     "t1": 129.18020833333338,
+     "c0": 151,
+     "c1": 188,
+     "text": "Then three hundred and thirty-three."
+    }
+   ],
+   "start": 116.3652916666667,
+   "end": 129.18020833333338
+  },
+  {
+   "id": "1.13",
+   "seg": 1,
+   "en": "The most recent auction, in July, cleared at three hundred and twenty-five.",
+   "chunks": [
+    {
+     "t0": 129.63020833333337,
+     "t1": 134.2734166666667,
+     "c0": 0,
+     "c1": 75,
+     "text": "The most recent auction, in July, cleared at three hundred and twenty-five."
+    }
+   ],
+   "start": 129.63020833333337,
+   "end": 134.2734166666667
+  },
+  {
+   "id": "1.14",
+   "seg": 1,
+   "en": "The last three all hit a price cap. PJM's own simulation says that without the cap, the latest would have cleared above five hundred and fifty.",
+   "chunks": [
+    {
+     "t0": 134.72341666666668,
+     "t1": 136.72991666666667,
+     "c0": 0,
+     "c1": 35,
+     "text": "The last three all hit a price cap."
+    },
+    {
+     "t0": 137.17991666666666,
+     "t1": 144.64066666666665,
+     "c0": 35,
+     "c1": 143,
+     "text": "P J M's own simulation says that without the cap, the latest would have cleared above five hundred and fifty."
+    }
+   ],
+   "start": 134.72341666666668,
+   "end": 144.64066666666665
+  },
+  {
+   "id": "1.15",
+   "seg": 1,
+   "en": "So the price of readiness went up more than eleven times in two years, and then hit a ceiling.",
+   "chunks": [
+    {
+     "t0": 145.14066666666665,
+     "t1": 151.02241666666666,
+     "c0": 0,
+     "c1": 94,
+     "text": "So the price of readiness went up more than eleven times in two years, and then hit a ceiling."
+    }
+   ],
+   "start": 145.14066666666665,
+   "end": 151.02241666666666
+  },
+  {
+   "id": "1.16",
+   "seg": 1,
+   "en": "Keep it in proportion, though. By the market monitor's count, capacity was about seventeen percent of the wholesale cost of power in early twenty twenty-six, up from about eight percent a year earlier.",
+   "chunks": [
+    {
+     "t0": 151.47241666666665,
+     "t1": 153.0718333333333,
+     "c0": 0,
+     "c1": 30,
+     "text": "Keep it in proportion, though."
+    },
+    {
+     "t0": 153.5218333333333,
+     "t1": 164.2262083333333,
+     "c0": 30,
+     "c1": 201,
+     "text": "By the market monitor's count, capacity was about seventeen percent of the wholesale cost of power in early twenty twenty-six, up from about eight percent a year earlier."
+    }
+   ],
+   "start": 151.47241666666665,
+   "end": 164.2262083333333
+  },
+  {
+   "id": "2.1",
+   "seg": 2,
+   "en": "Now the surprising part. Nationally, for years, data centers appear to have done the opposite.",
+   "chunks": [
+    {
+     "t0": 165.2262083333333,
+     "t1": 166.74849999999995,
+     "c0": 0,
+     "c1": 24,
+     "text": "Now the surprising part."
+    },
+    {
+     "t0": 167.19849999999994,
+     "t1": 171.5814166666666,
+     "c0": 24,
+     "c1": 94,
+     "text": "Nationally, for years, data centers appear to have done the opposite."
+    }
+   ],
+   "start": 165.2262083333333,
+   "end": 171.5814166666666
+  },
+  {
+   "id": "2.2",
+   "seg": 2,
+   "en": "In June, researchers at EPRI, the Electric Power Research Institute, posted a paper titled: Have Data Centers Raised Your Electric Bill?",
+   "chunks": [
+    {
+     "t0": 172.0314166666666,
+     "t1": 182.7016666666666,
+     "c0": 0,
+     "c1": 136,
+     "text": "In June, researchers at E P R I, the Electric Power Research Institute, posted a paper titled: Have Data Centers Raised Your Electric Bill?"
+    }
+   ],
+   "start": 172.0314166666666,
+   "end": 182.7016666666666
+  },
+  {
+   "id": "2.3",
+   "seg": 2,
+   "en": "Quick note on who they are. EPRI is the electric power industry's research institute, funded by its members, mostly electric utilities. That doesn't make the numbers wrong. But you should know it.",
+   "chunks": [
+    {
+     "t0": 183.15166666666659,
+     "t1": 184.75370833333326,
+     "c0": 0,
+     "c1": 27,
+     "text": "Quick note on who they are."
+    },
+    {
+     "t0": 185.20370833333325,
+     "t1": 194.05170833333327,
+     "c0": 27,
+     "c1": 135,
+     "text": "E P R I is the electric power industry's research institute, funded by its members, mostly electric utilities."
+    },
+    {
+     "t0": 194.50170833333326,
+     "t1": 196.31774999999993,
+     "c0": 135,
+     "c1": 172,
+     "text": "That doesn't make the numbers wrong."
+    },
+    {
+     "t0": 196.76774999999992,
+     "t1": 197.8834999999999,
+     "c0": 172,
+     "c1": 196,
+     "text": "But you should know it."
+    }
+   ],
+   "start": 183.15166666666659,
+   "end": 197.8834999999999
+  },
+  {
+   "id": "2.4",
+   "seg": 2,
+   "en": "What did they find? From twenty nineteen to twenty twenty-four, the average American household lived in a state where data center capacity grew a hundred and sixty percent. They estimate that growth made residential electricity rates about six percent lower than they would otherwise have been.",
+   "chunks": [
+    {
+     "t0": 198.3334999999999,
+     "t1": 199.5377499999999,
+     "c0": 0,
+     "c1": 19,
+     "text": "What did they find?"
+    },
+    {
+     "t0": 199.9877499999999,
+     "t1": 209.8494999999999,
+     "c0": 19,
+     "c1": 172,
+     "text": "From twenty nineteen to twenty twenty-four, the average American household lived in a state where data center capacity grew a hundred and sixty percent."
+    },
+    {
+     "t0": 210.29949999999988,
+     "t1": 218.05666666666656,
+     "c0": 172,
+     "c1": 294,
+     "text": "They estimate that growth made residential electricity rates about six percent lower than they would otherwise have been."
+    }
+   ],
+   "start": 198.3334999999999,
+   "end": 218.05666666666656
+  },
+  {
+   "id": "2.5",
+   "seg": 2,
+   "en": "Put another way: each time a state's data center capacity doubled, residential rates fell by about three and a half percent. They're clear it's an estimate, with a wide range, from about one and a half percent to twelve.",
+   "chunks": [
+    {
+     "t0": 218.50666666666655,
+     "t1": 226.7022083333332,
+     "c0": 0,
+     "c1": 124,
+     "text": "Put another way: each time a state's data center capacity doubled, residential rates fell by about three and a half percent."
+    },
+    {
+     "t0": 227.1522083333332,
+     "t1": 232.7674583333332,
+     "c0": 124,
+     "c1": 220,
+     "text": "They're clear it's an estimate, with a wide range, from about one and a half percent to twelve."
+    }
+   ],
+   "start": 218.50666666666655,
+   "end": 232.7674583333332
+  },
+  {
+   "id": "2.6",
+   "seg": 2,
+   "en": "Why would more demand lower the price? Because most of a grid's cost is fixed: the power lines, the substations. When more electricity flows through the same wires, each unit carries a smaller share. And new power plants can cost less than the old ones.",
+   "chunks": [
+    {
+     "t0": 233.21745833333318,
+     "t1": 235.38483333333318,
+     "c0": 0,
+     "c1": 38,
+     "text": "Why would more demand lower the price?"
+    },
+    {
+     "t0": 235.83483333333317,
+     "t1": 240.44699999999983,
+     "c0": 38,
+     "c1": 112,
+     "text": "Because most of a grid's cost is fixed: the power lines, the substations."
+    },
+    {
+     "t0": 240.89699999999982,
+     "t1": 246.2362499999998,
+     "c0": 112,
+     "c1": 199,
+     "text": "When more electricity flows through the same wires, each unit carries a smaller share."
+    },
+    {
+     "t0": 246.6862499999998,
+     "t1": 249.70516666666646,
+     "c0": 199,
+     "c1": 253,
+     "text": "And new power plants can cost less than the old ones."
+    }
+   ],
+   "start": 233.21745833333318,
+   "end": 249.70516666666646
+  },
+  {
+   "id": "2.7",
+   "seg": 2,
+   "en": "Columbia University's Center on Global Energy Policy said in June that recent price increases can't be pinned on any single factor, and that big new loads have not been a principal driver.",
+   "chunks": [
+    {
+     "t0": 250.15516666666645,
+     "t1": 263.6230833333331,
+     "c0": 0,
+     "c1": 188,
+     "text": "Columbia University's Center on Global Energy Policy said in June that recent price increases can't be pinned on any single factor, and that big new loads have not been a principal driver."
+    }
+   ],
+   "start": 250.15516666666645,
+   "end": 263.6230833333331
+  },
+  {
+   "id": "2.8",
+   "seg": 2,
+   "en": "But the discount comes with a condition. As one energy economist put it, the states where prices fell already had room on their grids.",
+   "chunks": [
+    {
+     "t0": 264.0730833333331,
+     "t1": 266.1887083333331,
+     "c0": 0,
+     "c1": 40,
+     "text": "But the discount comes with a condition."
+    },
+    {
+     "t0": 266.6387083333331,
+     "t1": 272.7910833333331,
+     "c0": 40,
+     "c1": 134,
+     "text": "As one energy economist put it, the states where prices fell already had room on their grids."
+    }
+   ],
+   "start": 264.0730833333331,
+   "end": 272.7910833333331
+  },
+  {
+   "id": "2.9",
+   "seg": 2,
+   "en": "And blaming data centers for every price increase would be wrong too. From twenty twenty-one to twenty twenty-four, California's electricity prices rose nearly forty percent, which the same paper says was largely wildfire costs.",
+   "chunks": [
+    {
+     "t0": 273.2410833333331,
+     "t1": 277.52245833333313,
+     "c0": 0,
+     "c1": 69,
+     "text": "And blaming data centers for every price increase would be wrong too."
+    },
+    {
+     "t0": 277.9724583333331,
+     "t1": 289.50970833333315,
+     "c0": 69,
+     "c1": 228,
+     "text": "From twenty twenty-one to twenty twenty-four, California's electricity prices rose nearly forty percent, which the same paper says was largely wildfire costs."
+    }
+   ],
+   "start": 273.2410833333331,
+   "end": 289.50970833333315
+  },
+  {
+   "id": "2.10",
+   "seg": 2,
+   "en": "So if data centers were pushing prices down, how did one price jump more than nine times, from one auction to the next?",
+   "chunks": [
+    {
+     "t0": 290.1097083333332,
+     "t1": 298.3115416666665,
+     "c0": 0,
+     "c1": 119,
+     "text": "So if data centers were pushing prices down, how did one price jump more than nine times, from one auction to the next?"
+    }
+   ],
+   "start": 290.1097083333332,
+   "end": 298.3115416666665
+  },
+  {
+   "id": "3.1",
+   "seg": 3,
+   "en": "The answer is in one word: room.",
+   "chunks": [
+    {
+     "t0": 299.3115416666665,
+     "t1": 301.5608333333332,
+     "c0": 0,
+     "c1": 32,
+     "text": "The answer is in one word: room."
+    }
+   ],
+   "start": 299.3115416666665,
+   "end": 301.5608333333332
+  },
+  {
+   "id": "3.2",
+   "seg": 3,
+   "en": "Spreading fixed costs only works while the grid has spare capacity. When it's full, a new customer doesn't share the cost of the existing system. A new customer needs a new one.",
+   "chunks": [
+    {
+     "t0": 302.0108333333332,
+     "t1": 306.2158333333332,
+     "c0": 0,
+     "c1": 67,
+     "text": "Spreading fixed costs only works while the grid has spare capacity."
+    },
+    {
+     "t0": 306.6658333333332,
+     "t1": 311.0985416666665,
+     "c0": 67,
+     "c1": 145,
+     "text": "When it's full, a new customer doesn't share the cost of the existing system."
+    },
+    {
+     "t0": 311.5485416666665,
+     "t1": 313.63199999999983,
+     "c0": 145,
+     "c1": 177,
+     "text": "A new customer needs a new one."
+    }
+   ],
+   "start": 302.0108333333332,
+   "end": 313.63199999999983
+  },
+  {
+   "id": "3.3",
+   "seg": 3,
+   "en": "Look at where PJM's growth is coming from. For the auction covering twenty twenty-seven and twenty twenty-eight, its forecast peak demand rose by about fifty-two hundred and fifty megawatts. Nearly fifty-one hundred of that was data centers.",
+   "chunks": [
+    {
+     "t0": 314.0819999999998,
+     "t1": 316.80949999999984,
+     "c0": 0,
+     "c1": 42,
+     "text": "Look at where P J M's growth is coming from."
+    },
+    {
+     "t0": 317.25949999999983,
+     "t1": 326.90308333333314,
+     "c0": 42,
+     "c1": 190,
+     "text": "For the auction covering twenty twenty-seven and twenty twenty-eight, its forecast peak demand rose by about fifty-two hundred and fifty megawatts."
+    },
+    {
+     "t0": 327.35308333333313,
+     "t1": 330.52741666666645,
+     "c0": 190,
+     "c1": 241,
+     "text": "Nearly fifty-one hundred of that was data centers."
+    }
+   ],
+   "start": 314.0819999999998,
+   "end": 330.52741666666645
+  },
+  {
+   "id": "3.4",
+   "seg": 3,
+   "en": "Supply didn't keep up. That auction added only seven hundred and seventy-four megawatts of new generation and upgrades.",
+   "chunks": [
+    {
+     "t0": 330.97741666666644,
+     "t1": 332.40916666666647,
+     "c0": 0,
+     "c1": 22,
+     "text": "Supply didn't keep up."
+    },
+    {
+     "t0": 332.85916666666645,
+     "t1": 339.1692499999998,
+     "c0": 22,
+     "c1": 119,
+     "text": "That auction added only seven hundred and seventy-four megawatts of new generation and upgrades."
+    }
+   ],
+   "start": 330.97741666666644,
+   "end": 339.1692499999998
+  },
+  {
+   "id": "3.5",
+   "seg": 3,
+   "en": "And for the first time, the whole region's total fell short of PJM's own reliability target, by sixty-six hundred and twenty-three megawatts. PJM says that doesn't mean the lights go out. It means thinner reserves.",
+   "chunks": [
+    {
+     "t0": 339.6192499999998,
+     "t1": 349.8132499999998,
+     "c0": 0,
+     "c1": 141,
+     "text": "And for the first time, the whole region's total fell short of P J M's own reliability target, by sixty-six hundred and twenty-three megawatts."
+    },
+    {
+     "t0": 350.2632499999998,
+     "t1": 353.29416666666646,
+     "c0": 141,
+     "c1": 187,
+     "text": "P J M says that doesn't mean the lights go out."
+    },
+    {
+     "t0": 353.74416666666644,
+     "t1": 355.3389166666664,
+     "c0": 187,
+     "c1": 214,
+     "text": "It means thinner reserves."
+    }
+   ],
+   "start": 339.6192499999998,
+   "end": 355.3389166666664
+  },
+  {
+   "id": "3.6",
+   "seg": 3,
+   "en": "More demand, less new supply, and the last plant needed sets the price for everyone. That's the jump.",
+   "chunks": [
+    {
+     "t0": 355.7889166666664,
+     "t1": 361.3998749999997,
+     "c0": 0,
+     "c1": 84,
+     "text": "More demand, less new supply, and the last plant needed sets the price for everyone."
+    },
+    {
+     "t0": 361.8498749999997,
+     "t1": 362.8554166666664,
+     "c0": 84,
+     "c1": 101,
+     "text": "That's the jump."
+    }
+   ],
+   "start": 355.7889166666664,
+   "end": 362.8554166666664
+  },
+  {
+   "id": "3.7",
+   "seg": 3,
+   "en": "PJM has an independent watchdog, the market monitor. In June twenty twenty-five, it wrote that data center load growth is, in its words, the primary reason for recent and expected capacity market conditions.",
+   "chunks": [
+    {
+     "t0": 363.4554166666664,
+     "t1": 367.7131666666664,
+     "c0": 0,
+     "c1": 52,
+     "text": "P J M has an independent watchdog, the market monitor."
+    },
+    {
+     "t0": 368.16316666666637,
+     "t1": 378.9587499999997,
+     "c0": 52,
+     "c1": 207,
+     "text": "In June twenty twenty-five, it wrote that data center load growth is, in its words, the primary reason for recent and expected capacity market conditions."
+    }
+   ],
+   "start": 363.4554166666664,
+   "end": 378.9587499999997
+  },
+  {
+   "id": "3.8",
+   "seg": 3,
+   "en": "Its estimate for the twenty twenty-five, twenty twenty-six auction: data center load alone raised that auction's total by about nine point three billion dollars, or a hundred and seventy-four percent.",
+   "chunks": [
+    {
+     "t0": 379.4087499999997,
+     "t1": 393.1909166666664,
+     "c0": 0,
+     "c1": 200,
+     "text": "Its estimate for the twenty twenty-five, twenty twenty-six auction: data center load alone raised that auction's total by about nine point three billion dollars, or a hundred and seventy-four percent."
+    }
+   ],
+   "start": 379.4087499999997,
+   "end": 393.1909166666664
+  },
+  {
+   "id": "3.9",
+   "seg": 3,
+   "en": "In July, it added up the last four auctions: about twenty-nine point four billion dollars tied to data center load. Forty-six percent of all capacity charges across those four auctions.",
+   "chunks": [
+    {
+     "t0": 393.6409166666664,
+     "t1": 401.911708333333,
+     "c0": 0,
+     "c1": 115,
+     "text": "In July, it added up the last four auctions: about twenty-nine point four billion dollars tied to data center load."
+    },
+    {
+     "t0": 402.361708333333,
+     "t1": 407.37566666666635,
+     "c0": 115,
+     "c1": 185,
+     "text": "Forty-six percent of all capacity charges across those four auctions."
+    }
+   ],
+   "start": 393.6409166666664,
+   "end": 407.37566666666635
+  },
+  {
+   "id": "3.10",
+   "seg": 3,
+   "en": "Nine billion. Twenty-nine billion. Forty-six percent. Those are the monitor's estimates, and they measure charges in the auction, not what lands on each household's bill. But the direction is clear.",
+   "chunks": [
+    {
+     "t0": 407.82566666666634,
+     "t1": 411.1579999999997,
+     "c0": 0,
+     "c1": 53,
+     "text": "Nine billion. Twenty-nine billion. Forty-six percent."
+    },
+    {
+     "t0": 411.60799999999966,
+     "t1": 419.09991666666633,
+     "c0": 53,
+     "c1": 170,
+     "text": "Those are the monitor's estimates, and they measure charges in the auction, not what lands on each household's bill."
+    },
+    {
+     "t0": 419.5499166666663,
+     "t1": 421.00095833333296,
+     "c0": 170,
+     "c1": 198,
+     "text": "But the direction is clear."
+    }
+   ],
+   "start": 407.82566666666634,
+   "end": 421.00095833333296
+  },
+  {
+   "id": "3.11",
+   "seg": 3,
+   "en": "And here's what makes it strange. A lot of that demand isn't here yet.",
+   "chunks": [
+    {
+     "t0": 421.70095833333295,
+     "t1": 423.53208333333293,
+     "c0": 0,
+     "c1": 33,
+     "text": "And here's what makes it strange."
+    },
+    {
+     "t0": 423.9820833333329,
+     "t1": 426.2859583333329,
+     "c0": 33,
+     "c1": 70,
+     "text": "A lot of that demand isn't here yet."
+    }
+   ],
+   "start": 421.70095833333295,
+   "end": 426.2859583333329
+  },
+  {
+   "id": "3.12",
+   "seg": 3,
+   "en": "The auction doesn't run on how much power data centers use today. It runs on a forecast. In January, the monitor found that about six point two billion of the six and a half billion dollars it tied to data centers in the December auction came from data centers not yet built.",
+   "chunks": [
+    {
+     "t0": 426.7359583333329,
+     "t1": 430.7547499999996,
+     "c0": 0,
+     "c1": 65,
+     "text": "The auction doesn't run on how much power data centers use today."
+    },
+    {
+     "t0": 431.2047499999996,
+     "t1": 432.7534999999996,
+     "c0": 65,
+     "c1": 88,
+     "text": "It runs on a forecast."
+    },
+    {
+     "t0": 433.20349999999956,
+     "t1": 446.1222083333329,
+     "c0": 88,
+     "c1": 275,
+     "text": "In January, the monitor found that about six point two billion of the six and a half billion dollars it tied to data centers in the December auction came from data centers not yet built."
+    }
+   ],
+   "start": 426.7359583333329,
+   "end": 446.1222083333329
+  },
+  {
+   "id": "3.13",
+   "seg": 3,
+   "en": "It called the uncertainty in those forecasts unique and unprecedented.",
+   "chunks": [
+    {
+     "t0": 446.57220833333287,
+     "t1": 451.1724166666662,
+     "c0": 0,
+     "c1": 70,
+     "text": "It called the uncertainty in those forecasts unique and unprecedented."
+    }
+   ],
+   "start": 446.57220833333287,
+   "end": 451.1724166666662
+  },
+  {
+   "id": "3.14",
+   "seg": 3,
+   "en": "One reason: developers often don't tell a utility where else they've asked for power. According to the Associated Press, PJM says that means a single project can inflate more than one utility's forecast.",
+   "chunks": [
+    {
+     "t0": 451.6224166666662,
+     "t1": 456.8963749999995,
+     "c0": 0,
+     "c1": 85,
+     "text": "One reason: developers often don't tell a utility where else they've asked for power."
+    },
+    {
+     "t0": 457.3463749999995,
+     "t1": 465.71883333333284,
+     "c0": 85,
+     "c1": 203,
+     "text": "According to the Associated Press, P J M says that means a single project can inflate more than one utility's forecast."
+    }
+   ],
+   "start": 451.6224166666662,
+   "end": 465.71883333333284
+  },
+  {
+   "id": "3.15",
+   "seg": 3,
+   "en": "That means part of today's price rests on buildings that don't exist yet. Some will be built. Some may not.",
+   "chunks": [
+    {
+     "t0": 466.21883333333284,
+     "t1": 470.77429166666616,
+     "c0": 0,
+     "c1": 73,
+     "text": "That means part of today's price rests on buildings that don't exist yet."
+    },
+    {
+     "t0": 471.22429166666615,
+     "t1": 472.38095833333284,
+     "c0": 73,
+     "c1": 93,
+     "text": "Some will be built."
+    },
+    {
+     "t0": 472.83095833333283,
+     "t1": 473.84129166666617,
+     "c0": 93,
+     "c1": 107,
+     "text": "Some may not."
+    }
+   ],
+   "start": 466.21883333333284,
+   "end": 473.84129166666617
+  },
+  {
+   "id": "4.1",
+   "seg": 4,
+   "en": "So who pays?",
+   "chunks": [
+    {
+     "t0": 474.84129166666617,
+     "t1": 475.9151249999995,
+     "c0": 0,
+     "c1": 12,
+     "text": "So who pays?"
+    }
+   ],
+   "start": 474.84129166666617,
+   "end": 475.9151249999995
+  },
+  {
+   "id": "4.2",
+   "seg": 4,
+   "en": "The market monitor describes the problem plainly. It wants data centers to pay for their own capacity, and not impose capacity costs on other customers.",
+   "chunks": [
+    {
+     "t0": 476.36512499999947,
+     "t1": 479.4318333333328,
+     "c0": 0,
+     "c1": 49,
+     "text": "The market monitor describes the problem plainly."
+    },
+    {
+     "t0": 479.8818333333328,
+     "t1": 486.4944166666661,
+     "c0": 49,
+     "c1": 152,
+     "text": "It wants data centers to pay for their own capacity, and not impose capacity costs on other customers."
+    }
+   ],
+   "start": 476.36512499999947,
+   "end": 486.4944166666661
+  },
+  {
+   "id": "4.3",
+   "seg": 4,
+   "en": "That tells you how it works today: the cost is shared.",
+   "chunks": [
+    {
+     "t0": 486.9444166666661,
+     "t1": 490.1672916666661,
+     "c0": 0,
+     "c1": 54,
+     "text": "That tells you how it works today: the cost is shared."
+    }
+   ],
+   "start": 486.9444166666661,
+   "end": 490.1672916666661
+  },
+  {
+   "id": "4.4",
+   "seg": 4,
+   "en": "How much does that add up to for a household? One estimate, from the think tank IEEFA, is that the higher capacity prices add about eighteen dollars a month to an average bill in western Maryland, and about sixteen dollars in Ohio.",
+   "chunks": [
+    {
+     "t0": 490.61729166666606,
+     "t1": 493.2009583333327,
+     "c0": 0,
+     "c1": 45,
+     "text": "How much does that add up to for a household?"
+    },
+    {
+     "t0": 493.6509583333327,
+     "t1": 507.49258333333273,
+     "c0": 45,
+     "c1": 231,
+     "text": "One estimate, from the think tank I E E F A, is that the higher capacity prices add about eighteen dollars a month to an average bill in western Maryland, and about sixteen dollars in Ohio."
+    }
+   ],
+   "start": 490.61729166666606,
+   "end": 507.49258333333273
+  },
+  {
+   "id": "4.5",
+   "seg": 4,
+   "en": "Careful with those numbers. They cover the whole jump in capacity prices, not only the data center share, and they're estimates.",
+   "chunks": [
+    {
+     "t0": 507.9425833333327,
+     "t1": 509.44791666666606,
+     "c0": 0,
+     "c1": 27,
+     "text": "Careful with those numbers."
+    },
+    {
+     "t0": 509.89791666666605,
+     "t1": 516.5075833333327,
+     "c0": 27,
+     "c1": 128,
+     "text": "They cover the whole jump in capacity prices, not only the data center share, and they're estimates."
+    }
+   ],
+   "start": 507.9425833333327,
+   "end": 516.5075833333327
+  },
+  {
+   "id": "4.6",
+   "seg": 4,
+   "en": "Now the other side. Across the country, residential electricity prices are up about forty-two percent in five years, according to federal data cited by PolitiFact.",
+   "chunks": [
+    {
+     "t0": 516.9575833333328,
+     "t1": 518.2133749999995,
+     "c0": 0,
+     "c1": 19,
+     "text": "Now the other side."
+    },
+    {
+     "t0": 518.6633749999995,
+     "t1": 529.0169999999995,
+     "c0": 19,
+     "c1": 163,
+     "text": "Across the country, residential electricity prices are up about forty-two percent in five years, according to federal data cited by Politi-Fact."
+    }
+   ],
+   "start": 516.9575833333328,
+   "end": 529.0169999999995
+  },
+  {
+   "id": "4.7",
+   "seg": 4,
+   "en": "EPRI's researchers say aging equipment, disaster recovery and natural gas prices have mattered more than data centers.",
+   "chunks": [
+    {
+     "t0": 529.4669999999995,
+     "t1": 538.6533333333329,
+     "c0": 0,
+     "c1": 118,
+     "text": "E P R I's researchers say aging equipment, disaster recovery and natural gas prices have mattered more than data centers."
+    }
+   ],
+   "start": 529.4669999999995,
+   "end": 538.6533333333329
+  },
+  {
+   "id": "4.8",
+   "seg": 4,
+   "en": "So both things are true at once. Nationally, data centers are not the main reason bills rose. But in a grid with no room left, they can be the main reason one price did.",
+   "chunks": [
+    {
+     "t0": 539.2533333333329,
+     "t1": 541.1042499999995,
+     "c0": 0,
+     "c1": 32,
+     "text": "So both things are true at once."
+    },
+    {
+     "t0": 541.5542499999996,
+     "t1": 545.6702916666662,
+     "c0": 32,
+     "c1": 93,
+     "text": "Nationally, data centers are not the main reason bills rose."
+    },
+    {
+     "t0": 546.1202916666663,
+     "t1": 551.015083333333,
+     "c0": 93,
+     "c1": 169,
+     "text": "But in a grid with no room left, they can be the main reason one price did."
+    }
+   ],
+   "start": 539.2533333333329,
+   "end": 551.015083333333
+  },
+  {
+   "id": "5.1",
+   "seg": 5,
+   "en": "The rules are changing, state by state. Here's what has actually happened.",
+   "chunks": [
+    {
+     "t0": 552.015083333333,
+     "t1": 554.507583333333,
+     "c0": 0,
+     "c1": 39,
+     "text": "The rules are changing, state by state."
+    },
+    {
+     "t0": 554.957583333333,
+     "t1": 556.7716249999996,
+     "c0": 39,
+     "c1": 74,
+     "text": "Here's what has actually happened."
+    }
+   ],
+   "start": 552.015083333333,
+   "end": 556.7716249999996
+  },
+  {
+   "id": "5.2",
+   "seg": 5,
+   "en": "Oregon passed House Bill thirty-five forty-six. It tells the state's regulator to create a separate rate class for very large energy users, with costs assigned to them and protections for everyone else.",
+   "chunks": [
+    {
+     "t0": 557.2216249999997,
+     "t1": 560.1686249999997,
+     "c0": 0,
+     "c1": 47,
+     "text": "Oregon passed House Bill thirty-five forty-six."
+    },
+    {
+     "t0": 560.6186249999997,
+     "t1": 570.8898333333331,
+     "c0": 47,
+     "c1": 202,
+     "text": "It tells the state's regulator to create a separate rate class for very large energy users, with costs assigned to them and protections for everyone else."
+    }
+   ],
+   "start": 557.2216249999997,
+   "end": 570.8898333333331
+  },
+  {
+   "id": "5.3",
+   "seg": 5,
+   "en": "Texas signed Senate Bill six in June twenty twenty-five. It makes very large new loads, seventy-five megawatts and up, contribute to the cost of connecting them to the grid.",
+   "chunks": [
+    {
+     "t0": 571.3398333333331,
+     "t1": 575.1963749999998,
+     "c0": 0,
+     "c1": 56,
+     "text": "Texas signed Senate Bill six in June twenty twenty-five."
+    },
+    {
+     "t0": 575.6463749999998,
+     "t1": 583.4567083333332,
+     "c0": 56,
+     "c1": 173,
+     "text": "It makes very large new loads, seventy-five megawatts and up, contribute to the cost of connecting them to the grid."
+    }
+   ],
+   "start": 571.3398333333331,
+   "end": 583.4567083333332
+  },
+  {
+   "id": "5.4",
+   "seg": 5,
+   "en": "In Virginia, regulators approved a separate rate class for customers using twenty-five megawatts or more, starting in January twenty twenty-seven. They must sign fourteen-year contracts with minimum payments, even if they use less.",
+   "chunks": [
+    {
+     "t0": 583.9067083333332,
+     "t1": 593.7452083333332,
+     "c0": 0,
+     "c1": 146,
+     "text": "In Virginia, regulators approved a separate rate class for customers using twenty-five megawatts or more, starting in January twenty twenty-seven."
+    },
+    {
+     "t0": 594.1952083333332,
+     "t1": 599.3685833333332,
+     "c0": 146,
+     "c1": 231,
+     "text": "They must sign fourteen-year contracts with minimum payments, even if they use less."
+    }
+   ],
+   "start": 583.9067083333332,
+   "end": 599.3685833333332
+  },
+  {
+   "id": "5.5",
+   "seg": 5,
+   "en": "And the market monitor wants a bigger change: take data centers out of the shared capacity market and give them their own auction.",
+   "chunks": [
+    {
+     "t0": 599.8185833333332,
+     "t1": 608.0740416666665,
+     "c0": 0,
+     "c1": 130,
+     "text": "And the market monitor wants a bigger change: take data centers out of the shared capacity market and give them their own auction."
+    }
+   ],
+   "start": 599.8185833333332,
+   "end": 608.0740416666665
+  },
+  {
+   "id": "5.6",
+   "seg": 5,
+   "en": "None of this changes yesterday's prices. It shapes the next ones.",
+   "chunks": [
+    {
+     "t0": 608.5240416666666,
+     "t1": 611.2697916666666,
+     "c0": 0,
+     "c1": 40,
+     "text": "None of this changes yesterday's prices."
+    },
+    {
+     "t0": 611.7197916666667,
+     "t1": 613.161375,
+     "c0": 40,
+     "c1": 65,
+     "text": "It shapes the next ones."
+    }
+   ],
+   "start": 608.5240416666666,
+   "end": 613.161375
+  },
+  {
+   "id": "6.1",
+   "seg": 6,
+   "en": "So, will a data center raise your electric bill?",
+   "chunks": [
+    {
+     "t0": 614.161375,
+     "t1": 617.1319583333334,
+     "c0": 0,
+     "c1": 48,
+     "text": "So, will a data center raise your electric bill?"
+    }
+   ],
+   "start": 614.161375,
+   "end": 617.1319583333334
+  },
+  {
+   "id": "6.2",
+   "seg": 6,
+   "en": "Not automatically. The real question is two questions.",
+   "chunks": [
+    {
+     "t0": 617.5819583333334,
+     "t1": 618.828375,
+     "c0": 0,
+     "c1": 18,
+     "text": "Not automatically."
+    },
+    {
+     "t0": 619.2783750000001,
+     "t1": 621.4714166666668,
+     "c0": 18,
+     "c1": 54,
+     "text": "The real question is two questions."
+    }
+   ],
+   "start": 617.5819583333334,
+   "end": 621.4714166666668
+  },
+  {
+   "id": "6.3",
+   "seg": 6,
+   "en": "One: does your grid still have room? If it does, new demand can spread fixed costs and push prices down. If it doesn't, the next megawatt gets expensive for everyone.",
+   "chunks": [
+    {
+     "t0": 621.9214166666668,
+     "t1": 623.9562083333335,
+     "c0": 0,
+     "c1": 36,
+     "text": "One: does your grid still have room?"
+    },
+    {
+     "t0": 624.4062083333336,
+     "t1": 628.6454583333335,
+     "c0": 36,
+     "c1": 104,
+     "text": "If it does, new demand can spread fixed costs and push prices down."
+    },
+    {
+     "t0": 629.0954583333336,
+     "t1": 632.8996666666669,
+     "c0": 104,
+     "c1": 166,
+     "text": "If it doesn't, the next megawatt gets expensive for everyone."
+    }
+   ],
+   "start": 621.9214166666668,
+   "end": 632.8996666666669
+  },
+  {
+   "id": "6.4",
+   "seg": 6,
+   "en": "Two: when it isn't cheap, who pays? Right now, a lot of that cost is shared. The rules being written now will decide whether it stays that way.",
+   "chunks": [
+    {
+     "t0": 633.349666666667,
+     "t1": 635.3132500000003,
+     "c0": 0,
+     "c1": 35,
+     "text": "Two: when it isn't cheap, who pays?"
+    },
+    {
+     "t0": 635.7632500000003,
+     "t1": 638.008791666667,
+     "c0": 35,
+     "c1": 76,
+     "text": "Right now, a lot of that cost is shared."
+    },
+    {
+     "t0": 638.458791666667,
+     "t1": 642.4427916666671,
+     "c0": 76,
+     "c1": 143,
+     "text": "The rules being written now will decide whether it stays that way."
+    }
+   ],
+   "start": 633.349666666667,
+   "end": 642.4427916666671
+  },
+  {
+   "id": "6.5",
+   "seg": 6,
+   "en": "Is a data center being built near you \u2014 and has your electric bill changed? Tell me in the comments.",
+   "chunks": [
+    {
+     "t0": 643.242791666667,
+     "t1": 647.914291666667,
+     "c0": 0,
+     "c1": 75,
+     "text": "Is a data center being built near you \u2014 and has your electric bill changed?"
+    },
+    {
+     "t0": 648.3642916666671,
+     "t1": 649.6302916666671,
+     "c0": 75,
+     "c1": 100,
+     "text": "Tell me in the comments."
+    }
+   ],
+   "start": 643.242791666667,
+   "end": 649.6302916666671
+  }
+ ],
+ "seg_start": {
+  "0": 1.2,
+  "1": 33.48104166666666,
+  "2": 165.2262083333333,
+  "3": 299.3115416666665,
+  "4": 474.84129166666617,
+  "5": 552.015083333333,
+  "6": 614.161375
+ },
+ "duration": 652.1302916666667
+}

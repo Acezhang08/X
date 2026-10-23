@@ -1,0 +1,612 @@
+1
+00:00:01,200 --> 00:00:04,466
+Two years ago, America's biggest power grid paid
+
+2
+00:00:04,466 --> 00:00:08,749
+twenty-nine dollars to keep one megawatt on standby for a day.
+
+3
+00:00:09,049 --> 00:00:11,517
+This year: three hundred and twenty-nine.
+
+4
+00:00:11,817 --> 00:00:16,259
+More than ten times as much — mainly because of data centers.
+
+5
+00:00:16,559 --> 00:00:21,025
+And sixty-seven million people pay for it, in their electric bills.
+
+6
+00:00:21,325 --> 00:00:26,038
+But the power industry's own research lab found that until recently,
+
+7
+00:00:26,038 --> 00:00:29,261
+data centers were making those bills cheaper.
+
+8
+00:00:29,711 --> 00:00:30,915
+Both are true.
+
+9
+00:00:31,465 --> 00:00:32,631
+So what flipped?
+
+10
+00:00:33,481 --> 00:00:37,648
+Open your electric bill and it looks like one number. It isn't.
+
+11
+00:00:37,948 --> 00:00:40,994
+Some of it pays for the power itself. Some pays
+
+12
+00:00:40,994 --> 00:00:45,074
+for the wires that carry it. And one slice pays for something
+
+13
+00:00:45,074 --> 00:00:47,804
+most people have never heard of: capacity.
+
+14
+00:00:48,104 --> 00:00:52,428
+Capacity is the price of being ready. A grid can't just have
+
+15
+00:00:52,428 --> 00:00:55,645
+enough power on an average day. It needs enough
+
+16
+00:00:55,645 --> 00:00:58,768
+on the hottest afternoon of the year, plus a cushion.
+
+17
+00:00:59,068 --> 00:01:03,610
+So every year, the grid buys that readiness in advance, at an auction.
+
+18
+00:01:03,910 --> 00:01:08,545
+In thirteen states and Washington, DC, the grid operator
+
+19
+00:01:08,545 --> 00:01:12,121
+is PJM. The same grid from the start of this video.
+
+20
+00:01:12,421 --> 00:01:16,046
+Here's how the auction works. PJM first calculates
+
+21
+00:01:16,046 --> 00:01:21,130
+how many megawatts it will need on the hottest days, cushion included.
+
+22
+00:01:21,430 --> 00:01:25,570
+Power plants bid, each naming the lowest price it will accept.
+
+23
+00:01:25,870 --> 00:01:29,994
+PJM lines the bids up from cheapest to most expensive,
+
+24
+00:01:29,994 --> 00:01:33,518
+and buys from the bottom until it has enough.
+
+25
+00:01:33,968 --> 00:01:38,214
+And here's the part that matters. Every plant that wins is paid
+
+26
+00:01:38,214 --> 00:01:42,562
+the price of the last one needed. One price, for everyone.
+
+27
+00:01:42,862 --> 00:01:46,293
+So when demand grows and supply is tight, the last
+
+28
+00:01:46,293 --> 00:01:49,852
+plant costs more. And everyone gets paid more.
+
+29
+00:01:50,152 --> 00:01:53,133
+The utilities that buy this power for customers
+
+30
+00:01:53,133 --> 00:01:56,065
+pay that price. It ends up in your bill.
+
+31
+00:01:56,365 --> 00:02:00,969
+Now look at that price, in dollars per megawatt, per day. Two years
+
+32
+00:02:00,969 --> 00:02:04,681
+ago: twenty-nine. Then two hundred and seventy.
+
+33
+00:02:04,681 --> 00:02:09,330
+Then three hundred and twenty-nine. Then three hundred and thirty-three.
+
+34
+00:02:09,630 --> 00:02:11,735
+The most recent auction, in July,
+
+35
+00:02:11,735 --> 00:02:14,423
+cleared at three hundred and twenty-five.
+
+36
+00:02:14,723 --> 00:02:19,943
+The last three all hit a price cap. PJM's own simulation says that without
+
+37
+00:02:19,943 --> 00:02:24,791
+the cap, the latest would have cleared above five hundred and fifty.
+
+38
+00:02:25,141 --> 00:02:28,707
+So the price of readiness went up more than eleven times
+
+39
+00:02:28,707 --> 00:02:31,172
+in two years, and then hit a ceiling.
+
+40
+00:02:31,472 --> 00:02:35,525
+Keep it in proportion, though. By the market monitor's count,
+
+41
+00:02:35,525 --> 00:02:39,782
+capacity was about seventeen percent of the wholesale cost of power
+
+42
+00:02:39,782 --> 00:02:44,376
+in early twenty twenty-six, up from about eight percent a year earlier.
+
+43
+00:02:45,226 --> 00:02:48,701
+Now the surprising part. Nationally, for years,
+
+44
+00:02:48,701 --> 00:02:51,731
+data centers appear to have done the opposite.
+
+45
+00:02:52,031 --> 00:02:57,445
+In June, researchers at EPRI, the Electric Power Research Institute,
+
+46
+00:02:57,445 --> 00:03:02,852
+posted a paper titled: Have Data Centers Raised Your Electric Bill?
+
+47
+00:03:03,152 --> 00:03:08,399
+Quick note on who they are. EPRI is the electric power industry's
+
+48
+00:03:08,399 --> 00:03:14,551
+research institute, funded by its members, mostly electric utilities.
+
+49
+00:03:14,551 --> 00:03:18,033
+That doesn't make the numbers wrong. But you should know it.
+
+50
+00:03:18,333 --> 00:03:22,888
+What did they find? From twenty nineteen to twenty twenty-four,
+
+51
+00:03:22,888 --> 00:03:25,982
+the average American household lived in a state
+
+52
+00:03:25,982 --> 00:03:30,363
+where data center capacity grew a hundred and sixty percent.
+
+53
+00:03:30,363 --> 00:03:34,242
+They estimate that growth made residential electricity rates
+
+54
+00:03:34,242 --> 00:03:38,207
+about six percent lower than they would otherwise have been.
+
+55
+00:03:38,507 --> 00:03:42,935
+Put another way: each time a state's data center capacity doubled,
+
+56
+00:03:42,935 --> 00:03:48,322
+residential rates fell by about three and a half percent. They're clear it's
+
+57
+00:03:48,322 --> 00:03:52,917
+an estimate, with a wide range, from about one and a half percent to twelve.
+
+58
+00:03:53,217 --> 00:03:57,455
+Why would more demand lower the price? Because most of a grid's
+
+59
+00:03:57,455 --> 00:04:00,958
+cost is fixed: the power lines, the substations.
+
+60
+00:04:00,958 --> 00:04:05,868
+When more electricity flows through the same wires, each unit carries a smaller
+
+61
+00:04:05,868 --> 00:04:09,855
+share. And new power plants can cost less than the old ones.
+
+62
+00:04:10,155 --> 00:04:14,310
+Columbia University's Center on Global Energy Policy said
+
+63
+00:04:14,310 --> 00:04:19,038
+in June that recent price increases can't be pinned on any single
+
+64
+00:04:19,038 --> 00:04:23,773
+factor, and that big new loads have not been a principal driver.
+
+65
+00:04:24,073 --> 00:04:28,275
+But the discount comes with a condition. As one energy economist
+
+66
+00:04:28,275 --> 00:04:32,941
+put it, the states where prices fell already had room on their grids.
+
+67
+00:04:33,241 --> 00:04:36,716
+And blaming data centers for every price increase would
+
+68
+00:04:36,716 --> 00:04:41,383
+be wrong too. From twenty twenty-one to twenty twenty-four,
+
+69
+00:04:41,383 --> 00:04:45,664
+California's electricity prices rose nearly forty percent,
+
+70
+00:04:45,664 --> 00:04:49,660
+which the same paper says was largely wildfire costs.
+
+71
+00:04:50,110 --> 00:04:54,038
+So if data centers were pushing prices down, how did one
+
+72
+00:04:54,038 --> 00:04:58,462
+price jump more than nine times, from one auction to the next?
+
+73
+00:04:59,312 --> 00:05:01,711
+The answer is in one word: room.
+
+74
+00:05:02,011 --> 00:05:05,651
+Spreading fixed costs only works while the grid has spare
+
+75
+00:05:05,651 --> 00:05:09,791
+capacity. When it's full, a new customer doesn't share the cost
+
+76
+00:05:09,791 --> 00:05:13,782
+of the existing system. A new customer needs a new one.
+
+77
+00:05:14,082 --> 00:05:18,367
+Look at where PJM's growth is coming from. For the auction
+
+78
+00:05:18,367 --> 00:05:21,886
+covering twenty twenty-seven and twenty twenty-eight,
+
+79
+00:05:21,886 --> 00:05:27,415
+its forecast peak demand rose by about fifty-two hundred and fifty megawatts.
+
+80
+00:05:27,415 --> 00:05:30,677
+Nearly fifty-one hundred of that was data centers.
+
+81
+00:05:30,977 --> 00:05:35,396
+Supply didn't keep up. That auction added only seven hundred
+
+82
+00:05:35,396 --> 00:05:39,319
+and seventy-four megawatts of new generation and upgrades.
+
+83
+00:05:39,619 --> 00:05:44,897
+And for the first time, the whole region's total fell short of PJM's own
+
+84
+00:05:44,897 --> 00:05:50,329
+reliability target, by sixty-six hundred and twenty-three megawatts.
+
+85
+00:05:50,329 --> 00:05:55,489
+PJM says that doesn't mean the lights go out. It means thinner reserves.
+
+86
+00:05:55,789 --> 00:05:59,062
+More demand, less new supply, and the last plant
+
+87
+00:05:59,062 --> 00:06:03,005
+needed sets the price for everyone. That's the jump.
+
+88
+00:06:03,455 --> 00:06:09,278
+PJM has an independent watchdog, the market monitor. In June twenty
+
+89
+00:06:09,278 --> 00:06:14,083
+twenty-five, it wrote that data center load growth is, in its words,
+
+90
+00:06:14,083 --> 00:06:19,109
+the primary reason for recent and expected capacity market conditions.
+
+91
+00:06:19,409 --> 00:06:24,095
+Its estimate for the twenty twenty-five, twenty twenty-six auction:
+
+92
+00:06:24,095 --> 00:06:28,574
+data center load alone raised that auction's total by about nine
+
+93
+00:06:28,574 --> 00:06:33,341
+point three billion dollars, or a hundred and seventy-four percent.
+
+94
+00:06:33,641 --> 00:06:38,172
+In July, it added up the last four auctions: about twenty-nine
+
+95
+00:06:38,172 --> 00:06:42,433
+point four billion dollars tied to data center load.
+
+96
+00:06:42,433 --> 00:06:47,526
+Forty-six percent of all capacity charges across those four auctions.
+
+97
+00:06:47,826 --> 00:06:51,672
+Nine billion. Twenty-nine billion. Forty-six percent.
+
+98
+00:06:51,672 --> 00:06:56,539
+Those are the monitor's estimates, and they measure charges in the auction,
+
+99
+00:06:56,539 --> 00:07:01,151
+not what lands on each household's bill. But the direction is clear.
+
+100
+00:07:01,701 --> 00:07:06,436
+And here's what makes it strange. A lot of that demand isn't here yet.
+
+101
+00:07:06,736 --> 00:07:11,272
+The auction doesn't run on how much power data centers use today.
+
+102
+00:07:11,272 --> 00:07:16,381
+It runs on a forecast. In January, the monitor found that about six
+
+103
+00:07:16,381 --> 00:07:21,355
+point two billion of the six and a half billion dollars it tied to data
+
+104
+00:07:21,355 --> 00:07:26,272
+centers in the December auction came from data centers not yet built.
+
+105
+00:07:26,572 --> 00:07:31,322
+It called the uncertainty in those forecasts unique and unprecedented.
+
+106
+00:07:31,622 --> 00:07:35,904
+One reason: developers often don't tell a utility where else they've
+
+107
+00:07:35,904 --> 00:07:40,539
+asked for power. According to the Associated Press, PJM says
+
+108
+00:07:40,539 --> 00:07:45,869
+that means a single project can inflate more than one utility's forecast.
+
+109
+00:07:46,219 --> 00:07:49,464
+That means part of today's price rests on buildings
+
+110
+00:07:49,464 --> 00:07:53,991
+that don't exist yet. Some will be built. Some may not.
+
+111
+00:07:54,841 --> 00:07:56,065
+So who pays?
+
+112
+00:07:56,365 --> 00:07:59,946
+The market monitor describes the problem plainly.
+
+113
+00:07:59,946 --> 00:08:03,349
+It wants data centers to pay for their own capacity,
+
+114
+00:08:03,349 --> 00:08:06,644
+and not impose capacity costs on other customers.
+
+115
+00:08:06,944 --> 00:08:10,317
+That tells you how it works today: the cost is shared.
+
+116
+00:08:10,617 --> 00:08:14,767
+How much does that add up to for a household? One estimate,
+
+117
+00:08:14,767 --> 00:08:18,860
+from the think tank IEEFA, is that the higher capacity
+
+118
+00:08:18,860 --> 00:08:23,028
+prices add about eighteen dollars a month to an average
+
+119
+00:08:23,028 --> 00:08:27,643
+bill in western Maryland, and about sixteen dollars in Ohio.
+
+120
+00:08:27,943 --> 00:08:32,450
+Careful with those numbers. They cover the whole jump in capacity
+
+121
+00:08:32,450 --> 00:08:36,658
+prices, not only the data center share, and they're estimates.
+
+122
+00:08:36,958 --> 00:08:41,036
+Now the other side. Across the country, residential
+
+123
+00:08:41,036 --> 00:08:45,710
+electricity prices are up about forty-two percent in five years,
+
+124
+00:08:45,710 --> 00:08:49,167
+according to federal data cited by PolitiFact.
+
+125
+00:08:49,467 --> 00:08:53,982
+EPRI's researchers say aging equipment, disaster recovery
+
+126
+00:08:53,982 --> 00:08:58,803
+and natural gas prices have mattered more than data centers.
+
+127
+00:08:59,253 --> 00:09:03,309
+So both things are true at once. Nationally, data centers
+
+128
+00:09:03,309 --> 00:09:07,086
+are not the main reason bills rose. But in a grid
+
+129
+00:09:07,086 --> 00:09:11,165
+with no room left, they can be the main reason one price did.
+
+130
+00:09:12,015 --> 00:09:15,009
+The rules are changing, state by state.
+
+131
+00:09:15,009 --> 00:09:16,922
+Here's what has actually happened.
+
+132
+00:09:17,222 --> 00:09:22,076
+Oregon passed House Bill thirty-five forty-six. It tells the state's
+
+133
+00:09:22,076 --> 00:09:26,781
+regulator to create a separate rate class for very large energy users,
+
+134
+00:09:26,781 --> 00:09:31,040
+with costs assigned to them and protections for everyone else.
+
+135
+00:09:31,340 --> 00:09:35,713
+Texas signed Senate Bill six in June twenty twenty-five.
+
+136
+00:09:35,713 --> 00:09:39,318
+It makes very large new loads, seventy-five megawatts
+
+137
+00:09:39,318 --> 00:09:43,607
+and up, contribute to the cost of connecting them to the grid.
+
+138
+00:09:43,907 --> 00:09:47,613
+In Virginia, regulators approved a separate rate class
+
+139
+00:09:47,613 --> 00:09:51,656
+for customers using twenty-five megawatts or more, starting
+
+140
+00:09:51,656 --> 00:09:56,021
+in January twenty twenty-seven. They must sign fourteen-year
+
+141
+00:09:56,021 --> 00:09:59,519
+contracts with minimum payments, even if they use less.
+
+142
+00:09:59,819 --> 00:10:03,883
+And the market monitor wants a bigger change: take data centers
+
+143
+00:10:03,883 --> 00:10:08,224
+out of the shared capacity market and give them their own auction.
+
+144
+00:10:08,524 --> 00:10:13,311
+None of this changes yesterday's prices. It shapes the next ones.
+
+145
+00:10:14,161 --> 00:10:17,282
+So, will a data center raise your electric bill?
+
+146
+00:10:17,582 --> 00:10:21,621
+Not automatically. The real question is two questions.
+
+147
+00:10:21,921 --> 00:10:25,466
+One: does your grid still have room? If it does, new
+
+148
+00:10:25,466 --> 00:10:29,157
+demand can spread fixed costs and push prices down.
+
+149
+00:10:29,157 --> 00:10:33,050
+If it doesn't, the next megawatt gets expensive for everyone.
+
+150
+00:10:33,350 --> 00:10:38,518
+Two: when it isn't cheap, who pays? Right now, a lot of that cost is shared.
+
+151
+00:10:38,518 --> 00:10:42,593
+The rules being written now will decide whether it stays that way.
+
+152
+00:10:43,243 --> 00:10:46,233
+Is a data center being built near you — and has
+
+153
+00:10:46,233 --> 00:10:49,780
+your electric bill changed? Tell me in the comments.
+
